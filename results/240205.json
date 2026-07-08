@@ -1,0 +1,1210 @@
+{
+    "240205": {
+        "wojewodztwo": "śląskie",
+        "powiat": "bielski",
+        "gmina": "gm. Jasienica",
+        "organ": "Rada Gminy Jasienica",
+        "siedziba": "Jasienica",
+        "okregi": {
+            "1": {
+                "mandaty": 7,
+                "listy": 1,
+                "mieszkancy": 8520,
+                "wyborcy": 6733,
+                "granice": "Sołectwo Jasienica, Sołectwo Biery, Sołectwo Grodziec, Sołectwo Świętoszówka",
+                "wyborcy_b": 0,
+                "pakiet": 0,
+                "kandydaci": {
+                    "21": {
+                        "komitet": "KWW PRAWO-RODZINA-SAMORZĄD",
+                        "pozycje": {
+                            "1": {
+                                "name": "SZIMKE Andrzej Karol",
+                                "uzyskane_glosy": {
+                                    "2": 30,
+                                    "3": 22,
+                                    "5": 113,
+                                    "6": 93,
+                                    "7": 38,
+                                    "19": 10
+                                }
+                            },
+                            "2": {
+                                "name": "CHOLEWIK Janusz Andrzej",
+                                "uzyskane_glosy": {
+                                    "2": 16,
+                                    "3": 11,
+                                    "5": 219,
+                                    "6": 139,
+                                    "7": 49,
+                                    "19": 10
+                                }
+                            },
+                            "3": {
+                                "name": "HAWEŁEK Mirosława Jadwiga",
+                                "uzyskane_glosy": {
+                                    "2": 19,
+                                    "3": 9,
+                                    "5": 93,
+                                    "6": 189,
+                                    "7": 47,
+                                    "19": 5
+                                }
+                            },
+                            "4": {
+                                "name": "GOŁYSZNY Jacek Tomasz",
+                                "uzyskane_glosy": {
+                                    "2": 38,
+                                    "3": 28,
+                                    "5": 127,
+                                    "6": 109,
+                                    "7": 122,
+                                    "19": 7
+                                }
+                            },
+                            "5": {
+                                "name": "WIENCEK Ilona Ewa",
+                                "uzyskane_glosy": {
+                                    "2": 12,
+                                    "3": 11,
+                                    "5": 80,
+                                    "6": 115,
+                                    "7": 34,
+                                    "19": 15
+                                }
+                            },
+                            "6": {
+                                "name": "BURY Maria",
+                                "uzyskane_glosy": {
+                                    "2": 243,
+                                    "3": 14,
+                                    "5": 33,
+                                    "6": 20,
+                                    "7": 27,
+                                    "19": 17
+                                }
+                            },
+                            "7": {
+                                "name": "CEBULAK Stanisław",
+                                "uzyskane_glosy": {
+                                    "2": 14,
+                                    "3": 253,
+                                    "5": 23,
+                                    "6": 14,
+                                    "7": 8,
+                                    "19": 14
+                                }
+                            },
+                            "8": {
+                                "name": "GASZEK Grażyna Elżbieta",
+                                "uzyskane_glosy": {
+                                    "2": 51,
+                                    "3": 44,
+                                    "5": 85,
+                                    "6": 30,
+                                    "7": 21,
+                                    "19": 133
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "2": {
+                        "okreg": 1,
+                        "wyborcy": 1041,
+                        "wyborcy_glosujacy": 495,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "SZIMKE Andrzej Karol",
+                                    "glosy": 30
+                                },
+                                "2": {
+                                    "name": "CHOLEWIK Janusz Andrzej",
+                                    "glosy": 16
+                                },
+                                "3": {
+                                    "name": "HAWEŁEK Mirosława Jadwiga",
+                                    "glosy": 19
+                                },
+                                "4": {
+                                    "name": "GOŁYSZNY Jacek Tomasz",
+                                    "glosy": 38
+                                },
+                                "5": {
+                                    "name": "WIENCEK Ilona Ewa",
+                                    "glosy": 12
+                                },
+                                "6": {
+                                    "name": "BURY Maria",
+                                    "glosy": 243
+                                },
+                                "7": {
+                                    "name": "CEBULAK Stanisław",
+                                    "glosy": 14
+                                },
+                                "8": {
+                                    "name": "GASZEK Grażyna Elżbieta",
+                                    "glosy": 51
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "okreg": 1,
+                        "wyborcy": 1001,
+                        "wyborcy_glosujacy": 459,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "SZIMKE Andrzej Karol",
+                                    "glosy": 22
+                                },
+                                "2": {
+                                    "name": "CHOLEWIK Janusz Andrzej",
+                                    "glosy": 11
+                                },
+                                "3": {
+                                    "name": "HAWEŁEK Mirosława Jadwiga",
+                                    "glosy": 9
+                                },
+                                "4": {
+                                    "name": "GOŁYSZNY Jacek Tomasz",
+                                    "glosy": 28
+                                },
+                                "5": {
+                                    "name": "WIENCEK Ilona Ewa",
+                                    "glosy": 11
+                                },
+                                "6": {
+                                    "name": "BURY Maria",
+                                    "glosy": 14
+                                },
+                                "7": {
+                                    "name": "CEBULAK Stanisław",
+                                    "glosy": 253
+                                },
+                                "8": {
+                                    "name": "GASZEK Grażyna Elżbieta",
+                                    "glosy": 44
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "okreg": 1,
+                        "wyborcy": 1761,
+                        "wyborcy_glosujacy": 851,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "SZIMKE Andrzej Karol",
+                                    "glosy": 113
+                                },
+                                "2": {
+                                    "name": "CHOLEWIK Janusz Andrzej",
+                                    "glosy": 219
+                                },
+                                "3": {
+                                    "name": "HAWEŁEK Mirosława Jadwiga",
+                                    "glosy": 93
+                                },
+                                "4": {
+                                    "name": "GOŁYSZNY Jacek Tomasz",
+                                    "glosy": 127
+                                },
+                                "5": {
+                                    "name": "WIENCEK Ilona Ewa",
+                                    "glosy": 80
+                                },
+                                "6": {
+                                    "name": "BURY Maria",
+                                    "glosy": 33
+                                },
+                                "7": {
+                                    "name": "CEBULAK Stanisław",
+                                    "glosy": 23
+                                },
+                                "8": {
+                                    "name": "GASZEK Grażyna Elżbieta",
+                                    "glosy": 85
+                                }
+                            }
+                        }
+                    },
+                    "6": {
+                        "okreg": 1,
+                        "wyborcy": 1754,
+                        "wyborcy_glosujacy": 827,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "SZIMKE Andrzej Karol",
+                                    "glosy": 93
+                                },
+                                "2": {
+                                    "name": "CHOLEWIK Janusz Andrzej",
+                                    "glosy": 139
+                                },
+                                "3": {
+                                    "name": "HAWEŁEK Mirosława Jadwiga",
+                                    "glosy": 189
+                                },
+                                "4": {
+                                    "name": "GOŁYSZNY Jacek Tomasz",
+                                    "glosy": 109
+                                },
+                                "5": {
+                                    "name": "WIENCEK Ilona Ewa",
+                                    "glosy": 115
+                                },
+                                "6": {
+                                    "name": "BURY Maria",
+                                    "glosy": 20
+                                },
+                                "7": {
+                                    "name": "CEBULAK Stanisław",
+                                    "glosy": 14
+                                },
+                                "8": {
+                                    "name": "GASZEK Grażyna Elżbieta",
+                                    "glosy": 30
+                                }
+                            }
+                        }
+                    },
+                    "7": {
+                        "okreg": 1,
+                        "wyborcy": 699,
+                        "wyborcy_glosujacy": 379,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "SZIMKE Andrzej Karol",
+                                    "glosy": 38
+                                },
+                                "2": {
+                                    "name": "CHOLEWIK Janusz Andrzej",
+                                    "glosy": 49
+                                },
+                                "3": {
+                                    "name": "HAWEŁEK Mirosława Jadwiga",
+                                    "glosy": 47
+                                },
+                                "4": {
+                                    "name": "GOŁYSZNY Jacek Tomasz",
+                                    "glosy": 122
+                                },
+                                "5": {
+                                    "name": "WIENCEK Ilona Ewa",
+                                    "glosy": 34
+                                },
+                                "6": {
+                                    "name": "BURY Maria",
+                                    "glosy": 27
+                                },
+                                "7": {
+                                    "name": "CEBULAK Stanisław",
+                                    "glosy": 8
+                                },
+                                "8": {
+                                    "name": "GASZEK Grażyna Elżbieta",
+                                    "glosy": 21
+                                }
+                            }
+                        }
+                    },
+                    "19": {
+                        "okreg": 1,
+                        "wyborcy": 480,
+                        "wyborcy_glosujacy": 241,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "SZIMKE Andrzej Karol",
+                                    "glosy": 10
+                                },
+                                "2": {
+                                    "name": "CHOLEWIK Janusz Andrzej",
+                                    "glosy": 10
+                                },
+                                "3": {
+                                    "name": "HAWEŁEK Mirosława Jadwiga",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "GOŁYSZNY Jacek Tomasz",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "WIENCEK Ilona Ewa",
+                                    "glosy": 15
+                                },
+                                "6": {
+                                    "name": "BURY Maria",
+                                    "glosy": 17
+                                },
+                                "7": {
+                                    "name": "CEBULAK Stanisław",
+                                    "glosy": 14
+                                },
+                                "8": {
+                                    "name": "GASZEK Grażyna Elżbieta",
+                                    "glosy": 133
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "2": {
+                "mandaty": 7,
+                "listy": 1,
+                "mieszkancy": 7804,
+                "wyborcy": 5911,
+                "granice": "Sołectwo Iłownica, Sołectwo Landek, Sołectwo Roztropice, Sołectwo Rudzica, Sołectwo Bielowicko, Sołectwo Wieszczęta, Sołectwo Łazy",
+                "wyborcy_b": 0,
+                "pakiet": 0,
+                "kandydaci": {
+                    "21": {
+                        "komitet": "KWW PRAWO-RODZINA-SAMORZĄD",
+                        "pozycje": {
+                            "1": {
+                                "name": "MACHALICA Czesław",
+                                "uzyskane_glosy": {
+                                    "1": 25,
+                                    "4": 22,
+                                    "8": 9,
+                                    "9": 271,
+                                    "10": 183,
+                                    "11": 17,
+                                    "18": 28,
+                                    "20": 19
+                                }
+                            },
+                            "2": {
+                                "name": "POLOK Zofia Małgorzata",
+                                "uzyskane_glosy": {
+                                    "1": 2,
+                                    "4": 57,
+                                    "8": 30,
+                                    "9": 158,
+                                    "10": 74,
+                                    "11": 16,
+                                    "18": 19,
+                                    "20": 7
+                                }
+                            },
+                            "3": {
+                                "name": "SZIMKE Marek Krzysztof",
+                                "uzyskane_glosy": {
+                                    "1": 5,
+                                    "4": 15,
+                                    "8": 13,
+                                    "9": 184,
+                                    "10": 109,
+                                    "11": 5,
+                                    "18": 6,
+                                    "20": 1
+                                }
+                            },
+                            "4": {
+                                "name": "BIERSKI Karol Ignacy",
+                                "uzyskane_glosy": {
+                                    "1": 13,
+                                    "4": 3,
+                                    "8": 4,
+                                    "9": 7,
+                                    "10": 7,
+                                    "11": 192,
+                                    "18": 15,
+                                    "20": 7
+                                }
+                            },
+                            "5": {
+                                "name": "SADLIK Barbara Elżbieta",
+                                "uzyskane_glosy": {
+                                    "1": 2,
+                                    "4": 7,
+                                    "8": 1,
+                                    "9": 2,
+                                    "10": 6,
+                                    "11": 5,
+                                    "18": 148,
+                                    "20": 3
+                                }
+                            },
+                            "6": {
+                                "name": "SOJKA Irena Halina",
+                                "uzyskane_glosy": {
+                                    "1": 1,
+                                    "4": 196,
+                                    "8": 2,
+                                    "9": 26,
+                                    "10": 6,
+                                    "11": 4,
+                                    "18": 11,
+                                    "20": 1
+                                }
+                            },
+                            "7": {
+                                "name": "KRYWULT Urszula Anna",
+                                "uzyskane_glosy": {
+                                    "1": 2,
+                                    "4": 31,
+                                    "8": 189,
+                                    "9": 26,
+                                    "10": 10,
+                                    "11": 7,
+                                    "18": 7,
+                                    "20": 1
+                                }
+                            },
+                            "8": {
+                                "name": "ZAWADA Lucyna Emilia",
+                                "uzyskane_glosy": {
+                                    "1": 13,
+                                    "4": 0,
+                                    "8": 2,
+                                    "9": 8,
+                                    "10": 2,
+                                    "11": 9,
+                                    "18": 6,
+                                    "20": 185
+                                }
+                            },
+                            "9": {
+                                "name": "JENKNER Jan Paweł",
+                                "uzyskane_glosy": {
+                                    "1": 84,
+                                    "4": 2,
+                                    "8": 0,
+                                    "9": 12,
+                                    "10": 13,
+                                    "11": 63,
+                                    "18": 11,
+                                    "20": 21
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "1": {
+                        "okreg": 2,
+                        "wyborcy": 428,
+                        "wyborcy_glosujacy": 160,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "MACHALICA Czesław",
+                                    "glosy": 25
+                                },
+                                "2": {
+                                    "name": "POLOK Zofia Małgorzata",
+                                    "glosy": 2
+                                },
+                                "3": {
+                                    "name": "SZIMKE Marek Krzysztof",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "BIERSKI Karol Ignacy",
+                                    "glosy": 13
+                                },
+                                "5": {
+                                    "name": "SADLIK Barbara Elżbieta",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "SOJKA Irena Halina",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "KRYWULT Urszula Anna",
+                                    "glosy": 2
+                                },
+                                "8": {
+                                    "name": "ZAWADA Lucyna Emilia",
+                                    "glosy": 13
+                                },
+                                "9": {
+                                    "name": "JENKNER Jan Paweł",
+                                    "glosy": 84
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "okreg": 2,
+                        "wyborcy": 796,
+                        "wyborcy_glosujacy": 347,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "MACHALICA Czesław",
+                                    "glosy": 22
+                                },
+                                "2": {
+                                    "name": "POLOK Zofia Małgorzata",
+                                    "glosy": 57
+                                },
+                                "3": {
+                                    "name": "SZIMKE Marek Krzysztof",
+                                    "glosy": 15
+                                },
+                                "4": {
+                                    "name": "BIERSKI Karol Ignacy",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "SADLIK Barbara Elżbieta",
+                                    "glosy": 7
+                                },
+                                "6": {
+                                    "name": "SOJKA Irena Halina",
+                                    "glosy": 196
+                                },
+                                "7": {
+                                    "name": "KRYWULT Urszula Anna",
+                                    "glosy": 31
+                                },
+                                "8": {
+                                    "name": "ZAWADA Lucyna Emilia",
+                                    "glosy": 0
+                                },
+                                "9": {
+                                    "name": "JENKNER Jan Paweł",
+                                    "glosy": 2
+                                }
+                            }
+                        }
+                    },
+                    "8": {
+                        "okreg": 2,
+                        "wyborcy": 479,
+                        "wyborcy_glosujacy": 257,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "MACHALICA Czesław",
+                                    "glosy": 9
+                                },
+                                "2": {
+                                    "name": "POLOK Zofia Małgorzata",
+                                    "glosy": 30
+                                },
+                                "3": {
+                                    "name": "SZIMKE Marek Krzysztof",
+                                    "glosy": 13
+                                },
+                                "4": {
+                                    "name": "BIERSKI Karol Ignacy",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "SADLIK Barbara Elżbieta",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "SOJKA Irena Halina",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "KRYWULT Urszula Anna",
+                                    "glosy": 189
+                                },
+                                "8": {
+                                    "name": "ZAWADA Lucyna Emilia",
+                                    "glosy": 2
+                                },
+                                "9": {
+                                    "name": "JENKNER Jan Paweł",
+                                    "glosy": 0
+                                }
+                            }
+                        }
+                    },
+                    "9": {
+                        "okreg": 2,
+                        "wyborcy": 1448,
+                        "wyborcy_glosujacy": 726,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "MACHALICA Czesław",
+                                    "glosy": 271
+                                },
+                                "2": {
+                                    "name": "POLOK Zofia Małgorzata",
+                                    "glosy": 158
+                                },
+                                "3": {
+                                    "name": "SZIMKE Marek Krzysztof",
+                                    "glosy": 184
+                                },
+                                "4": {
+                                    "name": "BIERSKI Karol Ignacy",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "SADLIK Barbara Elżbieta",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "SOJKA Irena Halina",
+                                    "glosy": 26
+                                },
+                                "7": {
+                                    "name": "KRYWULT Urszula Anna",
+                                    "glosy": 26
+                                },
+                                "8": {
+                                    "name": "ZAWADA Lucyna Emilia",
+                                    "glosy": 8
+                                },
+                                "9": {
+                                    "name": "JENKNER Jan Paweł",
+                                    "glosy": 12
+                                }
+                            }
+                        }
+                    },
+                    "10": {
+                        "okreg": 2,
+                        "wyborcy": 933,
+                        "wyborcy_glosujacy": 424,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "MACHALICA Czesław",
+                                    "glosy": 183
+                                },
+                                "2": {
+                                    "name": "POLOK Zofia Małgorzata",
+                                    "glosy": 74
+                                },
+                                "3": {
+                                    "name": "SZIMKE Marek Krzysztof",
+                                    "glosy": 109
+                                },
+                                "4": {
+                                    "name": "BIERSKI Karol Ignacy",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "SADLIK Barbara Elżbieta",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "SOJKA Irena Halina",
+                                    "glosy": 6
+                                },
+                                "7": {
+                                    "name": "KRYWULT Urszula Anna",
+                                    "glosy": 10
+                                },
+                                "8": {
+                                    "name": "ZAWADA Lucyna Emilia",
+                                    "glosy": 2
+                                },
+                                "9": {
+                                    "name": "JENKNER Jan Paweł",
+                                    "glosy": 13
+                                }
+                            }
+                        }
+                    },
+                    "11": {
+                        "okreg": 2,
+                        "wyborcy": 728,
+                        "wyborcy_glosujacy": 366,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "MACHALICA Czesław",
+                                    "glosy": 17
+                                },
+                                "2": {
+                                    "name": "POLOK Zofia Małgorzata",
+                                    "glosy": 16
+                                },
+                                "3": {
+                                    "name": "SZIMKE Marek Krzysztof",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "BIERSKI Karol Ignacy",
+                                    "glosy": 192
+                                },
+                                "5": {
+                                    "name": "SADLIK Barbara Elżbieta",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "SOJKA Irena Halina",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "KRYWULT Urszula Anna",
+                                    "glosy": 7
+                                },
+                                "8": {
+                                    "name": "ZAWADA Lucyna Emilia",
+                                    "glosy": 9
+                                },
+                                "9": {
+                                    "name": "JENKNER Jan Paweł",
+                                    "glosy": 63
+                                }
+                            }
+                        }
+                    },
+                    "18": {
+                        "okreg": 2,
+                        "wyborcy": 592,
+                        "wyborcy_glosujacy": 276,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "MACHALICA Czesław",
+                                    "glosy": 28
+                                },
+                                "2": {
+                                    "name": "POLOK Zofia Małgorzata",
+                                    "glosy": 19
+                                },
+                                "3": {
+                                    "name": "SZIMKE Marek Krzysztof",
+                                    "glosy": 6
+                                },
+                                "4": {
+                                    "name": "BIERSKI Karol Ignacy",
+                                    "glosy": 15
+                                },
+                                "5": {
+                                    "name": "SADLIK Barbara Elżbieta",
+                                    "glosy": 148
+                                },
+                                "6": {
+                                    "name": "SOJKA Irena Halina",
+                                    "glosy": 11
+                                },
+                                "7": {
+                                    "name": "KRYWULT Urszula Anna",
+                                    "glosy": 7
+                                },
+                                "8": {
+                                    "name": "ZAWADA Lucyna Emilia",
+                                    "glosy": 6
+                                },
+                                "9": {
+                                    "name": "JENKNER Jan Paweł",
+                                    "glosy": 11
+                                }
+                            }
+                        }
+                    },
+                    "20": {
+                        "okreg": 2,
+                        "wyborcy": 508,
+                        "wyborcy_glosujacy": 267,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "MACHALICA Czesław",
+                                    "glosy": 19
+                                },
+                                "2": {
+                                    "name": "POLOK Zofia Małgorzata",
+                                    "glosy": 7
+                                },
+                                "3": {
+                                    "name": "SZIMKE Marek Krzysztof",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "BIERSKI Karol Ignacy",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "SADLIK Barbara Elżbieta",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "SOJKA Irena Halina",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "KRYWULT Urszula Anna",
+                                    "glosy": 1
+                                },
+                                "8": {
+                                    "name": "ZAWADA Lucyna Emilia",
+                                    "glosy": 185
+                                },
+                                "9": {
+                                    "name": "JENKNER Jan Paweł",
+                                    "glosy": 21
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "3": {
+                "mandaty": 7,
+                "listy": 1,
+                "mieszkancy": 8210,
+                "wyborcy": 6196,
+                "granice": "Sołectwo Mazańcowice, Sołectwo Międzyrzecze Dolne, Sołectwo Międzyrzecze Górne",
+                "wyborcy_b": 0,
+                "pakiet": 0,
+                "kandydaci": {
+                    "21": {
+                        "komitet": "KWW PRAWO-RODZINA-SAMORZĄD",
+                        "pozycje": {
+                            "1": {
+                                "name": "KOPEĆ Genowefa Krystyna",
+                                "uzyskane_glosy": {
+                                    "12": 27,
+                                    "13": 23,
+                                    "14": 25,
+                                    "15": 185,
+                                    "16": 51,
+                                    "17": 56
+                                }
+                            },
+                            "2": {
+                                "name": "OSUCH Tomasz Stanisław",
+                                "uzyskane_glosy": {
+                                    "12": 33,
+                                    "13": 37,
+                                    "14": 22,
+                                    "15": 63,
+                                    "16": 99,
+                                    "17": 101
+                                }
+                            },
+                            "3": {
+                                "name": "CZARNIECKI Wiesław Tadeusz",
+                                "uzyskane_glosy": {
+                                    "12": 14,
+                                    "13": 5,
+                                    "14": 4,
+                                    "15": 26,
+                                    "16": 84,
+                                    "17": 183
+                                }
+                            },
+                            "4": {
+                                "name": "BIEGUN Urszula Józefa",
+                                "uzyskane_glosy": {
+                                    "12": 14,
+                                    "13": 6,
+                                    "14": 6,
+                                    "15": 45,
+                                    "16": 104,
+                                    "17": 165
+                                }
+                            },
+                            "5": {
+                                "name": "ORLICKI Mieczysław Marian",
+                                "uzyskane_glosy": {
+                                    "12": 58,
+                                    "13": 60,
+                                    "14": 103,
+                                    "15": 7,
+                                    "16": 10,
+                                    "17": 4
+                                }
+                            },
+                            "6": {
+                                "name": "ŁĄCZ Beata Iwona",
+                                "uzyskane_glosy": {
+                                    "12": 143,
+                                    "13": 122,
+                                    "14": 116,
+                                    "15": 45,
+                                    "16": 31,
+                                    "17": 14
+                                }
+                            },
+                            "7": {
+                                "name": "FLOREK Zdzisław Wiesław",
+                                "uzyskane_glosy": {
+                                    "12": 179,
+                                    "13": 55,
+                                    "14": 95,
+                                    "15": 19,
+                                    "16": 7,
+                                    "17": 4
+                                }
+                            },
+                            "8": {
+                                "name": "KRYMSKI Dariusz Marek",
+                                "uzyskane_glosy": {
+                                    "12": 89,
+                                    "13": 107,
+                                    "14": 89,
+                                    "15": 27,
+                                    "16": 17,
+                                    "17": 27
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "12": {
+                        "okreg": 3,
+                        "wyborcy": 1164,
+                        "wyborcy_glosujacy": 607,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "KOPEĆ Genowefa Krystyna",
+                                    "glosy": 27
+                                },
+                                "2": {
+                                    "name": "OSUCH Tomasz Stanisław",
+                                    "glosy": 33
+                                },
+                                "3": {
+                                    "name": "CZARNIECKI Wiesław Tadeusz",
+                                    "glosy": 14
+                                },
+                                "4": {
+                                    "name": "BIEGUN Urszula Józefa",
+                                    "glosy": 14
+                                },
+                                "5": {
+                                    "name": "ORLICKI Mieczysław Marian",
+                                    "glosy": 58
+                                },
+                                "6": {
+                                    "name": "ŁĄCZ Beata Iwona",
+                                    "glosy": 143
+                                },
+                                "7": {
+                                    "name": "FLOREK Zdzisław Wiesław",
+                                    "glosy": 179
+                                },
+                                "8": {
+                                    "name": "KRYMSKI Dariusz Marek",
+                                    "glosy": 89
+                                }
+                            }
+                        }
+                    },
+                    "13": {
+                        "okreg": 3,
+                        "wyborcy": 917,
+                        "wyborcy_glosujacy": 445,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "KOPEĆ Genowefa Krystyna",
+                                    "glosy": 23
+                                },
+                                "2": {
+                                    "name": "OSUCH Tomasz Stanisław",
+                                    "glosy": 37
+                                },
+                                "3": {
+                                    "name": "CZARNIECKI Wiesław Tadeusz",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "BIEGUN Urszula Józefa",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "ORLICKI Mieczysław Marian",
+                                    "glosy": 60
+                                },
+                                "6": {
+                                    "name": "ŁĄCZ Beata Iwona",
+                                    "glosy": 122
+                                },
+                                "7": {
+                                    "name": "FLOREK Zdzisław Wiesław",
+                                    "glosy": 55
+                                },
+                                "8": {
+                                    "name": "KRYMSKI Dariusz Marek",
+                                    "glosy": 107
+                                }
+                            }
+                        }
+                    },
+                    "14": {
+                        "okreg": 3,
+                        "wyborcy": 955,
+                        "wyborcy_glosujacy": 489,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "KOPEĆ Genowefa Krystyna",
+                                    "glosy": 25
+                                },
+                                "2": {
+                                    "name": "OSUCH Tomasz Stanisław",
+                                    "glosy": 22
+                                },
+                                "3": {
+                                    "name": "CZARNIECKI Wiesław Tadeusz",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "BIEGUN Urszula Józefa",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "ORLICKI Mieczysław Marian",
+                                    "glosy": 103
+                                },
+                                "6": {
+                                    "name": "ŁĄCZ Beata Iwona",
+                                    "glosy": 116
+                                },
+                                "7": {
+                                    "name": "FLOREK Zdzisław Wiesław",
+                                    "glosy": 95
+                                },
+                                "8": {
+                                    "name": "KRYMSKI Dariusz Marek",
+                                    "glosy": 89
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "okreg": 3,
+                        "wyborcy": 966,
+                        "wyborcy_glosujacy": 451,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "KOPEĆ Genowefa Krystyna",
+                                    "glosy": 185
+                                },
+                                "2": {
+                                    "name": "OSUCH Tomasz Stanisław",
+                                    "glosy": 63
+                                },
+                                "3": {
+                                    "name": "CZARNIECKI Wiesław Tadeusz",
+                                    "glosy": 26
+                                },
+                                "4": {
+                                    "name": "BIEGUN Urszula Józefa",
+                                    "glosy": 45
+                                },
+                                "5": {
+                                    "name": "ORLICKI Mieczysław Marian",
+                                    "glosy": 7
+                                },
+                                "6": {
+                                    "name": "ŁĄCZ Beata Iwona",
+                                    "glosy": 45
+                                },
+                                "7": {
+                                    "name": "FLOREK Zdzisław Wiesław",
+                                    "glosy": 19
+                                },
+                                "8": {
+                                    "name": "KRYMSKI Dariusz Marek",
+                                    "glosy": 27
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "okreg": 3,
+                        "wyborcy": 973,
+                        "wyborcy_glosujacy": 452,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "KOPEĆ Genowefa Krystyna",
+                                    "glosy": 51
+                                },
+                                "2": {
+                                    "name": "OSUCH Tomasz Stanisław",
+                                    "glosy": 99
+                                },
+                                "3": {
+                                    "name": "CZARNIECKI Wiesław Tadeusz",
+                                    "glosy": 84
+                                },
+                                "4": {
+                                    "name": "BIEGUN Urszula Józefa",
+                                    "glosy": 104
+                                },
+                                "5": {
+                                    "name": "ORLICKI Mieczysław Marian",
+                                    "glosy": 10
+                                },
+                                "6": {
+                                    "name": "ŁĄCZ Beata Iwona",
+                                    "glosy": 31
+                                },
+                                "7": {
+                                    "name": "FLOREK Zdzisław Wiesław",
+                                    "glosy": 7
+                                },
+                                "8": {
+                                    "name": "KRYMSKI Dariusz Marek",
+                                    "glosy": 17
+                                }
+                            }
+                        }
+                    },
+                    "17": {
+                        "okreg": 3,
+                        "wyborcy": 1223,
+                        "wyborcy_glosujacy": 606,
+                        "kandydaci": {
+                            "21": {
+                                "1": {
+                                    "name": "KOPEĆ Genowefa Krystyna",
+                                    "glosy": 56
+                                },
+                                "2": {
+                                    "name": "OSUCH Tomasz Stanisław",
+                                    "glosy": 101
+                                },
+                                "3": {
+                                    "name": "CZARNIECKI Wiesław Tadeusz",
+                                    "glosy": 183
+                                },
+                                "4": {
+                                    "name": "BIEGUN Urszula Józefa",
+                                    "glosy": 165
+                                },
+                                "5": {
+                                    "name": "ORLICKI Mieczysław Marian",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "ŁĄCZ Beata Iwona",
+                                    "glosy": 14
+                                },
+                                "7": {
+                                    "name": "FLOREK Zdzisław Wiesław",
+                                    "glosy": 4
+                                },
+                                "8": {
+                                    "name": "KRYMSKI Dariusz Marek",
+                                    "glosy": 27
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

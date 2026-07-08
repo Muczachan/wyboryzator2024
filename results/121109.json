@@ -1,0 +1,2094 @@
+{
+    "121109": {
+        "wojewodztwo": "małopolskie",
+        "powiat": "nowotarski",
+        "gmina": "gm. Nowy Targ",
+        "organ": "Rada Gminy Nowy Targ",
+        "siedziba": "Nowy Targ",
+        "okregi": {
+            "1": {
+                "mandaty": 5,
+                "listy": 2,
+                "mieszkancy": 6099,
+                "wyborcy": 4743,
+                "granice": "Dębno, Dursztyn, Harklowa, Knurów, Krempachy, Nowa Biała, Szlembark",
+                "wyborcy_b": 0,
+                "pakiet": 0,
+                "kandydaci": {
+                    "16": {
+                        "komitet": "KWW SAMORZĄDNOŚĆ WIEJSKA",
+                        "pozycje": {
+                            "1": {
+                                "name": "DŁUGI Paweł Jan",
+                                "uzyskane_glosy": {
+                                    "1": 4,
+                                    "2": 3,
+                                    "7": 243,
+                                    "8": 10,
+                                    "9": 3,
+                                    "19": 0,
+                                    "20": 1
+                                }
+                            },
+                            "2": {
+                                "name": "LORENC Józef",
+                                "uzyskane_glosy": {
+                                    "1": 1,
+                                    "2": 0,
+                                    "7": 15,
+                                    "8": 446,
+                                    "9": 6,
+                                    "19": 0,
+                                    "20": 1
+                                }
+                            },
+                            "3": {
+                                "name": "JEZIORCZAK Natalia Sabina",
+                                "uzyskane_glosy": {
+                                    "1": 98,
+                                    "2": 0,
+                                    "7": 2,
+                                    "8": 1,
+                                    "9": 0,
+                                    "19": 0,
+                                    "20": 7
+                                }
+                            },
+                            "4": {
+                                "name": "CHMIELAK Teofil Antoni",
+                                "uzyskane_glosy": {
+                                    "1": 6,
+                                    "2": 232,
+                                    "7": 0,
+                                    "8": 2,
+                                    "9": 0,
+                                    "19": 5,
+                                    "20": 5
+                                }
+                            },
+                            "5": {
+                                "name": "CZUBERNAT Anastazja Maria",
+                                "uzyskane_glosy": {
+                                    "1": 3,
+                                    "2": 1,
+                                    "7": 0,
+                                    "8": 1,
+                                    "9": 1,
+                                    "19": 2,
+                                    "20": 170
+                                }
+                            },
+                            "6": {
+                                "name": "KUROWSKA Joanna Bożena",
+                                "uzyskane_glosy": {
+                                    "1": 1,
+                                    "2": 11,
+                                    "7": 1,
+                                    "8": 5,
+                                    "9": 2,
+                                    "19": 138,
+                                    "20": 9
+                                }
+                            },
+                            "7": {
+                                "name": "WANICZEK Krzysztof Adam",
+                                "uzyskane_glosy": {
+                                    "1": 1,
+                                    "2": 7,
+                                    "7": 3,
+                                    "8": 11,
+                                    "9": 118,
+                                    "19": 0,
+                                    "20": 4
+                                }
+                            }
+                        }
+                    },
+                    "17": {
+                        "komitet": "KWW GRZEGORZA ADAMCZYKA WSPÓLNA PRZYSZŁOŚĆ",
+                        "pozycje": {
+                            "1": {
+                                "name": "PIETRASZEK Franciszek",
+                                "uzyskane_glosy": {
+                                    "1": 4,
+                                    "2": 6,
+                                    "7": 2,
+                                    "8": 60,
+                                    "9": 7,
+                                    "19": 0,
+                                    "20": 2
+                                }
+                            },
+                            "2": {
+                                "name": "DĘBOSZ Krystyna Katarzyna",
+                                "uzyskane_glosy": {
+                                    "1": 0,
+                                    "2": 2,
+                                    "7": 177,
+                                    "8": 4,
+                                    "9": 1,
+                                    "19": 0,
+                                    "20": 1
+                                }
+                            },
+                            "3": {
+                                "name": "GĄSIOREK Piotr Józef",
+                                "uzyskane_glosy": {
+                                    "1": 181,
+                                    "2": 6,
+                                    "7": 0,
+                                    "8": 0,
+                                    "9": 0,
+                                    "19": 2,
+                                    "20": 3
+                                }
+                            },
+                            "4": {
+                                "name": "CHMIELAK Piotr Jan",
+                                "uzyskane_glosy": {
+                                    "1": 1,
+                                    "2": 18,
+                                    "7": 0,
+                                    "8": 1,
+                                    "9": 0,
+                                    "19": 18,
+                                    "20": 15
+                                }
+                            },
+                            "5": {
+                                "name": "BIGOS Bożena Gabriela",
+                                "uzyskane_glosy": {
+                                    "1": 1,
+                                    "2": 0,
+                                    "7": 1,
+                                    "8": 15,
+                                    "9": 110,
+                                    "19": 0,
+                                    "20": 0
+                                }
+                            },
+                            "6": {
+                                "name": "CHMIELAK Żaneta Edyta",
+                                "uzyskane_glosy": {
+                                    "1": 2,
+                                    "2": 8,
+                                    "7": 1,
+                                    "8": 0,
+                                    "9": 2,
+                                    "19": 43,
+                                    "20": 0
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "1": {
+                        "okreg": 1,
+                        "wyborcy": 654,
+                        "wyborcy_glosujacy": 318,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "DŁUGI Paweł Jan",
+                                    "glosy": 4
+                                },
+                                "2": {
+                                    "name": "LORENC Józef",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "JEZIORCZAK Natalia Sabina",
+                                    "glosy": 98
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Teofil Antoni",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "CZUBERNAT Anastazja Maria",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "KUROWSKA Joanna Bożena",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "WANICZEK Krzysztof Adam",
+                                    "glosy": 1
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "PIETRASZEK Franciszek",
+                                    "glosy": 4
+                                },
+                                "2": {
+                                    "name": "DĘBOSZ Krystyna Katarzyna",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "GĄSIOREK Piotr Józef",
+                                    "glosy": 181
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Piotr Jan",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "BIGOS Bożena Gabriela",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "CHMIELAK Żaneta Edyta",
+                                    "glosy": 2
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "okreg": 1,
+                        "wyborcy": 517,
+                        "wyborcy_glosujacy": 300,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "DŁUGI Paweł Jan",
+                                    "glosy": 3
+                                },
+                                "2": {
+                                    "name": "LORENC Józef",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "JEZIORCZAK Natalia Sabina",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Teofil Antoni",
+                                    "glosy": 232
+                                },
+                                "5": {
+                                    "name": "CZUBERNAT Anastazja Maria",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "KUROWSKA Joanna Bożena",
+                                    "glosy": 11
+                                },
+                                "7": {
+                                    "name": "WANICZEK Krzysztof Adam",
+                                    "glosy": 7
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "PIETRASZEK Franciszek",
+                                    "glosy": 6
+                                },
+                                "2": {
+                                    "name": "DĘBOSZ Krystyna Katarzyna",
+                                    "glosy": 2
+                                },
+                                "3": {
+                                    "name": "GĄSIOREK Piotr Józef",
+                                    "glosy": 6
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Piotr Jan",
+                                    "glosy": 18
+                                },
+                                "5": {
+                                    "name": "BIGOS Bożena Gabriela",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "CHMIELAK Żaneta Edyta",
+                                    "glosy": 8
+                                }
+                            }
+                        }
+                    },
+                    "7": {
+                        "okreg": 1,
+                        "wyborcy": 1188,
+                        "wyborcy_glosujacy": 462,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "DŁUGI Paweł Jan",
+                                    "glosy": 243
+                                },
+                                "2": {
+                                    "name": "LORENC Józef",
+                                    "glosy": 15
+                                },
+                                "3": {
+                                    "name": "JEZIORCZAK Natalia Sabina",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Teofil Antoni",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "CZUBERNAT Anastazja Maria",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "KUROWSKA Joanna Bożena",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "WANICZEK Krzysztof Adam",
+                                    "glosy": 3
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "PIETRASZEK Franciszek",
+                                    "glosy": 2
+                                },
+                                "2": {
+                                    "name": "DĘBOSZ Krystyna Katarzyna",
+                                    "glosy": 177
+                                },
+                                "3": {
+                                    "name": "GĄSIOREK Piotr Józef",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Piotr Jan",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "BIGOS Bożena Gabriela",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "CHMIELAK Żaneta Edyta",
+                                    "glosy": 1
+                                }
+                            }
+                        }
+                    },
+                    "8": {
+                        "okreg": 1,
+                        "wyborcy": 1079,
+                        "wyborcy_glosujacy": 583,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "DŁUGI Paweł Jan",
+                                    "glosy": 10
+                                },
+                                "2": {
+                                    "name": "LORENC Józef",
+                                    "glosy": 446
+                                },
+                                "3": {
+                                    "name": "JEZIORCZAK Natalia Sabina",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Teofil Antoni",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "CZUBERNAT Anastazja Maria",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "KUROWSKA Joanna Bożena",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "WANICZEK Krzysztof Adam",
+                                    "glosy": 11
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "PIETRASZEK Franciszek",
+                                    "glosy": 60
+                                },
+                                "2": {
+                                    "name": "DĘBOSZ Krystyna Katarzyna",
+                                    "glosy": 4
+                                },
+                                "3": {
+                                    "name": "GĄSIOREK Piotr Józef",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Piotr Jan",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "BIGOS Bożena Gabriela",
+                                    "glosy": 15
+                                },
+                                "6": {
+                                    "name": "CHMIELAK Żaneta Edyta",
+                                    "glosy": 0
+                                }
+                            }
+                        }
+                    },
+                    "9": {
+                        "okreg": 1,
+                        "wyborcy": 429,
+                        "wyborcy_glosujacy": 258,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "DŁUGI Paweł Jan",
+                                    "glosy": 3
+                                },
+                                "2": {
+                                    "name": "LORENC Józef",
+                                    "glosy": 6
+                                },
+                                "3": {
+                                    "name": "JEZIORCZAK Natalia Sabina",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Teofil Antoni",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "CZUBERNAT Anastazja Maria",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "KUROWSKA Joanna Bożena",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "WANICZEK Krzysztof Adam",
+                                    "glosy": 118
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "PIETRASZEK Franciszek",
+                                    "glosy": 7
+                                },
+                                "2": {
+                                    "name": "DĘBOSZ Krystyna Katarzyna",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "GĄSIOREK Piotr Józef",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Piotr Jan",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "BIGOS Bożena Gabriela",
+                                    "glosy": 110
+                                },
+                                "6": {
+                                    "name": "CHMIELAK Żaneta Edyta",
+                                    "glosy": 2
+                                }
+                            }
+                        }
+                    },
+                    "19": {
+                        "okreg": 1,
+                        "wyborcy": 392,
+                        "wyborcy_glosujacy": 213,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "DŁUGI Paweł Jan",
+                                    "glosy": 0
+                                },
+                                "2": {
+                                    "name": "LORENC Józef",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "JEZIORCZAK Natalia Sabina",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Teofil Antoni",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "CZUBERNAT Anastazja Maria",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "KUROWSKA Joanna Bożena",
+                                    "glosy": 138
+                                },
+                                "7": {
+                                    "name": "WANICZEK Krzysztof Adam",
+                                    "glosy": 0
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "PIETRASZEK Franciszek",
+                                    "glosy": 0
+                                },
+                                "2": {
+                                    "name": "DĘBOSZ Krystyna Katarzyna",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "GĄSIOREK Piotr Józef",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Piotr Jan",
+                                    "glosy": 18
+                                },
+                                "5": {
+                                    "name": "BIGOS Bożena Gabriela",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "CHMIELAK Żaneta Edyta",
+                                    "glosy": 43
+                                }
+                            }
+                        }
+                    },
+                    "20": {
+                        "okreg": 1,
+                        "wyborcy": 487,
+                        "wyborcy_glosujacy": 233,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "DŁUGI Paweł Jan",
+                                    "glosy": 1
+                                },
+                                "2": {
+                                    "name": "LORENC Józef",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "JEZIORCZAK Natalia Sabina",
+                                    "glosy": 7
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Teofil Antoni",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "CZUBERNAT Anastazja Maria",
+                                    "glosy": 170
+                                },
+                                "6": {
+                                    "name": "KUROWSKA Joanna Bożena",
+                                    "glosy": 9
+                                },
+                                "7": {
+                                    "name": "WANICZEK Krzysztof Adam",
+                                    "glosy": 4
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "PIETRASZEK Franciszek",
+                                    "glosy": 2
+                                },
+                                "2": {
+                                    "name": "DĘBOSZ Krystyna Katarzyna",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "GĄSIOREK Piotr Józef",
+                                    "glosy": 3
+                                },
+                                "4": {
+                                    "name": "CHMIELAK Piotr Jan",
+                                    "glosy": 15
+                                },
+                                "5": {
+                                    "name": "BIGOS Bożena Gabriela",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "CHMIELAK Żaneta Edyta",
+                                    "glosy": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "2": {
+                "mandaty": 6,
+                "listy": 2,
+                "mieszkancy": 7180,
+                "wyborcy": 5737,
+                "granice": "Gronków, Łopuszna, Ostrowsko, Waksmund",
+                "wyborcy_b": 0,
+                "pakiet": 0,
+                "kandydaci": {
+                    "16": {
+                        "komitet": "KWW SAMORZĄDNOŚĆ WIEJSKA",
+                        "pozycje": {
+                            "1": {
+                                "name": "KOLASA Marek Andrzej",
+                                "uzyskane_glosy": {
+                                    "3": 12,
+                                    "4": 24,
+                                    "5": 276,
+                                    "6": 17
+                                }
+                            },
+                            "2": {
+                                "name": "HARĘZA Edyta",
+                                "uzyskane_glosy": {
+                                    "3": 0,
+                                    "4": 9,
+                                    "5": 3,
+                                    "6": 185
+                                }
+                            },
+                            "3": {
+                                "name": "BUŁA Stanisław Henryk",
+                                "uzyskane_glosy": {
+                                    "3": 215,
+                                    "4": 8,
+                                    "5": 9,
+                                    "6": 12
+                                }
+                            },
+                            "4": {
+                                "name": "SZUMAL Gabriel Stanisław",
+                                "uzyskane_glosy": {
+                                    "3": 9,
+                                    "4": 177,
+                                    "5": 9,
+                                    "6": 2
+                                }
+                            },
+                            "5": {
+                                "name": "BRYJA Bronisław",
+                                "uzyskane_glosy": {
+                                    "3": 5,
+                                    "4": 0,
+                                    "5": 118,
+                                    "6": 3
+                                }
+                            },
+                            "6": {
+                                "name": "WITEK Elżbieta Anna",
+                                "uzyskane_glosy": {
+                                    "3": 2,
+                                    "4": 3,
+                                    "5": 1,
+                                    "6": 36
+                                }
+                            },
+                            "7": {
+                                "name": "WARAS Łukasz Jacek",
+                                "uzyskane_glosy": {
+                                    "3": 223,
+                                    "4": 7,
+                                    "5": 14,
+                                    "6": 3
+                                }
+                            },
+                            "8": {
+                                "name": "KULAK Anna Katarzyna",
+                                "uzyskane_glosy": {
+                                    "3": 14,
+                                    "4": 1,
+                                    "5": 45,
+                                    "6": 2
+                                }
+                            }
+                        }
+                    },
+                    "17": {
+                        "komitet": "KWW GRZEGORZA ADAMCZYKA WSPÓLNA PRZYSZŁOŚĆ",
+                        "pozycje": {
+                            "1": {
+                                "name": "CIĘŻOBKA-TARGOSZ Anna Małgorzata",
+                                "uzyskane_glosy": {
+                                    "3": 10,
+                                    "4": 12,
+                                    "5": 334,
+                                    "6": 8
+                                }
+                            },
+                            "2": {
+                                "name": "WAKSMUNDZKI Jan Mieczysław",
+                                "uzyskane_glosy": {
+                                    "3": 6,
+                                    "4": 1,
+                                    "5": 16,
+                                    "6": 8
+                                }
+                            },
+                            "3": {
+                                "name": "KUBICZ Katarzyna Beata",
+                                "uzyskane_glosy": {
+                                    "3": 5,
+                                    "4": 8,
+                                    "5": 35,
+                                    "6": 5
+                                }
+                            },
+                            "4": {
+                                "name": "WAKSMUNDZKA Ewa",
+                                "uzyskane_glosy": {
+                                    "3": 4,
+                                    "4": 5,
+                                    "5": 44,
+                                    "6": 2
+                                }
+                            },
+                            "5": {
+                                "name": "STACHOŃ Jan Aleksander",
+                                "uzyskane_glosy": {
+                                    "3": 155,
+                                    "4": 7,
+                                    "5": 5,
+                                    "6": 5
+                                }
+                            },
+                            "6": {
+                                "name": "BOCHNAK Jacek Jan",
+                                "uzyskane_glosy": {
+                                    "3": 4,
+                                    "4": 4,
+                                    "5": 0,
+                                    "6": 209
+                                }
+                            },
+                            "7": {
+                                "name": "KOPEĆ Anna Balbina",
+                                "uzyskane_glosy": {
+                                    "3": 1,
+                                    "4": 0,
+                                    "5": 2,
+                                    "6": 72
+                                }
+                            },
+                            "8": {
+                                "name": "MAZUREK Grażyna",
+                                "uzyskane_glosy": {
+                                    "3": 2,
+                                    "4": 151,
+                                    "5": 4,
+                                    "6": 2
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "3": {
+                        "okreg": 2,
+                        "wyborcy": 1328,
+                        "wyborcy_glosujacy": 693,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "KOLASA Marek Andrzej",
+                                    "glosy": 12
+                                },
+                                "2": {
+                                    "name": "HARĘZA Edyta",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "BUŁA Stanisław Henryk",
+                                    "glosy": 215
+                                },
+                                "4": {
+                                    "name": "SZUMAL Gabriel Stanisław",
+                                    "glosy": 9
+                                },
+                                "5": {
+                                    "name": "BRYJA Bronisław",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "WITEK Elżbieta Anna",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "WARAS Łukasz Jacek",
+                                    "glosy": 223
+                                },
+                                "8": {
+                                    "name": "KULAK Anna Katarzyna",
+                                    "glosy": 14
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "CIĘŻOBKA-TARGOSZ Anna Małgorzata",
+                                    "glosy": 10
+                                },
+                                "2": {
+                                    "name": "WAKSMUNDZKI Jan Mieczysław",
+                                    "glosy": 6
+                                },
+                                "3": {
+                                    "name": "KUBICZ Katarzyna Beata",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "WAKSMUNDZKA Ewa",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "STACHOŃ Jan Aleksander",
+                                    "glosy": 155
+                                },
+                                "6": {
+                                    "name": "BOCHNAK Jacek Jan",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "KOPEĆ Anna Balbina",
+                                    "glosy": 1
+                                },
+                                "8": {
+                                    "name": "MAZUREK Grażyna",
+                                    "glosy": 2
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "okreg": 2,
+                        "wyborcy": 1058,
+                        "wyborcy_glosujacy": 441,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "KOLASA Marek Andrzej",
+                                    "glosy": 24
+                                },
+                                "2": {
+                                    "name": "HARĘZA Edyta",
+                                    "glosy": 9
+                                },
+                                "3": {
+                                    "name": "BUŁA Stanisław Henryk",
+                                    "glosy": 8
+                                },
+                                "4": {
+                                    "name": "SZUMAL Gabriel Stanisław",
+                                    "glosy": 177
+                                },
+                                "5": {
+                                    "name": "BRYJA Bronisław",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "WITEK Elżbieta Anna",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "WARAS Łukasz Jacek",
+                                    "glosy": 7
+                                },
+                                "8": {
+                                    "name": "KULAK Anna Katarzyna",
+                                    "glosy": 1
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "CIĘŻOBKA-TARGOSZ Anna Małgorzata",
+                                    "glosy": 12
+                                },
+                                "2": {
+                                    "name": "WAKSMUNDZKI Jan Mieczysław",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "KUBICZ Katarzyna Beata",
+                                    "glosy": 8
+                                },
+                                "4": {
+                                    "name": "WAKSMUNDZKA Ewa",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "STACHOŃ Jan Aleksander",
+                                    "glosy": 7
+                                },
+                                "6": {
+                                    "name": "BOCHNAK Jacek Jan",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "KOPEĆ Anna Balbina",
+                                    "glosy": 0
+                                },
+                                "8": {
+                                    "name": "MAZUREK Grażyna",
+                                    "glosy": 151
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "okreg": 2,
+                        "wyborcy": 1921,
+                        "wyborcy_glosujacy": 958,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "KOLASA Marek Andrzej",
+                                    "glosy": 276
+                                },
+                                "2": {
+                                    "name": "HARĘZA Edyta",
+                                    "glosy": 3
+                                },
+                                "3": {
+                                    "name": "BUŁA Stanisław Henryk",
+                                    "glosy": 9
+                                },
+                                "4": {
+                                    "name": "SZUMAL Gabriel Stanisław",
+                                    "glosy": 9
+                                },
+                                "5": {
+                                    "name": "BRYJA Bronisław",
+                                    "glosy": 118
+                                },
+                                "6": {
+                                    "name": "WITEK Elżbieta Anna",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "WARAS Łukasz Jacek",
+                                    "glosy": 14
+                                },
+                                "8": {
+                                    "name": "KULAK Anna Katarzyna",
+                                    "glosy": 45
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "CIĘŻOBKA-TARGOSZ Anna Małgorzata",
+                                    "glosy": 334
+                                },
+                                "2": {
+                                    "name": "WAKSMUNDZKI Jan Mieczysław",
+                                    "glosy": 16
+                                },
+                                "3": {
+                                    "name": "KUBICZ Katarzyna Beata",
+                                    "glosy": 35
+                                },
+                                "4": {
+                                    "name": "WAKSMUNDZKA Ewa",
+                                    "glosy": 44
+                                },
+                                "5": {
+                                    "name": "STACHOŃ Jan Aleksander",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "BOCHNAK Jacek Jan",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "KOPEĆ Anna Balbina",
+                                    "glosy": 2
+                                },
+                                "8": {
+                                    "name": "MAZUREK Grażyna",
+                                    "glosy": 4
+                                }
+                            }
+                        }
+                    },
+                    "6": {
+                        "okreg": 2,
+                        "wyborcy": 1430,
+                        "wyborcy_glosujacy": 600,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "KOLASA Marek Andrzej",
+                                    "glosy": 17
+                                },
+                                "2": {
+                                    "name": "HARĘZA Edyta",
+                                    "glosy": 185
+                                },
+                                "3": {
+                                    "name": "BUŁA Stanisław Henryk",
+                                    "glosy": 12
+                                },
+                                "4": {
+                                    "name": "SZUMAL Gabriel Stanisław",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "BRYJA Bronisław",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "WITEK Elżbieta Anna",
+                                    "glosy": 36
+                                },
+                                "7": {
+                                    "name": "WARAS Łukasz Jacek",
+                                    "glosy": 3
+                                },
+                                "8": {
+                                    "name": "KULAK Anna Katarzyna",
+                                    "glosy": 2
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "CIĘŻOBKA-TARGOSZ Anna Małgorzata",
+                                    "glosy": 8
+                                },
+                                "2": {
+                                    "name": "WAKSMUNDZKI Jan Mieczysław",
+                                    "glosy": 8
+                                },
+                                "3": {
+                                    "name": "KUBICZ Katarzyna Beata",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "WAKSMUNDZKA Ewa",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "STACHOŃ Jan Aleksander",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "BOCHNAK Jacek Jan",
+                                    "glosy": 209
+                                },
+                                "7": {
+                                    "name": "KOPEĆ Anna Balbina",
+                                    "glosy": 72
+                                },
+                                "8": {
+                                    "name": "MAZUREK Grażyna",
+                                    "glosy": 2
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "3": {
+                "mandaty": 5,
+                "listy": 2,
+                "mieszkancy": 5126,
+                "wyborcy": 3995,
+                "granice": "Klikuszowa, Lasek, Obidowa, Pyzówka, Trute",
+                "wyborcy_b": 0,
+                "pakiet": 0,
+                "kandydaci": {
+                    "16": {
+                        "komitet": "KWW SAMORZĄDNOŚĆ WIEJSKA",
+                        "pozycje": {
+                            "1": {
+                                "name": "FIC Czesława Danuta",
+                                "uzyskane_glosy": {
+                                    "10": 105,
+                                    "11": 4,
+                                    "13": 1,
+                                    "18": 1,
+                                    "21": 2
+                                }
+                            },
+                            "2": {
+                                "name": "GAŁ Jan",
+                                "uzyskane_glosy": {
+                                    "10": 13,
+                                    "11": 87,
+                                    "13": 2,
+                                    "18": 0,
+                                    "21": 8
+                                }
+                            },
+                            "3": {
+                                "name": "MUCHA Dariusz Andrzej",
+                                "uzyskane_glosy": {
+                                    "10": 2,
+                                    "11": 0,
+                                    "13": 206,
+                                    "18": 1,
+                                    "21": 2
+                                }
+                            },
+                            "4": {
+                                "name": "FARON Zofia",
+                                "uzyskane_glosy": {
+                                    "10": 7,
+                                    "11": 3,
+                                    "13": 5,
+                                    "18": 79,
+                                    "21": 3
+                                }
+                            },
+                            "5": {
+                                "name": "MAŁECKA Grażyna",
+                                "uzyskane_glosy": {
+                                    "10": 18,
+                                    "11": 2,
+                                    "13": 1,
+                                    "18": 0,
+                                    "21": 3
+                                }
+                            },
+                            "6": {
+                                "name": "PUDZISZ Anna",
+                                "uzyskane_glosy": {
+                                    "10": 9,
+                                    "11": 146,
+                                    "13": 6,
+                                    "18": 5,
+                                    "21": 8
+                                }
+                            },
+                            "7": {
+                                "name": "SZELIGA Dawid Stanisław",
+                                "uzyskane_glosy": {
+                                    "10": 110,
+                                    "11": 15,
+                                    "13": 8,
+                                    "18": 48,
+                                    "21": 6
+                                }
+                            }
+                        }
+                    },
+                    "17": {
+                        "komitet": "KWW GRZEGORZA ADAMCZYKA WSPÓLNA PRZYSZŁOŚĆ",
+                        "pozycje": {
+                            "1": {
+                                "name": "PARZYGNAT Dariusz Robert",
+                                "uzyskane_glosy": {
+                                    "10": 126,
+                                    "11": 3,
+                                    "13": 4,
+                                    "18": 40,
+                                    "21": 1
+                                }
+                            },
+                            "2": {
+                                "name": "PAJĄK Karolina Anna",
+                                "uzyskane_glosy": {
+                                    "10": 58,
+                                    "11": 10,
+                                    "13": 6,
+                                    "18": 9,
+                                    "21": 1
+                                }
+                            },
+                            "3": {
+                                "name": "BUBISZ Danuta Małgorzata",
+                                "uzyskane_glosy": {
+                                    "10": 0,
+                                    "11": 32,
+                                    "13": 0,
+                                    "18": 0,
+                                    "21": 1
+                                }
+                            },
+                            "4": {
+                                "name": "DZIURDZIK Marek Józef",
+                                "uzyskane_glosy": {
+                                    "10": 7,
+                                    "11": 20,
+                                    "13": 0,
+                                    "18": 2,
+                                    "21": 2
+                                }
+                            },
+                            "5": {
+                                "name": "MROŻEK Mateusz Stanisław",
+                                "uzyskane_glosy": {
+                                    "10": 2,
+                                    "11": 4,
+                                    "13": 79,
+                                    "18": 0,
+                                    "21": 0
+                                }
+                            },
+                            "6": {
+                                "name": "KOPERNIAK Witold Stanisław",
+                                "uzyskane_glosy": {
+                                    "10": 36,
+                                    "11": 5,
+                                    "13": 11,
+                                    "18": 80,
+                                    "21": 5
+                                }
+                            },
+                            "7": {
+                                "name": "KOCZUR Ewa Agnieszka",
+                                "uzyskane_glosy": {
+                                    "10": 10,
+                                    "11": 10,
+                                    "13": 5,
+                                    "18": 0,
+                                    "21": 137
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "10": {
+                        "okreg": 3,
+                        "wyborcy": 1207,
+                        "wyborcy_glosujacy": 527,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "FIC Czesława Danuta",
+                                    "glosy": 105
+                                },
+                                "2": {
+                                    "name": "GAŁ Jan",
+                                    "glosy": 13
+                                },
+                                "3": {
+                                    "name": "MUCHA Dariusz Andrzej",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "FARON Zofia",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "MAŁECKA Grażyna",
+                                    "glosy": 18
+                                },
+                                "6": {
+                                    "name": "PUDZISZ Anna",
+                                    "glosy": 9
+                                },
+                                "7": {
+                                    "name": "SZELIGA Dawid Stanisław",
+                                    "glosy": 110
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "PARZYGNAT Dariusz Robert",
+                                    "glosy": 126
+                                },
+                                "2": {
+                                    "name": "PAJĄK Karolina Anna",
+                                    "glosy": 58
+                                },
+                                "3": {
+                                    "name": "BUBISZ Danuta Małgorzata",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "DZIURDZIK Marek Józef",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "MROŻEK Mateusz Stanisław",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "KOPERNIAK Witold Stanisław",
+                                    "glosy": 36
+                                },
+                                "7": {
+                                    "name": "KOCZUR Ewa Agnieszka",
+                                    "glosy": 10
+                                }
+                            }
+                        }
+                    },
+                    "11": {
+                        "okreg": 3,
+                        "wyborcy": 902,
+                        "wyborcy_glosujacy": 359,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "FIC Czesława Danuta",
+                                    "glosy": 4
+                                },
+                                "2": {
+                                    "name": "GAŁ Jan",
+                                    "glosy": 87
+                                },
+                                "3": {
+                                    "name": "MUCHA Dariusz Andrzej",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "FARON Zofia",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "MAŁECKA Grażyna",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "PUDZISZ Anna",
+                                    "glosy": 146
+                                },
+                                "7": {
+                                    "name": "SZELIGA Dawid Stanisław",
+                                    "glosy": 15
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "PARZYGNAT Dariusz Robert",
+                                    "glosy": 3
+                                },
+                                "2": {
+                                    "name": "PAJĄK Karolina Anna",
+                                    "glosy": 10
+                                },
+                                "3": {
+                                    "name": "BUBISZ Danuta Małgorzata",
+                                    "glosy": 32
+                                },
+                                "4": {
+                                    "name": "DZIURDZIK Marek Józef",
+                                    "glosy": 20
+                                },
+                                "5": {
+                                    "name": "MROŻEK Mateusz Stanisław",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "KOPERNIAK Witold Stanisław",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "KOCZUR Ewa Agnieszka",
+                                    "glosy": 10
+                                }
+                            }
+                        }
+                    },
+                    "13": {
+                        "okreg": 3,
+                        "wyborcy": 782,
+                        "wyborcy_glosujacy": 353,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "FIC Czesława Danuta",
+                                    "glosy": 1
+                                },
+                                "2": {
+                                    "name": "GAŁ Jan",
+                                    "glosy": 2
+                                },
+                                "3": {
+                                    "name": "MUCHA Dariusz Andrzej",
+                                    "glosy": 206
+                                },
+                                "4": {
+                                    "name": "FARON Zofia",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "MAŁECKA Grażyna",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "PUDZISZ Anna",
+                                    "glosy": 6
+                                },
+                                "7": {
+                                    "name": "SZELIGA Dawid Stanisław",
+                                    "glosy": 8
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "PARZYGNAT Dariusz Robert",
+                                    "glosy": 4
+                                },
+                                "2": {
+                                    "name": "PAJĄK Karolina Anna",
+                                    "glosy": 6
+                                },
+                                "3": {
+                                    "name": "BUBISZ Danuta Małgorzata",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "DZIURDZIK Marek Józef",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "MROŻEK Mateusz Stanisław",
+                                    "glosy": 79
+                                },
+                                "6": {
+                                    "name": "KOPERNIAK Witold Stanisław",
+                                    "glosy": 11
+                                },
+                                "7": {
+                                    "name": "KOCZUR Ewa Agnieszka",
+                                    "glosy": 5
+                                }
+                            }
+                        }
+                    },
+                    "18": {
+                        "okreg": 3,
+                        "wyborcy": 621,
+                        "wyborcy_glosujacy": 274,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "FIC Czesława Danuta",
+                                    "glosy": 1
+                                },
+                                "2": {
+                                    "name": "GAŁ Jan",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "MUCHA Dariusz Andrzej",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "FARON Zofia",
+                                    "glosy": 79
+                                },
+                                "5": {
+                                    "name": "MAŁECKA Grażyna",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "PUDZISZ Anna",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "SZELIGA Dawid Stanisław",
+                                    "glosy": 48
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "PARZYGNAT Dariusz Robert",
+                                    "glosy": 40
+                                },
+                                "2": {
+                                    "name": "PAJĄK Karolina Anna",
+                                    "glosy": 9
+                                },
+                                "3": {
+                                    "name": "BUBISZ Danuta Małgorzata",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "DZIURDZIK Marek Józef",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "MROŻEK Mateusz Stanisław",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "KOPERNIAK Witold Stanisław",
+                                    "glosy": 80
+                                },
+                                "7": {
+                                    "name": "KOCZUR Ewa Agnieszka",
+                                    "glosy": 0
+                                }
+                            }
+                        }
+                    },
+                    "21": {
+                        "okreg": 3,
+                        "wyborcy": 484,
+                        "wyborcy_glosujacy": 189,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "FIC Czesława Danuta",
+                                    "glosy": 2
+                                },
+                                "2": {
+                                    "name": "GAŁ Jan",
+                                    "glosy": 8
+                                },
+                                "3": {
+                                    "name": "MUCHA Dariusz Andrzej",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "FARON Zofia",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "MAŁECKA Grażyna",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "PUDZISZ Anna",
+                                    "glosy": 8
+                                },
+                                "7": {
+                                    "name": "SZELIGA Dawid Stanisław",
+                                    "glosy": 6
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "PARZYGNAT Dariusz Robert",
+                                    "glosy": 1
+                                },
+                                "2": {
+                                    "name": "PAJĄK Karolina Anna",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "BUBISZ Danuta Małgorzata",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "DZIURDZIK Marek Józef",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "MROŻEK Mateusz Stanisław",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "KOPERNIAK Witold Stanisław",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "KOCZUR Ewa Agnieszka",
+                                    "glosy": 137
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "4": {
+                "mandaty": 5,
+                "listy": 2,
+                "mieszkancy": 5432,
+                "wyborcy": 4319,
+                "granice": "Długopole, Krauszów, Ludźmierz, Morawczyna, Rogoźnik",
+                "wyborcy_b": 0,
+                "pakiet": 0,
+                "kandydaci": {
+                    "16": {
+                        "komitet": "KWW SAMORZĄDNOŚĆ WIEJSKA",
+                        "pozycje": {
+                            "1": {
+                                "name": "ŁAPCZYŃSKI Marek",
+                                "uzyskane_glosy": {
+                                    "12": 5,
+                                    "14": 11,
+                                    "15": 2,
+                                    "16": 146,
+                                    "17": 4
+                                }
+                            },
+                            "2": {
+                                "name": "SPROCH Marek",
+                                "uzyskane_glosy": {
+                                    "12": 0,
+                                    "14": 1,
+                                    "15": 2,
+                                    "16": 6,
+                                    "17": 86
+                                }
+                            },
+                            "3": {
+                                "name": "KUCHARSKA Małgorzata Joanna",
+                                "uzyskane_glosy": {
+                                    "12": 4,
+                                    "14": 183,
+                                    "15": 6,
+                                    "16": 12,
+                                    "17": 3
+                                }
+                            },
+                            "4": {
+                                "name": "ŁABUDA Piotr Sławomir",
+                                "uzyskane_glosy": {
+                                    "12": 133,
+                                    "14": 4,
+                                    "15": 0,
+                                    "16": 6,
+                                    "17": 0
+                                }
+                            },
+                            "5": {
+                                "name": "LANDOWSKA Maria",
+                                "uzyskane_glosy": {
+                                    "12": 1,
+                                    "14": 10,
+                                    "15": 116,
+                                    "16": 11,
+                                    "17": 0
+                                }
+                            },
+                            "6": {
+                                "name": "ZUBEK Stanisław",
+                                "uzyskane_glosy": {
+                                    "12": 0,
+                                    "14": 4,
+                                    "15": 0,
+                                    "16": 74,
+                                    "17": 2
+                                }
+                            },
+                            "7": {
+                                "name": "CZAJA-KNUROWSKA Karolina",
+                                "uzyskane_glosy": {
+                                    "12": 0,
+                                    "14": 1,
+                                    "15": 0,
+                                    "16": 49,
+                                    "17": 2
+                                }
+                            }
+                        }
+                    },
+                    "17": {
+                        "komitet": "KWW GRZEGORZA ADAMCZYKA WSPÓLNA PRZYSZŁOŚĆ",
+                        "pozycje": {
+                            "1": {
+                                "name": "SIUTA Andrzej",
+                                "uzyskane_glosy": {
+                                    "12": 1,
+                                    "14": 2,
+                                    "15": 3,
+                                    "16": 188,
+                                    "17": 9
+                                }
+                            },
+                            "2": {
+                                "name": "PANEK Barbara Marta",
+                                "uzyskane_glosy": {
+                                    "12": 0,
+                                    "14": 0,
+                                    "15": 1,
+                                    "16": 169,
+                                    "17": 6
+                                }
+                            },
+                            "3": {
+                                "name": "TRUTY Justyna Anna",
+                                "uzyskane_glosy": {
+                                    "12": 0,
+                                    "14": 0,
+                                    "15": 0,
+                                    "16": 96,
+                                    "17": 2
+                                }
+                            },
+                            "4": {
+                                "name": "GÓRZ Stanisław Adam",
+                                "uzyskane_glosy": {
+                                    "12": 1,
+                                    "14": 0,
+                                    "15": 1,
+                                    "16": 8,
+                                    "17": 132
+                                }
+                            },
+                            "5": {
+                                "name": "MYRDA Kinga Klaudia",
+                                "uzyskane_glosy": {
+                                    "12": 47,
+                                    "14": 0,
+                                    "15": 1,
+                                    "16": 6,
+                                    "17": 1
+                                }
+                            },
+                            "6": {
+                                "name": "SOJKA Mirosław Bogusław",
+                                "uzyskane_glosy": {
+                                    "12": 0,
+                                    "14": 11,
+                                    "15": 1,
+                                    "16": 1,
+                                    "17": 0
+                                }
+                            },
+                            "7": {
+                                "name": "SIPIORA Adrian Lesław",
+                                "uzyskane_glosy": {
+                                    "12": 0,
+                                    "14": 3,
+                                    "15": 16,
+                                    "16": 8,
+                                    "17": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "12": {
+                        "okreg": 4,
+                        "wyborcy": 547,
+                        "wyborcy_glosujacy": 201,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "ŁAPCZYŃSKI Marek",
+                                    "glosy": 5
+                                },
+                                "2": {
+                                    "name": "SPROCH Marek",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "KUCHARSKA Małgorzata Joanna",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "ŁABUDA Piotr Sławomir",
+                                    "glosy": 133
+                                },
+                                "5": {
+                                    "name": "LANDOWSKA Maria",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "ZUBEK Stanisław",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "CZAJA-KNUROWSKA Karolina",
+                                    "glosy": 0
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SIUTA Andrzej",
+                                    "glosy": 1
+                                },
+                                "2": {
+                                    "name": "PANEK Barbara Marta",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "TRUTY Justyna Anna",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "GÓRZ Stanisław Adam",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "MYRDA Kinga Klaudia",
+                                    "glosy": 47
+                                },
+                                "6": {
+                                    "name": "SOJKA Mirosław Bogusław",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "SIPIORA Adrian Lesław",
+                                    "glosy": 0
+                                }
+                            }
+                        }
+                    },
+                    "14": {
+                        "okreg": 4,
+                        "wyborcy": 572,
+                        "wyborcy_glosujacy": 238,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "ŁAPCZYŃSKI Marek",
+                                    "glosy": 11
+                                },
+                                "2": {
+                                    "name": "SPROCH Marek",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "KUCHARSKA Małgorzata Joanna",
+                                    "glosy": 183
+                                },
+                                "4": {
+                                    "name": "ŁABUDA Piotr Sławomir",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "LANDOWSKA Maria",
+                                    "glosy": 10
+                                },
+                                "6": {
+                                    "name": "ZUBEK Stanisław",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "CZAJA-KNUROWSKA Karolina",
+                                    "glosy": 1
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SIUTA Andrzej",
+                                    "glosy": 2
+                                },
+                                "2": {
+                                    "name": "PANEK Barbara Marta",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "TRUTY Justyna Anna",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "GÓRZ Stanisław Adam",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "MYRDA Kinga Klaudia",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "SOJKA Mirosław Bogusław",
+                                    "glosy": 11
+                                },
+                                "7": {
+                                    "name": "SIPIORA Adrian Lesław",
+                                    "glosy": 3
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "okreg": 4,
+                        "wyborcy": 415,
+                        "wyborcy_glosujacy": 156,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "ŁAPCZYŃSKI Marek",
+                                    "glosy": 2
+                                },
+                                "2": {
+                                    "name": "SPROCH Marek",
+                                    "glosy": 2
+                                },
+                                "3": {
+                                    "name": "KUCHARSKA Małgorzata Joanna",
+                                    "glosy": 6
+                                },
+                                "4": {
+                                    "name": "ŁABUDA Piotr Sławomir",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "LANDOWSKA Maria",
+                                    "glosy": 116
+                                },
+                                "6": {
+                                    "name": "ZUBEK Stanisław",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "CZAJA-KNUROWSKA Karolina",
+                                    "glosy": 0
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SIUTA Andrzej",
+                                    "glosy": 3
+                                },
+                                "2": {
+                                    "name": "PANEK Barbara Marta",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "TRUTY Justyna Anna",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "GÓRZ Stanisław Adam",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "MYRDA Kinga Klaudia",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "SOJKA Mirosław Bogusław",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "SIPIORA Adrian Lesław",
+                                    "glosy": 16
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "okreg": 4,
+                        "wyborcy": 2001,
+                        "wyborcy_glosujacy": 834,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "ŁAPCZYŃSKI Marek",
+                                    "glosy": 146
+                                },
+                                "2": {
+                                    "name": "SPROCH Marek",
+                                    "glosy": 6
+                                },
+                                "3": {
+                                    "name": "KUCHARSKA Małgorzata Joanna",
+                                    "glosy": 12
+                                },
+                                "4": {
+                                    "name": "ŁABUDA Piotr Sławomir",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "LANDOWSKA Maria",
+                                    "glosy": 11
+                                },
+                                "6": {
+                                    "name": "ZUBEK Stanisław",
+                                    "glosy": 74
+                                },
+                                "7": {
+                                    "name": "CZAJA-KNUROWSKA Karolina",
+                                    "glosy": 49
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SIUTA Andrzej",
+                                    "glosy": 188
+                                },
+                                "2": {
+                                    "name": "PANEK Barbara Marta",
+                                    "glosy": 169
+                                },
+                                "3": {
+                                    "name": "TRUTY Justyna Anna",
+                                    "glosy": 96
+                                },
+                                "4": {
+                                    "name": "GÓRZ Stanisław Adam",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "MYRDA Kinga Klaudia",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "SOJKA Mirosław Bogusław",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "SIPIORA Adrian Lesław",
+                                    "glosy": 8
+                                }
+                            }
+                        }
+                    },
+                    "17": {
+                        "okreg": 4,
+                        "wyborcy": 748,
+                        "wyborcy_glosujacy": 258,
+                        "kandydaci": {
+                            "16": {
+                                "1": {
+                                    "name": "ŁAPCZYŃSKI Marek",
+                                    "glosy": 4
+                                },
+                                "2": {
+                                    "name": "SPROCH Marek",
+                                    "glosy": 86
+                                },
+                                "3": {
+                                    "name": "KUCHARSKA Małgorzata Joanna",
+                                    "glosy": 3
+                                },
+                                "4": {
+                                    "name": "ŁABUDA Piotr Sławomir",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "LANDOWSKA Maria",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "ZUBEK Stanisław",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "CZAJA-KNUROWSKA Karolina",
+                                    "glosy": 2
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SIUTA Andrzej",
+                                    "glosy": 9
+                                },
+                                "2": {
+                                    "name": "PANEK Barbara Marta",
+                                    "glosy": 6
+                                },
+                                "3": {
+                                    "name": "TRUTY Justyna Anna",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "GÓRZ Stanisław Adam",
+                                    "glosy": 132
+                                },
+                                "5": {
+                                    "name": "MYRDA Kinga Klaudia",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "SOJKA Mirosław Bogusław",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "SIPIORA Adrian Lesław",
+                                    "glosy": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

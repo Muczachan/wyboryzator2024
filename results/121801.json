@@ -1,0 +1,4139 @@
+{
+    "121801": {
+        "wojewodztwo": "małopolskie",
+        "powiat": "wadowicki",
+        "gmina": "gm. Andrychów",
+        "organ": "Rada Miejska w Andrychowie",
+        "siedziba": "Andrychów",
+        "okregi": {
+            "1": {
+                "mandaty": 5,
+                "listy": 3,
+                "mieszkancy": 8840,
+                "wyborcy": 7340,
+                "granice": "Andrychów, ulice: 1-go Maja, 27-go Stycznia, Bartosza Głowackiego, Beskidzka, Biała Droga, Bolesława Prusa, Brzegi, Cicha, Cypriana Kamila Norwida, Elizy Orzeszkowej, Emila Zegadłowicza, Fabryczna, Ferdynanda Pachla, Floriańska, Garncarska, gen. Władysława Sikorskiego, Grunwaldzka, Henryka Biłki, Hugo Kołłątaja, Ignacego Daszyńskiego, Jana Kilińskiego, Jana Kochanowskiego, Jarosława Dąbrowskiego, Klonowa, Konstytucji 3 Maja, Krakowska od 1 do końca (nieparzyste), Krakowska od 56 do końca (parzyste), Krzysztofa Kamila Baczyńskiego, Legionów, Leśna, Lipowa, Marii Curie-Skłodowskiej, Marii Konopnickiej, Na Wzgórzach, Niecała, Ogrodowa, Olszyny, Parkowa, Piękna, Podgórska, Pod Skarpą, Polna, Powstańców Warszawy, Prymasa Stefana Wyszyńskiego, Przemysłowa, Przyjaźni, Rodzinna, Romualda Traugutta, Sarnia, Słoneczna, Słowackiego, Solidarności, Stefana Batorego, Strefowa, Szarych Szeregów, Szewska, Tadeusza Kościuszki, Tadeusza Wolfa, Tęczowa, Tkacka, Tkacka Boczna, Topolowa, Wandy Malickiej, Wincentego Witosa, Władysława Broniewskiego, Wyzwolenia, Żwirki i Wigury, Aleja Adama Wietrznego, Plac Adama Mickiewicza, Rynek",
+                "wyborcy_b": 0,
+                "pakiet": 2,
+                "kandydaci": {
+                    "14": {
+                        "komitet": "KWW BEATA SMOLEC",
+                        "pozycje": {
+                            "1": {
+                                "name": "PEROŃCZYK-ADAMEK Agnieszka Ewa",
+                                "uzyskane_glosy": {
+                                    "1": 40,
+                                    "2": 30,
+                                    "3": 37,
+                                    "4": 38,
+                                    "5": 23,
+                                    "24": 1
+                                }
+                            },
+                            "2": {
+                                "name": "GOŁBA Adam Andrzej",
+                                "uzyskane_glosy": {
+                                    "1": 17,
+                                    "2": 14,
+                                    "3": 82,
+                                    "4": 20,
+                                    "5": 12,
+                                    "24": 1
+                                }
+                            },
+                            "3": {
+                                "name": "OKRZESIK Dorota",
+                                "uzyskane_glosy": {
+                                    "1": 25,
+                                    "2": 18,
+                                    "3": 36,
+                                    "4": 65,
+                                    "5": 14,
+                                    "24": 0
+                                }
+                            },
+                            "4": {
+                                "name": "NOWAK Jan",
+                                "uzyskane_glosy": {
+                                    "1": 11,
+                                    "2": 22,
+                                    "3": 22,
+                                    "4": 4,
+                                    "5": 6,
+                                    "24": 1
+                                }
+                            },
+                            "5": {
+                                "name": "NIZIŃSKA Anna Zofia",
+                                "uzyskane_glosy": {
+                                    "1": 7,
+                                    "2": 16,
+                                    "3": 4,
+                                    "4": 7,
+                                    "5": 7,
+                                    "24": 0
+                                }
+                            },
+                            "6": {
+                                "name": "OKRĘGLICKA Jolanta Halina",
+                                "uzyskane_glosy": {
+                                    "1": 12,
+                                    "2": 5,
+                                    "3": 36,
+                                    "4": 13,
+                                    "5": 4,
+                                    "24": 1
+                                }
+                            },
+                            "7": {
+                                "name": "DUBANOWICZ Bogdan",
+                                "uzyskane_glosy": {
+                                    "1": 21,
+                                    "2": 30,
+                                    "3": 30,
+                                    "4": 43,
+                                    "5": 20,
+                                    "24": 0
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "komitet": "KWW EWELINY SZYPUŁY",
+                        "pozycje": {
+                            "1": {
+                                "name": "STUDNIARZ Alicja",
+                                "uzyskane_glosy": {
+                                    "1": 106,
+                                    "2": 88,
+                                    "3": 129,
+                                    "4": 74,
+                                    "5": 40,
+                                    "24": 1
+                                }
+                            },
+                            "2": {
+                                "name": "NIEMCZYK Seweryn Ireneusz",
+                                "uzyskane_glosy": {
+                                    "1": 99,
+                                    "2": 121,
+                                    "3": 82,
+                                    "4": 78,
+                                    "5": 36,
+                                    "24": 0
+                                }
+                            },
+                            "3": {
+                                "name": "BIŁKO Tadeusz",
+                                "uzyskane_glosy": {
+                                    "1": 45,
+                                    "2": 7,
+                                    "3": 7,
+                                    "4": 10,
+                                    "5": 2,
+                                    "24": 0
+                                }
+                            },
+                            "4": {
+                                "name": "PIECHA Iwona Monika",
+                                "uzyskane_glosy": {
+                                    "1": 17,
+                                    "2": 16,
+                                    "3": 15,
+                                    "4": 5,
+                                    "5": 6,
+                                    "24": 1
+                                }
+                            },
+                            "5": {
+                                "name": "KUŚ Jolanta Jadwiga",
+                                "uzyskane_glosy": {
+                                    "1": 17,
+                                    "2": 10,
+                                    "3": 3,
+                                    "4": 3,
+                                    "5": 3,
+                                    "24": 0
+                                }
+                            },
+                            "6": {
+                                "name": "JARZYNA Przemysław Maciej",
+                                "uzyskane_glosy": {
+                                    "1": 3,
+                                    "2": 2,
+                                    "3": 3,
+                                    "4": 29,
+                                    "5": 3,
+                                    "24": 0
+                                }
+                            },
+                            "7": {
+                                "name": "SOŁDYK Kacper",
+                                "uzyskane_glosy": {
+                                    "1": 6,
+                                    "2": 9,
+                                    "3": 36,
+                                    "4": 17,
+                                    "5": 2,
+                                    "24": 0
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "komitet": "KWW NASZA GMINA ANDRYCHÓW",
+                        "pozycje": {
+                            "1": {
+                                "name": "ŻAK Tomasz",
+                                "uzyskane_glosy": {
+                                    "1": 182,
+                                    "2": 206,
+                                    "3": 184,
+                                    "4": 180,
+                                    "5": 89,
+                                    "24": 2
+                                }
+                            },
+                            "2": {
+                                "name": "WĄTROBA Ewa Beata",
+                                "uzyskane_glosy": {
+                                    "1": 80,
+                                    "2": 90,
+                                    "3": 76,
+                                    "4": 55,
+                                    "5": 47,
+                                    "24": 1
+                                }
+                            },
+                            "3": {
+                                "name": "MAGIERA Dorota Józefa",
+                                "uzyskane_glosy": {
+                                    "1": 36,
+                                    "2": 26,
+                                    "3": 34,
+                                    "4": 21,
+                                    "5": 12,
+                                    "24": 0
+                                }
+                            },
+                            "4": {
+                                "name": "WITKOWSKI Wiesław",
+                                "uzyskane_glosy": {
+                                    "1": 2,
+                                    "2": 8,
+                                    "3": 6,
+                                    "4": 9,
+                                    "5": 4,
+                                    "24": 0
+                                }
+                            },
+                            "5": {
+                                "name": "MASTEK Elżbieta Maria",
+                                "uzyskane_glosy": {
+                                    "1": 18,
+                                    "2": 32,
+                                    "3": 19,
+                                    "4": 14,
+                                    "5": 8,
+                                    "24": 0
+                                }
+                            },
+                            "6": {
+                                "name": "SABUDA Jacek",
+                                "uzyskane_glosy": {
+                                    "1": 20,
+                                    "2": 21,
+                                    "3": 15,
+                                    "4": 3,
+                                    "5": 18,
+                                    "24": 0
+                                }
+                            },
+                            "7": {
+                                "name": "SARLEJ Tadeusz Kazimierz",
+                                "uzyskane_glosy": {
+                                    "1": 30,
+                                    "2": 29,
+                                    "3": 17,
+                                    "4": 89,
+                                    "5": 8,
+                                    "24": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "1": {
+                        "okreg": 1,
+                        "wyborcy": 1636,
+                        "wyborcy_glosujacy": 822,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "PEROŃCZYK-ADAMEK Agnieszka Ewa",
+                                    "glosy": 40
+                                },
+                                "2": {
+                                    "name": "GOŁBA Adam Andrzej",
+                                    "glosy": 17
+                                },
+                                "3": {
+                                    "name": "OKRZESIK Dorota",
+                                    "glosy": 25
+                                },
+                                "4": {
+                                    "name": "NOWAK Jan",
+                                    "glosy": 11
+                                },
+                                "5": {
+                                    "name": "NIZIŃSKA Anna Zofia",
+                                    "glosy": 7
+                                },
+                                "6": {
+                                    "name": "OKRĘGLICKA Jolanta Halina",
+                                    "glosy": 12
+                                },
+                                "7": {
+                                    "name": "DUBANOWICZ Bogdan",
+                                    "glosy": 21
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "STUDNIARZ Alicja",
+                                    "glosy": 106
+                                },
+                                "2": {
+                                    "name": "NIEMCZYK Seweryn Ireneusz",
+                                    "glosy": 99
+                                },
+                                "3": {
+                                    "name": "BIŁKO Tadeusz",
+                                    "glosy": 45
+                                },
+                                "4": {
+                                    "name": "PIECHA Iwona Monika",
+                                    "glosy": 17
+                                },
+                                "5": {
+                                    "name": "KUŚ Jolanta Jadwiga",
+                                    "glosy": 17
+                                },
+                                "6": {
+                                    "name": "JARZYNA Przemysław Maciej",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "SOŁDYK Kacper",
+                                    "glosy": 6
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "ŻAK Tomasz",
+                                    "glosy": 182
+                                },
+                                "2": {
+                                    "name": "WĄTROBA Ewa Beata",
+                                    "glosy": 80
+                                },
+                                "3": {
+                                    "name": "MAGIERA Dorota Józefa",
+                                    "glosy": 36
+                                },
+                                "4": {
+                                    "name": "WITKOWSKI Wiesław",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "MASTEK Elżbieta Maria",
+                                    "glosy": 18
+                                },
+                                "6": {
+                                    "name": "SABUDA Jacek",
+                                    "glosy": 20
+                                },
+                                "7": {
+                                    "name": "SARLEJ Tadeusz Kazimierz",
+                                    "glosy": 30
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "okreg": 1,
+                        "wyborcy": 1636,
+                        "wyborcy_glosujacy": 819,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "PEROŃCZYK-ADAMEK Agnieszka Ewa",
+                                    "glosy": 30
+                                },
+                                "2": {
+                                    "name": "GOŁBA Adam Andrzej",
+                                    "glosy": 14
+                                },
+                                "3": {
+                                    "name": "OKRZESIK Dorota",
+                                    "glosy": 18
+                                },
+                                "4": {
+                                    "name": "NOWAK Jan",
+                                    "glosy": 22
+                                },
+                                "5": {
+                                    "name": "NIZIŃSKA Anna Zofia",
+                                    "glosy": 16
+                                },
+                                "6": {
+                                    "name": "OKRĘGLICKA Jolanta Halina",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "DUBANOWICZ Bogdan",
+                                    "glosy": 30
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "STUDNIARZ Alicja",
+                                    "glosy": 88
+                                },
+                                "2": {
+                                    "name": "NIEMCZYK Seweryn Ireneusz",
+                                    "glosy": 121
+                                },
+                                "3": {
+                                    "name": "BIŁKO Tadeusz",
+                                    "glosy": 7
+                                },
+                                "4": {
+                                    "name": "PIECHA Iwona Monika",
+                                    "glosy": 16
+                                },
+                                "5": {
+                                    "name": "KUŚ Jolanta Jadwiga",
+                                    "glosy": 10
+                                },
+                                "6": {
+                                    "name": "JARZYNA Przemysław Maciej",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "SOŁDYK Kacper",
+                                    "glosy": 9
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "ŻAK Tomasz",
+                                    "glosy": 206
+                                },
+                                "2": {
+                                    "name": "WĄTROBA Ewa Beata",
+                                    "glosy": 90
+                                },
+                                "3": {
+                                    "name": "MAGIERA Dorota Józefa",
+                                    "glosy": 26
+                                },
+                                "4": {
+                                    "name": "WITKOWSKI Wiesław",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "MASTEK Elżbieta Maria",
+                                    "glosy": 32
+                                },
+                                "6": {
+                                    "name": "SABUDA Jacek",
+                                    "glosy": 21
+                                },
+                                "7": {
+                                    "name": "SARLEJ Tadeusz Kazimierz",
+                                    "glosy": 29
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "okreg": 1,
+                        "wyborcy": 1610,
+                        "wyborcy_glosujacy": 899,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "PEROŃCZYK-ADAMEK Agnieszka Ewa",
+                                    "glosy": 37
+                                },
+                                "2": {
+                                    "name": "GOŁBA Adam Andrzej",
+                                    "glosy": 82
+                                },
+                                "3": {
+                                    "name": "OKRZESIK Dorota",
+                                    "glosy": 36
+                                },
+                                "4": {
+                                    "name": "NOWAK Jan",
+                                    "glosy": 22
+                                },
+                                "5": {
+                                    "name": "NIZIŃSKA Anna Zofia",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "OKRĘGLICKA Jolanta Halina",
+                                    "glosy": 36
+                                },
+                                "7": {
+                                    "name": "DUBANOWICZ Bogdan",
+                                    "glosy": 30
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "STUDNIARZ Alicja",
+                                    "glosy": 129
+                                },
+                                "2": {
+                                    "name": "NIEMCZYK Seweryn Ireneusz",
+                                    "glosy": 82
+                                },
+                                "3": {
+                                    "name": "BIŁKO Tadeusz",
+                                    "glosy": 7
+                                },
+                                "4": {
+                                    "name": "PIECHA Iwona Monika",
+                                    "glosy": 15
+                                },
+                                "5": {
+                                    "name": "KUŚ Jolanta Jadwiga",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "JARZYNA Przemysław Maciej",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "SOŁDYK Kacper",
+                                    "glosy": 36
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "ŻAK Tomasz",
+                                    "glosy": 184
+                                },
+                                "2": {
+                                    "name": "WĄTROBA Ewa Beata",
+                                    "glosy": 76
+                                },
+                                "3": {
+                                    "name": "MAGIERA Dorota Józefa",
+                                    "glosy": 34
+                                },
+                                "4": {
+                                    "name": "WITKOWSKI Wiesław",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "MASTEK Elżbieta Maria",
+                                    "glosy": 19
+                                },
+                                "6": {
+                                    "name": "SABUDA Jacek",
+                                    "glosy": 15
+                                },
+                                "7": {
+                                    "name": "SARLEJ Tadeusz Kazimierz",
+                                    "glosy": 17
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "okreg": 1,
+                        "wyborcy": 1621,
+                        "wyborcy_glosujacy": 798,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "PEROŃCZYK-ADAMEK Agnieszka Ewa",
+                                    "glosy": 38
+                                },
+                                "2": {
+                                    "name": "GOŁBA Adam Andrzej",
+                                    "glosy": 20
+                                },
+                                "3": {
+                                    "name": "OKRZESIK Dorota",
+                                    "glosy": 65
+                                },
+                                "4": {
+                                    "name": "NOWAK Jan",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "NIZIŃSKA Anna Zofia",
+                                    "glosy": 7
+                                },
+                                "6": {
+                                    "name": "OKRĘGLICKA Jolanta Halina",
+                                    "glosy": 13
+                                },
+                                "7": {
+                                    "name": "DUBANOWICZ Bogdan",
+                                    "glosy": 43
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "STUDNIARZ Alicja",
+                                    "glosy": 74
+                                },
+                                "2": {
+                                    "name": "NIEMCZYK Seweryn Ireneusz",
+                                    "glosy": 78
+                                },
+                                "3": {
+                                    "name": "BIŁKO Tadeusz",
+                                    "glosy": 10
+                                },
+                                "4": {
+                                    "name": "PIECHA Iwona Monika",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "KUŚ Jolanta Jadwiga",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "JARZYNA Przemysław Maciej",
+                                    "glosy": 29
+                                },
+                                "7": {
+                                    "name": "SOŁDYK Kacper",
+                                    "glosy": 17
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "ŻAK Tomasz",
+                                    "glosy": 180
+                                },
+                                "2": {
+                                    "name": "WĄTROBA Ewa Beata",
+                                    "glosy": 55
+                                },
+                                "3": {
+                                    "name": "MAGIERA Dorota Józefa",
+                                    "glosy": 21
+                                },
+                                "4": {
+                                    "name": "WITKOWSKI Wiesław",
+                                    "glosy": 9
+                                },
+                                "5": {
+                                    "name": "MASTEK Elżbieta Maria",
+                                    "glosy": 14
+                                },
+                                "6": {
+                                    "name": "SABUDA Jacek",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "SARLEJ Tadeusz Kazimierz",
+                                    "glosy": 89
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "okreg": 1,
+                        "wyborcy": 727,
+                        "wyborcy_glosujacy": 376,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "PEROŃCZYK-ADAMEK Agnieszka Ewa",
+                                    "glosy": 23
+                                },
+                                "2": {
+                                    "name": "GOŁBA Adam Andrzej",
+                                    "glosy": 12
+                                },
+                                "3": {
+                                    "name": "OKRZESIK Dorota",
+                                    "glosy": 14
+                                },
+                                "4": {
+                                    "name": "NOWAK Jan",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "NIZIŃSKA Anna Zofia",
+                                    "glosy": 7
+                                },
+                                "6": {
+                                    "name": "OKRĘGLICKA Jolanta Halina",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "DUBANOWICZ Bogdan",
+                                    "glosy": 20
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "STUDNIARZ Alicja",
+                                    "glosy": 40
+                                },
+                                "2": {
+                                    "name": "NIEMCZYK Seweryn Ireneusz",
+                                    "glosy": 36
+                                },
+                                "3": {
+                                    "name": "BIŁKO Tadeusz",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "PIECHA Iwona Monika",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "KUŚ Jolanta Jadwiga",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "JARZYNA Przemysław Maciej",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "SOŁDYK Kacper",
+                                    "glosy": 2
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "ŻAK Tomasz",
+                                    "glosy": 89
+                                },
+                                "2": {
+                                    "name": "WĄTROBA Ewa Beata",
+                                    "glosy": 47
+                                },
+                                "3": {
+                                    "name": "MAGIERA Dorota Józefa",
+                                    "glosy": 12
+                                },
+                                "4": {
+                                    "name": "WITKOWSKI Wiesław",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "MASTEK Elżbieta Maria",
+                                    "glosy": 8
+                                },
+                                "6": {
+                                    "name": "SABUDA Jacek",
+                                    "glosy": 18
+                                },
+                                "7": {
+                                    "name": "SARLEJ Tadeusz Kazimierz",
+                                    "glosy": 8
+                                }
+                            }
+                        }
+                    },
+                    "24": {
+                        "okreg": 1,
+                        "wyborcy": 22,
+                        "wyborcy_glosujacy": 10,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "PEROŃCZYK-ADAMEK Agnieszka Ewa",
+                                    "glosy": 1
+                                },
+                                "2": {
+                                    "name": "GOŁBA Adam Andrzej",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "OKRZESIK Dorota",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "NOWAK Jan",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "NIZIŃSKA Anna Zofia",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "OKRĘGLICKA Jolanta Halina",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "DUBANOWICZ Bogdan",
+                                    "glosy": 0
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "STUDNIARZ Alicja",
+                                    "glosy": 1
+                                },
+                                "2": {
+                                    "name": "NIEMCZYK Seweryn Ireneusz",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "BIŁKO Tadeusz",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "PIECHA Iwona Monika",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "KUŚ Jolanta Jadwiga",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "JARZYNA Przemysław Maciej",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "SOŁDYK Kacper",
+                                    "glosy": 0
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "ŻAK Tomasz",
+                                    "glosy": 2
+                                },
+                                "2": {
+                                    "name": "WĄTROBA Ewa Beata",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "MAGIERA Dorota Józefa",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "WITKOWSKI Wiesław",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "MASTEK Elżbieta Maria",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "SABUDA Jacek",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "SARLEJ Tadeusz Kazimierz",
+                                    "glosy": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "2": {
+                "mandaty": 5,
+                "listy": 3,
+                "mieszkancy": 9074,
+                "wyborcy": 7629,
+                "granice": "Andrychów, ulice: Graniczna, Krakowska od 2 do 54 (parzyste), Metalowców, Stanisława Lenartowicza, Starowiejska, Włókniarzy",
+                "wyborcy_b": 0,
+                "pakiet": 1,
+                "kandydaci": {
+                    "14": {
+                        "komitet": "KWW BEATA SMOLEC",
+                        "pozycje": {
+                            "1": {
+                                "name": "KOBIELUS Maciej Dominik",
+                                "uzyskane_glosy": {
+                                    "5": 37,
+                                    "6": 52,
+                                    "7": 83,
+                                    "8": 83,
+                                    "9": 118,
+                                    "10": 93
+                                }
+                            },
+                            "2": {
+                                "name": "BAKALARSKA Monika Izabella",
+                                "uzyskane_glosy": {
+                                    "5": 6,
+                                    "6": 13,
+                                    "7": 19,
+                                    "8": 12,
+                                    "9": 24,
+                                    "10": 42
+                                }
+                            },
+                            "3": {
+                                "name": "GIBAS Radosław",
+                                "uzyskane_glosy": {
+                                    "5": 10,
+                                    "6": 14,
+                                    "7": 16,
+                                    "8": 37,
+                                    "9": 29,
+                                    "10": 13
+                                }
+                            },
+                            "4": {
+                                "name": "JODŁOWSKA Izabela",
+                                "uzyskane_glosy": {
+                                    "5": 4,
+                                    "6": 4,
+                                    "7": 2,
+                                    "8": 5,
+                                    "9": 8,
+                                    "10": 5
+                                }
+                            },
+                            "5": {
+                                "name": "MIGDAŁEK Damian Michał",
+                                "uzyskane_glosy": {
+                                    "5": 2,
+                                    "6": 7,
+                                    "7": 8,
+                                    "8": 9,
+                                    "9": 4,
+                                    "10": 10
+                                }
+                            },
+                            "6": {
+                                "name": "BIZOŃ Patrycja Magdalena",
+                                "uzyskane_glosy": {
+                                    "5": 4,
+                                    "6": 5,
+                                    "7": 4,
+                                    "8": 2,
+                                    "9": 2,
+                                    "10": 2
+                                }
+                            },
+                            "7": {
+                                "name": "OLEKSY Łukasz Marek",
+                                "uzyskane_glosy": {
+                                    "5": 2,
+                                    "6": 8,
+                                    "7": 7,
+                                    "8": 15,
+                                    "9": 9,
+                                    "10": 44
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "komitet": "KWW EWELINY SZYPUŁY",
+                        "pozycje": {
+                            "1": {
+                                "name": "SZYPUŁA Ewelina",
+                                "uzyskane_glosy": {
+                                    "5": 32,
+                                    "6": 86,
+                                    "7": 56,
+                                    "8": 57,
+                                    "9": 48,
+                                    "10": 53
+                                }
+                            },
+                            "2": {
+                                "name": "KUBIEŃ Krzysztof",
+                                "uzyskane_glosy": {
+                                    "5": 34,
+                                    "6": 35,
+                                    "7": 47,
+                                    "8": 39,
+                                    "9": 50,
+                                    "10": 35
+                                }
+                            },
+                            "3": {
+                                "name": "NOWAK Sławomir Piotr",
+                                "uzyskane_glosy": {
+                                    "5": 4,
+                                    "6": 23,
+                                    "7": 25,
+                                    "8": 48,
+                                    "9": 19,
+                                    "10": 25
+                                }
+                            },
+                            "4": {
+                                "name": "GUZIK Joanna",
+                                "uzyskane_glosy": {
+                                    "5": 6,
+                                    "6": 4,
+                                    "7": 16,
+                                    "8": 3,
+                                    "9": 5,
+                                    "10": 4
+                                }
+                            },
+                            "5": {
+                                "name": "WESOŁOWSKA Dorota Bogusława",
+                                "uzyskane_glosy": {
+                                    "5": 2,
+                                    "6": 4,
+                                    "7": 17,
+                                    "8": 7,
+                                    "9": 4,
+                                    "10": 5
+                                }
+                            },
+                            "6": {
+                                "name": "RYBKA Arkadiusz Grzegorz",
+                                "uzyskane_glosy": {
+                                    "5": 2,
+                                    "6": 1,
+                                    "7": 2,
+                                    "8": 5,
+                                    "9": 5,
+                                    "10": 1
+                                }
+                            },
+                            "7": {
+                                "name": "ZACNY Mikołaj Kazimierz",
+                                "uzyskane_glosy": {
+                                    "5": 1,
+                                    "6": 5,
+                                    "7": 15,
+                                    "8": 9,
+                                    "9": 7,
+                                    "10": 4
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "komitet": "KWW NASZA GMINA ANDRYCHÓW",
+                        "pozycje": {
+                            "1": {
+                                "name": "BABSKI Roman Stanisław",
+                                "uzyskane_glosy": {
+                                    "5": 79,
+                                    "6": 121,
+                                    "7": 153,
+                                    "8": 138,
+                                    "9": 74,
+                                    "10": 89
+                                }
+                            },
+                            "2": {
+                                "name": "JOŃCZYK Sylwia Maria",
+                                "uzyskane_glosy": {
+                                    "5": 29,
+                                    "6": 33,
+                                    "7": 14,
+                                    "8": 27,
+                                    "9": 30,
+                                    "10": 14
+                                }
+                            },
+                            "3": {
+                                "name": "MARCZYŃSKA Agnieszka Irena",
+                                "uzyskane_glosy": {
+                                    "5": 9,
+                                    "6": 16,
+                                    "7": 12,
+                                    "8": 17,
+                                    "9": 14,
+                                    "10": 12
+                                }
+                            },
+                            "4": {
+                                "name": "MIECZYŃSKI Dominik Jan",
+                                "uzyskane_glosy": {
+                                    "5": 3,
+                                    "6": 7,
+                                    "7": 26,
+                                    "8": 25,
+                                    "9": 7,
+                                    "10": 13
+                                }
+                            },
+                            "5": {
+                                "name": "FICEK Magdalena",
+                                "uzyskane_glosy": {
+                                    "5": 11,
+                                    "6": 10,
+                                    "7": 13,
+                                    "8": 5,
+                                    "9": 15,
+                                    "10": 5
+                                }
+                            },
+                            "6": {
+                                "name": "BADA Isaac Adebowale",
+                                "uzyskane_glosy": {
+                                    "5": 30,
+                                    "6": 32,
+                                    "7": 48,
+                                    "8": 66,
+                                    "9": 49,
+                                    "10": 40
+                                }
+                            },
+                            "7": {
+                                "name": "RAJDA Czesław Stanisław",
+                                "uzyskane_glosy": {
+                                    "5": 40,
+                                    "6": 55,
+                                    "7": 55,
+                                    "8": 61,
+                                    "9": 80,
+                                    "10": 111
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "5": {
+                        "okreg": 2,
+                        "wyborcy": 785,
+                        "wyborcy_glosujacy": 353,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "KOBIELUS Maciej Dominik",
+                                    "glosy": 37
+                                },
+                                "2": {
+                                    "name": "BAKALARSKA Monika Izabella",
+                                    "glosy": 6
+                                },
+                                "3": {
+                                    "name": "GIBAS Radosław",
+                                    "glosy": 10
+                                },
+                                "4": {
+                                    "name": "JODŁOWSKA Izabela",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "MIGDAŁEK Damian Michał",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "BIZOŃ Patrycja Magdalena",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "OLEKSY Łukasz Marek",
+                                    "glosy": 2
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "SZYPUŁA Ewelina",
+                                    "glosy": 32
+                                },
+                                "2": {
+                                    "name": "KUBIEŃ Krzysztof",
+                                    "glosy": 34
+                                },
+                                "3": {
+                                    "name": "NOWAK Sławomir Piotr",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "GUZIK Joanna",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "WESOŁOWSKA Dorota Bogusława",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "RYBKA Arkadiusz Grzegorz",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "ZACNY Mikołaj Kazimierz",
+                                    "glosy": 1
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BABSKI Roman Stanisław",
+                                    "glosy": 79
+                                },
+                                "2": {
+                                    "name": "JOŃCZYK Sylwia Maria",
+                                    "glosy": 29
+                                },
+                                "3": {
+                                    "name": "MARCZYŃSKA Agnieszka Irena",
+                                    "glosy": 9
+                                },
+                                "4": {
+                                    "name": "MIECZYŃSKI Dominik Jan",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "FICEK Magdalena",
+                                    "glosy": 11
+                                },
+                                "6": {
+                                    "name": "BADA Isaac Adebowale",
+                                    "glosy": 30
+                                },
+                                "7": {
+                                    "name": "RAJDA Czesław Stanisław",
+                                    "glosy": 40
+                                }
+                            }
+                        }
+                    },
+                    "6": {
+                        "okreg": 2,
+                        "wyborcy": 1544,
+                        "wyborcy_glosujacy": 579,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "KOBIELUS Maciej Dominik",
+                                    "glosy": 52
+                                },
+                                "2": {
+                                    "name": "BAKALARSKA Monika Izabella",
+                                    "glosy": 13
+                                },
+                                "3": {
+                                    "name": "GIBAS Radosław",
+                                    "glosy": 14
+                                },
+                                "4": {
+                                    "name": "JODŁOWSKA Izabela",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "MIGDAŁEK Damian Michał",
+                                    "glosy": 7
+                                },
+                                "6": {
+                                    "name": "BIZOŃ Patrycja Magdalena",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "OLEKSY Łukasz Marek",
+                                    "glosy": 8
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "SZYPUŁA Ewelina",
+                                    "glosy": 86
+                                },
+                                "2": {
+                                    "name": "KUBIEŃ Krzysztof",
+                                    "glosy": 35
+                                },
+                                "3": {
+                                    "name": "NOWAK Sławomir Piotr",
+                                    "glosy": 23
+                                },
+                                "4": {
+                                    "name": "GUZIK Joanna",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "WESOŁOWSKA Dorota Bogusława",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "RYBKA Arkadiusz Grzegorz",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "ZACNY Mikołaj Kazimierz",
+                                    "glosy": 5
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BABSKI Roman Stanisław",
+                                    "glosy": 121
+                                },
+                                "2": {
+                                    "name": "JOŃCZYK Sylwia Maria",
+                                    "glosy": 33
+                                },
+                                "3": {
+                                    "name": "MARCZYŃSKA Agnieszka Irena",
+                                    "glosy": 16
+                                },
+                                "4": {
+                                    "name": "MIECZYŃSKI Dominik Jan",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "FICEK Magdalena",
+                                    "glosy": 10
+                                },
+                                "6": {
+                                    "name": "BADA Isaac Adebowale",
+                                    "glosy": 32
+                                },
+                                "7": {
+                                    "name": "RAJDA Czesław Stanisław",
+                                    "glosy": 55
+                                }
+                            }
+                        }
+                    },
+                    "7": {
+                        "okreg": 2,
+                        "wyborcy": 1363,
+                        "wyborcy_glosujacy": 661,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "KOBIELUS Maciej Dominik",
+                                    "glosy": 83
+                                },
+                                "2": {
+                                    "name": "BAKALARSKA Monika Izabella",
+                                    "glosy": 19
+                                },
+                                "3": {
+                                    "name": "GIBAS Radosław",
+                                    "glosy": 16
+                                },
+                                "4": {
+                                    "name": "JODŁOWSKA Izabela",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "MIGDAŁEK Damian Michał",
+                                    "glosy": 8
+                                },
+                                "6": {
+                                    "name": "BIZOŃ Patrycja Magdalena",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "OLEKSY Łukasz Marek",
+                                    "glosy": 7
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "SZYPUŁA Ewelina",
+                                    "glosy": 56
+                                },
+                                "2": {
+                                    "name": "KUBIEŃ Krzysztof",
+                                    "glosy": 47
+                                },
+                                "3": {
+                                    "name": "NOWAK Sławomir Piotr",
+                                    "glosy": 25
+                                },
+                                "4": {
+                                    "name": "GUZIK Joanna",
+                                    "glosy": 16
+                                },
+                                "5": {
+                                    "name": "WESOŁOWSKA Dorota Bogusława",
+                                    "glosy": 17
+                                },
+                                "6": {
+                                    "name": "RYBKA Arkadiusz Grzegorz",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "ZACNY Mikołaj Kazimierz",
+                                    "glosy": 15
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BABSKI Roman Stanisław",
+                                    "glosy": 153
+                                },
+                                "2": {
+                                    "name": "JOŃCZYK Sylwia Maria",
+                                    "glosy": 14
+                                },
+                                "3": {
+                                    "name": "MARCZYŃSKA Agnieszka Irena",
+                                    "glosy": 12
+                                },
+                                "4": {
+                                    "name": "MIECZYŃSKI Dominik Jan",
+                                    "glosy": 26
+                                },
+                                "5": {
+                                    "name": "FICEK Magdalena",
+                                    "glosy": 13
+                                },
+                                "6": {
+                                    "name": "BADA Isaac Adebowale",
+                                    "glosy": 48
+                                },
+                                "7": {
+                                    "name": "RAJDA Czesław Stanisław",
+                                    "glosy": 55
+                                }
+                            }
+                        }
+                    },
+                    "8": {
+                        "okreg": 2,
+                        "wyborcy": 1358,
+                        "wyborcy_glosujacy": 693,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "KOBIELUS Maciej Dominik",
+                                    "glosy": 83
+                                },
+                                "2": {
+                                    "name": "BAKALARSKA Monika Izabella",
+                                    "glosy": 12
+                                },
+                                "3": {
+                                    "name": "GIBAS Radosław",
+                                    "glosy": 37
+                                },
+                                "4": {
+                                    "name": "JODŁOWSKA Izabela",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "MIGDAŁEK Damian Michał",
+                                    "glosy": 9
+                                },
+                                "6": {
+                                    "name": "BIZOŃ Patrycja Magdalena",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "OLEKSY Łukasz Marek",
+                                    "glosy": 15
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "SZYPUŁA Ewelina",
+                                    "glosy": 57
+                                },
+                                "2": {
+                                    "name": "KUBIEŃ Krzysztof",
+                                    "glosy": 39
+                                },
+                                "3": {
+                                    "name": "NOWAK Sławomir Piotr",
+                                    "glosy": 48
+                                },
+                                "4": {
+                                    "name": "GUZIK Joanna",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "WESOŁOWSKA Dorota Bogusława",
+                                    "glosy": 7
+                                },
+                                "6": {
+                                    "name": "RYBKA Arkadiusz Grzegorz",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "ZACNY Mikołaj Kazimierz",
+                                    "glosy": 9
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BABSKI Roman Stanisław",
+                                    "glosy": 138
+                                },
+                                "2": {
+                                    "name": "JOŃCZYK Sylwia Maria",
+                                    "glosy": 27
+                                },
+                                "3": {
+                                    "name": "MARCZYŃSKA Agnieszka Irena",
+                                    "glosy": 17
+                                },
+                                "4": {
+                                    "name": "MIECZYŃSKI Dominik Jan",
+                                    "glosy": 25
+                                },
+                                "5": {
+                                    "name": "FICEK Magdalena",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "BADA Isaac Adebowale",
+                                    "glosy": 66
+                                },
+                                "7": {
+                                    "name": "RAJDA Czesław Stanisław",
+                                    "glosy": 61
+                                }
+                            }
+                        }
+                    },
+                    "9": {
+                        "okreg": 2,
+                        "wyborcy": 1300,
+                        "wyborcy_glosujacy": 619,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "KOBIELUS Maciej Dominik",
+                                    "glosy": 118
+                                },
+                                "2": {
+                                    "name": "BAKALARSKA Monika Izabella",
+                                    "glosy": 24
+                                },
+                                "3": {
+                                    "name": "GIBAS Radosław",
+                                    "glosy": 29
+                                },
+                                "4": {
+                                    "name": "JODŁOWSKA Izabela",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "MIGDAŁEK Damian Michał",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "BIZOŃ Patrycja Magdalena",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "OLEKSY Łukasz Marek",
+                                    "glosy": 9
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "SZYPUŁA Ewelina",
+                                    "glosy": 48
+                                },
+                                "2": {
+                                    "name": "KUBIEŃ Krzysztof",
+                                    "glosy": 50
+                                },
+                                "3": {
+                                    "name": "NOWAK Sławomir Piotr",
+                                    "glosy": 19
+                                },
+                                "4": {
+                                    "name": "GUZIK Joanna",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "WESOŁOWSKA Dorota Bogusława",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "RYBKA Arkadiusz Grzegorz",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "ZACNY Mikołaj Kazimierz",
+                                    "glosy": 7
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BABSKI Roman Stanisław",
+                                    "glosy": 74
+                                },
+                                "2": {
+                                    "name": "JOŃCZYK Sylwia Maria",
+                                    "glosy": 30
+                                },
+                                "3": {
+                                    "name": "MARCZYŃSKA Agnieszka Irena",
+                                    "glosy": 14
+                                },
+                                "4": {
+                                    "name": "MIECZYŃSKI Dominik Jan",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "FICEK Magdalena",
+                                    "glosy": 15
+                                },
+                                "6": {
+                                    "name": "BADA Isaac Adebowale",
+                                    "glosy": 49
+                                },
+                                "7": {
+                                    "name": "RAJDA Czesław Stanisław",
+                                    "glosy": 80
+                                }
+                            }
+                        }
+                    },
+                    "10": {
+                        "okreg": 2,
+                        "wyborcy": 1279,
+                        "wyborcy_glosujacy": 636,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "KOBIELUS Maciej Dominik",
+                                    "glosy": 93
+                                },
+                                "2": {
+                                    "name": "BAKALARSKA Monika Izabella",
+                                    "glosy": 42
+                                },
+                                "3": {
+                                    "name": "GIBAS Radosław",
+                                    "glosy": 13
+                                },
+                                "4": {
+                                    "name": "JODŁOWSKA Izabela",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "MIGDAŁEK Damian Michał",
+                                    "glosy": 10
+                                },
+                                "6": {
+                                    "name": "BIZOŃ Patrycja Magdalena",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "OLEKSY Łukasz Marek",
+                                    "glosy": 44
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "SZYPUŁA Ewelina",
+                                    "glosy": 53
+                                },
+                                "2": {
+                                    "name": "KUBIEŃ Krzysztof",
+                                    "glosy": 35
+                                },
+                                "3": {
+                                    "name": "NOWAK Sławomir Piotr",
+                                    "glosy": 25
+                                },
+                                "4": {
+                                    "name": "GUZIK Joanna",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "WESOŁOWSKA Dorota Bogusława",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "RYBKA Arkadiusz Grzegorz",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "ZACNY Mikołaj Kazimierz",
+                                    "glosy": 4
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BABSKI Roman Stanisław",
+                                    "glosy": 89
+                                },
+                                "2": {
+                                    "name": "JOŃCZYK Sylwia Maria",
+                                    "glosy": 14
+                                },
+                                "3": {
+                                    "name": "MARCZYŃSKA Agnieszka Irena",
+                                    "glosy": 12
+                                },
+                                "4": {
+                                    "name": "MIECZYŃSKI Dominik Jan",
+                                    "glosy": 13
+                                },
+                                "5": {
+                                    "name": "FICEK Magdalena",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "BADA Isaac Adebowale",
+                                    "glosy": 40
+                                },
+                                "7": {
+                                    "name": "RAJDA Czesław Stanisław",
+                                    "glosy": 111
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "3": {
+                "mandaty": 6,
+                "listy": 4,
+                "mieszkancy": 12803,
+                "wyborcy": 9918,
+                "granice": "Sułkowice, ulice: Beskidzka, bł. Siostry Faustyny, Centralna, Górska, Kościelna, Mostowa, Okrężna, Sadowa, Turystyczna, Wiosenna, Wspólna, Zarzeczna; Brzezinka, Roczyny, Targanice",
+                "wyborcy_b": 2,
+                "pakiet": 0,
+                "kandydaci": {
+                    "14": {
+                        "komitet": "KWW BEATA SMOLEC",
+                        "pozycje": {
+                            "1": {
+                                "name": "SMOLEC Beata Maria",
+                                "uzyskane_glosy": {
+                                    "11": 97,
+                                    "12": 81,
+                                    "13": 200,
+                                    "14": 140,
+                                    "15": 88,
+                                    "16": 47,
+                                    "17": 54,
+                                    "18": 31
+                                }
+                            },
+                            "2": {
+                                "name": "KAPELA Józefa",
+                                "uzyskane_glosy": {
+                                    "11": 6,
+                                    "12": 8,
+                                    "13": 78,
+                                    "14": 120,
+                                    "15": 6,
+                                    "16": 4,
+                                    "17": 10,
+                                    "18": 5
+                                }
+                            },
+                            "3": {
+                                "name": "SMYRAK Tomasz Kazimierz",
+                                "uzyskane_glosy": {
+                                    "11": 54,
+                                    "12": 72,
+                                    "13": 1,
+                                    "14": 8,
+                                    "15": 4,
+                                    "16": 1,
+                                    "17": 1,
+                                    "18": 1
+                                }
+                            },
+                            "4": {
+                                "name": "BUDA Renata",
+                                "uzyskane_glosy": {
+                                    "11": 3,
+                                    "12": 9,
+                                    "13": 10,
+                                    "14": 9,
+                                    "15": 27,
+                                    "16": 30,
+                                    "17": 28,
+                                    "18": 1
+                                }
+                            },
+                            "5": {
+                                "name": "KIERCZAK Wiktor",
+                                "uzyskane_glosy": {
+                                    "11": 5,
+                                    "12": 2,
+                                    "13": 16,
+                                    "14": 6,
+                                    "15": 6,
+                                    "16": 49,
+                                    "17": 22,
+                                    "18": 4
+                                }
+                            },
+                            "6": {
+                                "name": "GÓRNY Miłosz Damian",
+                                "uzyskane_glosy": {
+                                    "11": 3,
+                                    "12": 6,
+                                    "13": 19,
+                                    "14": 20,
+                                    "15": 9,
+                                    "16": 15,
+                                    "17": 4,
+                                    "18": 0
+                                }
+                            },
+                            "7": {
+                                "name": "STOKŁOSA Michał",
+                                "uzyskane_glosy": {
+                                    "11": 8,
+                                    "12": 4,
+                                    "13": 67,
+                                    "14": 79,
+                                    "15": 18,
+                                    "16": 4,
+                                    "17": 6,
+                                    "18": 1
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "komitet": "KWW EWELINY SZYPUŁY",
+                        "pozycje": {
+                            "1": {
+                                "name": "MAGIERA Danuta Stanisława",
+                                "uzyskane_glosy": {
+                                    "11": 182,
+                                    "12": 232,
+                                    "13": 38,
+                                    "14": 14,
+                                    "15": 27,
+                                    "16": 12,
+                                    "17": 15,
+                                    "18": 25
+                                }
+                            },
+                            "2": {
+                                "name": "POWROŹNIK Andrzej Wacław",
+                                "uzyskane_glosy": {
+                                    "11": 9,
+                                    "12": 15,
+                                    "13": 17,
+                                    "14": 10,
+                                    "15": 8,
+                                    "16": 113,
+                                    "17": 102,
+                                    "18": 14
+                                }
+                            },
+                            "3": {
+                                "name": "GÓRKA-KOCIUBA Izabella Luiza",
+                                "uzyskane_glosy": {
+                                    "11": 66,
+                                    "12": 63,
+                                    "13": 5,
+                                    "14": 2,
+                                    "15": 16,
+                                    "16": 2,
+                                    "17": 0,
+                                    "18": 5
+                                }
+                            },
+                            "4": {
+                                "name": "MIODOŃSKA Sylwia",
+                                "uzyskane_glosy": {
+                                    "11": 10,
+                                    "12": 12,
+                                    "13": 13,
+                                    "14": 4,
+                                    "15": 7,
+                                    "16": 2,
+                                    "17": 5,
+                                    "18": 5
+                                }
+                            },
+                            "5": {
+                                "name": "ROGOZ Marek Tomasz",
+                                "uzyskane_glosy": {
+                                    "11": 3,
+                                    "12": 4,
+                                    "13": 20,
+                                    "14": 31,
+                                    "15": 9,
+                                    "16": 2,
+                                    "17": 1,
+                                    "18": 4
+                                }
+                            },
+                            "6": {
+                                "name": "OCZKOWSKI Piotr Mikołaj",
+                                "uzyskane_glosy": {
+                                    "11": 9,
+                                    "12": 5,
+                                    "13": 2,
+                                    "14": 1,
+                                    "15": 3,
+                                    "16": 2,
+                                    "17": 3,
+                                    "18": 4
+                                }
+                            },
+                            "7": {
+                                "name": "SCHOLZ Grażyna Anna",
+                                "uzyskane_glosy": {
+                                    "11": 3,
+                                    "12": 1,
+                                    "13": 0,
+                                    "14": 2,
+                                    "15": 1,
+                                    "16": 7,
+                                    "17": 1,
+                                    "18": 0
+                                }
+                            },
+                            "8": {
+                                "name": "DYDUCH Irena Maria",
+                                "uzyskane_glosy": {
+                                    "11": 3,
+                                    "12": 5,
+                                    "13": 3,
+                                    "14": 1,
+                                    "15": 2,
+                                    "16": 7,
+                                    "17": 17,
+                                    "18": 2
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "komitet": "KWW NASZA GMINA ANDRYCHÓW",
+                        "pozycje": {
+                            "1": {
+                                "name": "PRUS Stanisław",
+                                "uzyskane_glosy": {
+                                    "11": 43,
+                                    "12": 51,
+                                    "13": 64,
+                                    "14": 57,
+                                    "15": 213,
+                                    "16": 8,
+                                    "17": 11,
+                                    "18": 13
+                                }
+                            },
+                            "2": {
+                                "name": "KOWALCZYK Adam",
+                                "uzyskane_glosy": {
+                                    "11": 3,
+                                    "12": 12,
+                                    "13": 29,
+                                    "14": 4,
+                                    "15": 6,
+                                    "16": 99,
+                                    "17": 108,
+                                    "18": 4
+                                }
+                            },
+                            "3": {
+                                "name": "BURY Aleksandra",
+                                "uzyskane_glosy": {
+                                    "11": 122,
+                                    "12": 67,
+                                    "13": 16,
+                                    "14": 12,
+                                    "15": 5,
+                                    "16": 2,
+                                    "17": 4,
+                                    "18": 4
+                                }
+                            },
+                            "4": {
+                                "name": "GÓRA Andrzej",
+                                "uzyskane_glosy": {
+                                    "11": 19,
+                                    "12": 12,
+                                    "13": 165,
+                                    "14": 87,
+                                    "15": 6,
+                                    "16": 6,
+                                    "17": 8,
+                                    "18": 20
+                                }
+                            },
+                            "5": {
+                                "name": "JOŃCZY Sławomir Jerzy",
+                                "uzyskane_glosy": {
+                                    "11": 5,
+                                    "12": 10,
+                                    "13": 16,
+                                    "14": 11,
+                                    "15": 12,
+                                    "16": 171,
+                                    "17": 116,
+                                    "18": 3
+                                }
+                            },
+                            "6": {
+                                "name": "RAJDA-TASIOR Angelina",
+                                "uzyskane_glosy": {
+                                    "11": 88,
+                                    "12": 45,
+                                    "13": 22,
+                                    "14": 6,
+                                    "15": 7,
+                                    "16": 4,
+                                    "17": 3,
+                                    "18": 2
+                                }
+                            },
+                            "7": {
+                                "name": "BODZIOCH Adam",
+                                "uzyskane_glosy": {
+                                    "11": 52,
+                                    "12": 44,
+                                    "13": 2,
+                                    "14": 4,
+                                    "15": 4,
+                                    "16": 3,
+                                    "17": 2,
+                                    "18": 1
+                                }
+                            },
+                            "8": {
+                                "name": "AÇIKGÖZ Marta Weronika",
+                                "uzyskane_glosy": {
+                                    "11": 11,
+                                    "12": 8,
+                                    "13": 24,
+                                    "14": 40,
+                                    "15": 9,
+                                    "16": 5,
+                                    "17": 7,
+                                    "18": 2
+                                }
+                            }
+                        }
+                    },
+                    "17": {
+                        "komitet": "KWW NADZIEJA ANDRYCHÓW",
+                        "pozycje": {
+                            "1": {
+                                "name": "SORDYL Izabella Katarzyna",
+                                "uzyskane_glosy": {
+                                    "11": 12,
+                                    "12": 8,
+                                    "13": 8,
+                                    "14": 4,
+                                    "15": 5,
+                                    "16": 1,
+                                    "17": 5,
+                                    "18": 5
+                                }
+                            },
+                            "2": {
+                                "name": "DROBISZ Iwona Teresa",
+                                "uzyskane_glosy": {
+                                    "11": 4,
+                                    "12": 1,
+                                    "13": 2,
+                                    "14": 0,
+                                    "15": 1,
+                                    "16": 1,
+                                    "17": 1,
+                                    "18": 0
+                                }
+                            },
+                            "3": {
+                                "name": "WALCZAK Rafał Czesław",
+                                "uzyskane_glosy": {
+                                    "11": 2,
+                                    "12": 1,
+                                    "13": 0,
+                                    "14": 0,
+                                    "15": 1,
+                                    "16": 2,
+                                    "17": 2,
+                                    "18": 0
+                                }
+                            },
+                            "4": {
+                                "name": "SORDYL Sławomir",
+                                "uzyskane_glosy": {
+                                    "11": 6,
+                                    "12": 1,
+                                    "13": 4,
+                                    "14": 1,
+                                    "15": 0,
+                                    "16": 1,
+                                    "17": 1,
+                                    "18": 0
+                                }
+                            },
+                            "5": {
+                                "name": "GONDKO Jarosław Jakub",
+                                "uzyskane_glosy": {
+                                    "11": 3,
+                                    "12": 2,
+                                    "13": 5,
+                                    "14": 0,
+                                    "15": 1,
+                                    "16": 0,
+                                    "17": 3,
+                                    "18": 0
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "11": {
+                        "okreg": 3,
+                        "wyborcy": 1710,
+                        "wyborcy_glosujacy": 862,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "SMOLEC Beata Maria",
+                                    "glosy": 97
+                                },
+                                "2": {
+                                    "name": "KAPELA Józefa",
+                                    "glosy": 6
+                                },
+                                "3": {
+                                    "name": "SMYRAK Tomasz Kazimierz",
+                                    "glosy": 54
+                                },
+                                "4": {
+                                    "name": "BUDA Renata",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "KIERCZAK Wiktor",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "GÓRNY Miłosz Damian",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "STOKŁOSA Michał",
+                                    "glosy": 8
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MAGIERA Danuta Stanisława",
+                                    "glosy": 182
+                                },
+                                "2": {
+                                    "name": "POWROŹNIK Andrzej Wacław",
+                                    "glosy": 9
+                                },
+                                "3": {
+                                    "name": "GÓRKA-KOCIUBA Izabella Luiza",
+                                    "glosy": 66
+                                },
+                                "4": {
+                                    "name": "MIODOŃSKA Sylwia",
+                                    "glosy": 10
+                                },
+                                "5": {
+                                    "name": "ROGOZ Marek Tomasz",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "OCZKOWSKI Piotr Mikołaj",
+                                    "glosy": 9
+                                },
+                                "7": {
+                                    "name": "SCHOLZ Grażyna Anna",
+                                    "glosy": 3
+                                },
+                                "8": {
+                                    "name": "DYDUCH Irena Maria",
+                                    "glosy": 3
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PRUS Stanisław",
+                                    "glosy": 43
+                                },
+                                "2": {
+                                    "name": "KOWALCZYK Adam",
+                                    "glosy": 3
+                                },
+                                "3": {
+                                    "name": "BURY Aleksandra",
+                                    "glosy": 122
+                                },
+                                "4": {
+                                    "name": "GÓRA Andrzej",
+                                    "glosy": 19
+                                },
+                                "5": {
+                                    "name": "JOŃCZY Sławomir Jerzy",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "RAJDA-TASIOR Angelina",
+                                    "glosy": 88
+                                },
+                                "7": {
+                                    "name": "BODZIOCH Adam",
+                                    "glosy": 52
+                                },
+                                "8": {
+                                    "name": "AÇIKGÖZ Marta Weronika",
+                                    "glosy": 11
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SORDYL Izabella Katarzyna",
+                                    "glosy": 12
+                                },
+                                "2": {
+                                    "name": "DROBISZ Iwona Teresa",
+                                    "glosy": 4
+                                },
+                                "3": {
+                                    "name": "WALCZAK Rafał Czesław",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "SORDYL Sławomir",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "GONDKO Jarosław Jakub",
+                                    "glosy": 3
+                                }
+                            }
+                        }
+                    },
+                    "12": {
+                        "okreg": 3,
+                        "wyborcy": 1623,
+                        "wyborcy_glosujacy": 808,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "SMOLEC Beata Maria",
+                                    "glosy": 81
+                                },
+                                "2": {
+                                    "name": "KAPELA Józefa",
+                                    "glosy": 8
+                                },
+                                "3": {
+                                    "name": "SMYRAK Tomasz Kazimierz",
+                                    "glosy": 72
+                                },
+                                "4": {
+                                    "name": "BUDA Renata",
+                                    "glosy": 9
+                                },
+                                "5": {
+                                    "name": "KIERCZAK Wiktor",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "GÓRNY Miłosz Damian",
+                                    "glosy": 6
+                                },
+                                "7": {
+                                    "name": "STOKŁOSA Michał",
+                                    "glosy": 4
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MAGIERA Danuta Stanisława",
+                                    "glosy": 232
+                                },
+                                "2": {
+                                    "name": "POWROŹNIK Andrzej Wacław",
+                                    "glosy": 15
+                                },
+                                "3": {
+                                    "name": "GÓRKA-KOCIUBA Izabella Luiza",
+                                    "glosy": 63
+                                },
+                                "4": {
+                                    "name": "MIODOŃSKA Sylwia",
+                                    "glosy": 12
+                                },
+                                "5": {
+                                    "name": "ROGOZ Marek Tomasz",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "OCZKOWSKI Piotr Mikołaj",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "SCHOLZ Grażyna Anna",
+                                    "glosy": 1
+                                },
+                                "8": {
+                                    "name": "DYDUCH Irena Maria",
+                                    "glosy": 5
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PRUS Stanisław",
+                                    "glosy": 51
+                                },
+                                "2": {
+                                    "name": "KOWALCZYK Adam",
+                                    "glosy": 12
+                                },
+                                "3": {
+                                    "name": "BURY Aleksandra",
+                                    "glosy": 67
+                                },
+                                "4": {
+                                    "name": "GÓRA Andrzej",
+                                    "glosy": 12
+                                },
+                                "5": {
+                                    "name": "JOŃCZY Sławomir Jerzy",
+                                    "glosy": 10
+                                },
+                                "6": {
+                                    "name": "RAJDA-TASIOR Angelina",
+                                    "glosy": 45
+                                },
+                                "7": {
+                                    "name": "BODZIOCH Adam",
+                                    "glosy": 44
+                                },
+                                "8": {
+                                    "name": "AÇIKGÖZ Marta Weronika",
+                                    "glosy": 8
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SORDYL Izabella Katarzyna",
+                                    "glosy": 8
+                                },
+                                "2": {
+                                    "name": "DROBISZ Iwona Teresa",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "WALCZAK Rafał Czesław",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "SORDYL Sławomir",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "GONDKO Jarosław Jakub",
+                                    "glosy": 2
+                                }
+                            }
+                        }
+                    },
+                    "13": {
+                        "okreg": 3,
+                        "wyborcy": 1665,
+                        "wyborcy_glosujacy": 870,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "SMOLEC Beata Maria",
+                                    "glosy": 200
+                                },
+                                "2": {
+                                    "name": "KAPELA Józefa",
+                                    "glosy": 78
+                                },
+                                "3": {
+                                    "name": "SMYRAK Tomasz Kazimierz",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "BUDA Renata",
+                                    "glosy": 10
+                                },
+                                "5": {
+                                    "name": "KIERCZAK Wiktor",
+                                    "glosy": 16
+                                },
+                                "6": {
+                                    "name": "GÓRNY Miłosz Damian",
+                                    "glosy": 19
+                                },
+                                "7": {
+                                    "name": "STOKŁOSA Michał",
+                                    "glosy": 67
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MAGIERA Danuta Stanisława",
+                                    "glosy": 38
+                                },
+                                "2": {
+                                    "name": "POWROŹNIK Andrzej Wacław",
+                                    "glosy": 17
+                                },
+                                "3": {
+                                    "name": "GÓRKA-KOCIUBA Izabella Luiza",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "MIODOŃSKA Sylwia",
+                                    "glosy": 13
+                                },
+                                "5": {
+                                    "name": "ROGOZ Marek Tomasz",
+                                    "glosy": 20
+                                },
+                                "6": {
+                                    "name": "OCZKOWSKI Piotr Mikołaj",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "SCHOLZ Grażyna Anna",
+                                    "glosy": 0
+                                },
+                                "8": {
+                                    "name": "DYDUCH Irena Maria",
+                                    "glosy": 3
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PRUS Stanisław",
+                                    "glosy": 64
+                                },
+                                "2": {
+                                    "name": "KOWALCZYK Adam",
+                                    "glosy": 29
+                                },
+                                "3": {
+                                    "name": "BURY Aleksandra",
+                                    "glosy": 16
+                                },
+                                "4": {
+                                    "name": "GÓRA Andrzej",
+                                    "glosy": 165
+                                },
+                                "5": {
+                                    "name": "JOŃCZY Sławomir Jerzy",
+                                    "glosy": 16
+                                },
+                                "6": {
+                                    "name": "RAJDA-TASIOR Angelina",
+                                    "glosy": 22
+                                },
+                                "7": {
+                                    "name": "BODZIOCH Adam",
+                                    "glosy": 2
+                                },
+                                "8": {
+                                    "name": "AÇIKGÖZ Marta Weronika",
+                                    "glosy": 24
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SORDYL Izabella Katarzyna",
+                                    "glosy": 8
+                                },
+                                "2": {
+                                    "name": "DROBISZ Iwona Teresa",
+                                    "glosy": 2
+                                },
+                                "3": {
+                                    "name": "WALCZAK Rafał Czesław",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "SORDYL Sławomir",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "GONDKO Jarosław Jakub",
+                                    "glosy": 5
+                                }
+                            }
+                        }
+                    },
+                    "14": {
+                        "okreg": 3,
+                        "wyborcy": 1297,
+                        "wyborcy_glosujacy": 686,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "SMOLEC Beata Maria",
+                                    "glosy": 140
+                                },
+                                "2": {
+                                    "name": "KAPELA Józefa",
+                                    "glosy": 120
+                                },
+                                "3": {
+                                    "name": "SMYRAK Tomasz Kazimierz",
+                                    "glosy": 8
+                                },
+                                "4": {
+                                    "name": "BUDA Renata",
+                                    "glosy": 9
+                                },
+                                "5": {
+                                    "name": "KIERCZAK Wiktor",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "GÓRNY Miłosz Damian",
+                                    "glosy": 20
+                                },
+                                "7": {
+                                    "name": "STOKŁOSA Michał",
+                                    "glosy": 79
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MAGIERA Danuta Stanisława",
+                                    "glosy": 14
+                                },
+                                "2": {
+                                    "name": "POWROŹNIK Andrzej Wacław",
+                                    "glosy": 10
+                                },
+                                "3": {
+                                    "name": "GÓRKA-KOCIUBA Izabella Luiza",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "MIODOŃSKA Sylwia",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "ROGOZ Marek Tomasz",
+                                    "glosy": 31
+                                },
+                                "6": {
+                                    "name": "OCZKOWSKI Piotr Mikołaj",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "SCHOLZ Grażyna Anna",
+                                    "glosy": 2
+                                },
+                                "8": {
+                                    "name": "DYDUCH Irena Maria",
+                                    "glosy": 1
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PRUS Stanisław",
+                                    "glosy": 57
+                                },
+                                "2": {
+                                    "name": "KOWALCZYK Adam",
+                                    "glosy": 4
+                                },
+                                "3": {
+                                    "name": "BURY Aleksandra",
+                                    "glosy": 12
+                                },
+                                "4": {
+                                    "name": "GÓRA Andrzej",
+                                    "glosy": 87
+                                },
+                                "5": {
+                                    "name": "JOŃCZY Sławomir Jerzy",
+                                    "glosy": 11
+                                },
+                                "6": {
+                                    "name": "RAJDA-TASIOR Angelina",
+                                    "glosy": 6
+                                },
+                                "7": {
+                                    "name": "BODZIOCH Adam",
+                                    "glosy": 4
+                                },
+                                "8": {
+                                    "name": "AÇIKGÖZ Marta Weronika",
+                                    "glosy": 40
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SORDYL Izabella Katarzyna",
+                                    "glosy": 4
+                                },
+                                "2": {
+                                    "name": "DROBISZ Iwona Teresa",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "WALCZAK Rafał Czesław",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "SORDYL Sławomir",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "GONDKO Jarosław Jakub",
+                                    "glosy": 0
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "okreg": 3,
+                        "wyborcy": 843,
+                        "wyborcy_glosujacy": 510,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "SMOLEC Beata Maria",
+                                    "glosy": 88
+                                },
+                                "2": {
+                                    "name": "KAPELA Józefa",
+                                    "glosy": 6
+                                },
+                                "3": {
+                                    "name": "SMYRAK Tomasz Kazimierz",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "BUDA Renata",
+                                    "glosy": 27
+                                },
+                                "5": {
+                                    "name": "KIERCZAK Wiktor",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "GÓRNY Miłosz Damian",
+                                    "glosy": 9
+                                },
+                                "7": {
+                                    "name": "STOKŁOSA Michał",
+                                    "glosy": 18
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MAGIERA Danuta Stanisława",
+                                    "glosy": 27
+                                },
+                                "2": {
+                                    "name": "POWROŹNIK Andrzej Wacław",
+                                    "glosy": 8
+                                },
+                                "3": {
+                                    "name": "GÓRKA-KOCIUBA Izabella Luiza",
+                                    "glosy": 16
+                                },
+                                "4": {
+                                    "name": "MIODOŃSKA Sylwia",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "ROGOZ Marek Tomasz",
+                                    "glosy": 9
+                                },
+                                "6": {
+                                    "name": "OCZKOWSKI Piotr Mikołaj",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "SCHOLZ Grażyna Anna",
+                                    "glosy": 1
+                                },
+                                "8": {
+                                    "name": "DYDUCH Irena Maria",
+                                    "glosy": 2
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PRUS Stanisław",
+                                    "glosy": 213
+                                },
+                                "2": {
+                                    "name": "KOWALCZYK Adam",
+                                    "glosy": 6
+                                },
+                                "3": {
+                                    "name": "BURY Aleksandra",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "GÓRA Andrzej",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "JOŃCZY Sławomir Jerzy",
+                                    "glosy": 12
+                                },
+                                "6": {
+                                    "name": "RAJDA-TASIOR Angelina",
+                                    "glosy": 7
+                                },
+                                "7": {
+                                    "name": "BODZIOCH Adam",
+                                    "glosy": 4
+                                },
+                                "8": {
+                                    "name": "AÇIKGÖZ Marta Weronika",
+                                    "glosy": 9
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SORDYL Izabella Katarzyna",
+                                    "glosy": 5
+                                },
+                                "2": {
+                                    "name": "DROBISZ Iwona Teresa",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "WALCZAK Rafał Czesław",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "SORDYL Sławomir",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "GONDKO Jarosław Jakub",
+                                    "glosy": 1
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "okreg": 3,
+                        "wyborcy": 1273,
+                        "wyborcy_glosujacy": 618,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "SMOLEC Beata Maria",
+                                    "glosy": 47
+                                },
+                                "2": {
+                                    "name": "KAPELA Józefa",
+                                    "glosy": 4
+                                },
+                                "3": {
+                                    "name": "SMYRAK Tomasz Kazimierz",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "BUDA Renata",
+                                    "glosy": 30
+                                },
+                                "5": {
+                                    "name": "KIERCZAK Wiktor",
+                                    "glosy": 49
+                                },
+                                "6": {
+                                    "name": "GÓRNY Miłosz Damian",
+                                    "glosy": 15
+                                },
+                                "7": {
+                                    "name": "STOKŁOSA Michał",
+                                    "glosy": 4
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MAGIERA Danuta Stanisława",
+                                    "glosy": 12
+                                },
+                                "2": {
+                                    "name": "POWROŹNIK Andrzej Wacław",
+                                    "glosy": 113
+                                },
+                                "3": {
+                                    "name": "GÓRKA-KOCIUBA Izabella Luiza",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "MIODOŃSKA Sylwia",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "ROGOZ Marek Tomasz",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "OCZKOWSKI Piotr Mikołaj",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "SCHOLZ Grażyna Anna",
+                                    "glosy": 7
+                                },
+                                "8": {
+                                    "name": "DYDUCH Irena Maria",
+                                    "glosy": 7
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PRUS Stanisław",
+                                    "glosy": 8
+                                },
+                                "2": {
+                                    "name": "KOWALCZYK Adam",
+                                    "glosy": 99
+                                },
+                                "3": {
+                                    "name": "BURY Aleksandra",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "GÓRA Andrzej",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "JOŃCZY Sławomir Jerzy",
+                                    "glosy": 171
+                                },
+                                "6": {
+                                    "name": "RAJDA-TASIOR Angelina",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "BODZIOCH Adam",
+                                    "glosy": 3
+                                },
+                                "8": {
+                                    "name": "AÇIKGÖZ Marta Weronika",
+                                    "glosy": 5
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SORDYL Izabella Katarzyna",
+                                    "glosy": 1
+                                },
+                                "2": {
+                                    "name": "DROBISZ Iwona Teresa",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "WALCZAK Rafał Czesław",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "SORDYL Sławomir",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "GONDKO Jarosław Jakub",
+                                    "glosy": 0
+                                }
+                            }
+                        }
+                    },
+                    "17": {
+                        "okreg": 3,
+                        "wyborcy": 1144,
+                        "wyborcy_glosujacy": 567,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "SMOLEC Beata Maria",
+                                    "glosy": 54
+                                },
+                                "2": {
+                                    "name": "KAPELA Józefa",
+                                    "glosy": 10
+                                },
+                                "3": {
+                                    "name": "SMYRAK Tomasz Kazimierz",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "BUDA Renata",
+                                    "glosy": 28
+                                },
+                                "5": {
+                                    "name": "KIERCZAK Wiktor",
+                                    "glosy": 22
+                                },
+                                "6": {
+                                    "name": "GÓRNY Miłosz Damian",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "STOKŁOSA Michał",
+                                    "glosy": 6
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MAGIERA Danuta Stanisława",
+                                    "glosy": 15
+                                },
+                                "2": {
+                                    "name": "POWROŹNIK Andrzej Wacław",
+                                    "glosy": 102
+                                },
+                                "3": {
+                                    "name": "GÓRKA-KOCIUBA Izabella Luiza",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "MIODOŃSKA Sylwia",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "ROGOZ Marek Tomasz",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "OCZKOWSKI Piotr Mikołaj",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "SCHOLZ Grażyna Anna",
+                                    "glosy": 1
+                                },
+                                "8": {
+                                    "name": "DYDUCH Irena Maria",
+                                    "glosy": 17
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PRUS Stanisław",
+                                    "glosy": 11
+                                },
+                                "2": {
+                                    "name": "KOWALCZYK Adam",
+                                    "glosy": 108
+                                },
+                                "3": {
+                                    "name": "BURY Aleksandra",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "GÓRA Andrzej",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "JOŃCZY Sławomir Jerzy",
+                                    "glosy": 116
+                                },
+                                "6": {
+                                    "name": "RAJDA-TASIOR Angelina",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "BODZIOCH Adam",
+                                    "glosy": 2
+                                },
+                                "8": {
+                                    "name": "AÇIKGÖZ Marta Weronika",
+                                    "glosy": 7
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SORDYL Izabella Katarzyna",
+                                    "glosy": 5
+                                },
+                                "2": {
+                                    "name": "DROBISZ Iwona Teresa",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "WALCZAK Rafał Czesław",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "SORDYL Sławomir",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "GONDKO Jarosław Jakub",
+                                    "glosy": 3
+                                }
+                            }
+                        }
+                    },
+                    "18": {
+                        "okreg": 3,
+                        "wyborcy": 365,
+                        "wyborcy_glosujacy": 164,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "SMOLEC Beata Maria",
+                                    "glosy": 31
+                                },
+                                "2": {
+                                    "name": "KAPELA Józefa",
+                                    "glosy": 5
+                                },
+                                "3": {
+                                    "name": "SMYRAK Tomasz Kazimierz",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "BUDA Renata",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "KIERCZAK Wiktor",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "GÓRNY Miłosz Damian",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "STOKŁOSA Michał",
+                                    "glosy": 1
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MAGIERA Danuta Stanisława",
+                                    "glosy": 25
+                                },
+                                "2": {
+                                    "name": "POWROŹNIK Andrzej Wacław",
+                                    "glosy": 14
+                                },
+                                "3": {
+                                    "name": "GÓRKA-KOCIUBA Izabella Luiza",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "MIODOŃSKA Sylwia",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "ROGOZ Marek Tomasz",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "OCZKOWSKI Piotr Mikołaj",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "SCHOLZ Grażyna Anna",
+                                    "glosy": 0
+                                },
+                                "8": {
+                                    "name": "DYDUCH Irena Maria",
+                                    "glosy": 2
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PRUS Stanisław",
+                                    "glosy": 13
+                                },
+                                "2": {
+                                    "name": "KOWALCZYK Adam",
+                                    "glosy": 4
+                                },
+                                "3": {
+                                    "name": "BURY Aleksandra",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "GÓRA Andrzej",
+                                    "glosy": 20
+                                },
+                                "5": {
+                                    "name": "JOŃCZY Sławomir Jerzy",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "RAJDA-TASIOR Angelina",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "BODZIOCH Adam",
+                                    "glosy": 1
+                                },
+                                "8": {
+                                    "name": "AÇIKGÖZ Marta Weronika",
+                                    "glosy": 2
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "SORDYL Izabella Katarzyna",
+                                    "glosy": 5
+                                },
+                                "2": {
+                                    "name": "DROBISZ Iwona Teresa",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "WALCZAK Rafał Czesław",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "SORDYL Sławomir",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "GONDKO Jarosław Jakub",
+                                    "glosy": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "4": {
+                "mandaty": 5,
+                "listy": 4,
+                "mieszkancy": 10588,
+                "wyborcy": 8240,
+                "granice": "Sułkowice, ulice: Farmerska, Grzybowa, Kamieńcowa, Kosynierów, ks. Stanisława Sikory, Młyńska, Nawieśnicka, Racławicka, Spokojna, Stolarska, Stroma, Środkowa, Wiśniowa, Za Grapą, Zbożowa; Inwałd, Rzyki, Zagórnik",
+                "wyborcy_b": 0,
+                "pakiet": 0,
+                "kandydaci": {
+                    "14": {
+                        "komitet": "KWW BEATA SMOLEC",
+                        "pozycje": {
+                            "1": {
+                                "name": "TRZASKA Kamil",
+                                "uzyskane_glosy": {
+                                    "18": 17,
+                                    "19": 12,
+                                    "20": 8,
+                                    "21": 18,
+                                    "22": 128,
+                                    "23": 158
+                                }
+                            },
+                            "2": {
+                                "name": "SMAZA Barbara Marta",
+                                "uzyskane_glosy": {
+                                    "18": 6,
+                                    "19": 124,
+                                    "20": 85,
+                                    "21": 35,
+                                    "22": 11,
+                                    "23": 13
+                                }
+                            },
+                            "3": {
+                                "name": "BIZOŃ Lucyna Grażyna",
+                                "uzyskane_glosy": {
+                                    "18": 94,
+                                    "19": 3,
+                                    "20": 8,
+                                    "21": 0,
+                                    "22": 9,
+                                    "23": 4
+                                }
+                            },
+                            "4": {
+                                "name": "STANEK Wojciech Adam",
+                                "uzyskane_glosy": {
+                                    "18": 10,
+                                    "19": 18,
+                                    "20": 4,
+                                    "21": 8,
+                                    "22": 8,
+                                    "23": 9
+                                }
+                            },
+                            "5": {
+                                "name": "BENDYK Weronika",
+                                "uzyskane_glosy": {
+                                    "18": 3,
+                                    "19": 1,
+                                    "20": 3,
+                                    "21": 9,
+                                    "22": 1,
+                                    "23": 3
+                                }
+                            },
+                            "6": {
+                                "name": "BIZOŃ Szczepan",
+                                "uzyskane_glosy": {
+                                    "18": 47,
+                                    "19": 1,
+                                    "20": 2,
+                                    "21": 4,
+                                    "22": 5,
+                                    "23": 5
+                                }
+                            },
+                            "7": {
+                                "name": "PABIŚ Daniel",
+                                "uzyskane_glosy": {
+                                    "18": 8,
+                                    "19": 7,
+                                    "20": 5,
+                                    "21": 56,
+                                    "22": 4,
+                                    "23": 1
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "komitet": "KWW EWELINY SZYPUŁY",
+                        "pozycje": {
+                            "1": {
+                                "name": "MIKOŁAJEK Wiesław",
+                                "uzyskane_glosy": {
+                                    "18": 119,
+                                    "19": 27,
+                                    "20": 17,
+                                    "21": 24,
+                                    "22": 16,
+                                    "23": 18
+                                }
+                            },
+                            "2": {
+                                "name": "GUZDEK Jakub",
+                                "uzyskane_glosy": {
+                                    "18": 20,
+                                    "19": 172,
+                                    "20": 218,
+                                    "21": 15,
+                                    "22": 16,
+                                    "23": 14
+                                }
+                            },
+                            "3": {
+                                "name": "DRABCZYK Bożena Jadwiga",
+                                "uzyskane_glosy": {
+                                    "18": 6,
+                                    "19": 3,
+                                    "20": 6,
+                                    "21": 331,
+                                    "22": 7,
+                                    "23": 8
+                                }
+                            },
+                            "4": {
+                                "name": "BRYNDZA Marzena Anna",
+                                "uzyskane_glosy": {
+                                    "18": 4,
+                                    "19": 3,
+                                    "20": 0,
+                                    "21": 4,
+                                    "22": 48,
+                                    "23": 87
+                                }
+                            },
+                            "5": {
+                                "name": "GOŹDZIK Artur Krzysztof",
+                                "uzyskane_glosy": {
+                                    "18": 0,
+                                    "19": 5,
+                                    "20": 6,
+                                    "21": 1,
+                                    "22": 4,
+                                    "23": 2
+                                }
+                            },
+                            "6": {
+                                "name": "MAMICA Agnieszka Barbara",
+                                "uzyskane_glosy": {
+                                    "18": 10,
+                                    "19": 4,
+                                    "20": 5,
+                                    "21": 8,
+                                    "22": 32,
+                                    "23": 13
+                                }
+                            },
+                            "7": {
+                                "name": "BORGOSZ Kazimiera",
+                                "uzyskane_glosy": {
+                                    "18": 47,
+                                    "19": 4,
+                                    "20": 2,
+                                    "21": 4,
+                                    "22": 1,
+                                    "23": 1
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "komitet": "KWW NASZA GMINA ANDRYCHÓW",
+                        "pozycje": {
+                            "1": {
+                                "name": "ŁYSOŃ Paweł Piotr",
+                                "uzyskane_glosy": {
+                                    "18": 34,
+                                    "19": 22,
+                                    "20": 11,
+                                    "21": 300,
+                                    "22": 25,
+                                    "23": 17
+                                }
+                            },
+                            "2": {
+                                "name": "MOSKWIK Zofia Maria",
+                                "uzyskane_glosy": {
+                                    "18": 10,
+                                    "19": 90,
+                                    "20": 102,
+                                    "21": 8,
+                                    "22": 4,
+                                    "23": 3
+                                }
+                            },
+                            "3": {
+                                "name": "RZADEK Zbigniew",
+                                "uzyskane_glosy": {
+                                    "18": 2,
+                                    "19": 2,
+                                    "20": 1,
+                                    "21": 4,
+                                    "22": 260,
+                                    "23": 206
+                                }
+                            },
+                            "4": {
+                                "name": "OBOZA Aleksander",
+                                "uzyskane_glosy": {
+                                    "18": 151,
+                                    "19": 11,
+                                    "20": 1,
+                                    "21": 7,
+                                    "22": 4,
+                                    "23": 4
+                                }
+                            },
+                            "5": {
+                                "name": "KOCZUR Halina Elżbieta",
+                                "uzyskane_glosy": {
+                                    "18": 2,
+                                    "19": 4,
+                                    "20": 1,
+                                    "21": 4,
+                                    "22": 15,
+                                    "23": 9
+                                }
+                            },
+                            "6": {
+                                "name": "RUSINEK Wiesław",
+                                "uzyskane_glosy": {
+                                    "18": 9,
+                                    "19": 52,
+                                    "20": 34,
+                                    "21": 15,
+                                    "22": 15,
+                                    "23": 12
+                                }
+                            },
+                            "7": {
+                                "name": "ADAMCZYK Jolanta",
+                                "uzyskane_glosy": {
+                                    "18": 51,
+                                    "19": 3,
+                                    "20": 1,
+                                    "21": 6,
+                                    "22": 6,
+                                    "23": 8
+                                }
+                            }
+                        }
+                    },
+                    "17": {
+                        "komitet": "KWW NADZIEJA ANDRYCHÓW",
+                        "pozycje": {
+                            "1": {
+                                "name": "GONDKO Andżelika Magdalena",
+                                "uzyskane_glosy": {
+                                    "18": 4,
+                                    "19": 4,
+                                    "20": 4,
+                                    "21": 13,
+                                    "22": 31,
+                                    "23": 25
+                                }
+                            },
+                            "2": {
+                                "name": "MARCINIAK Dagmara",
+                                "uzyskane_glosy": {
+                                    "18": 1,
+                                    "19": 1,
+                                    "20": 0,
+                                    "21": 4,
+                                    "22": 1,
+                                    "23": 1
+                                }
+                            },
+                            "3": {
+                                "name": "SWAKOŃ Klaudia",
+                                "uzyskane_glosy": {
+                                    "18": 2,
+                                    "19": 0,
+                                    "20": 3,
+                                    "21": 1,
+                                    "22": 0,
+                                    "23": 2
+                                }
+                            },
+                            "4": {
+                                "name": "ŚWIERZEWSKI Mateusz Andrzej",
+                                "uzyskane_glosy": {
+                                    "18": 0,
+                                    "19": 1,
+                                    "20": 0,
+                                    "21": 1,
+                                    "22": 0,
+                                    "23": 1
+                                }
+                            },
+                            "5": {
+                                "name": "PĘKALA Oskar",
+                                "uzyskane_glosy": {
+                                    "18": 0,
+                                    "19": 5,
+                                    "20": 1,
+                                    "21": 1,
+                                    "22": 4,
+                                    "23": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "18": {
+                        "okreg": 4,
+                        "wyborcy": 1373,
+                        "wyborcy_glosujacy": 674,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "TRZASKA Kamil",
+                                    "glosy": 17
+                                },
+                                "2": {
+                                    "name": "SMAZA Barbara Marta",
+                                    "glosy": 6
+                                },
+                                "3": {
+                                    "name": "BIZOŃ Lucyna Grażyna",
+                                    "glosy": 94
+                                },
+                                "4": {
+                                    "name": "STANEK Wojciech Adam",
+                                    "glosy": 10
+                                },
+                                "5": {
+                                    "name": "BENDYK Weronika",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "BIZOŃ Szczepan",
+                                    "glosy": 47
+                                },
+                                "7": {
+                                    "name": "PABIŚ Daniel",
+                                    "glosy": 8
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MIKOŁAJEK Wiesław",
+                                    "glosy": 119
+                                },
+                                "2": {
+                                    "name": "GUZDEK Jakub",
+                                    "glosy": 20
+                                },
+                                "3": {
+                                    "name": "DRABCZYK Bożena Jadwiga",
+                                    "glosy": 6
+                                },
+                                "4": {
+                                    "name": "BRYNDZA Marzena Anna",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "GOŹDZIK Artur Krzysztof",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "MAMICA Agnieszka Barbara",
+                                    "glosy": 10
+                                },
+                                "7": {
+                                    "name": "BORGOSZ Kazimiera",
+                                    "glosy": 47
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "ŁYSOŃ Paweł Piotr",
+                                    "glosy": 34
+                                },
+                                "2": {
+                                    "name": "MOSKWIK Zofia Maria",
+                                    "glosy": 10
+                                },
+                                "3": {
+                                    "name": "RZADEK Zbigniew",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "OBOZA Aleksander",
+                                    "glosy": 151
+                                },
+                                "5": {
+                                    "name": "KOCZUR Halina Elżbieta",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "RUSINEK Wiesław",
+                                    "glosy": 9
+                                },
+                                "7": {
+                                    "name": "ADAMCZYK Jolanta",
+                                    "glosy": 51
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "GONDKO Andżelika Magdalena",
+                                    "glosy": 4
+                                },
+                                "2": {
+                                    "name": "MARCINIAK Dagmara",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "SWAKOŃ Klaudia",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "ŚWIERZEWSKI Mateusz Andrzej",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "PĘKALA Oskar",
+                                    "glosy": 0
+                                }
+                            }
+                        }
+                    },
+                    "19": {
+                        "okreg": 4,
+                        "wyborcy": 1220,
+                        "wyborcy_glosujacy": 591,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "TRZASKA Kamil",
+                                    "glosy": 12
+                                },
+                                "2": {
+                                    "name": "SMAZA Barbara Marta",
+                                    "glosy": 124
+                                },
+                                "3": {
+                                    "name": "BIZOŃ Lucyna Grażyna",
+                                    "glosy": 3
+                                },
+                                "4": {
+                                    "name": "STANEK Wojciech Adam",
+                                    "glosy": 18
+                                },
+                                "5": {
+                                    "name": "BENDYK Weronika",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "BIZOŃ Szczepan",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "PABIŚ Daniel",
+                                    "glosy": 7
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MIKOŁAJEK Wiesław",
+                                    "glosy": 27
+                                },
+                                "2": {
+                                    "name": "GUZDEK Jakub",
+                                    "glosy": 172
+                                },
+                                "3": {
+                                    "name": "DRABCZYK Bożena Jadwiga",
+                                    "glosy": 3
+                                },
+                                "4": {
+                                    "name": "BRYNDZA Marzena Anna",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "GOŹDZIK Artur Krzysztof",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "MAMICA Agnieszka Barbara",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "BORGOSZ Kazimiera",
+                                    "glosy": 4
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "ŁYSOŃ Paweł Piotr",
+                                    "glosy": 22
+                                },
+                                "2": {
+                                    "name": "MOSKWIK Zofia Maria",
+                                    "glosy": 90
+                                },
+                                "3": {
+                                    "name": "RZADEK Zbigniew",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "OBOZA Aleksander",
+                                    "glosy": 11
+                                },
+                                "5": {
+                                    "name": "KOCZUR Halina Elżbieta",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "RUSINEK Wiesław",
+                                    "glosy": 52
+                                },
+                                "7": {
+                                    "name": "ADAMCZYK Jolanta",
+                                    "glosy": 3
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "GONDKO Andżelika Magdalena",
+                                    "glosy": 4
+                                },
+                                "2": {
+                                    "name": "MARCINIAK Dagmara",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "SWAKOŃ Klaudia",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "ŚWIERZEWSKI Mateusz Andrzej",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "PĘKALA Oskar",
+                                    "glosy": 5
+                                }
+                            }
+                        }
+                    },
+                    "20": {
+                        "okreg": 4,
+                        "wyborcy": 1217,
+                        "wyborcy_glosujacy": 550,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "TRZASKA Kamil",
+                                    "glosy": 8
+                                },
+                                "2": {
+                                    "name": "SMAZA Barbara Marta",
+                                    "glosy": 85
+                                },
+                                "3": {
+                                    "name": "BIZOŃ Lucyna Grażyna",
+                                    "glosy": 8
+                                },
+                                "4": {
+                                    "name": "STANEK Wojciech Adam",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "BENDYK Weronika",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "BIZOŃ Szczepan",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "PABIŚ Daniel",
+                                    "glosy": 5
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MIKOŁAJEK Wiesław",
+                                    "glosy": 17
+                                },
+                                "2": {
+                                    "name": "GUZDEK Jakub",
+                                    "glosy": 218
+                                },
+                                "3": {
+                                    "name": "DRABCZYK Bożena Jadwiga",
+                                    "glosy": 6
+                                },
+                                "4": {
+                                    "name": "BRYNDZA Marzena Anna",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "GOŹDZIK Artur Krzysztof",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "MAMICA Agnieszka Barbara",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "BORGOSZ Kazimiera",
+                                    "glosy": 2
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "ŁYSOŃ Paweł Piotr",
+                                    "glosy": 11
+                                },
+                                "2": {
+                                    "name": "MOSKWIK Zofia Maria",
+                                    "glosy": 102
+                                },
+                                "3": {
+                                    "name": "RZADEK Zbigniew",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "OBOZA Aleksander",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "KOCZUR Halina Elżbieta",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "RUSINEK Wiesław",
+                                    "glosy": 34
+                                },
+                                "7": {
+                                    "name": "ADAMCZYK Jolanta",
+                                    "glosy": 1
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "GONDKO Andżelika Magdalena",
+                                    "glosy": 4
+                                },
+                                "2": {
+                                    "name": "MARCINIAK Dagmara",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "SWAKOŃ Klaudia",
+                                    "glosy": 3
+                                },
+                                "4": {
+                                    "name": "ŚWIERZEWSKI Mateusz Andrzej",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "PĘKALA Oskar",
+                                    "glosy": 1
+                                }
+                            }
+                        }
+                    },
+                    "21": {
+                        "okreg": 4,
+                        "wyborcy": 1817,
+                        "wyborcy_glosujacy": 914,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "TRZASKA Kamil",
+                                    "glosy": 18
+                                },
+                                "2": {
+                                    "name": "SMAZA Barbara Marta",
+                                    "glosy": 35
+                                },
+                                "3": {
+                                    "name": "BIZOŃ Lucyna Grażyna",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "STANEK Wojciech Adam",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "BENDYK Weronika",
+                                    "glosy": 9
+                                },
+                                "6": {
+                                    "name": "BIZOŃ Szczepan",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "PABIŚ Daniel",
+                                    "glosy": 56
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MIKOŁAJEK Wiesław",
+                                    "glosy": 24
+                                },
+                                "2": {
+                                    "name": "GUZDEK Jakub",
+                                    "glosy": 15
+                                },
+                                "3": {
+                                    "name": "DRABCZYK Bożena Jadwiga",
+                                    "glosy": 331
+                                },
+                                "4": {
+                                    "name": "BRYNDZA Marzena Anna",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "GOŹDZIK Artur Krzysztof",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "MAMICA Agnieszka Barbara",
+                                    "glosy": 8
+                                },
+                                "7": {
+                                    "name": "BORGOSZ Kazimiera",
+                                    "glosy": 4
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "ŁYSOŃ Paweł Piotr",
+                                    "glosy": 300
+                                },
+                                "2": {
+                                    "name": "MOSKWIK Zofia Maria",
+                                    "glosy": 8
+                                },
+                                "3": {
+                                    "name": "RZADEK Zbigniew",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "OBOZA Aleksander",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "KOCZUR Halina Elżbieta",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "RUSINEK Wiesław",
+                                    "glosy": 15
+                                },
+                                "7": {
+                                    "name": "ADAMCZYK Jolanta",
+                                    "glosy": 6
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "GONDKO Andżelika Magdalena",
+                                    "glosy": 13
+                                },
+                                "2": {
+                                    "name": "MARCINIAK Dagmara",
+                                    "glosy": 4
+                                },
+                                "3": {
+                                    "name": "SWAKOŃ Klaudia",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "ŚWIERZEWSKI Mateusz Andrzej",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "PĘKALA Oskar",
+                                    "glosy": 1
+                                }
+                            }
+                        }
+                    },
+                    "22": {
+                        "okreg": 4,
+                        "wyborcy": 1280,
+                        "wyborcy_glosujacy": 682,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "TRZASKA Kamil",
+                                    "glosy": 128
+                                },
+                                "2": {
+                                    "name": "SMAZA Barbara Marta",
+                                    "glosy": 11
+                                },
+                                "3": {
+                                    "name": "BIZOŃ Lucyna Grażyna",
+                                    "glosy": 9
+                                },
+                                "4": {
+                                    "name": "STANEK Wojciech Adam",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "BENDYK Weronika",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "BIZOŃ Szczepan",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "PABIŚ Daniel",
+                                    "glosy": 4
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MIKOŁAJEK Wiesław",
+                                    "glosy": 16
+                                },
+                                "2": {
+                                    "name": "GUZDEK Jakub",
+                                    "glosy": 16
+                                },
+                                "3": {
+                                    "name": "DRABCZYK Bożena Jadwiga",
+                                    "glosy": 7
+                                },
+                                "4": {
+                                    "name": "BRYNDZA Marzena Anna",
+                                    "glosy": 48
+                                },
+                                "5": {
+                                    "name": "GOŹDZIK Artur Krzysztof",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "MAMICA Agnieszka Barbara",
+                                    "glosy": 32
+                                },
+                                "7": {
+                                    "name": "BORGOSZ Kazimiera",
+                                    "glosy": 1
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "ŁYSOŃ Paweł Piotr",
+                                    "glosy": 25
+                                },
+                                "2": {
+                                    "name": "MOSKWIK Zofia Maria",
+                                    "glosy": 4
+                                },
+                                "3": {
+                                    "name": "RZADEK Zbigniew",
+                                    "glosy": 260
+                                },
+                                "4": {
+                                    "name": "OBOZA Aleksander",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "KOCZUR Halina Elżbieta",
+                                    "glosy": 15
+                                },
+                                "6": {
+                                    "name": "RUSINEK Wiesław",
+                                    "glosy": 15
+                                },
+                                "7": {
+                                    "name": "ADAMCZYK Jolanta",
+                                    "glosy": 6
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "GONDKO Andżelika Magdalena",
+                                    "glosy": 31
+                                },
+                                "2": {
+                                    "name": "MARCINIAK Dagmara",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "SWAKOŃ Klaudia",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "ŚWIERZEWSKI Mateusz Andrzej",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "PĘKALA Oskar",
+                                    "glosy": 4
+                                }
+                            }
+                        }
+                    },
+                    "23": {
+                        "okreg": 4,
+                        "wyborcy": 1335,
+                        "wyborcy_glosujacy": 642,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "TRZASKA Kamil",
+                                    "glosy": 158
+                                },
+                                "2": {
+                                    "name": "SMAZA Barbara Marta",
+                                    "glosy": 13
+                                },
+                                "3": {
+                                    "name": "BIZOŃ Lucyna Grażyna",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "STANEK Wojciech Adam",
+                                    "glosy": 9
+                                },
+                                "5": {
+                                    "name": "BENDYK Weronika",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "BIZOŃ Szczepan",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "PABIŚ Daniel",
+                                    "glosy": 1
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "MIKOŁAJEK Wiesław",
+                                    "glosy": 18
+                                },
+                                "2": {
+                                    "name": "GUZDEK Jakub",
+                                    "glosy": 14
+                                },
+                                "3": {
+                                    "name": "DRABCZYK Bożena Jadwiga",
+                                    "glosy": 8
+                                },
+                                "4": {
+                                    "name": "BRYNDZA Marzena Anna",
+                                    "glosy": 87
+                                },
+                                "5": {
+                                    "name": "GOŹDZIK Artur Krzysztof",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "MAMICA Agnieszka Barbara",
+                                    "glosy": 13
+                                },
+                                "7": {
+                                    "name": "BORGOSZ Kazimiera",
+                                    "glosy": 1
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "ŁYSOŃ Paweł Piotr",
+                                    "glosy": 17
+                                },
+                                "2": {
+                                    "name": "MOSKWIK Zofia Maria",
+                                    "glosy": 3
+                                },
+                                "3": {
+                                    "name": "RZADEK Zbigniew",
+                                    "glosy": 206
+                                },
+                                "4": {
+                                    "name": "OBOZA Aleksander",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "KOCZUR Halina Elżbieta",
+                                    "glosy": 9
+                                },
+                                "6": {
+                                    "name": "RUSINEK Wiesław",
+                                    "glosy": 12
+                                },
+                                "7": {
+                                    "name": "ADAMCZYK Jolanta",
+                                    "glosy": 8
+                                }
+                            },
+                            "17": {
+                                "1": {
+                                    "name": "GONDKO Andżelika Magdalena",
+                                    "glosy": 25
+                                },
+                                "2": {
+                                    "name": "MARCINIAK Dagmara",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "SWAKOŃ Klaudia",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "ŚWIERZEWSKI Mateusz Andrzej",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "PĘKALA Oskar",
+                                    "glosy": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2656 @@
+{
+    "220508": {
+        "wojewodztwo": "pomorskie",
+        "powiat": "kartuski",
+        "gmina": "gm. Żukowo",
+        "organ": "Rada Miejska w Żukowie",
+        "siedziba": "Żukowo",
+        "okregi": {
+            "1": {
+                "mandaty": 5,
+                "listy": 3,
+                "mieszkancy": 11461,
+                "wyborcy": 8056,
+                "granice": "Banino, Barniewice, Borowiec, Czaple, Nowy Świat, Rębiechowo",
+                "wyborcy_b": 0,
+                "pakiet": 0,
+                "kandydaci": {
+                    "13": {
+                        "komitet": "KWW KASZUBSKIE ZRZESZENIE WYBORCZE",
+                        "pozycje": {
+                            "1": {
+                                "name": "ROPEL Bogumiła Barbara",
+                                "uzyskane_glosy": {
+                                    "7": 43,
+                                    "8": 38,
+                                    "9": 134,
+                                    "25": 67
+                                }
+                            },
+                            "2": {
+                                "name": "KOREŃ Paweł Grzegorz",
+                                "uzyskane_glosy": {
+                                    "7": 43,
+                                    "8": 101,
+                                    "9": 15,
+                                    "25": 19
+                                }
+                            },
+                            "3": {
+                                "name": "TESKA Urszula",
+                                "uzyskane_glosy": {
+                                    "7": 18,
+                                    "8": 23,
+                                    "9": 11,
+                                    "25": 64
+                                }
+                            },
+                            "4": {
+                                "name": "KOZA-ZATOŃSKI Wojciech Łukasz",
+                                "uzyskane_glosy": {
+                                    "7": 64,
+                                    "8": 58,
+                                    "9": 7,
+                                    "25": 111
+                                }
+                            },
+                            "5": {
+                                "name": "KARCZEWSKI Stefan Franciszek",
+                                "uzyskane_glosy": {
+                                    "7": 6,
+                                    "8": 8,
+                                    "9": 17,
+                                    "25": 10
+                                }
+                            },
+                            "6": {
+                                "name": "BOBKOWSKA Aleksandra Helena",
+                                "uzyskane_glosy": {
+                                    "7": 38,
+                                    "8": 48,
+                                    "9": 17,
+                                    "25": 66
+                                }
+                            },
+                            "7": {
+                                "name": "SZYMKOWIAK Tomasz Jacek",
+                                "uzyskane_glosy": {
+                                    "7": 50,
+                                    "8": 35,
+                                    "9": 19,
+                                    "25": 35
+                                }
+                            }
+                        }
+                    },
+                    "14": {
+                        "komitet": "KWW NASZA GMINA ŻUKOWO 2024",
+                        "pozycje": {
+                            "1": {
+                                "name": "ZMUDZIŃSKA Mariola Anna",
+                                "uzyskane_glosy": {
+                                    "7": 125,
+                                    "8": 165,
+                                    "9": 327,
+                                    "25": 210
+                                }
+                            },
+                            "2": {
+                                "name": "GOŁĘBIEWSKI Piotr Wojciech",
+                                "uzyskane_glosy": {
+                                    "7": 54,
+                                    "8": 47,
+                                    "9": 19,
+                                    "25": 53
+                                }
+                            },
+                            "3": {
+                                "name": "GOZDECKI Łukasz",
+                                "uzyskane_glosy": {
+                                    "7": 24,
+                                    "8": 39,
+                                    "9": 3,
+                                    "25": 50
+                                }
+                            },
+                            "4": {
+                                "name": "BELKA Ryszard Stanisław",
+                                "uzyskane_glosy": {
+                                    "7": 39,
+                                    "8": 60,
+                                    "9": 22,
+                                    "25": 61
+                                }
+                            },
+                            "5": {
+                                "name": "STENKA Salomea Maria",
+                                "uzyskane_glosy": {
+                                    "7": 4,
+                                    "8": 13,
+                                    "9": 28,
+                                    "25": 9
+                                }
+                            },
+                            "6": {
+                                "name": "BOBROWSKI Maciej",
+                                "uzyskane_glosy": {
+                                    "7": 10,
+                                    "8": 7,
+                                    "9": 3,
+                                    "25": 10
+                                }
+                            },
+                            "7": {
+                                "name": "CICHOWICZ Katarzyna Anna",
+                                "uzyskane_glosy": {
+                                    "7": 12,
+                                    "8": 14,
+                                    "9": 305,
+                                    "25": 15
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "komitet": "KWW INICJATYWA AKTYWNI MIESZKAŃCY",
+                        "pozycje": {
+                            "1": {
+                                "name": "PAJĄK Maciej",
+                                "uzyskane_glosy": {
+                                    "7": 55,
+                                    "8": 150,
+                                    "9": 19,
+                                    "25": 91
+                                }
+                            },
+                            "2": {
+                                "name": "STEFANOWSKI Bartosz Stanisław",
+                                "uzyskane_glosy": {
+                                    "7": 9,
+                                    "8": 18,
+                                    "9": 9,
+                                    "25": 43
+                                }
+                            },
+                            "3": {
+                                "name": "NIKLAS Jagoda Maria",
+                                "uzyskane_glosy": {
+                                    "7": 50,
+                                    "8": 53,
+                                    "9": 9,
+                                    "25": 84
+                                }
+                            },
+                            "4": {
+                                "name": "ŻYLIŃSKA Ilona Żaneta",
+                                "uzyskane_glosy": {
+                                    "7": 18,
+                                    "8": 29,
+                                    "9": 17,
+                                    "25": 22
+                                }
+                            },
+                            "5": {
+                                "name": "NIKLAS Tomasz Adam",
+                                "uzyskane_glosy": {
+                                    "7": 72,
+                                    "8": 217,
+                                    "9": 20,
+                                    "25": 282
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "7": {
+                        "okreg": 1,
+                        "wyborcy": 1475,
+                        "wyborcy_glosujacy": 765,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "ROPEL Bogumiła Barbara",
+                                    "glosy": 43
+                                },
+                                "2": {
+                                    "name": "KOREŃ Paweł Grzegorz",
+                                    "glosy": 43
+                                },
+                                "3": {
+                                    "name": "TESKA Urszula",
+                                    "glosy": 18
+                                },
+                                "4": {
+                                    "name": "KOZA-ZATOŃSKI Wojciech Łukasz",
+                                    "glosy": 64
+                                },
+                                "5": {
+                                    "name": "KARCZEWSKI Stefan Franciszek",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "BOBKOWSKA Aleksandra Helena",
+                                    "glosy": 38
+                                },
+                                "7": {
+                                    "name": "SZYMKOWIAK Tomasz Jacek",
+                                    "glosy": 50
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "ZMUDZIŃSKA Mariola Anna",
+                                    "glosy": 125
+                                },
+                                "2": {
+                                    "name": "GOŁĘBIEWSKI Piotr Wojciech",
+                                    "glosy": 54
+                                },
+                                "3": {
+                                    "name": "GOZDECKI Łukasz",
+                                    "glosy": 24
+                                },
+                                "4": {
+                                    "name": "BELKA Ryszard Stanisław",
+                                    "glosy": 39
+                                },
+                                "5": {
+                                    "name": "STENKA Salomea Maria",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "BOBROWSKI Maciej",
+                                    "glosy": 10
+                                },
+                                "7": {
+                                    "name": "CICHOWICZ Katarzyna Anna",
+                                    "glosy": 12
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "PAJĄK Maciej",
+                                    "glosy": 55
+                                },
+                                "2": {
+                                    "name": "STEFANOWSKI Bartosz Stanisław",
+                                    "glosy": 9
+                                },
+                                "3": {
+                                    "name": "NIKLAS Jagoda Maria",
+                                    "glosy": 50
+                                },
+                                "4": {
+                                    "name": "ŻYLIŃSKA Ilona Żaneta",
+                                    "glosy": 18
+                                },
+                                "5": {
+                                    "name": "NIKLAS Tomasz Adam",
+                                    "glosy": 72
+                                }
+                            }
+                        }
+                    },
+                    "8": {
+                        "okreg": 1,
+                        "wyborcy": 2255,
+                        "wyborcy_glosujacy": 1164,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "ROPEL Bogumiła Barbara",
+                                    "glosy": 38
+                                },
+                                "2": {
+                                    "name": "KOREŃ Paweł Grzegorz",
+                                    "glosy": 101
+                                },
+                                "3": {
+                                    "name": "TESKA Urszula",
+                                    "glosy": 23
+                                },
+                                "4": {
+                                    "name": "KOZA-ZATOŃSKI Wojciech Łukasz",
+                                    "glosy": 58
+                                },
+                                "5": {
+                                    "name": "KARCZEWSKI Stefan Franciszek",
+                                    "glosy": 8
+                                },
+                                "6": {
+                                    "name": "BOBKOWSKA Aleksandra Helena",
+                                    "glosy": 48
+                                },
+                                "7": {
+                                    "name": "SZYMKOWIAK Tomasz Jacek",
+                                    "glosy": 35
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "ZMUDZIŃSKA Mariola Anna",
+                                    "glosy": 165
+                                },
+                                "2": {
+                                    "name": "GOŁĘBIEWSKI Piotr Wojciech",
+                                    "glosy": 47
+                                },
+                                "3": {
+                                    "name": "GOZDECKI Łukasz",
+                                    "glosy": 39
+                                },
+                                "4": {
+                                    "name": "BELKA Ryszard Stanisław",
+                                    "glosy": 60
+                                },
+                                "5": {
+                                    "name": "STENKA Salomea Maria",
+                                    "glosy": 13
+                                },
+                                "6": {
+                                    "name": "BOBROWSKI Maciej",
+                                    "glosy": 7
+                                },
+                                "7": {
+                                    "name": "CICHOWICZ Katarzyna Anna",
+                                    "glosy": 14
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "PAJĄK Maciej",
+                                    "glosy": 150
+                                },
+                                "2": {
+                                    "name": "STEFANOWSKI Bartosz Stanisław",
+                                    "glosy": 18
+                                },
+                                "3": {
+                                    "name": "NIKLAS Jagoda Maria",
+                                    "glosy": 53
+                                },
+                                "4": {
+                                    "name": "ŻYLIŃSKA Ilona Żaneta",
+                                    "glosy": 29
+                                },
+                                "5": {
+                                    "name": "NIKLAS Tomasz Adam",
+                                    "glosy": 217
+                                }
+                            }
+                        }
+                    },
+                    "9": {
+                        "okreg": 1,
+                        "wyborcy": 1945,
+                        "wyborcy_glosujacy": 1034,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "ROPEL Bogumiła Barbara",
+                                    "glosy": 134
+                                },
+                                "2": {
+                                    "name": "KOREŃ Paweł Grzegorz",
+                                    "glosy": 15
+                                },
+                                "3": {
+                                    "name": "TESKA Urszula",
+                                    "glosy": 11
+                                },
+                                "4": {
+                                    "name": "KOZA-ZATOŃSKI Wojciech Łukasz",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "KARCZEWSKI Stefan Franciszek",
+                                    "glosy": 17
+                                },
+                                "6": {
+                                    "name": "BOBKOWSKA Aleksandra Helena",
+                                    "glosy": 17
+                                },
+                                "7": {
+                                    "name": "SZYMKOWIAK Tomasz Jacek",
+                                    "glosy": 19
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "ZMUDZIŃSKA Mariola Anna",
+                                    "glosy": 327
+                                },
+                                "2": {
+                                    "name": "GOŁĘBIEWSKI Piotr Wojciech",
+                                    "glosy": 19
+                                },
+                                "3": {
+                                    "name": "GOZDECKI Łukasz",
+                                    "glosy": 3
+                                },
+                                "4": {
+                                    "name": "BELKA Ryszard Stanisław",
+                                    "glosy": 22
+                                },
+                                "5": {
+                                    "name": "STENKA Salomea Maria",
+                                    "glosy": 28
+                                },
+                                "6": {
+                                    "name": "BOBROWSKI Maciej",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "CICHOWICZ Katarzyna Anna",
+                                    "glosy": 305
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "PAJĄK Maciej",
+                                    "glosy": 19
+                                },
+                                "2": {
+                                    "name": "STEFANOWSKI Bartosz Stanisław",
+                                    "glosy": 9
+                                },
+                                "3": {
+                                    "name": "NIKLAS Jagoda Maria",
+                                    "glosy": 9
+                                },
+                                "4": {
+                                    "name": "ŻYLIŃSKA Ilona Żaneta",
+                                    "glosy": 17
+                                },
+                                "5": {
+                                    "name": "NIKLAS Tomasz Adam",
+                                    "glosy": 20
+                                }
+                            }
+                        }
+                    },
+                    "25": {
+                        "okreg": 1,
+                        "wyborcy": 2390,
+                        "wyborcy_glosujacy": 1349,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "ROPEL Bogumiła Barbara",
+                                    "glosy": 67
+                                },
+                                "2": {
+                                    "name": "KOREŃ Paweł Grzegorz",
+                                    "glosy": 19
+                                },
+                                "3": {
+                                    "name": "TESKA Urszula",
+                                    "glosy": 64
+                                },
+                                "4": {
+                                    "name": "KOZA-ZATOŃSKI Wojciech Łukasz",
+                                    "glosy": 111
+                                },
+                                "5": {
+                                    "name": "KARCZEWSKI Stefan Franciszek",
+                                    "glosy": 10
+                                },
+                                "6": {
+                                    "name": "BOBKOWSKA Aleksandra Helena",
+                                    "glosy": 66
+                                },
+                                "7": {
+                                    "name": "SZYMKOWIAK Tomasz Jacek",
+                                    "glosy": 35
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "ZMUDZIŃSKA Mariola Anna",
+                                    "glosy": 210
+                                },
+                                "2": {
+                                    "name": "GOŁĘBIEWSKI Piotr Wojciech",
+                                    "glosy": 53
+                                },
+                                "3": {
+                                    "name": "GOZDECKI Łukasz",
+                                    "glosy": 50
+                                },
+                                "4": {
+                                    "name": "BELKA Ryszard Stanisław",
+                                    "glosy": 61
+                                },
+                                "5": {
+                                    "name": "STENKA Salomea Maria",
+                                    "glosy": 9
+                                },
+                                "6": {
+                                    "name": "BOBROWSKI Maciej",
+                                    "glosy": 10
+                                },
+                                "7": {
+                                    "name": "CICHOWICZ Katarzyna Anna",
+                                    "glosy": 15
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "PAJĄK Maciej",
+                                    "glosy": 91
+                                },
+                                "2": {
+                                    "name": "STEFANOWSKI Bartosz Stanisław",
+                                    "glosy": 43
+                                },
+                                "3": {
+                                    "name": "NIKLAS Jagoda Maria",
+                                    "glosy": 84
+                                },
+                                "4": {
+                                    "name": "ŻYLIŃSKA Ilona Żaneta",
+                                    "glosy": 22
+                                },
+                                "5": {
+                                    "name": "NIKLAS Tomasz Adam",
+                                    "glosy": 282
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "2": {
+                "mandaty": 5,
+                "listy": 2,
+                "mieszkancy": 11605,
+                "wyborcy": 8434,
+                "granice": "Chwaszczyno, Dąbrowa, Małkowo, Miszewko, Miszewo, Nowy Tuchom, Pępowo, Tuchom",
+                "wyborcy_b": 1,
+                "pakiet": 0,
+                "kandydaci": {
+                    "13": {
+                        "komitet": "KWW KASZUBSKIE ZRZESZENIE WYBORCZE",
+                        "pozycje": {
+                            "1": {
+                                "name": "SZMIDTKE Witold Tomasz",
+                                "uzyskane_glosy": {
+                                    "1": 47,
+                                    "2": 44,
+                                    "3": 60,
+                                    "4": 109,
+                                    "5": 33,
+                                    "6": 581
+                                }
+                            },
+                            "2": {
+                                "name": "FOPKE Tomasz Michał",
+                                "uzyskane_glosy": {
+                                    "1": 297,
+                                    "2": 204,
+                                    "3": 96,
+                                    "4": 26,
+                                    "5": 7,
+                                    "6": 19
+                                }
+                            },
+                            "3": {
+                                "name": "KLAWIKOWSKI Tadeusz",
+                                "uzyskane_glosy": {
+                                    "1": 63,
+                                    "2": 65,
+                                    "3": 245,
+                                    "4": 23,
+                                    "5": 2,
+                                    "6": 15
+                                }
+                            },
+                            "4": {
+                                "name": "NOSEL Aleksandra",
+                                "uzyskane_glosy": {
+                                    "1": 161,
+                                    "2": 243,
+                                    "3": 45,
+                                    "4": 19,
+                                    "5": 5,
+                                    "6": 10
+                                }
+                            },
+                            "5": {
+                                "name": "WANDTKE Bogumiła Anna",
+                                "uzyskane_glosy": {
+                                    "1": 12,
+                                    "2": 6,
+                                    "3": 9,
+                                    "4": 224,
+                                    "5": 5,
+                                    "6": 12
+                                }
+                            },
+                            "6": {
+                                "name": "KOŁAZIŃSKA Anna Aleksandra",
+                                "uzyskane_glosy": {
+                                    "1": 4,
+                                    "2": 7,
+                                    "3": 4,
+                                    "4": 3,
+                                    "5": 85,
+                                    "6": 5
+                                }
+                            },
+                            "7": {
+                                "name": "WYGNAŁ Iwona Mariola",
+                                "uzyskane_glosy": {
+                                    "1": 27,
+                                    "2": 57,
+                                    "3": 10,
+                                    "4": 9,
+                                    "5": 2,
+                                    "6": 53
+                                }
+                            }
+                        }
+                    },
+                    "14": {
+                        "komitet": "KWW NASZA GMINA ŻUKOWO 2024",
+                        "pozycje": {
+                            "1": {
+                                "name": "GRUBA Stefan",
+                                "uzyskane_glosy": {
+                                    "1": 23,
+                                    "2": 40,
+                                    "3": 22,
+                                    "4": 41,
+                                    "5": 156,
+                                    "6": 92
+                                }
+                            },
+                            "2": {
+                                "name": "REDZIMSKA Karolina",
+                                "uzyskane_glosy": {
+                                    "1": 26,
+                                    "2": 40,
+                                    "3": 45,
+                                    "4": 35,
+                                    "5": 19,
+                                    "6": 503
+                                }
+                            },
+                            "3": {
+                                "name": "LEHMANN Jan Franciszek",
+                                "uzyskane_glosy": {
+                                    "1": 85,
+                                    "2": 52,
+                                    "3": 34,
+                                    "4": 9,
+                                    "5": 4,
+                                    "6": 6
+                                }
+                            },
+                            "4": {
+                                "name": "PETKIEWICZ Bożena Joanna",
+                                "uzyskane_glosy": {
+                                    "1": 5,
+                                    "2": 10,
+                                    "3": 8,
+                                    "4": 6,
+                                    "5": 2,
+                                    "6": 14
+                                }
+                            },
+                            "5": {
+                                "name": "KLEIN Tadeusz Marek",
+                                "uzyskane_glosy": {
+                                    "1": 8,
+                                    "2": 6,
+                                    "3": 11,
+                                    "4": 3,
+                                    "5": 3,
+                                    "6": 14
+                                }
+                            },
+                            "6": {
+                                "name": "GINTER-STENKA Malwina Magdalena",
+                                "uzyskane_glosy": {
+                                    "1": 13,
+                                    "2": 16,
+                                    "3": 26,
+                                    "4": 38,
+                                    "5": 7,
+                                    "6": 19
+                                }
+                            },
+                            "7": {
+                                "name": "GNIEWKOWSKA Beata",
+                                "uzyskane_glosy": {
+                                    "1": 17,
+                                    "2": 52,
+                                    "3": 10,
+                                    "4": 26,
+                                    "5": 8,
+                                    "6": 27
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "1": {
+                        "okreg": 2,
+                        "wyborcy": 1486,
+                        "wyborcy_glosujacy": 822,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "SZMIDTKE Witold Tomasz",
+                                    "glosy": 47
+                                },
+                                "2": {
+                                    "name": "FOPKE Tomasz Michał",
+                                    "glosy": 297
+                                },
+                                "3": {
+                                    "name": "KLAWIKOWSKI Tadeusz",
+                                    "glosy": 63
+                                },
+                                "4": {
+                                    "name": "NOSEL Aleksandra",
+                                    "glosy": 161
+                                },
+                                "5": {
+                                    "name": "WANDTKE Bogumiła Anna",
+                                    "glosy": 12
+                                },
+                                "6": {
+                                    "name": "KOŁAZIŃSKA Anna Aleksandra",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "WYGNAŁ Iwona Mariola",
+                                    "glosy": 27
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "GRUBA Stefan",
+                                    "glosy": 23
+                                },
+                                "2": {
+                                    "name": "REDZIMSKA Karolina",
+                                    "glosy": 26
+                                },
+                                "3": {
+                                    "name": "LEHMANN Jan Franciszek",
+                                    "glosy": 85
+                                },
+                                "4": {
+                                    "name": "PETKIEWICZ Bożena Joanna",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "KLEIN Tadeusz Marek",
+                                    "glosy": 8
+                                },
+                                "6": {
+                                    "name": "GINTER-STENKA Malwina Magdalena",
+                                    "glosy": 13
+                                },
+                                "7": {
+                                    "name": "GNIEWKOWSKA Beata",
+                                    "glosy": 17
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "okreg": 2,
+                        "wyborcy": 1580,
+                        "wyborcy_glosujacy": 911,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "SZMIDTKE Witold Tomasz",
+                                    "glosy": 44
+                                },
+                                "2": {
+                                    "name": "FOPKE Tomasz Michał",
+                                    "glosy": 204
+                                },
+                                "3": {
+                                    "name": "KLAWIKOWSKI Tadeusz",
+                                    "glosy": 65
+                                },
+                                "4": {
+                                    "name": "NOSEL Aleksandra",
+                                    "glosy": 243
+                                },
+                                "5": {
+                                    "name": "WANDTKE Bogumiła Anna",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "KOŁAZIŃSKA Anna Aleksandra",
+                                    "glosy": 7
+                                },
+                                "7": {
+                                    "name": "WYGNAŁ Iwona Mariola",
+                                    "glosy": 57
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "GRUBA Stefan",
+                                    "glosy": 40
+                                },
+                                "2": {
+                                    "name": "REDZIMSKA Karolina",
+                                    "glosy": 40
+                                },
+                                "3": {
+                                    "name": "LEHMANN Jan Franciszek",
+                                    "glosy": 52
+                                },
+                                "4": {
+                                    "name": "PETKIEWICZ Bożena Joanna",
+                                    "glosy": 10
+                                },
+                                "5": {
+                                    "name": "KLEIN Tadeusz Marek",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "GINTER-STENKA Malwina Magdalena",
+                                    "glosy": 16
+                                },
+                                "7": {
+                                    "name": "GNIEWKOWSKA Beata",
+                                    "glosy": 52
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "okreg": 2,
+                        "wyborcy": 1158,
+                        "wyborcy_glosujacy": 653,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "SZMIDTKE Witold Tomasz",
+                                    "glosy": 60
+                                },
+                                "2": {
+                                    "name": "FOPKE Tomasz Michał",
+                                    "glosy": 96
+                                },
+                                "3": {
+                                    "name": "KLAWIKOWSKI Tadeusz",
+                                    "glosy": 245
+                                },
+                                "4": {
+                                    "name": "NOSEL Aleksandra",
+                                    "glosy": 45
+                                },
+                                "5": {
+                                    "name": "WANDTKE Bogumiła Anna",
+                                    "glosy": 9
+                                },
+                                "6": {
+                                    "name": "KOŁAZIŃSKA Anna Aleksandra",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "WYGNAŁ Iwona Mariola",
+                                    "glosy": 10
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "GRUBA Stefan",
+                                    "glosy": 22
+                                },
+                                "2": {
+                                    "name": "REDZIMSKA Karolina",
+                                    "glosy": 45
+                                },
+                                "3": {
+                                    "name": "LEHMANN Jan Franciszek",
+                                    "glosy": 34
+                                },
+                                "4": {
+                                    "name": "PETKIEWICZ Bożena Joanna",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "KLEIN Tadeusz Marek",
+                                    "glosy": 11
+                                },
+                                "6": {
+                                    "name": "GINTER-STENKA Malwina Magdalena",
+                                    "glosy": 26
+                                },
+                                "7": {
+                                    "name": "GNIEWKOWSKA Beata",
+                                    "glosy": 10
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "okreg": 2,
+                        "wyborcy": 1247,
+                        "wyborcy_glosujacy": 611,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "SZMIDTKE Witold Tomasz",
+                                    "glosy": 109
+                                },
+                                "2": {
+                                    "name": "FOPKE Tomasz Michał",
+                                    "glosy": 26
+                                },
+                                "3": {
+                                    "name": "KLAWIKOWSKI Tadeusz",
+                                    "glosy": 23
+                                },
+                                "4": {
+                                    "name": "NOSEL Aleksandra",
+                                    "glosy": 19
+                                },
+                                "5": {
+                                    "name": "WANDTKE Bogumiła Anna",
+                                    "glosy": 224
+                                },
+                                "6": {
+                                    "name": "KOŁAZIŃSKA Anna Aleksandra",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "WYGNAŁ Iwona Mariola",
+                                    "glosy": 9
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "GRUBA Stefan",
+                                    "glosy": 41
+                                },
+                                "2": {
+                                    "name": "REDZIMSKA Karolina",
+                                    "glosy": 35
+                                },
+                                "3": {
+                                    "name": "LEHMANN Jan Franciszek",
+                                    "glosy": 9
+                                },
+                                "4": {
+                                    "name": "PETKIEWICZ Bożena Joanna",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "KLEIN Tadeusz Marek",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "GINTER-STENKA Malwina Magdalena",
+                                    "glosy": 38
+                                },
+                                "7": {
+                                    "name": "GNIEWKOWSKA Beata",
+                                    "glosy": 26
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "okreg": 2,
+                        "wyborcy": 595,
+                        "wyborcy_glosujacy": 354,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "SZMIDTKE Witold Tomasz",
+                                    "glosy": 33
+                                },
+                                "2": {
+                                    "name": "FOPKE Tomasz Michał",
+                                    "glosy": 7
+                                },
+                                "3": {
+                                    "name": "KLAWIKOWSKI Tadeusz",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "NOSEL Aleksandra",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "WANDTKE Bogumiła Anna",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "KOŁAZIŃSKA Anna Aleksandra",
+                                    "glosy": 85
+                                },
+                                "7": {
+                                    "name": "WYGNAŁ Iwona Mariola",
+                                    "glosy": 2
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "GRUBA Stefan",
+                                    "glosy": 156
+                                },
+                                "2": {
+                                    "name": "REDZIMSKA Karolina",
+                                    "glosy": 19
+                                },
+                                "3": {
+                                    "name": "LEHMANN Jan Franciszek",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "PETKIEWICZ Bożena Joanna",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "KLEIN Tadeusz Marek",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "GINTER-STENKA Malwina Magdalena",
+                                    "glosy": 7
+                                },
+                                "7": {
+                                    "name": "GNIEWKOWSKA Beata",
+                                    "glosy": 8
+                                }
+                            }
+                        }
+                    },
+                    "6": {
+                        "okreg": 2,
+                        "wyborcy": 2370,
+                        "wyborcy_glosujacy": 1421,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "SZMIDTKE Witold Tomasz",
+                                    "glosy": 581
+                                },
+                                "2": {
+                                    "name": "FOPKE Tomasz Michał",
+                                    "glosy": 19
+                                },
+                                "3": {
+                                    "name": "KLAWIKOWSKI Tadeusz",
+                                    "glosy": 15
+                                },
+                                "4": {
+                                    "name": "NOSEL Aleksandra",
+                                    "glosy": 10
+                                },
+                                "5": {
+                                    "name": "WANDTKE Bogumiła Anna",
+                                    "glosy": 12
+                                },
+                                "6": {
+                                    "name": "KOŁAZIŃSKA Anna Aleksandra",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "WYGNAŁ Iwona Mariola",
+                                    "glosy": 53
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "GRUBA Stefan",
+                                    "glosy": 92
+                                },
+                                "2": {
+                                    "name": "REDZIMSKA Karolina",
+                                    "glosy": 503
+                                },
+                                "3": {
+                                    "name": "LEHMANN Jan Franciszek",
+                                    "glosy": 6
+                                },
+                                "4": {
+                                    "name": "PETKIEWICZ Bożena Joanna",
+                                    "glosy": 14
+                                },
+                                "5": {
+                                    "name": "KLEIN Tadeusz Marek",
+                                    "glosy": 14
+                                },
+                                "6": {
+                                    "name": "GINTER-STENKA Malwina Magdalena",
+                                    "glosy": 19
+                                },
+                                "7": {
+                                    "name": "GNIEWKOWSKA Beata",
+                                    "glosy": 27
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "3": {
+                "mandaty": 5,
+                "listy": 2,
+                "mieszkancy": 9675,
+                "wyborcy": 7434,
+                "granice": "Borkowo, miasto Żukowo, wieś Żukowo",
+                "wyborcy_b": 1,
+                "pakiet": 0,
+                "kandydaci": {
+                    "13": {
+                        "komitet": "KWW KASZUBSKIE ZRZESZENIE WYBORCZE",
+                        "pozycje": {
+                            "1": {
+                                "name": "TREDER Tyberiusz Marek",
+                                "uzyskane_glosy": {
+                                    "15": 44,
+                                    "16": 143,
+                                    "17": 89,
+                                    "18": 103,
+                                    "19": 221
+                                }
+                            },
+                            "2": {
+                                "name": "BYCZKOWSKA Maria Mirosława",
+                                "uzyskane_glosy": {
+                                    "15": 25,
+                                    "16": 57,
+                                    "17": 43,
+                                    "18": 183,
+                                    "19": 105
+                                }
+                            },
+                            "3": {
+                                "name": "TREDER Brygida",
+                                "uzyskane_glosy": {
+                                    "15": 15,
+                                    "16": 66,
+                                    "17": 114,
+                                    "18": 39,
+                                    "19": 75
+                                }
+                            },
+                            "4": {
+                                "name": "SZUR Stanisław Wojciech",
+                                "uzyskane_glosy": {
+                                    "15": 30,
+                                    "16": 230,
+                                    "17": 39,
+                                    "18": 17,
+                                    "19": 31
+                                }
+                            },
+                            "5": {
+                                "name": "DOMAROS Arkadiusz Karol",
+                                "uzyskane_glosy": {
+                                    "15": 24,
+                                    "16": 37,
+                                    "17": 8,
+                                    "18": 3,
+                                    "19": 18
+                                }
+                            },
+                            "6": {
+                                "name": "KOZAKOWSKA Anna",
+                                "uzyskane_glosy": {
+                                    "15": 7,
+                                    "16": 32,
+                                    "17": 15,
+                                    "18": 23,
+                                    "19": 53
+                                }
+                            },
+                            "7": {
+                                "name": "BELGRAU Dominik Mateusz",
+                                "uzyskane_glosy": {
+                                    "15": 64,
+                                    "16": 46,
+                                    "17": 28,
+                                    "18": 10,
+                                    "19": 23
+                                }
+                            }
+                        }
+                    },
+                    "14": {
+                        "komitet": "KWW NASZA GMINA ŻUKOWO 2024",
+                        "pozycje": {
+                            "1": {
+                                "name": "OKRÓJ Adam Piotr",
+                                "uzyskane_glosy": {
+                                    "15": 243,
+                                    "16": 93,
+                                    "17": 59,
+                                    "18": 51,
+                                    "19": 102
+                                }
+                            },
+                            "2": {
+                                "name": "STUBIŃSKA-NALEWAJEK Renata Barbara",
+                                "uzyskane_glosy": {
+                                    "15": 20,
+                                    "16": 155,
+                                    "17": 96,
+                                    "18": 77,
+                                    "19": 118
+                                }
+                            },
+                            "3": {
+                                "name": "LITZBARSKI Karol",
+                                "uzyskane_glosy": {
+                                    "15": 24,
+                                    "16": 137,
+                                    "17": 63,
+                                    "18": 57,
+                                    "19": 74
+                                }
+                            },
+                            "4": {
+                                "name": "WROCŁAWSKA-TUSZKOWSKA Barbara Monika",
+                                "uzyskane_glosy": {
+                                    "15": 7,
+                                    "16": 9,
+                                    "17": 19,
+                                    "18": 13,
+                                    "19": 42
+                                }
+                            },
+                            "5": {
+                                "name": "RADOMSKI Kamil Krzysztof",
+                                "uzyskane_glosy": {
+                                    "15": 27,
+                                    "16": 50,
+                                    "17": 62,
+                                    "18": 42,
+                                    "19": 35
+                                }
+                            },
+                            "6": {
+                                "name": "FLESZAR Wioletta",
+                                "uzyskane_glosy": {
+                                    "15": 6,
+                                    "16": 30,
+                                    "17": 11,
+                                    "18": 20,
+                                    "19": 14
+                                }
+                            },
+                            "7": {
+                                "name": "PRUDZIŁKO Piotr Stanisław",
+                                "uzyskane_glosy": {
+                                    "15": 109,
+                                    "16": 23,
+                                    "17": 13,
+                                    "18": 12,
+                                    "19": 22
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "15": {
+                        "okreg": 3,
+                        "wyborcy": 1095,
+                        "wyborcy_glosujacy": 672,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "TREDER Tyberiusz Marek",
+                                    "glosy": 44
+                                },
+                                "2": {
+                                    "name": "BYCZKOWSKA Maria Mirosława",
+                                    "glosy": 25
+                                },
+                                "3": {
+                                    "name": "TREDER Brygida",
+                                    "glosy": 15
+                                },
+                                "4": {
+                                    "name": "SZUR Stanisław Wojciech",
+                                    "glosy": 30
+                                },
+                                "5": {
+                                    "name": "DOMAROS Arkadiusz Karol",
+                                    "glosy": 24
+                                },
+                                "6": {
+                                    "name": "KOZAKOWSKA Anna",
+                                    "glosy": 7
+                                },
+                                "7": {
+                                    "name": "BELGRAU Dominik Mateusz",
+                                    "glosy": 64
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "OKRÓJ Adam Piotr",
+                                    "glosy": 243
+                                },
+                                "2": {
+                                    "name": "STUBIŃSKA-NALEWAJEK Renata Barbara",
+                                    "glosy": 20
+                                },
+                                "3": {
+                                    "name": "LITZBARSKI Karol",
+                                    "glosy": 24
+                                },
+                                "4": {
+                                    "name": "WROCŁAWSKA-TUSZKOWSKA Barbara Monika",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "RADOMSKI Kamil Krzysztof",
+                                    "glosy": 27
+                                },
+                                "6": {
+                                    "name": "FLESZAR Wioletta",
+                                    "glosy": 6
+                                },
+                                "7": {
+                                    "name": "PRUDZIŁKO Piotr Stanisław",
+                                    "glosy": 109
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "okreg": 3,
+                        "wyborcy": 2048,
+                        "wyborcy_glosujacy": 1159,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "TREDER Tyberiusz Marek",
+                                    "glosy": 143
+                                },
+                                "2": {
+                                    "name": "BYCZKOWSKA Maria Mirosława",
+                                    "glosy": 57
+                                },
+                                "3": {
+                                    "name": "TREDER Brygida",
+                                    "glosy": 66
+                                },
+                                "4": {
+                                    "name": "SZUR Stanisław Wojciech",
+                                    "glosy": 230
+                                },
+                                "5": {
+                                    "name": "DOMAROS Arkadiusz Karol",
+                                    "glosy": 37
+                                },
+                                "6": {
+                                    "name": "KOZAKOWSKA Anna",
+                                    "glosy": 32
+                                },
+                                "7": {
+                                    "name": "BELGRAU Dominik Mateusz",
+                                    "glosy": 46
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "OKRÓJ Adam Piotr",
+                                    "glosy": 93
+                                },
+                                "2": {
+                                    "name": "STUBIŃSKA-NALEWAJEK Renata Barbara",
+                                    "glosy": 155
+                                },
+                                "3": {
+                                    "name": "LITZBARSKI Karol",
+                                    "glosy": 137
+                                },
+                                "4": {
+                                    "name": "WROCŁAWSKA-TUSZKOWSKA Barbara Monika",
+                                    "glosy": 9
+                                },
+                                "5": {
+                                    "name": "RADOMSKI Kamil Krzysztof",
+                                    "glosy": 50
+                                },
+                                "6": {
+                                    "name": "FLESZAR Wioletta",
+                                    "glosy": 30
+                                },
+                                "7": {
+                                    "name": "PRUDZIŁKO Piotr Stanisław",
+                                    "glosy": 23
+                                }
+                            }
+                        }
+                    },
+                    "17": {
+                        "okreg": 3,
+                        "wyborcy": 1284,
+                        "wyborcy_glosujacy": 705,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "TREDER Tyberiusz Marek",
+                                    "glosy": 89
+                                },
+                                "2": {
+                                    "name": "BYCZKOWSKA Maria Mirosława",
+                                    "glosy": 43
+                                },
+                                "3": {
+                                    "name": "TREDER Brygida",
+                                    "glosy": 114
+                                },
+                                "4": {
+                                    "name": "SZUR Stanisław Wojciech",
+                                    "glosy": 39
+                                },
+                                "5": {
+                                    "name": "DOMAROS Arkadiusz Karol",
+                                    "glosy": 8
+                                },
+                                "6": {
+                                    "name": "KOZAKOWSKA Anna",
+                                    "glosy": 15
+                                },
+                                "7": {
+                                    "name": "BELGRAU Dominik Mateusz",
+                                    "glosy": 28
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "OKRÓJ Adam Piotr",
+                                    "glosy": 59
+                                },
+                                "2": {
+                                    "name": "STUBIŃSKA-NALEWAJEK Renata Barbara",
+                                    "glosy": 96
+                                },
+                                "3": {
+                                    "name": "LITZBARSKI Karol",
+                                    "glosy": 63
+                                },
+                                "4": {
+                                    "name": "WROCŁAWSKA-TUSZKOWSKA Barbara Monika",
+                                    "glosy": 19
+                                },
+                                "5": {
+                                    "name": "RADOMSKI Kamil Krzysztof",
+                                    "glosy": 62
+                                },
+                                "6": {
+                                    "name": "FLESZAR Wioletta",
+                                    "glosy": 11
+                                },
+                                "7": {
+                                    "name": "PRUDZIŁKO Piotr Stanisław",
+                                    "glosy": 13
+                                }
+                            }
+                        }
+                    },
+                    "18": {
+                        "okreg": 3,
+                        "wyborcy": 1269,
+                        "wyborcy_glosujacy": 674,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "TREDER Tyberiusz Marek",
+                                    "glosy": 103
+                                },
+                                "2": {
+                                    "name": "BYCZKOWSKA Maria Mirosława",
+                                    "glosy": 183
+                                },
+                                "3": {
+                                    "name": "TREDER Brygida",
+                                    "glosy": 39
+                                },
+                                "4": {
+                                    "name": "SZUR Stanisław Wojciech",
+                                    "glosy": 17
+                                },
+                                "5": {
+                                    "name": "DOMAROS Arkadiusz Karol",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "KOZAKOWSKA Anna",
+                                    "glosy": 23
+                                },
+                                "7": {
+                                    "name": "BELGRAU Dominik Mateusz",
+                                    "glosy": 10
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "OKRÓJ Adam Piotr",
+                                    "glosy": 51
+                                },
+                                "2": {
+                                    "name": "STUBIŃSKA-NALEWAJEK Renata Barbara",
+                                    "glosy": 77
+                                },
+                                "3": {
+                                    "name": "LITZBARSKI Karol",
+                                    "glosy": 57
+                                },
+                                "4": {
+                                    "name": "WROCŁAWSKA-TUSZKOWSKA Barbara Monika",
+                                    "glosy": 13
+                                },
+                                "5": {
+                                    "name": "RADOMSKI Kamil Krzysztof",
+                                    "glosy": 42
+                                },
+                                "6": {
+                                    "name": "FLESZAR Wioletta",
+                                    "glosy": 20
+                                },
+                                "7": {
+                                    "name": "PRUDZIŁKO Piotr Stanisław",
+                                    "glosy": 12
+                                }
+                            }
+                        }
+                    },
+                    "19": {
+                        "okreg": 3,
+                        "wyborcy": 1739,
+                        "wyborcy_glosujacy": 989,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "TREDER Tyberiusz Marek",
+                                    "glosy": 221
+                                },
+                                "2": {
+                                    "name": "BYCZKOWSKA Maria Mirosława",
+                                    "glosy": 105
+                                },
+                                "3": {
+                                    "name": "TREDER Brygida",
+                                    "glosy": 75
+                                },
+                                "4": {
+                                    "name": "SZUR Stanisław Wojciech",
+                                    "glosy": 31
+                                },
+                                "5": {
+                                    "name": "DOMAROS Arkadiusz Karol",
+                                    "glosy": 18
+                                },
+                                "6": {
+                                    "name": "KOZAKOWSKA Anna",
+                                    "glosy": 53
+                                },
+                                "7": {
+                                    "name": "BELGRAU Dominik Mateusz",
+                                    "glosy": 23
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "OKRÓJ Adam Piotr",
+                                    "glosy": 102
+                                },
+                                "2": {
+                                    "name": "STUBIŃSKA-NALEWAJEK Renata Barbara",
+                                    "glosy": 118
+                                },
+                                "3": {
+                                    "name": "LITZBARSKI Karol",
+                                    "glosy": 74
+                                },
+                                "4": {
+                                    "name": "WROCŁAWSKA-TUSZKOWSKA Barbara Monika",
+                                    "glosy": 42
+                                },
+                                "5": {
+                                    "name": "RADOMSKI Kamil Krzysztof",
+                                    "glosy": 35
+                                },
+                                "6": {
+                                    "name": "FLESZAR Wioletta",
+                                    "glosy": 14
+                                },
+                                "7": {
+                                    "name": "PRUDZIŁKO Piotr Stanisław",
+                                    "glosy": 22
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "4": {
+                "mandaty": 6,
+                "listy": 2,
+                "mieszkancy": 11681,
+                "wyborcy": 8613,
+                "granice": "Babi Dół, Glincz, Leźno, Lniska, Łapino Kartuskie, Niestępowo, Otomino, Przyjaźń, Rutki, Skrzeszewo, Sulmin, Widlino",
+                "wyborcy_b": 0,
+                "pakiet": 0,
+                "kandydaci": {
+                    "13": {
+                        "komitet": "KWW KASZUBSKIE ZRZESZENIE WYBORCZE",
+                        "pozycje": {
+                            "1": {
+                                "name": "KANKOWSKI Wojciech Dariusz",
+                                "uzyskane_glosy": {
+                                    "10": 106,
+                                    "11": 61,
+                                    "12": 104,
+                                    "13": 212,
+                                    "14": 81,
+                                    "20": 39,
+                                    "21": 20,
+                                    "22": 22,
+                                    "23": 24,
+                                    "24": 5
+                                }
+                            },
+                            "2": {
+                                "name": "KARCZEWSKI Andrzej",
+                                "uzyskane_glosy": {
+                                    "10": 34,
+                                    "11": 12,
+                                    "12": 29,
+                                    "13": 32,
+                                    "14": 20,
+                                    "20": 62,
+                                    "21": 89,
+                                    "22": 3,
+                                    "23": 15,
+                                    "24": 23
+                                }
+                            },
+                            "3": {
+                                "name": "TOKARSKI Grzegorz Józef",
+                                "uzyskane_glosy": {
+                                    "10": 26,
+                                    "11": 252,
+                                    "12": 42,
+                                    "13": 13,
+                                    "14": 16,
+                                    "20": 52,
+                                    "21": 10,
+                                    "22": 0,
+                                    "23": 11,
+                                    "24": 18
+                                }
+                            },
+                            "4": {
+                                "name": "WÓJCIK Jarosław Czesław",
+                                "uzyskane_glosy": {
+                                    "10": 90,
+                                    "11": 4,
+                                    "12": 2,
+                                    "13": 3,
+                                    "14": 7,
+                                    "20": 1,
+                                    "21": 1,
+                                    "22": 1,
+                                    "23": 3,
+                                    "24": 0
+                                }
+                            },
+                            "5": {
+                                "name": "STAŃKOWSKA Karolina Barbara",
+                                "uzyskane_glosy": {
+                                    "10": 25,
+                                    "11": 1,
+                                    "12": 17,
+                                    "13": 6,
+                                    "14": 54,
+                                    "20": 4,
+                                    "21": 2,
+                                    "22": 1,
+                                    "23": 4,
+                                    "24": 3
+                                }
+                            },
+                            "6": {
+                                "name": "KOBIELA-MERCHEL Helena",
+                                "uzyskane_glosy": {
+                                    "10": 68,
+                                    "11": 1,
+                                    "12": 9,
+                                    "13": 5,
+                                    "14": 2,
+                                    "20": 6,
+                                    "21": 0,
+                                    "22": 0,
+                                    "23": 1,
+                                    "24": 0
+                                }
+                            },
+                            "7": {
+                                "name": "ŻOŁNOWSKA Grażyna Janina",
+                                "uzyskane_glosy": {
+                                    "10": 10,
+                                    "11": 8,
+                                    "12": 178,
+                                    "13": 16,
+                                    "14": 15,
+                                    "20": 0,
+                                    "21": 7,
+                                    "22": 2,
+                                    "23": 3,
+                                    "24": 1
+                                }
+                            },
+                            "8": {
+                                "name": "SŁODZINKA Łukasz Marian",
+                                "uzyskane_glosy": {
+                                    "10": 55,
+                                    "11": 5,
+                                    "12": 37,
+                                    "13": 152,
+                                    "14": 10,
+                                    "20": 2,
+                                    "21": 3,
+                                    "22": 2,
+                                    "23": 1,
+                                    "24": 1
+                                }
+                            }
+                        }
+                    },
+                    "14": {
+                        "komitet": "KWW NASZA GMINA ŻUKOWO 2024",
+                        "pozycje": {
+                            "1": {
+                                "name": "STROMSKI Adam Mirosław",
+                                "uzyskane_glosy": {
+                                    "10": 37,
+                                    "11": 20,
+                                    "12": 244,
+                                    "13": 19,
+                                    "14": 292,
+                                    "20": 7,
+                                    "21": 9,
+                                    "22": 2,
+                                    "23": 23,
+                                    "24": 2
+                                }
+                            },
+                            "2": {
+                                "name": "PELLOWSKI Tomasz Leszek",
+                                "uzyskane_glosy": {
+                                    "10": 346,
+                                    "11": 6,
+                                    "12": 14,
+                                    "13": 15,
+                                    "14": 14,
+                                    "20": 11,
+                                    "21": 3,
+                                    "22": 0,
+                                    "23": 3,
+                                    "24": 0
+                                }
+                            },
+                            "3": {
+                                "name": "ŻURYŃ Ewa",
+                                "uzyskane_glosy": {
+                                    "10": 42,
+                                    "11": 100,
+                                    "12": 22,
+                                    "13": 5,
+                                    "14": 11,
+                                    "20": 27,
+                                    "21": 5,
+                                    "22": 1,
+                                    "23": 0,
+                                    "24": 6
+                                }
+                            },
+                            "4": {
+                                "name": "SARACH-JAGŁA Natalia",
+                                "uzyskane_glosy": {
+                                    "10": 40,
+                                    "11": 5,
+                                    "12": 20,
+                                    "13": 7,
+                                    "14": 146,
+                                    "20": 5,
+                                    "21": 3,
+                                    "22": 7,
+                                    "23": 6,
+                                    "24": 1
+                                }
+                            },
+                            "5": {
+                                "name": "HINC Monika Justyna",
+                                "uzyskane_glosy": {
+                                    "10": 26,
+                                    "11": 11,
+                                    "12": 40,
+                                    "13": 54,
+                                    "14": 22,
+                                    "20": 11,
+                                    "21": 0,
+                                    "22": 39,
+                                    "23": 5,
+                                    "24": 1
+                                }
+                            },
+                            "6": {
+                                "name": "HEIMOWSKI Paweł",
+                                "uzyskane_glosy": {
+                                    "10": 9,
+                                    "11": 9,
+                                    "12": 1,
+                                    "13": 4,
+                                    "14": 10,
+                                    "20": 1,
+                                    "21": 0,
+                                    "22": 0,
+                                    "23": 2,
+                                    "24": 4
+                                }
+                            },
+                            "7": {
+                                "name": "BIESZKA Barbara",
+                                "uzyskane_glosy": {
+                                    "10": 9,
+                                    "11": 1,
+                                    "12": 55,
+                                    "13": 7,
+                                    "14": 16,
+                                    "20": 3,
+                                    "21": 2,
+                                    "22": 2,
+                                    "23": 3,
+                                    "24": 0
+                                }
+                            },
+                            "8": {
+                                "name": "MUZOLF Marta",
+                                "uzyskane_glosy": {
+                                    "10": 9,
+                                    "11": 14,
+                                    "12": 26,
+                                    "13": 5,
+                                    "14": 10,
+                                    "20": 35,
+                                    "21": 73,
+                                    "22": 1,
+                                    "23": 1,
+                                    "24": 29
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "10": {
+                        "okreg": 4,
+                        "wyborcy": 1816,
+                        "wyborcy_glosujacy": 965,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "KANKOWSKI Wojciech Dariusz",
+                                    "glosy": 106
+                                },
+                                "2": {
+                                    "name": "KARCZEWSKI Andrzej",
+                                    "glosy": 34
+                                },
+                                "3": {
+                                    "name": "TOKARSKI Grzegorz Józef",
+                                    "glosy": 26
+                                },
+                                "4": {
+                                    "name": "WÓJCIK Jarosław Czesław",
+                                    "glosy": 90
+                                },
+                                "5": {
+                                    "name": "STAŃKOWSKA Karolina Barbara",
+                                    "glosy": 25
+                                },
+                                "6": {
+                                    "name": "KOBIELA-MERCHEL Helena",
+                                    "glosy": 68
+                                },
+                                "7": {
+                                    "name": "ŻOŁNOWSKA Grażyna Janina",
+                                    "glosy": 10
+                                },
+                                "8": {
+                                    "name": "SŁODZINKA Łukasz Marian",
+                                    "glosy": 55
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "STROMSKI Adam Mirosław",
+                                    "glosy": 37
+                                },
+                                "2": {
+                                    "name": "PELLOWSKI Tomasz Leszek",
+                                    "glosy": 346
+                                },
+                                "3": {
+                                    "name": "ŻURYŃ Ewa",
+                                    "glosy": 42
+                                },
+                                "4": {
+                                    "name": "SARACH-JAGŁA Natalia",
+                                    "glosy": 40
+                                },
+                                "5": {
+                                    "name": "HINC Monika Justyna",
+                                    "glosy": 26
+                                },
+                                "6": {
+                                    "name": "HEIMOWSKI Paweł",
+                                    "glosy": 9
+                                },
+                                "7": {
+                                    "name": "BIESZKA Barbara",
+                                    "glosy": 9
+                                },
+                                "8": {
+                                    "name": "MUZOLF Marta",
+                                    "glosy": 9
+                                }
+                            }
+                        }
+                    },
+                    "11": {
+                        "okreg": 4,
+                        "wyborcy": 1076,
+                        "wyborcy_glosujacy": 544,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "KANKOWSKI Wojciech Dariusz",
+                                    "glosy": 61
+                                },
+                                "2": {
+                                    "name": "KARCZEWSKI Andrzej",
+                                    "glosy": 12
+                                },
+                                "3": {
+                                    "name": "TOKARSKI Grzegorz Józef",
+                                    "glosy": 252
+                                },
+                                "4": {
+                                    "name": "WÓJCIK Jarosław Czesław",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "STAŃKOWSKA Karolina Barbara",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "KOBIELA-MERCHEL Helena",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "ŻOŁNOWSKA Grażyna Janina",
+                                    "glosy": 8
+                                },
+                                "8": {
+                                    "name": "SŁODZINKA Łukasz Marian",
+                                    "glosy": 5
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "STROMSKI Adam Mirosław",
+                                    "glosy": 20
+                                },
+                                "2": {
+                                    "name": "PELLOWSKI Tomasz Leszek",
+                                    "glosy": 6
+                                },
+                                "3": {
+                                    "name": "ŻURYŃ Ewa",
+                                    "glosy": 100
+                                },
+                                "4": {
+                                    "name": "SARACH-JAGŁA Natalia",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "HINC Monika Justyna",
+                                    "glosy": 11
+                                },
+                                "6": {
+                                    "name": "HEIMOWSKI Paweł",
+                                    "glosy": 9
+                                },
+                                "7": {
+                                    "name": "BIESZKA Barbara",
+                                    "glosy": 1
+                                },
+                                "8": {
+                                    "name": "MUZOLF Marta",
+                                    "glosy": 14
+                                }
+                            }
+                        }
+                    },
+                    "12": {
+                        "okreg": 4,
+                        "wyborcy": 1691,
+                        "wyborcy_glosujacy": 874,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "KANKOWSKI Wojciech Dariusz",
+                                    "glosy": 104
+                                },
+                                "2": {
+                                    "name": "KARCZEWSKI Andrzej",
+                                    "glosy": 29
+                                },
+                                "3": {
+                                    "name": "TOKARSKI Grzegorz Józef",
+                                    "glosy": 42
+                                },
+                                "4": {
+                                    "name": "WÓJCIK Jarosław Czesław",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "STAŃKOWSKA Karolina Barbara",
+                                    "glosy": 17
+                                },
+                                "6": {
+                                    "name": "KOBIELA-MERCHEL Helena",
+                                    "glosy": 9
+                                },
+                                "7": {
+                                    "name": "ŻOŁNOWSKA Grażyna Janina",
+                                    "glosy": 178
+                                },
+                                "8": {
+                                    "name": "SŁODZINKA Łukasz Marian",
+                                    "glosy": 37
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "STROMSKI Adam Mirosław",
+                                    "glosy": 244
+                                },
+                                "2": {
+                                    "name": "PELLOWSKI Tomasz Leszek",
+                                    "glosy": 14
+                                },
+                                "3": {
+                                    "name": "ŻURYŃ Ewa",
+                                    "glosy": 22
+                                },
+                                "4": {
+                                    "name": "SARACH-JAGŁA Natalia",
+                                    "glosy": 20
+                                },
+                                "5": {
+                                    "name": "HINC Monika Justyna",
+                                    "glosy": 40
+                                },
+                                "6": {
+                                    "name": "HEIMOWSKI Paweł",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "BIESZKA Barbara",
+                                    "glosy": 55
+                                },
+                                "8": {
+                                    "name": "MUZOLF Marta",
+                                    "glosy": 26
+                                }
+                            }
+                        }
+                    },
+                    "13": {
+                        "okreg": 4,
+                        "wyborcy": 1150,
+                        "wyborcy_glosujacy": 587,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "KANKOWSKI Wojciech Dariusz",
+                                    "glosy": 212
+                                },
+                                "2": {
+                                    "name": "KARCZEWSKI Andrzej",
+                                    "glosy": 32
+                                },
+                                "3": {
+                                    "name": "TOKARSKI Grzegorz Józef",
+                                    "glosy": 13
+                                },
+                                "4": {
+                                    "name": "WÓJCIK Jarosław Czesław",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "STAŃKOWSKA Karolina Barbara",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "KOBIELA-MERCHEL Helena",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "ŻOŁNOWSKA Grażyna Janina",
+                                    "glosy": 16
+                                },
+                                "8": {
+                                    "name": "SŁODZINKA Łukasz Marian",
+                                    "glosy": 152
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "STROMSKI Adam Mirosław",
+                                    "glosy": 19
+                                },
+                                "2": {
+                                    "name": "PELLOWSKI Tomasz Leszek",
+                                    "glosy": 15
+                                },
+                                "3": {
+                                    "name": "ŻURYŃ Ewa",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "SARACH-JAGŁA Natalia",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "HINC Monika Justyna",
+                                    "glosy": 54
+                                },
+                                "6": {
+                                    "name": "HEIMOWSKI Paweł",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "BIESZKA Barbara",
+                                    "glosy": 7
+                                },
+                                "8": {
+                                    "name": "MUZOLF Marta",
+                                    "glosy": 5
+                                }
+                            }
+                        }
+                    },
+                    "14": {
+                        "okreg": 4,
+                        "wyborcy": 1394,
+                        "wyborcy_glosujacy": 786,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "KANKOWSKI Wojciech Dariusz",
+                                    "glosy": 81
+                                },
+                                "2": {
+                                    "name": "KARCZEWSKI Andrzej",
+                                    "glosy": 20
+                                },
+                                "3": {
+                                    "name": "TOKARSKI Grzegorz Józef",
+                                    "glosy": 16
+                                },
+                                "4": {
+                                    "name": "WÓJCIK Jarosław Czesław",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "STAŃKOWSKA Karolina Barbara",
+                                    "glosy": 54
+                                },
+                                "6": {
+                                    "name": "KOBIELA-MERCHEL Helena",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "ŻOŁNOWSKA Grażyna Janina",
+                                    "glosy": 15
+                                },
+                                "8": {
+                                    "name": "SŁODZINKA Łukasz Marian",
+                                    "glosy": 10
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "STROMSKI Adam Mirosław",
+                                    "glosy": 292
+                                },
+                                "2": {
+                                    "name": "PELLOWSKI Tomasz Leszek",
+                                    "glosy": 14
+                                },
+                                "3": {
+                                    "name": "ŻURYŃ Ewa",
+                                    "glosy": 11
+                                },
+                                "4": {
+                                    "name": "SARACH-JAGŁA Natalia",
+                                    "glosy": 146
+                                },
+                                "5": {
+                                    "name": "HINC Monika Justyna",
+                                    "glosy": 22
+                                },
+                                "6": {
+                                    "name": "HEIMOWSKI Paweł",
+                                    "glosy": 10
+                                },
+                                "7": {
+                                    "name": "BIESZKA Barbara",
+                                    "glosy": 16
+                                },
+                                "8": {
+                                    "name": "MUZOLF Marta",
+                                    "glosy": 10
+                                }
+                            }
+                        }
+                    },
+                    "20": {
+                        "okreg": 4,
+                        "wyborcy": 507,
+                        "wyborcy_glosujacy": 281,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "KANKOWSKI Wojciech Dariusz",
+                                    "glosy": 39
+                                },
+                                "2": {
+                                    "name": "KARCZEWSKI Andrzej",
+                                    "glosy": 62
+                                },
+                                "3": {
+                                    "name": "TOKARSKI Grzegorz Józef",
+                                    "glosy": 52
+                                },
+                                "4": {
+                                    "name": "WÓJCIK Jarosław Czesław",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "STAŃKOWSKA Karolina Barbara",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "KOBIELA-MERCHEL Helena",
+                                    "glosy": 6
+                                },
+                                "7": {
+                                    "name": "ŻOŁNOWSKA Grażyna Janina",
+                                    "glosy": 0
+                                },
+                                "8": {
+                                    "name": "SŁODZINKA Łukasz Marian",
+                                    "glosy": 2
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "STROMSKI Adam Mirosław",
+                                    "glosy": 7
+                                },
+                                "2": {
+                                    "name": "PELLOWSKI Tomasz Leszek",
+                                    "glosy": 11
+                                },
+                                "3": {
+                                    "name": "ŻURYŃ Ewa",
+                                    "glosy": 27
+                                },
+                                "4": {
+                                    "name": "SARACH-JAGŁA Natalia",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "HINC Monika Justyna",
+                                    "glosy": 11
+                                },
+                                "6": {
+                                    "name": "HEIMOWSKI Paweł",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "BIESZKA Barbara",
+                                    "glosy": 3
+                                },
+                                "8": {
+                                    "name": "MUZOLF Marta",
+                                    "glosy": 35
+                                }
+                            }
+                        }
+                    },
+                    "21": {
+                        "okreg": 4,
+                        "wyborcy": 418,
+                        "wyborcy_glosujacy": 235,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "KANKOWSKI Wojciech Dariusz",
+                                    "glosy": 20
+                                },
+                                "2": {
+                                    "name": "KARCZEWSKI Andrzej",
+                                    "glosy": 89
+                                },
+                                "3": {
+                                    "name": "TOKARSKI Grzegorz Józef",
+                                    "glosy": 10
+                                },
+                                "4": {
+                                    "name": "WÓJCIK Jarosław Czesław",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "STAŃKOWSKA Karolina Barbara",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "KOBIELA-MERCHEL Helena",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "ŻOŁNOWSKA Grażyna Janina",
+                                    "glosy": 7
+                                },
+                                "8": {
+                                    "name": "SŁODZINKA Łukasz Marian",
+                                    "glosy": 3
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "STROMSKI Adam Mirosław",
+                                    "glosy": 9
+                                },
+                                "2": {
+                                    "name": "PELLOWSKI Tomasz Leszek",
+                                    "glosy": 3
+                                },
+                                "3": {
+                                    "name": "ŻURYŃ Ewa",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "SARACH-JAGŁA Natalia",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "HINC Monika Justyna",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "HEIMOWSKI Paweł",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "BIESZKA Barbara",
+                                    "glosy": 2
+                                },
+                                "8": {
+                                    "name": "MUZOLF Marta",
+                                    "glosy": 73
+                                }
+                            }
+                        }
+                    },
+                    "22": {
+                        "okreg": 4,
+                        "wyborcy": 202,
+                        "wyborcy_glosujacy": 88,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "KANKOWSKI Wojciech Dariusz",
+                                    "glosy": 22
+                                },
+                                "2": {
+                                    "name": "KARCZEWSKI Andrzej",
+                                    "glosy": 3
+                                },
+                                "3": {
+                                    "name": "TOKARSKI Grzegorz Józef",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "WÓJCIK Jarosław Czesław",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "STAŃKOWSKA Karolina Barbara",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "KOBIELA-MERCHEL Helena",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "ŻOŁNOWSKA Grażyna Janina",
+                                    "glosy": 2
+                                },
+                                "8": {
+                                    "name": "SŁODZINKA Łukasz Marian",
+                                    "glosy": 2
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "STROMSKI Adam Mirosław",
+                                    "glosy": 2
+                                },
+                                "2": {
+                                    "name": "PELLOWSKI Tomasz Leszek",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "ŻURYŃ Ewa",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "SARACH-JAGŁA Natalia",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "HINC Monika Justyna",
+                                    "glosy": 39
+                                },
+                                "6": {
+                                    "name": "HEIMOWSKI Paweł",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "BIESZKA Barbara",
+                                    "glosy": 2
+                                },
+                                "8": {
+                                    "name": "MUZOLF Marta",
+                                    "glosy": 1
+                                }
+                            }
+                        }
+                    },
+                    "23": {
+                        "okreg": 4,
+                        "wyborcy": 169,
+                        "wyborcy_glosujacy": 111,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "KANKOWSKI Wojciech Dariusz",
+                                    "glosy": 24
+                                },
+                                "2": {
+                                    "name": "KARCZEWSKI Andrzej",
+                                    "glosy": 15
+                                },
+                                "3": {
+                                    "name": "TOKARSKI Grzegorz Józef",
+                                    "glosy": 11
+                                },
+                                "4": {
+                                    "name": "WÓJCIK Jarosław Czesław",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "STAŃKOWSKA Karolina Barbara",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "KOBIELA-MERCHEL Helena",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "ŻOŁNOWSKA Grażyna Janina",
+                                    "glosy": 3
+                                },
+                                "8": {
+                                    "name": "SŁODZINKA Łukasz Marian",
+                                    "glosy": 1
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "STROMSKI Adam Mirosław",
+                                    "glosy": 23
+                                },
+                                "2": {
+                                    "name": "PELLOWSKI Tomasz Leszek",
+                                    "glosy": 3
+                                },
+                                "3": {
+                                    "name": "ŻURYŃ Ewa",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "SARACH-JAGŁA Natalia",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "HINC Monika Justyna",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "HEIMOWSKI Paweł",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "BIESZKA Barbara",
+                                    "glosy": 3
+                                },
+                                "8": {
+                                    "name": "MUZOLF Marta",
+                                    "glosy": 1
+                                }
+                            }
+                        }
+                    },
+                    "24": {
+                        "okreg": 4,
+                        "wyborcy": 193,
+                        "wyborcy_glosujacy": 98,
+                        "kandydaci": {
+                            "13": {
+                                "1": {
+                                    "name": "KANKOWSKI Wojciech Dariusz",
+                                    "glosy": 5
+                                },
+                                "2": {
+                                    "name": "KARCZEWSKI Andrzej",
+                                    "glosy": 23
+                                },
+                                "3": {
+                                    "name": "TOKARSKI Grzegorz Józef",
+                                    "glosy": 18
+                                },
+                                "4": {
+                                    "name": "WÓJCIK Jarosław Czesław",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "STAŃKOWSKA Karolina Barbara",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "KOBIELA-MERCHEL Helena",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "ŻOŁNOWSKA Grażyna Janina",
+                                    "glosy": 1
+                                },
+                                "8": {
+                                    "name": "SŁODZINKA Łukasz Marian",
+                                    "glosy": 1
+                                }
+                            },
+                            "14": {
+                                "1": {
+                                    "name": "STROMSKI Adam Mirosław",
+                                    "glosy": 2
+                                },
+                                "2": {
+                                    "name": "PELLOWSKI Tomasz Leszek",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "ŻURYŃ Ewa",
+                                    "glosy": 6
+                                },
+                                "4": {
+                                    "name": "SARACH-JAGŁA Natalia",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "HINC Monika Justyna",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "HEIMOWSKI Paweł",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "BIESZKA Barbara",
+                                    "glosy": 0
+                                },
+                                "8": {
+                                    "name": "MUZOLF Marta",
+                                    "glosy": 29
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

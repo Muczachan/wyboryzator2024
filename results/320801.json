@@ -1,0 +1,3563 @@
+{
+    "320801": {
+        "wojewodztwo": "zachodniopomorskie",
+        "powiat": "kołobrzeski",
+        "gmina": "m. Kołobrzeg",
+        "organ": "Rada Miasta Kołobrzeg",
+        "siedziba": "Kołobrzeg",
+        "okregi": {
+            "1": {
+                "mandaty": 5,
+                "listy": 3,
+                "mieszkancy": 9851,
+                "wyborcy": 8214,
+                "granice": "Akacjowa, Albatrosa, Krzysztofa Arciszewskiego, Bajeczna, Bałtycka, Oleńki Billewiczówny, Błękitna, Bosmańska, Brylantowa, Jana Brzechwy, Bukowa, Bursztynowa, Bzów, Bydgoska, Józefa Chełmońskiego, Cisowa, Dębowa, Diamentowa, Dworcowa, Jana Frankowskiego, Gdańska, Aleksandra i Maksymiliana Gierymskich, Głogowa, Gnieźnieńska, Grudziądzka, Grzybowska, Hajduczka, Herbowa – numery nieparzyste, Jagiellońska, Jana Sobiepana Zamoyskiego, Jana Sobieskiego, Jasna, Jaśminowa, Jedności Narodowej, Jodłowa, Jowisza, Kazimierza Jurkiewicza, Kapitańska, Mieczysława Karłowicza, Kasztanowa, Ketlinga, Kiemliczów, Andrzeja Kmicica, Klonowa, Krzysztofa Kolumba, Komandorska, Koralowa, Janusza Korczaka, ks. Kordeckiego, Juliusza Kossaka, Krakowska, Ignacego Krasickiego, Krótka, Księżyca, Karola Kurpińskiego, Lazurowa, Leśna, Longinusa Podbipięty, Lubuska, Łososiowa, Konstantego Maciejewicza, Tadeusza Makowskiego, Kornela Makuszyńskiego, Jacka Malczewskiego, Małopolska, Marsa, Marynarska, Jana Matejki, św. Macieja, Merkurego, Piotra Michałowskiego, Miła, Stanisława Moniuszki, Gustawa Morcinka, Muszelkowa, Neptuna, Zygmunta Noskowskiego, Obozowa, Michała Kleofasa Ogińskiego, Opolska, Aleksandra Orłowskiego, Ignacego Paderewskiego, Partyzantów, Pawła Jana Sapiehy, Perłowa, Piastowska, Pierwszych Osadników, pl. 18 Marca, Plażowa, Pogodna, Polanki, Poznańska, Próżna, kmdr. Zbigniewa Przybyszewskiego, Michała Kazimierza Radziwiłła, Rolna, Różana, Ludomira Różyckiego, Rubinowa, Rybacka, Saturna, Henryka Sienkiewicza, Władysława Skoczylasa, Jana Skrzetuskiego, Słoneczna, Słowicza, Sosnowa, Spokojna, Mamerta Stankiewicza, Starynowska, Stoczniowa, Szafirowa, Szarych Szeregów, Ewy Szelburg – Zarembiny, Szmaragdowa, Karola Szymanowskiego, Szyprów, Synów Pułku, Śląska, Świerkowa, Świętokrzyska, Świętego Wojciecha, Tczewska, Leonida Teligi, Tęczowa, Toruńska, Turkusowa, Juliana Tuwima, Urocza, Warszawska, Warzelnicza, Wczasowa, Wenus, Wesoła, Węgorzowa, Wichrowa, Henryka Wieniawskiego, Wierzbowa, kpt. Leszka Wiktorowicza, Wiosenna, Witkowice, Wincentego Witosa, Michała Wołodyjowskiego, Wrocławska, Leona Wyczółkowskiego, Wydmowa, Wylotowa, Stanisława Wyspiańskiego, Zachodnia, Zagłoby, Mariusza Zaruskiego, Ziemi, Złotowska, Zwycięzców, Żeglarska, Żurawia",
+                "wyborcy_b": 0,
+                "pakiet": 0,
+                "kandydaci": {
+                    "14": {
+                        "komitet": "KWW CENTROPRAWICA",
+                        "pozycje": {
+                            "1": {
+                                "name": "TOMICKI Adrian Tomasz",
+                                "uzyskane_glosy": {
+                                    "2": 74,
+                                    "14": 65,
+                                    "15": 51,
+                                    "21": 39,
+                                    "22": 61
+                                }
+                            },
+                            "2": {
+                                "name": "FURGAŁA Andrzej",
+                                "uzyskane_glosy": {
+                                    "2": 5,
+                                    "14": 10,
+                                    "15": 27,
+                                    "21": 7,
+                                    "22": 14
+                                }
+                            },
+                            "3": {
+                                "name": "CZAPLEWSKI Wojciech Paweł",
+                                "uzyskane_glosy": {
+                                    "2": 23,
+                                    "14": 12,
+                                    "15": 25,
+                                    "21": 16,
+                                    "22": 21
+                                }
+                            },
+                            "4": {
+                                "name": "PIETRYK Maria Jolanta",
+                                "uzyskane_glosy": {
+                                    "2": 8,
+                                    "14": 13,
+                                    "15": 11,
+                                    "21": 8,
+                                    "22": 2
+                                }
+                            },
+                            "5": {
+                                "name": "RAMA Ewa",
+                                "uzyskane_glosy": {
+                                    "2": 7,
+                                    "14": 12,
+                                    "15": 30,
+                                    "21": 3,
+                                    "22": 8
+                                }
+                            },
+                            "6": {
+                                "name": "KRATA Janina",
+                                "uzyskane_glosy": {
+                                    "2": 4,
+                                    "14": 5,
+                                    "15": 1,
+                                    "21": 2,
+                                    "22": 0
+                                }
+                            },
+                            "7": {
+                                "name": "GARBOWSKA Marzanna Maria",
+                                "uzyskane_glosy": {
+                                    "2": 7,
+                                    "14": 13,
+                                    "15": 4,
+                                    "21": 4,
+                                    "22": 6
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "komitet": "KWW JACKA WOŹNIAKA KOALICJA SAMORZĄDOWA",
+                        "pozycje": {
+                            "1": {
+                                "name": "SZARŁATA-WOŹNIAK Karolina Katarzyna",
+                                "uzyskane_glosy": {
+                                    "2": 60,
+                                    "14": 85,
+                                    "15": 45,
+                                    "21": 56,
+                                    "22": 58
+                                }
+                            },
+                            "2": {
+                                "name": "MALINOWSKA Katarzyna Agnieszka",
+                                "uzyskane_glosy": {
+                                    "2": 5,
+                                    "14": 28,
+                                    "15": 9,
+                                    "21": 11,
+                                    "22": 13
+                                }
+                            },
+                            "3": {
+                                "name": "KUCHARYCZ Robert Józef",
+                                "uzyskane_glosy": {
+                                    "2": 7,
+                                    "14": 41,
+                                    "15": 4,
+                                    "21": 4,
+                                    "22": 4
+                                }
+                            },
+                            "4": {
+                                "name": "SALICKI Paweł Mieczysław",
+                                "uzyskane_glosy": {
+                                    "2": 9,
+                                    "14": 6,
+                                    "15": 24,
+                                    "21": 4,
+                                    "22": 18
+                                }
+                            },
+                            "5": {
+                                "name": "ROSICKA Anna Monika",
+                                "uzyskane_glosy": {
+                                    "2": 4,
+                                    "14": 7,
+                                    "15": 0,
+                                    "21": 3,
+                                    "22": 1
+                                }
+                            },
+                            "6": {
+                                "name": "PRZYBYSZEWSKI Wiesław Józef",
+                                "uzyskane_glosy": {
+                                    "2": 1,
+                                    "14": 8,
+                                    "15": 5,
+                                    "21": 1,
+                                    "22": 6
+                                }
+                            },
+                            "7": {
+                                "name": "MATYJAS Wiesława",
+                                "uzyskane_glosy": {
+                                    "2": 5,
+                                    "14": 4,
+                                    "15": 11,
+                                    "21": 4,
+                                    "22": 7
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "komitet": "KWW ANNY MIECZKOWSKIEJ TAK DLA KOŁOBRZEGU",
+                        "pozycje": {
+                            "1": {
+                                "name": "PEŁECHATA Ewa Maria",
+                                "uzyskane_glosy": {
+                                    "2": 149,
+                                    "14": 231,
+                                    "15": 184,
+                                    "21": 113,
+                                    "22": 216
+                                }
+                            },
+                            "2": {
+                                "name": "ZIĘBA Łukasz Marcin",
+                                "uzyskane_glosy": {
+                                    "2": 29,
+                                    "14": 111,
+                                    "15": 31,
+                                    "21": 33,
+                                    "22": 41
+                                }
+                            },
+                            "3": {
+                                "name": "HARAJ Andrzej Marian",
+                                "uzyskane_glosy": {
+                                    "2": 31,
+                                    "14": 28,
+                                    "15": 109,
+                                    "21": 11,
+                                    "22": 157
+                                }
+                            },
+                            "4": {
+                                "name": "ANTCZAK Tadeusz",
+                                "uzyskane_glosy": {
+                                    "2": 6,
+                                    "14": 3,
+                                    "15": 35,
+                                    "21": 3,
+                                    "22": 9
+                                }
+                            },
+                            "5": {
+                                "name": "KIELNIK-KAŁUŻNA Sandra Beata",
+                                "uzyskane_glosy": {
+                                    "2": 23,
+                                    "14": 68,
+                                    "15": 25,
+                                    "21": 114,
+                                    "22": 37
+                                }
+                            },
+                            "6": {
+                                "name": "HAZUBSKA Zuzanna Dorota",
+                                "uzyskane_glosy": {
+                                    "2": 22,
+                                    "14": 39,
+                                    "15": 109,
+                                    "21": 27,
+                                    "22": 71
+                                }
+                            },
+                            "7": {
+                                "name": "BRĄCZYK Renata Agata",
+                                "uzyskane_glosy": {
+                                    "2": 26,
+                                    "14": 18,
+                                    "15": 123,
+                                    "21": 29,
+                                    "22": 70
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "2": {
+                        "okreg": 1,
+                        "wyborcy": 1257,
+                        "wyborcy_glosujacy": 532,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "TOMICKI Adrian Tomasz",
+                                    "glosy": 74
+                                },
+                                "2": {
+                                    "name": "FURGAŁA Andrzej",
+                                    "glosy": 5
+                                },
+                                "3": {
+                                    "name": "CZAPLEWSKI Wojciech Paweł",
+                                    "glosy": 23
+                                },
+                                "4": {
+                                    "name": "PIETRYK Maria Jolanta",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "RAMA Ewa",
+                                    "glosy": 7
+                                },
+                                "6": {
+                                    "name": "KRATA Janina",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "GARBOWSKA Marzanna Maria",
+                                    "glosy": 7
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "SZARŁATA-WOŹNIAK Karolina Katarzyna",
+                                    "glosy": 60
+                                },
+                                "2": {
+                                    "name": "MALINOWSKA Katarzyna Agnieszka",
+                                    "glosy": 5
+                                },
+                                "3": {
+                                    "name": "KUCHARYCZ Robert Józef",
+                                    "glosy": 7
+                                },
+                                "4": {
+                                    "name": "SALICKI Paweł Mieczysław",
+                                    "glosy": 9
+                                },
+                                "5": {
+                                    "name": "ROSICKA Anna Monika",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "PRZYBYSZEWSKI Wiesław Józef",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "MATYJAS Wiesława",
+                                    "glosy": 5
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PEŁECHATA Ewa Maria",
+                                    "glosy": 149
+                                },
+                                "2": {
+                                    "name": "ZIĘBA Łukasz Marcin",
+                                    "glosy": 29
+                                },
+                                "3": {
+                                    "name": "HARAJ Andrzej Marian",
+                                    "glosy": 31
+                                },
+                                "4": {
+                                    "name": "ANTCZAK Tadeusz",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "KIELNIK-KAŁUŻNA Sandra Beata",
+                                    "glosy": 23
+                                },
+                                "6": {
+                                    "name": "HAZUBSKA Zuzanna Dorota",
+                                    "glosy": 22
+                                },
+                                "7": {
+                                    "name": "BRĄCZYK Renata Agata",
+                                    "glosy": 26
+                                }
+                            }
+                        }
+                    },
+                    "14": {
+                        "okreg": 1,
+                        "wyborcy": 2058,
+                        "wyborcy_glosujacy": 871,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "TOMICKI Adrian Tomasz",
+                                    "glosy": 65
+                                },
+                                "2": {
+                                    "name": "FURGAŁA Andrzej",
+                                    "glosy": 10
+                                },
+                                "3": {
+                                    "name": "CZAPLEWSKI Wojciech Paweł",
+                                    "glosy": 12
+                                },
+                                "4": {
+                                    "name": "PIETRYK Maria Jolanta",
+                                    "glosy": 13
+                                },
+                                "5": {
+                                    "name": "RAMA Ewa",
+                                    "glosy": 12
+                                },
+                                "6": {
+                                    "name": "KRATA Janina",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "GARBOWSKA Marzanna Maria",
+                                    "glosy": 13
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "SZARŁATA-WOŹNIAK Karolina Katarzyna",
+                                    "glosy": 85
+                                },
+                                "2": {
+                                    "name": "MALINOWSKA Katarzyna Agnieszka",
+                                    "glosy": 28
+                                },
+                                "3": {
+                                    "name": "KUCHARYCZ Robert Józef",
+                                    "glosy": 41
+                                },
+                                "4": {
+                                    "name": "SALICKI Paweł Mieczysław",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "ROSICKA Anna Monika",
+                                    "glosy": 7
+                                },
+                                "6": {
+                                    "name": "PRZYBYSZEWSKI Wiesław Józef",
+                                    "glosy": 8
+                                },
+                                "7": {
+                                    "name": "MATYJAS Wiesława",
+                                    "glosy": 4
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PEŁECHATA Ewa Maria",
+                                    "glosy": 231
+                                },
+                                "2": {
+                                    "name": "ZIĘBA Łukasz Marcin",
+                                    "glosy": 111
+                                },
+                                "3": {
+                                    "name": "HARAJ Andrzej Marian",
+                                    "glosy": 28
+                                },
+                                "4": {
+                                    "name": "ANTCZAK Tadeusz",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "KIELNIK-KAŁUŻNA Sandra Beata",
+                                    "glosy": 68
+                                },
+                                "6": {
+                                    "name": "HAZUBSKA Zuzanna Dorota",
+                                    "glosy": 39
+                                },
+                                "7": {
+                                    "name": "BRĄCZYK Renata Agata",
+                                    "glosy": 18
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "okreg": 1,
+                        "wyborcy": 1873,
+                        "wyborcy_glosujacy": 938,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "TOMICKI Adrian Tomasz",
+                                    "glosy": 51
+                                },
+                                "2": {
+                                    "name": "FURGAŁA Andrzej",
+                                    "glosy": 27
+                                },
+                                "3": {
+                                    "name": "CZAPLEWSKI Wojciech Paweł",
+                                    "glosy": 25
+                                },
+                                "4": {
+                                    "name": "PIETRYK Maria Jolanta",
+                                    "glosy": 11
+                                },
+                                "5": {
+                                    "name": "RAMA Ewa",
+                                    "glosy": 30
+                                },
+                                "6": {
+                                    "name": "KRATA Janina",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "GARBOWSKA Marzanna Maria",
+                                    "glosy": 4
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "SZARŁATA-WOŹNIAK Karolina Katarzyna",
+                                    "glosy": 45
+                                },
+                                "2": {
+                                    "name": "MALINOWSKA Katarzyna Agnieszka",
+                                    "glosy": 9
+                                },
+                                "3": {
+                                    "name": "KUCHARYCZ Robert Józef",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "SALICKI Paweł Mieczysław",
+                                    "glosy": 24
+                                },
+                                "5": {
+                                    "name": "ROSICKA Anna Monika",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "PRZYBYSZEWSKI Wiesław Józef",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "MATYJAS Wiesława",
+                                    "glosy": 11
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PEŁECHATA Ewa Maria",
+                                    "glosy": 184
+                                },
+                                "2": {
+                                    "name": "ZIĘBA Łukasz Marcin",
+                                    "glosy": 31
+                                },
+                                "3": {
+                                    "name": "HARAJ Andrzej Marian",
+                                    "glosy": 109
+                                },
+                                "4": {
+                                    "name": "ANTCZAK Tadeusz",
+                                    "glosy": 35
+                                },
+                                "5": {
+                                    "name": "KIELNIK-KAŁUŻNA Sandra Beata",
+                                    "glosy": 25
+                                },
+                                "6": {
+                                    "name": "HAZUBSKA Zuzanna Dorota",
+                                    "glosy": 109
+                                },
+                                "7": {
+                                    "name": "BRĄCZYK Renata Agata",
+                                    "glosy": 123
+                                }
+                            }
+                        }
+                    },
+                    "21": {
+                        "okreg": 1,
+                        "wyborcy": 1157,
+                        "wyborcy_glosujacy": 535,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "TOMICKI Adrian Tomasz",
+                                    "glosy": 39
+                                },
+                                "2": {
+                                    "name": "FURGAŁA Andrzej",
+                                    "glosy": 7
+                                },
+                                "3": {
+                                    "name": "CZAPLEWSKI Wojciech Paweł",
+                                    "glosy": 16
+                                },
+                                "4": {
+                                    "name": "PIETRYK Maria Jolanta",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "RAMA Ewa",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "KRATA Janina",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "GARBOWSKA Marzanna Maria",
+                                    "glosy": 4
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "SZARŁATA-WOŹNIAK Karolina Katarzyna",
+                                    "glosy": 56
+                                },
+                                "2": {
+                                    "name": "MALINOWSKA Katarzyna Agnieszka",
+                                    "glosy": 11
+                                },
+                                "3": {
+                                    "name": "KUCHARYCZ Robert Józef",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "SALICKI Paweł Mieczysław",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "ROSICKA Anna Monika",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "PRZYBYSZEWSKI Wiesław Józef",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "MATYJAS Wiesława",
+                                    "glosy": 4
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PEŁECHATA Ewa Maria",
+                                    "glosy": 113
+                                },
+                                "2": {
+                                    "name": "ZIĘBA Łukasz Marcin",
+                                    "glosy": 33
+                                },
+                                "3": {
+                                    "name": "HARAJ Andrzej Marian",
+                                    "glosy": 11
+                                },
+                                "4": {
+                                    "name": "ANTCZAK Tadeusz",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "KIELNIK-KAŁUŻNA Sandra Beata",
+                                    "glosy": 114
+                                },
+                                "6": {
+                                    "name": "HAZUBSKA Zuzanna Dorota",
+                                    "glosy": 27
+                                },
+                                "7": {
+                                    "name": "BRĄCZYK Renata Agata",
+                                    "glosy": 29
+                                }
+                            }
+                        }
+                    },
+                    "22": {
+                        "okreg": 1,
+                        "wyborcy": 1872,
+                        "wyborcy_glosujacy": 878,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "TOMICKI Adrian Tomasz",
+                                    "glosy": 61
+                                },
+                                "2": {
+                                    "name": "FURGAŁA Andrzej",
+                                    "glosy": 14
+                                },
+                                "3": {
+                                    "name": "CZAPLEWSKI Wojciech Paweł",
+                                    "glosy": 21
+                                },
+                                "4": {
+                                    "name": "PIETRYK Maria Jolanta",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "RAMA Ewa",
+                                    "glosy": 8
+                                },
+                                "6": {
+                                    "name": "KRATA Janina",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "GARBOWSKA Marzanna Maria",
+                                    "glosy": 6
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "SZARŁATA-WOŹNIAK Karolina Katarzyna",
+                                    "glosy": 58
+                                },
+                                "2": {
+                                    "name": "MALINOWSKA Katarzyna Agnieszka",
+                                    "glosy": 13
+                                },
+                                "3": {
+                                    "name": "KUCHARYCZ Robert Józef",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "SALICKI Paweł Mieczysław",
+                                    "glosy": 18
+                                },
+                                "5": {
+                                    "name": "ROSICKA Anna Monika",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "PRZYBYSZEWSKI Wiesław Józef",
+                                    "glosy": 6
+                                },
+                                "7": {
+                                    "name": "MATYJAS Wiesława",
+                                    "glosy": 7
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "PEŁECHATA Ewa Maria",
+                                    "glosy": 216
+                                },
+                                "2": {
+                                    "name": "ZIĘBA Łukasz Marcin",
+                                    "glosy": 41
+                                },
+                                "3": {
+                                    "name": "HARAJ Andrzej Marian",
+                                    "glosy": 157
+                                },
+                                "4": {
+                                    "name": "ANTCZAK Tadeusz",
+                                    "glosy": 9
+                                },
+                                "5": {
+                                    "name": "KIELNIK-KAŁUŻNA Sandra Beata",
+                                    "glosy": 37
+                                },
+                                "6": {
+                                    "name": "HAZUBSKA Zuzanna Dorota",
+                                    "glosy": 71
+                                },
+                                "7": {
+                                    "name": "BRĄCZYK Renata Agata",
+                                    "glosy": 70
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "2": {
+                "mandaty": 5,
+                "listy": 3,
+                "mieszkancy": 9248,
+                "wyborcy": 8076,
+                "granice": "al. I Armii Wojska Polskiego, al. Kolejowa, al. Nadmorska, Aleja św. Jana Pawła II, Aniołów Stróżów, Armii Krajowej, Marcina Borzymowskiego, Brzozowa, bulw. Zacisze, Fryderyka Chopina, Cicha, Wojciecha Drzymały, Stanisława Dubois, Giełdowa, Emilii Gierczak, Graniczna, Artura Grottgera, Henryka Jordana, Jana Kasprowicza, Katedralna, Jana Kilińskiego, Hugo Kołłątaja, Marii Konopnickiej, Mikołaja Kopernika, Josepha Conrada-Korzeniowskiego, Tadeusza Kościuszki, Krakusa i Wandy, ppor. Edmunda Łopuskiego, Mariacka, Adama Mickiewicza, Morska, Gabriela Narutowicza, Cypriana Kamila Norwida, Obrońców Westerplatte, Okopowa, pl. Ratuszowy, Park Teatralny, prof. Teodora Rafińskiego, Pomorska, Portowa, Ratuszowa, Mikołaja Reja, Władysława Reymonta, Marii Rodziewiczówny, Rzeczna, gen. Władysława Sikorskiego, skwer Miast Partnerskich, Juliusza Słowackiego, Spacerowa, Strzelecka, Szkolna, Sybiraków, ks. Piotra Ściegiennego, Towarowa, Uczniowska, Unii Lubelskiej, Ludwika Waryńskiego, Jerzego Waszyngtona, Wąska, Zapleczna, Zdrojowa, Źródlana",
+                "wyborcy_b": 1,
+                "pakiet": 3,
+                "kandydaci": {
+                    "14": {
+                        "komitet": "KWW CENTROPRAWICA",
+                        "pozycje": {
+                            "1": {
+                                "name": "BUDA Piotr Krzysztof",
+                                "uzyskane_glosy": {
+                                    "1": 39,
+                                    "4": 60,
+                                    "5": 67,
+                                    "6": 48,
+                                    "18": 27,
+                                    "20": 32,
+                                    "24": 1
+                                }
+                            },
+                            "2": {
+                                "name": "ZAJĄCZKOWSKA Małgorzata",
+                                "uzyskane_glosy": {
+                                    "1": 26,
+                                    "4": 13,
+                                    "5": 23,
+                                    "6": 11,
+                                    "18": 7,
+                                    "20": 9,
+                                    "24": 3
+                                }
+                            },
+                            "3": {
+                                "name": "PACIORKOWSKA Katarzyna",
+                                "uzyskane_glosy": {
+                                    "1": 8,
+                                    "4": 14,
+                                    "5": 16,
+                                    "6": 11,
+                                    "18": 1,
+                                    "20": 10,
+                                    "24": 0
+                                }
+                            },
+                            "4": {
+                                "name": "ŁOPUCKI Maciej Jerzy",
+                                "uzyskane_glosy": {
+                                    "1": 16,
+                                    "4": 15,
+                                    "5": 40,
+                                    "6": 20,
+                                    "18": 5,
+                                    "20": 15,
+                                    "24": 3
+                                }
+                            },
+                            "5": {
+                                "name": "STOMA Małgorzata Joanna",
+                                "uzyskane_glosy": {
+                                    "1": 6,
+                                    "4": 2,
+                                    "5": 4,
+                                    "6": 7,
+                                    "18": 9,
+                                    "20": 17,
+                                    "24": 0
+                                }
+                            },
+                            "6": {
+                                "name": "MISZCZYSZYN Waldemar",
+                                "uzyskane_glosy": {
+                                    "1": 4,
+                                    "4": 17,
+                                    "5": 2,
+                                    "6": 1,
+                                    "18": 0,
+                                    "20": 4,
+                                    "24": 0
+                                }
+                            },
+                            "7": {
+                                "name": "CZERNIAWSKA Helena Elżbieta",
+                                "uzyskane_glosy": {
+                                    "1": 7,
+                                    "4": 5,
+                                    "5": 5,
+                                    "6": 8,
+                                    "18": 7,
+                                    "20": 4,
+                                    "24": 0
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "komitet": "KWW JACKA WOŹNIAKA KOALICJA SAMORZĄDOWA",
+                        "pozycje": {
+                            "1": {
+                                "name": "PLEWKO Krzysztof Jan",
+                                "uzyskane_glosy": {
+                                    "1": 37,
+                                    "4": 73,
+                                    "5": 83,
+                                    "6": 39,
+                                    "18": 28,
+                                    "20": 27,
+                                    "24": 2
+                                }
+                            },
+                            "2": {
+                                "name": "CZEPULONIS Ryszard Konstanty",
+                                "uzyskane_glosy": {
+                                    "1": 9,
+                                    "4": 14,
+                                    "5": 30,
+                                    "6": 21,
+                                    "18": 10,
+                                    "20": 11,
+                                    "24": 0
+                                }
+                            },
+                            "3": {
+                                "name": "SKRZYPCZAK Beata Maria",
+                                "uzyskane_glosy": {
+                                    "1": 10,
+                                    "4": 19,
+                                    "5": 24,
+                                    "6": 17,
+                                    "18": 8,
+                                    "20": 5,
+                                    "24": 0
+                                }
+                            },
+                            "4": {
+                                "name": "ROŻNIECKI Tomasz Jan",
+                                "uzyskane_glosy": {
+                                    "1": 6,
+                                    "4": 3,
+                                    "5": 8,
+                                    "6": 1,
+                                    "18": 2,
+                                    "20": 2,
+                                    "24": 1
+                                }
+                            },
+                            "5": {
+                                "name": "STRYCZEWSKA Barbara Joanna",
+                                "uzyskane_glosy": {
+                                    "1": 2,
+                                    "4": 6,
+                                    "5": 6,
+                                    "6": 1,
+                                    "18": 2,
+                                    "20": 1,
+                                    "24": 0
+                                }
+                            },
+                            "6": {
+                                "name": "DĄBKOWSKA Eugenia",
+                                "uzyskane_glosy": {
+                                    "1": 6,
+                                    "4": 7,
+                                    "5": 2,
+                                    "6": 4,
+                                    "18": 2,
+                                    "20": 4,
+                                    "24": 0
+                                }
+                            },
+                            "7": {
+                                "name": "BERNATOWICZ Edward",
+                                "uzyskane_glosy": {
+                                    "1": 5,
+                                    "4": 5,
+                                    "5": 10,
+                                    "6": 5,
+                                    "18": 4,
+                                    "20": 4,
+                                    "24": 1
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "komitet": "KWW ANNY MIECZKOWSKIEJ TAK DLA KOŁOBRZEGU",
+                        "pozycje": {
+                            "1": {
+                                "name": "BŁASZCZYK Bogdan",
+                                "uzyskane_glosy": {
+                                    "1": 66,
+                                    "4": 159,
+                                    "5": 149,
+                                    "6": 124,
+                                    "18": 34,
+                                    "20": 104,
+                                    "24": 10
+                                }
+                            },
+                            "2": {
+                                "name": "KIEŁKOWSKI Przemysław",
+                                "uzyskane_glosy": {
+                                    "1": 65,
+                                    "4": 91,
+                                    "5": 267,
+                                    "6": 95,
+                                    "18": 40,
+                                    "20": 57,
+                                    "24": 1
+                                }
+                            },
+                            "3": {
+                                "name": "REJMAK Karolina",
+                                "uzyskane_glosy": {
+                                    "1": 38,
+                                    "4": 53,
+                                    "5": 69,
+                                    "6": 43,
+                                    "18": 12,
+                                    "20": 46,
+                                    "24": 4
+                                }
+                            },
+                            "4": {
+                                "name": "PANAS Iwona Joanna",
+                                "uzyskane_glosy": {
+                                    "1": 34,
+                                    "4": 52,
+                                    "5": 36,
+                                    "6": 52,
+                                    "18": 15,
+                                    "20": 32,
+                                    "24": 1
+                                }
+                            },
+                            "5": {
+                                "name": "STEIN Karol",
+                                "uzyskane_glosy": {
+                                    "1": 14,
+                                    "4": 12,
+                                    "5": 14,
+                                    "6": 12,
+                                    "18": 2,
+                                    "20": 9,
+                                    "24": 0
+                                }
+                            },
+                            "6": {
+                                "name": "CAŁKOWSKI Ariel",
+                                "uzyskane_glosy": {
+                                    "1": 14,
+                                    "4": 18,
+                                    "5": 21,
+                                    "6": 17,
+                                    "18": 7,
+                                    "20": 6,
+                                    "24": 0
+                                }
+                            },
+                            "7": {
+                                "name": "RUBANOWICZ Claudia Maria",
+                                "uzyskane_glosy": {
+                                    "1": 48,
+                                    "4": 76,
+                                    "5": 94,
+                                    "6": 57,
+                                    "18": 28,
+                                    "20": 25,
+                                    "24": 0
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "1": {
+                        "okreg": 2,
+                        "wyborcy": 1223,
+                        "wyborcy_glosujacy": 493,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BUDA Piotr Krzysztof",
+                                    "glosy": 39
+                                },
+                                "2": {
+                                    "name": "ZAJĄCZKOWSKA Małgorzata",
+                                    "glosy": 26
+                                },
+                                "3": {
+                                    "name": "PACIORKOWSKA Katarzyna",
+                                    "glosy": 8
+                                },
+                                "4": {
+                                    "name": "ŁOPUCKI Maciej Jerzy",
+                                    "glosy": 16
+                                },
+                                "5": {
+                                    "name": "STOMA Małgorzata Joanna",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "MISZCZYSZYN Waldemar",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "CZERNIAWSKA Helena Elżbieta",
+                                    "glosy": 7
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "PLEWKO Krzysztof Jan",
+                                    "glosy": 37
+                                },
+                                "2": {
+                                    "name": "CZEPULONIS Ryszard Konstanty",
+                                    "glosy": 9
+                                },
+                                "3": {
+                                    "name": "SKRZYPCZAK Beata Maria",
+                                    "glosy": 10
+                                },
+                                "4": {
+                                    "name": "ROŻNIECKI Tomasz Jan",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "STRYCZEWSKA Barbara Joanna",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "DĄBKOWSKA Eugenia",
+                                    "glosy": 6
+                                },
+                                "7": {
+                                    "name": "BERNATOWICZ Edward",
+                                    "glosy": 5
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BŁASZCZYK Bogdan",
+                                    "glosy": 66
+                                },
+                                "2": {
+                                    "name": "KIEŁKOWSKI Przemysław",
+                                    "glosy": 65
+                                },
+                                "3": {
+                                    "name": "REJMAK Karolina",
+                                    "glosy": 38
+                                },
+                                "4": {
+                                    "name": "PANAS Iwona Joanna",
+                                    "glosy": 34
+                                },
+                                "5": {
+                                    "name": "STEIN Karol",
+                                    "glosy": 14
+                                },
+                                "6": {
+                                    "name": "CAŁKOWSKI Ariel",
+                                    "glosy": 14
+                                },
+                                "7": {
+                                    "name": "RUBANOWICZ Claudia Maria",
+                                    "glosy": 48
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "okreg": 2,
+                        "wyborcy": 1832,
+                        "wyborcy_glosujacy": 759,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BUDA Piotr Krzysztof",
+                                    "glosy": 60
+                                },
+                                "2": {
+                                    "name": "ZAJĄCZKOWSKA Małgorzata",
+                                    "glosy": 13
+                                },
+                                "3": {
+                                    "name": "PACIORKOWSKA Katarzyna",
+                                    "glosy": 14
+                                },
+                                "4": {
+                                    "name": "ŁOPUCKI Maciej Jerzy",
+                                    "glosy": 15
+                                },
+                                "5": {
+                                    "name": "STOMA Małgorzata Joanna",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "MISZCZYSZYN Waldemar",
+                                    "glosy": 17
+                                },
+                                "7": {
+                                    "name": "CZERNIAWSKA Helena Elżbieta",
+                                    "glosy": 5
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "PLEWKO Krzysztof Jan",
+                                    "glosy": 73
+                                },
+                                "2": {
+                                    "name": "CZEPULONIS Ryszard Konstanty",
+                                    "glosy": 14
+                                },
+                                "3": {
+                                    "name": "SKRZYPCZAK Beata Maria",
+                                    "glosy": 19
+                                },
+                                "4": {
+                                    "name": "ROŻNIECKI Tomasz Jan",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "STRYCZEWSKA Barbara Joanna",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "DĄBKOWSKA Eugenia",
+                                    "glosy": 7
+                                },
+                                "7": {
+                                    "name": "BERNATOWICZ Edward",
+                                    "glosy": 5
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BŁASZCZYK Bogdan",
+                                    "glosy": 159
+                                },
+                                "2": {
+                                    "name": "KIEŁKOWSKI Przemysław",
+                                    "glosy": 91
+                                },
+                                "3": {
+                                    "name": "REJMAK Karolina",
+                                    "glosy": 53
+                                },
+                                "4": {
+                                    "name": "PANAS Iwona Joanna",
+                                    "glosy": 52
+                                },
+                                "5": {
+                                    "name": "STEIN Karol",
+                                    "glosy": 12
+                                },
+                                "6": {
+                                    "name": "CAŁKOWSKI Ariel",
+                                    "glosy": 18
+                                },
+                                "7": {
+                                    "name": "RUBANOWICZ Claudia Maria",
+                                    "glosy": 76
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "okreg": 2,
+                        "wyborcy": 2001,
+                        "wyborcy_glosujacy": 1018,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BUDA Piotr Krzysztof",
+                                    "glosy": 67
+                                },
+                                "2": {
+                                    "name": "ZAJĄCZKOWSKA Małgorzata",
+                                    "glosy": 23
+                                },
+                                "3": {
+                                    "name": "PACIORKOWSKA Katarzyna",
+                                    "glosy": 16
+                                },
+                                "4": {
+                                    "name": "ŁOPUCKI Maciej Jerzy",
+                                    "glosy": 40
+                                },
+                                "5": {
+                                    "name": "STOMA Małgorzata Joanna",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "MISZCZYSZYN Waldemar",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "CZERNIAWSKA Helena Elżbieta",
+                                    "glosy": 5
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "PLEWKO Krzysztof Jan",
+                                    "glosy": 83
+                                },
+                                "2": {
+                                    "name": "CZEPULONIS Ryszard Konstanty",
+                                    "glosy": 30
+                                },
+                                "3": {
+                                    "name": "SKRZYPCZAK Beata Maria",
+                                    "glosy": 24
+                                },
+                                "4": {
+                                    "name": "ROŻNIECKI Tomasz Jan",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "STRYCZEWSKA Barbara Joanna",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "DĄBKOWSKA Eugenia",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "BERNATOWICZ Edward",
+                                    "glosy": 10
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BŁASZCZYK Bogdan",
+                                    "glosy": 149
+                                },
+                                "2": {
+                                    "name": "KIEŁKOWSKI Przemysław",
+                                    "glosy": 267
+                                },
+                                "3": {
+                                    "name": "REJMAK Karolina",
+                                    "glosy": 69
+                                },
+                                "4": {
+                                    "name": "PANAS Iwona Joanna",
+                                    "glosy": 36
+                                },
+                                "5": {
+                                    "name": "STEIN Karol",
+                                    "glosy": 14
+                                },
+                                "6": {
+                                    "name": "CAŁKOWSKI Ariel",
+                                    "glosy": 21
+                                },
+                                "7": {
+                                    "name": "RUBANOWICZ Claudia Maria",
+                                    "glosy": 94
+                                }
+                            }
+                        }
+                    },
+                    "6": {
+                        "okreg": 2,
+                        "wyborcy": 1277,
+                        "wyborcy_glosujacy": 614,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BUDA Piotr Krzysztof",
+                                    "glosy": 48
+                                },
+                                "2": {
+                                    "name": "ZAJĄCZKOWSKA Małgorzata",
+                                    "glosy": 11
+                                },
+                                "3": {
+                                    "name": "PACIORKOWSKA Katarzyna",
+                                    "glosy": 11
+                                },
+                                "4": {
+                                    "name": "ŁOPUCKI Maciej Jerzy",
+                                    "glosy": 20
+                                },
+                                "5": {
+                                    "name": "STOMA Małgorzata Joanna",
+                                    "glosy": 7
+                                },
+                                "6": {
+                                    "name": "MISZCZYSZYN Waldemar",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "CZERNIAWSKA Helena Elżbieta",
+                                    "glosy": 8
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "PLEWKO Krzysztof Jan",
+                                    "glosy": 39
+                                },
+                                "2": {
+                                    "name": "CZEPULONIS Ryszard Konstanty",
+                                    "glosy": 21
+                                },
+                                "3": {
+                                    "name": "SKRZYPCZAK Beata Maria",
+                                    "glosy": 17
+                                },
+                                "4": {
+                                    "name": "ROŻNIECKI Tomasz Jan",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "STRYCZEWSKA Barbara Joanna",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "DĄBKOWSKA Eugenia",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "BERNATOWICZ Edward",
+                                    "glosy": 5
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BŁASZCZYK Bogdan",
+                                    "glosy": 124
+                                },
+                                "2": {
+                                    "name": "KIEŁKOWSKI Przemysław",
+                                    "glosy": 95
+                                },
+                                "3": {
+                                    "name": "REJMAK Karolina",
+                                    "glosy": 43
+                                },
+                                "4": {
+                                    "name": "PANAS Iwona Joanna",
+                                    "glosy": 52
+                                },
+                                "5": {
+                                    "name": "STEIN Karol",
+                                    "glosy": 12
+                                },
+                                "6": {
+                                    "name": "CAŁKOWSKI Ariel",
+                                    "glosy": 17
+                                },
+                                "7": {
+                                    "name": "RUBANOWICZ Claudia Maria",
+                                    "glosy": 57
+                                }
+                            }
+                        }
+                    },
+                    "18": {
+                        "okreg": 2,
+                        "wyborcy": 662,
+                        "wyborcy_glosujacy": 260,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BUDA Piotr Krzysztof",
+                                    "glosy": 27
+                                },
+                                "2": {
+                                    "name": "ZAJĄCZKOWSKA Małgorzata",
+                                    "glosy": 7
+                                },
+                                "3": {
+                                    "name": "PACIORKOWSKA Katarzyna",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "ŁOPUCKI Maciej Jerzy",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "STOMA Małgorzata Joanna",
+                                    "glosy": 9
+                                },
+                                "6": {
+                                    "name": "MISZCZYSZYN Waldemar",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "CZERNIAWSKA Helena Elżbieta",
+                                    "glosy": 7
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "PLEWKO Krzysztof Jan",
+                                    "glosy": 28
+                                },
+                                "2": {
+                                    "name": "CZEPULONIS Ryszard Konstanty",
+                                    "glosy": 10
+                                },
+                                "3": {
+                                    "name": "SKRZYPCZAK Beata Maria",
+                                    "glosy": 8
+                                },
+                                "4": {
+                                    "name": "ROŻNIECKI Tomasz Jan",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "STRYCZEWSKA Barbara Joanna",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "DĄBKOWSKA Eugenia",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "BERNATOWICZ Edward",
+                                    "glosy": 4
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BŁASZCZYK Bogdan",
+                                    "glosy": 34
+                                },
+                                "2": {
+                                    "name": "KIEŁKOWSKI Przemysław",
+                                    "glosy": 40
+                                },
+                                "3": {
+                                    "name": "REJMAK Karolina",
+                                    "glosy": 12
+                                },
+                                "4": {
+                                    "name": "PANAS Iwona Joanna",
+                                    "glosy": 15
+                                },
+                                "5": {
+                                    "name": "STEIN Karol",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "CAŁKOWSKI Ariel",
+                                    "glosy": 7
+                                },
+                                "7": {
+                                    "name": "RUBANOWICZ Claudia Maria",
+                                    "glosy": 28
+                                }
+                            }
+                        }
+                    },
+                    "20": {
+                        "okreg": 2,
+                        "wyborcy": 1028,
+                        "wyborcy_glosujacy": 451,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BUDA Piotr Krzysztof",
+                                    "glosy": 32
+                                },
+                                "2": {
+                                    "name": "ZAJĄCZKOWSKA Małgorzata",
+                                    "glosy": 9
+                                },
+                                "3": {
+                                    "name": "PACIORKOWSKA Katarzyna",
+                                    "glosy": 10
+                                },
+                                "4": {
+                                    "name": "ŁOPUCKI Maciej Jerzy",
+                                    "glosy": 15
+                                },
+                                "5": {
+                                    "name": "STOMA Małgorzata Joanna",
+                                    "glosy": 17
+                                },
+                                "6": {
+                                    "name": "MISZCZYSZYN Waldemar",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "CZERNIAWSKA Helena Elżbieta",
+                                    "glosy": 4
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "PLEWKO Krzysztof Jan",
+                                    "glosy": 27
+                                },
+                                "2": {
+                                    "name": "CZEPULONIS Ryszard Konstanty",
+                                    "glosy": 11
+                                },
+                                "3": {
+                                    "name": "SKRZYPCZAK Beata Maria",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "ROŻNIECKI Tomasz Jan",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "STRYCZEWSKA Barbara Joanna",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "DĄBKOWSKA Eugenia",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "BERNATOWICZ Edward",
+                                    "glosy": 4
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BŁASZCZYK Bogdan",
+                                    "glosy": 104
+                                },
+                                "2": {
+                                    "name": "KIEŁKOWSKI Przemysław",
+                                    "glosy": 57
+                                },
+                                "3": {
+                                    "name": "REJMAK Karolina",
+                                    "glosy": 46
+                                },
+                                "4": {
+                                    "name": "PANAS Iwona Joanna",
+                                    "glosy": 32
+                                },
+                                "5": {
+                                    "name": "STEIN Karol",
+                                    "glosy": 9
+                                },
+                                "6": {
+                                    "name": "CAŁKOWSKI Ariel",
+                                    "glosy": 6
+                                },
+                                "7": {
+                                    "name": "RUBANOWICZ Claudia Maria",
+                                    "glosy": 25
+                                }
+                            }
+                        }
+                    },
+                    "24": {
+                        "okreg": 2,
+                        "wyborcy": 35,
+                        "wyborcy_glosujacy": 28,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BUDA Piotr Krzysztof",
+                                    "glosy": 1
+                                },
+                                "2": {
+                                    "name": "ZAJĄCZKOWSKA Małgorzata",
+                                    "glosy": 3
+                                },
+                                "3": {
+                                    "name": "PACIORKOWSKA Katarzyna",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "ŁOPUCKI Maciej Jerzy",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "STOMA Małgorzata Joanna",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "MISZCZYSZYN Waldemar",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "CZERNIAWSKA Helena Elżbieta",
+                                    "glosy": 0
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "PLEWKO Krzysztof Jan",
+                                    "glosy": 2
+                                },
+                                "2": {
+                                    "name": "CZEPULONIS Ryszard Konstanty",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "SKRZYPCZAK Beata Maria",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "ROŻNIECKI Tomasz Jan",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "STRYCZEWSKA Barbara Joanna",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "DĄBKOWSKA Eugenia",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "BERNATOWICZ Edward",
+                                    "glosy": 1
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "BŁASZCZYK Bogdan",
+                                    "glosy": 10
+                                },
+                                "2": {
+                                    "name": "KIEŁKOWSKI Przemysław",
+                                    "glosy": 1
+                                },
+                                "3": {
+                                    "name": "REJMAK Karolina",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "PANAS Iwona Joanna",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "STEIN Karol",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "CAŁKOWSKI Ariel",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "RUBANOWICZ Claudia Maria",
+                                    "glosy": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "3": {
+                "mandaty": 5,
+                "listy": 3,
+                "mieszkancy": 10569,
+                "wyborcy": 8857,
+                "granice": "Artyleryjska, Basztowa, Berlińska, Bogusława X, Bolesława Chrobrego, Bolesława Krzywoustego, Brukselska, Budowlana, 6 Dywizji Piechoty, Europejska, Grochowska, Helsińska, Władysława Jagiełły, Janiska, Jerzego, Kaliska, Kamienna, Kazimierza Wielkiego, Kielecka, Księcia Warcisława III, Kujawska, Londyńska, Lipowa, Lotnicza, 1 Maja, Marchewkowa, Mazowiecka, Młyńska, Paryska, Radomska, Rzemieślnicza, Rzymska, Sadowa, Słowińców, Solna, Stańczyka, Szpitalna, Sztokholmska, ppor. Józefa Śliwińskiego, Trzebiatowska, Wiedeńska, Wielkopolska, Władysława Łokietka, Wodna, Wolności, Zygmuntowska",
+                "wyborcy_b": 1,
+                "pakiet": 2,
+                "kandydaci": {
+                    "14": {
+                        "komitet": "KWW CENTROPRAWICA",
+                        "pozycje": {
+                            "1": {
+                                "name": "BIEŃKOWSKI Bartosz Henryk",
+                                "uzyskane_glosy": {
+                                    "7": 65,
+                                    "8": 75,
+                                    "9": 60,
+                                    "12": 111,
+                                    "13": 54,
+                                    "23": 84,
+                                    "25": 0
+                                }
+                            },
+                            "2": {
+                                "name": "STOMA Stanisław",
+                                "uzyskane_glosy": {
+                                    "7": 13,
+                                    "8": 29,
+                                    "9": 18,
+                                    "12": 13,
+                                    "13": 5,
+                                    "23": 5,
+                                    "25": 0
+                                }
+                            },
+                            "3": {
+                                "name": "SZCZERBIŃSKA Urszula",
+                                "uzyskane_glosy": {
+                                    "7": 16,
+                                    "8": 8,
+                                    "9": 6,
+                                    "12": 5,
+                                    "13": 4,
+                                    "23": 5,
+                                    "25": 0
+                                }
+                            },
+                            "4": {
+                                "name": "ANISZEWSKA Maria Krystyna",
+                                "uzyskane_glosy": {
+                                    "7": 3,
+                                    "8": 8,
+                                    "9": 5,
+                                    "12": 11,
+                                    "13": 4,
+                                    "23": 4,
+                                    "25": 0
+                                }
+                            },
+                            "5": {
+                                "name": "CIBORSKI Sławomir Piotr",
+                                "uzyskane_glosy": {
+                                    "7": 0,
+                                    "8": 2,
+                                    "9": 1,
+                                    "12": 5,
+                                    "13": 6,
+                                    "23": 3,
+                                    "25": 0
+                                }
+                            },
+                            "6": {
+                                "name": "OLSZEWSKI Zbigniew",
+                                "uzyskane_glosy": {
+                                    "7": 1,
+                                    "8": 3,
+                                    "9": 2,
+                                    "12": 4,
+                                    "13": 1,
+                                    "23": 3,
+                                    "25": 0
+                                }
+                            },
+                            "7": {
+                                "name": "MATUSEWICZ Jadwiga Marianna",
+                                "uzyskane_glosy": {
+                                    "7": 9,
+                                    "8": 7,
+                                    "9": 3,
+                                    "12": 6,
+                                    "13": 3,
+                                    "23": 8,
+                                    "25": 0
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "komitet": "KWW JACKA WOŹNIAKA KOALICJA SAMORZĄDOWA",
+                        "pozycje": {
+                            "1": {
+                                "name": "FRĄCZAK Agnieszka Jolanta",
+                                "uzyskane_glosy": {
+                                    "7": 11,
+                                    "8": 23,
+                                    "9": 17,
+                                    "12": 31,
+                                    "13": 50,
+                                    "23": 48,
+                                    "25": 0
+                                }
+                            },
+                            "2": {
+                                "name": "ZAWADZKI Dariusz Jacek",
+                                "uzyskane_glosy": {
+                                    "7": 36,
+                                    "8": 51,
+                                    "9": 45,
+                                    "12": 95,
+                                    "13": 50,
+                                    "23": 71,
+                                    "25": 0
+                                }
+                            },
+                            "3": {
+                                "name": "BAŃKOWSKA Joanna",
+                                "uzyskane_glosy": {
+                                    "7": 18,
+                                    "8": 16,
+                                    "9": 22,
+                                    "12": 12,
+                                    "13": 13,
+                                    "23": 19,
+                                    "25": 0
+                                }
+                            },
+                            "4": {
+                                "name": "KOWALCZYK Anna",
+                                "uzyskane_glosy": {
+                                    "7": 4,
+                                    "8": 6,
+                                    "9": 6,
+                                    "12": 11,
+                                    "13": 4,
+                                    "23": 7,
+                                    "25": 0
+                                }
+                            },
+                            "5": {
+                                "name": "ROMANOWSKI Maciej",
+                                "uzyskane_glosy": {
+                                    "7": 1,
+                                    "8": 1,
+                                    "9": 5,
+                                    "12": 6,
+                                    "13": 5,
+                                    "23": 1,
+                                    "25": 0
+                                }
+                            },
+                            "6": {
+                                "name": "SKRZYNIARZ Wiesław Czesław",
+                                "uzyskane_glosy": {
+                                    "7": 0,
+                                    "8": 7,
+                                    "9": 1,
+                                    "12": 2,
+                                    "13": 4,
+                                    "23": 5,
+                                    "25": 0
+                                }
+                            },
+                            "7": {
+                                "name": "JAKÓB Magdalena Teresa",
+                                "uzyskane_glosy": {
+                                    "7": 4,
+                                    "8": 11,
+                                    "9": 6,
+                                    "12": 6,
+                                    "13": 6,
+                                    "23": 4,
+                                    "25": 0
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "komitet": "KWW ANNY MIECZKOWSKIEJ TAK DLA KOŁOBRZEGU",
+                        "pozycje": {
+                            "1": {
+                                "name": "SZUFEL Ryszard",
+                                "uzyskane_glosy": {
+                                    "7": 76,
+                                    "8": 60,
+                                    "9": 102,
+                                    "12": 94,
+                                    "13": 86,
+                                    "23": 87,
+                                    "25": 0
+                                }
+                            },
+                            "2": {
+                                "name": "CIEŚLICKA Aneta Katarzyna",
+                                "uzyskane_glosy": {
+                                    "7": 78,
+                                    "8": 58,
+                                    "9": 55,
+                                    "12": 90,
+                                    "13": 59,
+                                    "23": 78,
+                                    "25": 0
+                                }
+                            },
+                            "3": {
+                                "name": "MUĆKA Joanna Gabriela",
+                                "uzyskane_glosy": {
+                                    "7": 19,
+                                    "8": 9,
+                                    "9": 9,
+                                    "12": 85,
+                                    "13": 49,
+                                    "23": 35,
+                                    "25": 0
+                                }
+                            },
+                            "4": {
+                                "name": "LUTKOWSKI Piotr",
+                                "uzyskane_glosy": {
+                                    "7": 3,
+                                    "8": 8,
+                                    "9": 10,
+                                    "12": 8,
+                                    "13": 93,
+                                    "23": 26,
+                                    "25": 0
+                                }
+                            },
+                            "5": {
+                                "name": "KIEŁBASIŃSKI Tomasz Henryk",
+                                "uzyskane_glosy": {
+                                    "7": 39,
+                                    "8": 46,
+                                    "9": 66,
+                                    "12": 66,
+                                    "13": 62,
+                                    "23": 69,
+                                    "25": 0
+                                }
+                            },
+                            "6": {
+                                "name": "DUDEK Gizela",
+                                "uzyskane_glosy": {
+                                    "7": 10,
+                                    "8": 18,
+                                    "9": 10,
+                                    "12": 33,
+                                    "13": 41,
+                                    "23": 31,
+                                    "25": 0
+                                }
+                            },
+                            "7": {
+                                "name": "ZIELIŃSKA Izabela Maria",
+                                "uzyskane_glosy": {
+                                    "7": 63,
+                                    "8": 117,
+                                    "9": 92,
+                                    "12": 53,
+                                    "13": 82,
+                                    "23": 171,
+                                    "25": 0
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "7": {
+                        "okreg": 3,
+                        "wyborcy": 995,
+                        "wyborcy_glosujacy": 496,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BIEŃKOWSKI Bartosz Henryk",
+                                    "glosy": 65
+                                },
+                                "2": {
+                                    "name": "STOMA Stanisław",
+                                    "glosy": 13
+                                },
+                                "3": {
+                                    "name": "SZCZERBIŃSKA Urszula",
+                                    "glosy": 16
+                                },
+                                "4": {
+                                    "name": "ANISZEWSKA Maria Krystyna",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "CIBORSKI Sławomir Piotr",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "OLSZEWSKI Zbigniew",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "MATUSEWICZ Jadwiga Marianna",
+                                    "glosy": 9
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "FRĄCZAK Agnieszka Jolanta",
+                                    "glosy": 11
+                                },
+                                "2": {
+                                    "name": "ZAWADZKI Dariusz Jacek",
+                                    "glosy": 36
+                                },
+                                "3": {
+                                    "name": "BAŃKOWSKA Joanna",
+                                    "glosy": 18
+                                },
+                                "4": {
+                                    "name": "KOWALCZYK Anna",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "ROMANOWSKI Maciej",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "SKRZYNIARZ Wiesław Czesław",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "JAKÓB Magdalena Teresa",
+                                    "glosy": 4
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "SZUFEL Ryszard",
+                                    "glosy": 76
+                                },
+                                "2": {
+                                    "name": "CIEŚLICKA Aneta Katarzyna",
+                                    "glosy": 78
+                                },
+                                "3": {
+                                    "name": "MUĆKA Joanna Gabriela",
+                                    "glosy": 19
+                                },
+                                "4": {
+                                    "name": "LUTKOWSKI Piotr",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "KIEŁBASIŃSKI Tomasz Henryk",
+                                    "glosy": 39
+                                },
+                                "6": {
+                                    "name": "DUDEK Gizela",
+                                    "glosy": 10
+                                },
+                                "7": {
+                                    "name": "ZIELIŃSKA Izabela Maria",
+                                    "glosy": 63
+                                }
+                            }
+                        }
+                    },
+                    "8": {
+                        "okreg": 3,
+                        "wyborcy": 1440,
+                        "wyborcy_glosujacy": 601,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BIEŃKOWSKI Bartosz Henryk",
+                                    "glosy": 75
+                                },
+                                "2": {
+                                    "name": "STOMA Stanisław",
+                                    "glosy": 29
+                                },
+                                "3": {
+                                    "name": "SZCZERBIŃSKA Urszula",
+                                    "glosy": 8
+                                },
+                                "4": {
+                                    "name": "ANISZEWSKA Maria Krystyna",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "CIBORSKI Sławomir Piotr",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "OLSZEWSKI Zbigniew",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "MATUSEWICZ Jadwiga Marianna",
+                                    "glosy": 7
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "FRĄCZAK Agnieszka Jolanta",
+                                    "glosy": 23
+                                },
+                                "2": {
+                                    "name": "ZAWADZKI Dariusz Jacek",
+                                    "glosy": 51
+                                },
+                                "3": {
+                                    "name": "BAŃKOWSKA Joanna",
+                                    "glosy": 16
+                                },
+                                "4": {
+                                    "name": "KOWALCZYK Anna",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "ROMANOWSKI Maciej",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "SKRZYNIARZ Wiesław Czesław",
+                                    "glosy": 7
+                                },
+                                "7": {
+                                    "name": "JAKÓB Magdalena Teresa",
+                                    "glosy": 11
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "SZUFEL Ryszard",
+                                    "glosy": 60
+                                },
+                                "2": {
+                                    "name": "CIEŚLICKA Aneta Katarzyna",
+                                    "glosy": 58
+                                },
+                                "3": {
+                                    "name": "MUĆKA Joanna Gabriela",
+                                    "glosy": 9
+                                },
+                                "4": {
+                                    "name": "LUTKOWSKI Piotr",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "KIEŁBASIŃSKI Tomasz Henryk",
+                                    "glosy": 46
+                                },
+                                "6": {
+                                    "name": "DUDEK Gizela",
+                                    "glosy": 18
+                                },
+                                "7": {
+                                    "name": "ZIELIŃSKA Izabela Maria",
+                                    "glosy": 117
+                                }
+                            }
+                        }
+                    },
+                    "9": {
+                        "okreg": 3,
+                        "wyborcy": 1398,
+                        "wyborcy_glosujacy": 590,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BIEŃKOWSKI Bartosz Henryk",
+                                    "glosy": 60
+                                },
+                                "2": {
+                                    "name": "STOMA Stanisław",
+                                    "glosy": 18
+                                },
+                                "3": {
+                                    "name": "SZCZERBIŃSKA Urszula",
+                                    "glosy": 6
+                                },
+                                "4": {
+                                    "name": "ANISZEWSKA Maria Krystyna",
+                                    "glosy": 5
+                                },
+                                "5": {
+                                    "name": "CIBORSKI Sławomir Piotr",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "OLSZEWSKI Zbigniew",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "MATUSEWICZ Jadwiga Marianna",
+                                    "glosy": 3
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "FRĄCZAK Agnieszka Jolanta",
+                                    "glosy": 17
+                                },
+                                "2": {
+                                    "name": "ZAWADZKI Dariusz Jacek",
+                                    "glosy": 45
+                                },
+                                "3": {
+                                    "name": "BAŃKOWSKA Joanna",
+                                    "glosy": 22
+                                },
+                                "4": {
+                                    "name": "KOWALCZYK Anna",
+                                    "glosy": 6
+                                },
+                                "5": {
+                                    "name": "ROMANOWSKI Maciej",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "SKRZYNIARZ Wiesław Czesław",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "JAKÓB Magdalena Teresa",
+                                    "glosy": 6
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "SZUFEL Ryszard",
+                                    "glosy": 102
+                                },
+                                "2": {
+                                    "name": "CIEŚLICKA Aneta Katarzyna",
+                                    "glosy": 55
+                                },
+                                "3": {
+                                    "name": "MUĆKA Joanna Gabriela",
+                                    "glosy": 9
+                                },
+                                "4": {
+                                    "name": "LUTKOWSKI Piotr",
+                                    "glosy": 10
+                                },
+                                "5": {
+                                    "name": "KIEŁBASIŃSKI Tomasz Henryk",
+                                    "glosy": 66
+                                },
+                                "6": {
+                                    "name": "DUDEK Gizela",
+                                    "glosy": 10
+                                },
+                                "7": {
+                                    "name": "ZIELIŃSKA Izabela Maria",
+                                    "glosy": 92
+                                }
+                            }
+                        }
+                    },
+                    "12": {
+                        "okreg": 3,
+                        "wyborcy": 1607,
+                        "wyborcy_glosujacy": 781,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BIEŃKOWSKI Bartosz Henryk",
+                                    "glosy": 111
+                                },
+                                "2": {
+                                    "name": "STOMA Stanisław",
+                                    "glosy": 13
+                                },
+                                "3": {
+                                    "name": "SZCZERBIŃSKA Urszula",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "ANISZEWSKA Maria Krystyna",
+                                    "glosy": 11
+                                },
+                                "5": {
+                                    "name": "CIBORSKI Sławomir Piotr",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "OLSZEWSKI Zbigniew",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "MATUSEWICZ Jadwiga Marianna",
+                                    "glosy": 6
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "FRĄCZAK Agnieszka Jolanta",
+                                    "glosy": 31
+                                },
+                                "2": {
+                                    "name": "ZAWADZKI Dariusz Jacek",
+                                    "glosy": 95
+                                },
+                                "3": {
+                                    "name": "BAŃKOWSKA Joanna",
+                                    "glosy": 12
+                                },
+                                "4": {
+                                    "name": "KOWALCZYK Anna",
+                                    "glosy": 11
+                                },
+                                "5": {
+                                    "name": "ROMANOWSKI Maciej",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "SKRZYNIARZ Wiesław Czesław",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "JAKÓB Magdalena Teresa",
+                                    "glosy": 6
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "SZUFEL Ryszard",
+                                    "glosy": 94
+                                },
+                                "2": {
+                                    "name": "CIEŚLICKA Aneta Katarzyna",
+                                    "glosy": 90
+                                },
+                                "3": {
+                                    "name": "MUĆKA Joanna Gabriela",
+                                    "glosy": 85
+                                },
+                                "4": {
+                                    "name": "LUTKOWSKI Piotr",
+                                    "glosy": 8
+                                },
+                                "5": {
+                                    "name": "KIEŁBASIŃSKI Tomasz Henryk",
+                                    "glosy": 66
+                                },
+                                "6": {
+                                    "name": "DUDEK Gizela",
+                                    "glosy": 33
+                                },
+                                "7": {
+                                    "name": "ZIELIŃSKA Izabela Maria",
+                                    "glosy": 53
+                                }
+                            }
+                        }
+                    },
+                    "13": {
+                        "okreg": 3,
+                        "wyborcy": 1615,
+                        "wyborcy_glosujacy": 716,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BIEŃKOWSKI Bartosz Henryk",
+                                    "glosy": 54
+                                },
+                                "2": {
+                                    "name": "STOMA Stanisław",
+                                    "glosy": 5
+                                },
+                                "3": {
+                                    "name": "SZCZERBIŃSKA Urszula",
+                                    "glosy": 4
+                                },
+                                "4": {
+                                    "name": "ANISZEWSKA Maria Krystyna",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "CIBORSKI Sławomir Piotr",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "OLSZEWSKI Zbigniew",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "MATUSEWICZ Jadwiga Marianna",
+                                    "glosy": 3
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "FRĄCZAK Agnieszka Jolanta",
+                                    "glosy": 50
+                                },
+                                "2": {
+                                    "name": "ZAWADZKI Dariusz Jacek",
+                                    "glosy": 50
+                                },
+                                "3": {
+                                    "name": "BAŃKOWSKA Joanna",
+                                    "glosy": 13
+                                },
+                                "4": {
+                                    "name": "KOWALCZYK Anna",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "ROMANOWSKI Maciej",
+                                    "glosy": 5
+                                },
+                                "6": {
+                                    "name": "SKRZYNIARZ Wiesław Czesław",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "JAKÓB Magdalena Teresa",
+                                    "glosy": 6
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "SZUFEL Ryszard",
+                                    "glosy": 86
+                                },
+                                "2": {
+                                    "name": "CIEŚLICKA Aneta Katarzyna",
+                                    "glosy": 59
+                                },
+                                "3": {
+                                    "name": "MUĆKA Joanna Gabriela",
+                                    "glosy": 49
+                                },
+                                "4": {
+                                    "name": "LUTKOWSKI Piotr",
+                                    "glosy": 93
+                                },
+                                "5": {
+                                    "name": "KIEŁBASIŃSKI Tomasz Henryk",
+                                    "glosy": 62
+                                },
+                                "6": {
+                                    "name": "DUDEK Gizela",
+                                    "glosy": 41
+                                },
+                                "7": {
+                                    "name": "ZIELIŃSKA Izabela Maria",
+                                    "glosy": 82
+                                }
+                            }
+                        }
+                    },
+                    "23": {
+                        "okreg": 3,
+                        "wyborcy": 1791,
+                        "wyborcy_glosujacy": 806,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BIEŃKOWSKI Bartosz Henryk",
+                                    "glosy": 84
+                                },
+                                "2": {
+                                    "name": "STOMA Stanisław",
+                                    "glosy": 5
+                                },
+                                "3": {
+                                    "name": "SZCZERBIŃSKA Urszula",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "ANISZEWSKA Maria Krystyna",
+                                    "glosy": 4
+                                },
+                                "5": {
+                                    "name": "CIBORSKI Sławomir Piotr",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "OLSZEWSKI Zbigniew",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "MATUSEWICZ Jadwiga Marianna",
+                                    "glosy": 8
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "FRĄCZAK Agnieszka Jolanta",
+                                    "glosy": 48
+                                },
+                                "2": {
+                                    "name": "ZAWADZKI Dariusz Jacek",
+                                    "glosy": 71
+                                },
+                                "3": {
+                                    "name": "BAŃKOWSKA Joanna",
+                                    "glosy": 19
+                                },
+                                "4": {
+                                    "name": "KOWALCZYK Anna",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "ROMANOWSKI Maciej",
+                                    "glosy": 1
+                                },
+                                "6": {
+                                    "name": "SKRZYNIARZ Wiesław Czesław",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "JAKÓB Magdalena Teresa",
+                                    "glosy": 4
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "SZUFEL Ryszard",
+                                    "glosy": 87
+                                },
+                                "2": {
+                                    "name": "CIEŚLICKA Aneta Katarzyna",
+                                    "glosy": 78
+                                },
+                                "3": {
+                                    "name": "MUĆKA Joanna Gabriela",
+                                    "glosy": 35
+                                },
+                                "4": {
+                                    "name": "LUTKOWSKI Piotr",
+                                    "glosy": 26
+                                },
+                                "5": {
+                                    "name": "KIEŁBASIŃSKI Tomasz Henryk",
+                                    "glosy": 69
+                                },
+                                "6": {
+                                    "name": "DUDEK Gizela",
+                                    "glosy": 31
+                                },
+                                "7": {
+                                    "name": "ZIELIŃSKA Izabela Maria",
+                                    "glosy": 171
+                                }
+                            }
+                        }
+                    },
+                    "25": {
+                        "okreg": 3,
+                        "wyborcy": 4,
+                        "wyborcy_glosujacy": 0,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "BIEŃKOWSKI Bartosz Henryk",
+                                    "glosy": 0
+                                },
+                                "2": {
+                                    "name": "STOMA Stanisław",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "SZCZERBIŃSKA Urszula",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "ANISZEWSKA Maria Krystyna",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "CIBORSKI Sławomir Piotr",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "OLSZEWSKI Zbigniew",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "MATUSEWICZ Jadwiga Marianna",
+                                    "glosy": 0
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "FRĄCZAK Agnieszka Jolanta",
+                                    "glosy": 0
+                                },
+                                "2": {
+                                    "name": "ZAWADZKI Dariusz Jacek",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "BAŃKOWSKA Joanna",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "KOWALCZYK Anna",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "ROMANOWSKI Maciej",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "SKRZYNIARZ Wiesław Czesław",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "JAKÓB Magdalena Teresa",
+                                    "glosy": 0
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "SZUFEL Ryszard",
+                                    "glosy": 0
+                                },
+                                "2": {
+                                    "name": "CIEŚLICKA Aneta Katarzyna",
+                                    "glosy": 0
+                                },
+                                "3": {
+                                    "name": "MUĆKA Joanna Gabriela",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "LUTKOWSKI Piotr",
+                                    "glosy": 0
+                                },
+                                "5": {
+                                    "name": "KIEŁBASIŃSKI Tomasz Henryk",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "DUDEK Gizela",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "ZIELIŃSKA Izabela Maria",
+                                    "glosy": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "4": {
+                "mandaty": 6,
+                "listy": 3,
+                "mieszkancy": 10543,
+                "wyborcy": 9106,
+                "granice": "gen. Józefa Bema, Bociania, Brzeska, Jana Karola Chodkiewicza, Stefana Czarnieckiego, Dąbrówki, 4 Dywizji Wojska Polskiego, Aleksandra Fredry, gen. Stanisława Maczka, gen. Tadeusza Rozwadowskiego, Grodzieńska, Gryfitów, Franciszka Morawskiego, Nowogródzka, Kaszubska, Stanisława Koniecpolskiego, Koszalińska, Kresowa, Krzemieniecka, Kupiecka, Lwowska, Łużycka, Magnoliowa, Mieszka I, Myśliwska, Na Grobli, Ogrodowa, Orla, Ostrobramska, Pińska, Podolska, Poleska, Promienna, Przesmyk, Słowiańska, Antoniego Sułkowskiego, Tarnopolska, Jana Tarnowskiego, Wenedów, Wileńska, Wschodnia, Józefa Wybickiego, Złota, Stanisława Żółkiewskiego",
+                "wyborcy_b": 0,
+                "pakiet": 3,
+                "kandydaci": {
+                    "14": {
+                        "komitet": "KWW CENTROPRAWICA",
+                        "pozycje": {
+                            "1": {
+                                "name": "KALINOWSKI Jacek Jerzy",
+                                "uzyskane_glosy": {
+                                    "3": 58,
+                                    "10": 88,
+                                    "11": 50,
+                                    "16": 26,
+                                    "17": 21,
+                                    "19": 41
+                                }
+                            },
+                            "2": {
+                                "name": "KŁYŻ Aleksandra",
+                                "uzyskane_glosy": {
+                                    "3": 18,
+                                    "10": 12,
+                                    "11": 8,
+                                    "16": 2,
+                                    "17": 5,
+                                    "19": 17
+                                }
+                            },
+                            "3": {
+                                "name": "ROGOŻA Krystyna",
+                                "uzyskane_glosy": {
+                                    "3": 9,
+                                    "10": 7,
+                                    "11": 5,
+                                    "16": 2,
+                                    "17": 0,
+                                    "19": 2
+                                }
+                            },
+                            "4": {
+                                "name": "AŚCIUKIEWICZ Marta Dobrawa",
+                                "uzyskane_glosy": {
+                                    "3": 21,
+                                    "10": 29,
+                                    "11": 14,
+                                    "16": 32,
+                                    "17": 7,
+                                    "19": 32
+                                }
+                            },
+                            "5": {
+                                "name": "DUBIELA Piotr Bogdan",
+                                "uzyskane_glosy": {
+                                    "3": 6,
+                                    "10": 9,
+                                    "11": 3,
+                                    "16": 2,
+                                    "17": 0,
+                                    "19": 3
+                                }
+                            },
+                            "6": {
+                                "name": "TOMICKI Tomasz Florian",
+                                "uzyskane_glosy": {
+                                    "3": 4,
+                                    "10": 2,
+                                    "11": 5,
+                                    "16": 3,
+                                    "17": 1,
+                                    "19": 5
+                                }
+                            },
+                            "7": {
+                                "name": "GRABOWSKI Krzysztof",
+                                "uzyskane_glosy": {
+                                    "3": 4,
+                                    "10": 4,
+                                    "11": 5,
+                                    "16": 5,
+                                    "17": 5,
+                                    "19": 2
+                                }
+                            }
+                        }
+                    },
+                    "15": {
+                        "komitet": "KWW JACKA WOŹNIAKA KOALICJA SAMORZĄDOWA",
+                        "pozycje": {
+                            "1": {
+                                "name": "WOŹNIAK Jacek Artur",
+                                "uzyskane_glosy": {
+                                    "3": 111,
+                                    "10": 125,
+                                    "11": 83,
+                                    "16": 52,
+                                    "17": 60,
+                                    "19": 126
+                                }
+                            },
+                            "2": {
+                                "name": "MŁYNARCZYK Marek Józef",
+                                "uzyskane_glosy": {
+                                    "3": 9,
+                                    "10": 6,
+                                    "11": 16,
+                                    "16": 9,
+                                    "17": 7,
+                                    "19": 61
+                                }
+                            },
+                            "3": {
+                                "name": "MIELNIK Karolina",
+                                "uzyskane_glosy": {
+                                    "3": 7,
+                                    "10": 10,
+                                    "11": 8,
+                                    "16": 0,
+                                    "17": 1,
+                                    "19": 6
+                                }
+                            },
+                            "4": {
+                                "name": "PAWELCZAK Dariusz Andrzej",
+                                "uzyskane_glosy": {
+                                    "3": 3,
+                                    "10": 2,
+                                    "11": 15,
+                                    "16": 1,
+                                    "17": 10,
+                                    "19": 3
+                                }
+                            },
+                            "5": {
+                                "name": "CIECIELĄG Barbara Małgorzata",
+                                "uzyskane_glosy": {
+                                    "3": 0,
+                                    "10": 3,
+                                    "11": 3,
+                                    "16": 0,
+                                    "17": 2,
+                                    "19": 3
+                                }
+                            },
+                            "6": {
+                                "name": "ŻULEWSKI Wojciech",
+                                "uzyskane_glosy": {
+                                    "3": 1,
+                                    "10": 0,
+                                    "11": 4,
+                                    "16": 0,
+                                    "17": 29,
+                                    "19": 0
+                                }
+                            },
+                            "7": {
+                                "name": "ZMITROWICZ Wioleta Jadwiga",
+                                "uzyskane_glosy": {
+                                    "3": 0,
+                                    "10": 3,
+                                    "11": 1,
+                                    "16": 0,
+                                    "17": 2,
+                                    "19": 3
+                                }
+                            },
+                            "8": {
+                                "name": "DĄBKOWSKI Artur Grzegorz",
+                                "uzyskane_glosy": {
+                                    "3": 28,
+                                    "10": 25,
+                                    "11": 45,
+                                    "16": 84,
+                                    "17": 19,
+                                    "19": 41
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "komitet": "KWW ANNY MIECZKOWSKIEJ TAK DLA KOŁOBRZEGU",
+                        "pozycje": {
+                            "1": {
+                                "name": "MIECZKOWSKA Anna",
+                                "uzyskane_glosy": {
+                                    "3": 261,
+                                    "10": 223,
+                                    "11": 215,
+                                    "16": 92,
+                                    "17": 122,
+                                    "19": 252
+                                }
+                            },
+                            "2": {
+                                "name": "BARWINEK Kamil Dariusz",
+                                "uzyskane_glosy": {
+                                    "3": 90,
+                                    "10": 210,
+                                    "11": 186,
+                                    "16": 25,
+                                    "17": 113,
+                                    "19": 126
+                                }
+                            },
+                            "3": {
+                                "name": "KARGUL Sławomir Tadeusz",
+                                "uzyskane_glosy": {
+                                    "3": 7,
+                                    "10": 7,
+                                    "11": 10,
+                                    "16": 5,
+                                    "17": 6,
+                                    "19": 17
+                                }
+                            },
+                            "4": {
+                                "name": "GROTTO Małgorzata Zofia",
+                                "uzyskane_glosy": {
+                                    "3": 15,
+                                    "10": 32,
+                                    "11": 47,
+                                    "16": 12,
+                                    "17": 11,
+                                    "19": 23
+                                }
+                            },
+                            "5": {
+                                "name": "OLECH Halina",
+                                "uzyskane_glosy": {
+                                    "3": 20,
+                                    "10": 10,
+                                    "11": 4,
+                                    "16": 7,
+                                    "17": 4,
+                                    "19": 12
+                                }
+                            },
+                            "6": {
+                                "name": "MALINOWSKI Zbigniew",
+                                "uzyskane_glosy": {
+                                    "3": 35,
+                                    "10": 9,
+                                    "11": 2,
+                                    "16": 4,
+                                    "17": 8,
+                                    "19": 13
+                                }
+                            },
+                            "7": {
+                                "name": "DRĄŻEK Barbara",
+                                "uzyskane_glosy": {
+                                    "3": 11,
+                                    "10": 10,
+                                    "11": 15,
+                                    "16": 203,
+                                    "17": 18,
+                                    "19": 12
+                                }
+                            },
+                            "8": {
+                                "name": "KRZYSZTOFIAK Dawid",
+                                "uzyskane_glosy": {
+                                    "3": 18,
+                                    "10": 32,
+                                    "11": 27,
+                                    "16": 18,
+                                    "17": 30,
+                                    "19": 28
+                                }
+                            }
+                        }
+                    }
+                },
+                "obwody": {
+                    "3": {
+                        "okreg": 4,
+                        "wyborcy": 1556,
+                        "wyborcy_glosujacy": 785,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "KALINOWSKI Jacek Jerzy",
+                                    "glosy": 58
+                                },
+                                "2": {
+                                    "name": "KŁYŻ Aleksandra",
+                                    "glosy": 18
+                                },
+                                "3": {
+                                    "name": "ROGOŻA Krystyna",
+                                    "glosy": 9
+                                },
+                                "4": {
+                                    "name": "AŚCIUKIEWICZ Marta Dobrawa",
+                                    "glosy": 21
+                                },
+                                "5": {
+                                    "name": "DUBIELA Piotr Bogdan",
+                                    "glosy": 6
+                                },
+                                "6": {
+                                    "name": "TOMICKI Tomasz Florian",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "GRABOWSKI Krzysztof",
+                                    "glosy": 4
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "WOŹNIAK Jacek Artur",
+                                    "glosy": 111
+                                },
+                                "2": {
+                                    "name": "MŁYNARCZYK Marek Józef",
+                                    "glosy": 9
+                                },
+                                "3": {
+                                    "name": "MIELNIK Karolina",
+                                    "glosy": 7
+                                },
+                                "4": {
+                                    "name": "PAWELCZAK Dariusz Andrzej",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "CIECIELĄG Barbara Małgorzata",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "ŻULEWSKI Wojciech",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "ZMITROWICZ Wioleta Jadwiga",
+                                    "glosy": 0
+                                },
+                                "8": {
+                                    "name": "DĄBKOWSKI Artur Grzegorz",
+                                    "glosy": 28
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "MIECZKOWSKA Anna",
+                                    "glosy": 261
+                                },
+                                "2": {
+                                    "name": "BARWINEK Kamil Dariusz",
+                                    "glosy": 90
+                                },
+                                "3": {
+                                    "name": "KARGUL Sławomir Tadeusz",
+                                    "glosy": 7
+                                },
+                                "4": {
+                                    "name": "GROTTO Małgorzata Zofia",
+                                    "glosy": 15
+                                },
+                                "5": {
+                                    "name": "OLECH Halina",
+                                    "glosy": 20
+                                },
+                                "6": {
+                                    "name": "MALINOWSKI Zbigniew",
+                                    "glosy": 35
+                                },
+                                "7": {
+                                    "name": "DRĄŻEK Barbara",
+                                    "glosy": 11
+                                },
+                                "8": {
+                                    "name": "KRZYSZTOFIAK Dawid",
+                                    "glosy": 18
+                                }
+                            }
+                        }
+                    },
+                    "10": {
+                        "okreg": 4,
+                        "wyborcy": 1897,
+                        "wyborcy_glosujacy": 891,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "KALINOWSKI Jacek Jerzy",
+                                    "glosy": 88
+                                },
+                                "2": {
+                                    "name": "KŁYŻ Aleksandra",
+                                    "glosy": 12
+                                },
+                                "3": {
+                                    "name": "ROGOŻA Krystyna",
+                                    "glosy": 7
+                                },
+                                "4": {
+                                    "name": "AŚCIUKIEWICZ Marta Dobrawa",
+                                    "glosy": 29
+                                },
+                                "5": {
+                                    "name": "DUBIELA Piotr Bogdan",
+                                    "glosy": 9
+                                },
+                                "6": {
+                                    "name": "TOMICKI Tomasz Florian",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "GRABOWSKI Krzysztof",
+                                    "glosy": 4
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "WOŹNIAK Jacek Artur",
+                                    "glosy": 125
+                                },
+                                "2": {
+                                    "name": "MŁYNARCZYK Marek Józef",
+                                    "glosy": 6
+                                },
+                                "3": {
+                                    "name": "MIELNIK Karolina",
+                                    "glosy": 10
+                                },
+                                "4": {
+                                    "name": "PAWELCZAK Dariusz Andrzej",
+                                    "glosy": 2
+                                },
+                                "5": {
+                                    "name": "CIECIELĄG Barbara Małgorzata",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "ŻULEWSKI Wojciech",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "ZMITROWICZ Wioleta Jadwiga",
+                                    "glosy": 3
+                                },
+                                "8": {
+                                    "name": "DĄBKOWSKI Artur Grzegorz",
+                                    "glosy": 25
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "MIECZKOWSKA Anna",
+                                    "glosy": 223
+                                },
+                                "2": {
+                                    "name": "BARWINEK Kamil Dariusz",
+                                    "glosy": 210
+                                },
+                                "3": {
+                                    "name": "KARGUL Sławomir Tadeusz",
+                                    "glosy": 7
+                                },
+                                "4": {
+                                    "name": "GROTTO Małgorzata Zofia",
+                                    "glosy": 32
+                                },
+                                "5": {
+                                    "name": "OLECH Halina",
+                                    "glosy": 10
+                                },
+                                "6": {
+                                    "name": "MALINOWSKI Zbigniew",
+                                    "glosy": 9
+                                },
+                                "7": {
+                                    "name": "DRĄŻEK Barbara",
+                                    "glosy": 10
+                                },
+                                "8": {
+                                    "name": "KRZYSZTOFIAK Dawid",
+                                    "glosy": 32
+                                }
+                            }
+                        }
+                    },
+                    "11": {
+                        "okreg": 4,
+                        "wyborcy": 1481,
+                        "wyborcy_glosujacy": 797,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "KALINOWSKI Jacek Jerzy",
+                                    "glosy": 50
+                                },
+                                "2": {
+                                    "name": "KŁYŻ Aleksandra",
+                                    "glosy": 8
+                                },
+                                "3": {
+                                    "name": "ROGOŻA Krystyna",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "AŚCIUKIEWICZ Marta Dobrawa",
+                                    "glosy": 14
+                                },
+                                "5": {
+                                    "name": "DUBIELA Piotr Bogdan",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "TOMICKI Tomasz Florian",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "GRABOWSKI Krzysztof",
+                                    "glosy": 5
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "WOŹNIAK Jacek Artur",
+                                    "glosy": 83
+                                },
+                                "2": {
+                                    "name": "MŁYNARCZYK Marek Józef",
+                                    "glosy": 16
+                                },
+                                "3": {
+                                    "name": "MIELNIK Karolina",
+                                    "glosy": 8
+                                },
+                                "4": {
+                                    "name": "PAWELCZAK Dariusz Andrzej",
+                                    "glosy": 15
+                                },
+                                "5": {
+                                    "name": "CIECIELĄG Barbara Małgorzata",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "ŻULEWSKI Wojciech",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "ZMITROWICZ Wioleta Jadwiga",
+                                    "glosy": 1
+                                },
+                                "8": {
+                                    "name": "DĄBKOWSKI Artur Grzegorz",
+                                    "glosy": 45
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "MIECZKOWSKA Anna",
+                                    "glosy": 215
+                                },
+                                "2": {
+                                    "name": "BARWINEK Kamil Dariusz",
+                                    "glosy": 186
+                                },
+                                "3": {
+                                    "name": "KARGUL Sławomir Tadeusz",
+                                    "glosy": 10
+                                },
+                                "4": {
+                                    "name": "GROTTO Małgorzata Zofia",
+                                    "glosy": 47
+                                },
+                                "5": {
+                                    "name": "OLECH Halina",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "MALINOWSKI Zbigniew",
+                                    "glosy": 2
+                                },
+                                "7": {
+                                    "name": "DRĄŻEK Barbara",
+                                    "glosy": 15
+                                },
+                                "8": {
+                                    "name": "KRZYSZTOFIAK Dawid",
+                                    "glosy": 27
+                                }
+                            }
+                        }
+                    },
+                    "16": {
+                        "okreg": 4,
+                        "wyborcy": 1290,
+                        "wyborcy_glosujacy": 613,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "KALINOWSKI Jacek Jerzy",
+                                    "glosy": 26
+                                },
+                                "2": {
+                                    "name": "KŁYŻ Aleksandra",
+                                    "glosy": 2
+                                },
+                                "3": {
+                                    "name": "ROGOŻA Krystyna",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "AŚCIUKIEWICZ Marta Dobrawa",
+                                    "glosy": 32
+                                },
+                                "5": {
+                                    "name": "DUBIELA Piotr Bogdan",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "TOMICKI Tomasz Florian",
+                                    "glosy": 3
+                                },
+                                "7": {
+                                    "name": "GRABOWSKI Krzysztof",
+                                    "glosy": 5
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "WOŹNIAK Jacek Artur",
+                                    "glosy": 52
+                                },
+                                "2": {
+                                    "name": "MŁYNARCZYK Marek Józef",
+                                    "glosy": 9
+                                },
+                                "3": {
+                                    "name": "MIELNIK Karolina",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "PAWELCZAK Dariusz Andrzej",
+                                    "glosy": 1
+                                },
+                                "5": {
+                                    "name": "CIECIELĄG Barbara Małgorzata",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "ŻULEWSKI Wojciech",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "ZMITROWICZ Wioleta Jadwiga",
+                                    "glosy": 0
+                                },
+                                "8": {
+                                    "name": "DĄBKOWSKI Artur Grzegorz",
+                                    "glosy": 84
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "MIECZKOWSKA Anna",
+                                    "glosy": 92
+                                },
+                                "2": {
+                                    "name": "BARWINEK Kamil Dariusz",
+                                    "glosy": 25
+                                },
+                                "3": {
+                                    "name": "KARGUL Sławomir Tadeusz",
+                                    "glosy": 5
+                                },
+                                "4": {
+                                    "name": "GROTTO Małgorzata Zofia",
+                                    "glosy": 12
+                                },
+                                "5": {
+                                    "name": "OLECH Halina",
+                                    "glosy": 7
+                                },
+                                "6": {
+                                    "name": "MALINOWSKI Zbigniew",
+                                    "glosy": 4
+                                },
+                                "7": {
+                                    "name": "DRĄŻEK Barbara",
+                                    "glosy": 203
+                                },
+                                "8": {
+                                    "name": "KRZYSZTOFIAK Dawid",
+                                    "glosy": 18
+                                }
+                            }
+                        }
+                    },
+                    "17": {
+                        "okreg": 4,
+                        "wyborcy": 981,
+                        "wyborcy_glosujacy": 496,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "KALINOWSKI Jacek Jerzy",
+                                    "glosy": 21
+                                },
+                                "2": {
+                                    "name": "KŁYŻ Aleksandra",
+                                    "glosy": 5
+                                },
+                                "3": {
+                                    "name": "ROGOŻA Krystyna",
+                                    "glosy": 0
+                                },
+                                "4": {
+                                    "name": "AŚCIUKIEWICZ Marta Dobrawa",
+                                    "glosy": 7
+                                },
+                                "5": {
+                                    "name": "DUBIELA Piotr Bogdan",
+                                    "glosy": 0
+                                },
+                                "6": {
+                                    "name": "TOMICKI Tomasz Florian",
+                                    "glosy": 1
+                                },
+                                "7": {
+                                    "name": "GRABOWSKI Krzysztof",
+                                    "glosy": 5
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "WOŹNIAK Jacek Artur",
+                                    "glosy": 60
+                                },
+                                "2": {
+                                    "name": "MŁYNARCZYK Marek Józef",
+                                    "glosy": 7
+                                },
+                                "3": {
+                                    "name": "MIELNIK Karolina",
+                                    "glosy": 1
+                                },
+                                "4": {
+                                    "name": "PAWELCZAK Dariusz Andrzej",
+                                    "glosy": 10
+                                },
+                                "5": {
+                                    "name": "CIECIELĄG Barbara Małgorzata",
+                                    "glosy": 2
+                                },
+                                "6": {
+                                    "name": "ŻULEWSKI Wojciech",
+                                    "glosy": 29
+                                },
+                                "7": {
+                                    "name": "ZMITROWICZ Wioleta Jadwiga",
+                                    "glosy": 2
+                                },
+                                "8": {
+                                    "name": "DĄBKOWSKI Artur Grzegorz",
+                                    "glosy": 19
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "MIECZKOWSKA Anna",
+                                    "glosy": 122
+                                },
+                                "2": {
+                                    "name": "BARWINEK Kamil Dariusz",
+                                    "glosy": 113
+                                },
+                                "3": {
+                                    "name": "KARGUL Sławomir Tadeusz",
+                                    "glosy": 6
+                                },
+                                "4": {
+                                    "name": "GROTTO Małgorzata Zofia",
+                                    "glosy": 11
+                                },
+                                "5": {
+                                    "name": "OLECH Halina",
+                                    "glosy": 4
+                                },
+                                "6": {
+                                    "name": "MALINOWSKI Zbigniew",
+                                    "glosy": 8
+                                },
+                                "7": {
+                                    "name": "DRĄŻEK Barbara",
+                                    "glosy": 18
+                                },
+                                "8": {
+                                    "name": "KRZYSZTOFIAK Dawid",
+                                    "glosy": 30
+                                }
+                            }
+                        }
+                    },
+                    "19": {
+                        "okreg": 4,
+                        "wyborcy": 1902,
+                        "wyborcy_glosujacy": 870,
+                        "kandydaci": {
+                            "14": {
+                                "1": {
+                                    "name": "KALINOWSKI Jacek Jerzy",
+                                    "glosy": 41
+                                },
+                                "2": {
+                                    "name": "KŁYŻ Aleksandra",
+                                    "glosy": 17
+                                },
+                                "3": {
+                                    "name": "ROGOŻA Krystyna",
+                                    "glosy": 2
+                                },
+                                "4": {
+                                    "name": "AŚCIUKIEWICZ Marta Dobrawa",
+                                    "glosy": 32
+                                },
+                                "5": {
+                                    "name": "DUBIELA Piotr Bogdan",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "TOMICKI Tomasz Florian",
+                                    "glosy": 5
+                                },
+                                "7": {
+                                    "name": "GRABOWSKI Krzysztof",
+                                    "glosy": 2
+                                }
+                            },
+                            "15": {
+                                "1": {
+                                    "name": "WOŹNIAK Jacek Artur",
+                                    "glosy": 126
+                                },
+                                "2": {
+                                    "name": "MŁYNARCZYK Marek Józef",
+                                    "glosy": 61
+                                },
+                                "3": {
+                                    "name": "MIELNIK Karolina",
+                                    "glosy": 6
+                                },
+                                "4": {
+                                    "name": "PAWELCZAK Dariusz Andrzej",
+                                    "glosy": 3
+                                },
+                                "5": {
+                                    "name": "CIECIELĄG Barbara Małgorzata",
+                                    "glosy": 3
+                                },
+                                "6": {
+                                    "name": "ŻULEWSKI Wojciech",
+                                    "glosy": 0
+                                },
+                                "7": {
+                                    "name": "ZMITROWICZ Wioleta Jadwiga",
+                                    "glosy": 3
+                                },
+                                "8": {
+                                    "name": "DĄBKOWSKI Artur Grzegorz",
+                                    "glosy": 41
+                                }
+                            },
+                            "16": {
+                                "1": {
+                                    "name": "MIECZKOWSKA Anna",
+                                    "glosy": 252
+                                },
+                                "2": {
+                                    "name": "BARWINEK Kamil Dariusz",
+                                    "glosy": 126
+                                },
+                                "3": {
+                                    "name": "KARGUL Sławomir Tadeusz",
+                                    "glosy": 17
+                                },
+                                "4": {
+                                    "name": "GROTTO Małgorzata Zofia",
+                                    "glosy": 23
+                                },
+                                "5": {
+                                    "name": "OLECH Halina",
+                                    "glosy": 12
+                                },
+                                "6": {
+                                    "name": "MALINOWSKI Zbigniew",
+                                    "glosy": 13
+                                },
+                                "7": {
+                                    "name": "DRĄŻEK Barbara",
+                                    "glosy": 12
+                                },
+                                "8": {
+                                    "name": "KRZYSZTOFIAK Dawid",
+                                    "glosy": 28
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

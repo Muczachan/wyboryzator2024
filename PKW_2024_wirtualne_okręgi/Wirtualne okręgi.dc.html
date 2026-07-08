@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <style>
+    html, body { margin: 0; padding: 0; background: #F6F5F2; }
+    body { font-family: 'IBM Plex Sans', sans-serif; color: #1C1B1A; }
+    a { color: #9E1B32; text-decoration: none; }
+    a:hover { color: #7A1526; text-decoration: underline; }
+    * { box-sizing: border-box; }
+    input[type="checkbox"] { accent-color: #9E1B32; width: 15px; height: 15px; }
+  </style>
+</helmet>
+
+<div style="min-height: 100vh; background: #F6F5F2;">
+
+  <!-- ============ HEADER ============ -->
+  <header style="background: #FFFFFF; border-top: 4px solid #9E1B32; border-bottom: 1px solid #E3E0DB;">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap;">
+      <div style="font-size: 17px; font-weight: 700; letter-spacing: -0.01em; cursor: pointer;" onClick="{{ goHome }}">Wybory samorządowe 2024</div>
+      <div style="font-size: 13px; color: #6B6660;">rady gmin powyżej 20 tys. mieszkańców · przelicznik wirtualnych okręgów</div>
+      <nav style="margin-left: auto; display: flex; gap: 6px; font-size: 13px; align-items: center;">
+        <span style="color: #9E1B32; cursor: pointer; font-weight: 500;" onClick="{{ goHome }}">Gminy</span>
+        <sc-if value="{{ hasGmina }}" hint-placeholder-val="{{ false }}">
+          <span style="color: #B5B0A8;">/</span>
+          <span style="color: #9E1B32; cursor: pointer; font-weight: 500;" onClick="{{ goGmina }}">{{ gminaName }}</span>
+        </sc-if>
+        <sc-if value="{{ isBuilder }}" hint-placeholder-val="{{ false }}">
+          <span style="color: #B5B0A8;">/</span>
+          <span style="color: #6B6660; font-weight: 500;">Okręg wirtualny</span>
+        </sc-if>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ VIEW: PICKER ============ -->
+  <sc-if value="{{ isPicker }}" hint-placeholder-val="{{ true }}">
+    <main data-screen-label="Wybór gminy" style="max-width: 720px; margin: 0 auto; padding: 48px 24px 80px;">
+      <h1 style="font-size: 26px; font-weight: 700; margin: 0 0 6px; letter-spacing: -0.01em;">Wybierz gminę</h1>
+      <p style="font-size: 14px; color: #6B6660; margin: 0 0 24px; line-height: 1.5;">Oficjalne wyniki wyborów do rad gmin w gminach powyżej 20&nbsp;tys. mieszkańców. Po wybraniu gminy możesz przeglądać wyniki okręgów i budować własne, wirtualne okręgi z dowolnych obwodów głosowania.</p>
+      <input type="text" value="{{ search }}" onChange="{{ onSearch }}" placeholder="Szukaj gminy lub województwa…" style="width: 100%; padding: 12px 16px; font-size: 15px; font-family: 'IBM Plex Sans', sans-serif; border: 1px solid #D8D4CE; border-radius: 4px; background: #FFFFFF; outline: none;" style-focus="border-color: #9E1B32; box-shadow: 0 0 0 3px rgba(158,27,50,0.10);">
+      <div style="margin-top: 16px; background: #FFFFFF; border: 1px solid #E3E0DB; border-radius: 4px; overflow: hidden;">
+        <sc-for list="{{ gminaIndex }}" as="g" hint-placeholder-count="1">
+          <div onClick="{{ g.pick }}" style="display: flex; align-items: baseline; gap: 12px; padding: 14px 16px; border-bottom: 1px solid #EFEDE9; cursor: pointer;" style-hover="background: #FBF6F4;">
+            <div style="font-weight: 600; font-size: 15px;">{{ g.name }}</div>
+            <div style="font-size: 13px; color: #6B6660;">{{ g.detail }}</div>
+            <div style="margin-left: auto; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #9B958D;">TERYT {{ g.teryt }}</div>
+          </div>
+        </sc-for>
+        <sc-if value="{{ noSearchResults }}" hint-placeholder-val="{{ false }}">
+          <div style="padding: 24px 16px; font-size: 14px; color: #6B6660;">Brak gmin pasujących do zapytania.</div>
+        </sc-if>
+      </div>
+      <p style="font-size: 12px; color: #9B958D; margin-top: 12px;">Prototyp zawiera dane rzeczywiste 1 gminy. Docelowo lista obejmuje ok. 320 gmin z indeksu TERYT.</p>
+    </main>
+  </sc-if>
+
+  <!-- ============ VIEW: GMINA OVERVIEW ============ -->
+  <sc-if value="{{ isGmina }}" hint-placeholder-val="{{ false }}">
+    <main data-screen-label="Przegląd gminy" style="max-width: 1240px; margin: 0 auto; padding: 32px 24px 80px;">
+      <div style="display: flex; align-items: flex-start; gap: 24px; flex-wrap: wrap; margin-bottom: 8px;">
+        <div>
+          <h1 style="font-size: 26px; font-weight: 700; margin: 0; letter-spacing: -0.01em;">{{ gminaName }}</h1>
+          <div style="font-size: 14px; color: #6B6660; margin-top: 4px;">{{ gminaSubtitle }}</div>
+        </div>
+        <button onClick="{{ goBuilder }}" style="margin-left: auto; padding: 12px 20px; background: #9E1B32; color: #FFFFFF; border: none; border-radius: 4px; font-size: 14px; font-weight: 600; font-family: 'IBM Plex Sans', sans-serif; cursor: pointer;" style-hover="background: #7A1526;">Zbuduj okręg wirtualny →</button>
+      </div>
+      <div style="display: flex; gap: 32px; flex-wrap: wrap; padding: 14px 0 6px; border-bottom: 2px solid #1C1B1A; margin-bottom: 24px;">
+        <sc-for list="{{ gminaStats }}" as="s" hint-placeholder-count="4">
+          <div>
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; font-weight: 600;">{{ s.value }}</div>
+            <div style="font-size: 12px; color: #6B6660;">{{ s.label }}</div>
+          </div>
+        </sc-for>
+      </div>
+
+      <sc-for list="{{ okregCards }}" as="ok" hint-placeholder-count="2">
+        <section style="background: #FFFFFF; border: 1px solid #E3E0DB; border-radius: 4px; margin-bottom: 20px; overflow: hidden;">
+          <div style="display: flex; align-items: baseline; gap: 16px; padding: 14px 20px; border-bottom: 1px solid #E3E0DB; background: #FBFAF8; flex-wrap: wrap;">
+            <div style="font-size: 16px; font-weight: 700;">Okręg nr {{ ok.nr }}</div>
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #444038;">{{ ok.meta }}</div>
+          </div>
+          <div style="display: grid; grid-template-columns: minmax(420px, 3fr) minmax(300px, 2fr); gap: 0;">
+            <div style="padding: 16px 20px; border-right: 1px solid #EFEDE9;">
+              <div style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: #6B6660; margin-bottom: 8px;">Wyniki komitetów · podział mandatów (d'Hondt)</div>
+              <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                <thead>
+                  <tr style="border-bottom: 1px solid #1C1B1A;">
+                    <th style="text-align: left; padding: 4px 8px 6px 0; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Komitet</th>
+                    <th style="text-align: right; padding: 4px 8px 6px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Głosy</th>
+                    <th style="text-align: right; padding: 4px 8px 6px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">%</th>
+                    <th style="text-align: right; padding: 4px 0 6px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Mandaty</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <sc-for list="{{ ok.rows }}" as="r" hint-placeholder-count="4">
+                    <tr style="border-bottom: 1px solid #EFEDE9;">
+                      <td style="padding: 6px 8px 6px 0;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                          <span style="{{ r.chipStyle }}"></span>
+                          <span style="font-weight: 500;">{{ r.komitet }}</span>
+                        </div>
+                      </td>
+                      <td style="text-align: right; padding: 6px 8px; font-family: 'IBM Plex Mono', monospace;">{{ r.votes }}</td>
+                      <td style="text-align: right; padding: 6px 8px; font-family: 'IBM Plex Mono', monospace; color: #6B6660;">{{ r.pct }}</td>
+                      <td style="text-align: right; padding: 6px 0 6px 8px; font-family: 'IBM Plex Mono', monospace; font-weight: 600;">{{ r.seats }}</td>
+                    </tr>
+                  </sc-for>
+                </tbody>
+              </table>
+            </div>
+            <div style="padding: 16px 20px;">
+              <div style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: #6B6660; margin-bottom: 8px;">Obwody głosowania</div>
+              <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                <thead>
+                  <tr style="border-bottom: 1px solid #1C1B1A;">
+                    <th style="text-align: left; padding: 4px 8px 6px 0; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Obwód</th>
+                    <th style="text-align: right; padding: 4px 8px 6px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Wyborcy</th>
+                    <th style="text-align: right; padding: 4px 8px 6px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Głosy ważne</th>
+                    <th style="text-align: right; padding: 4px 0 6px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">% wyborców</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <sc-for list="{{ ok.obwody }}" as="o" hint-placeholder-count="5">
+                    <tr style="border-bottom: 1px solid #EFEDE9;">
+                      <td style="padding: 5px 8px 5px 0; font-family: 'IBM Plex Mono', monospace;">nr {{ o.nr }}</td>
+                      <td style="text-align: right; padding: 5px 8px; font-family: 'IBM Plex Mono', monospace;">{{ o.wyborcy }}</td>
+                      <td style="text-align: right; padding: 5px 8px; font-family: 'IBM Plex Mono', monospace;">{{ o.glosy }}</td>
+                      <td style="text-align: right; padding: 5px 0 5px 8px; font-family: 'IBM Plex Mono', monospace; color: #6B6660;">{{ o.pct }}</td>
+                    </tr>
+                  </sc-for>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <details style="border-top: 1px solid #EFEDE9;">
+            <summary style="padding: 10px 20px; font-size: 12px; color: #6B6660; cursor: pointer;">Granice okręgu</summary>
+            <div style="padding: 0 20px 14px; font-size: 12px; color: #6B6660; line-height: 1.6;">{{ ok.granice }}</div>
+          </details>
+        </section>
+      </sc-for>
+    </main>
+  </sc-if>
+
+  <!-- ============ VIEW: BUILDER ============ -->
+  <sc-if value="{{ isBuilder }}" hint-placeholder-val="{{ false }}">
+    <main data-screen-label="Okręg wirtualny" style="max-width: 1240px; margin: 0 auto; padding: 32px 24px 80px;">
+      <div style="display: flex; align-items: flex-start; gap: 24px; flex-wrap: wrap; margin-bottom: 20px;">
+        <div>
+          <h1 style="font-size: 26px; font-weight: 700; margin: 0; letter-spacing: -0.01em;">Okręg wirtualny — {{ gminaName }}</h1>
+          <div style="font-size: 14px; color: #6B6660; margin-top: 4px;">Zaznacz dowolne obwody głosowania, a mandaty zostaną przeliczone tak, jakby tworzyły jeden okręg.</div>
+        </div>
+        <button onClick="{{ copyLink }}" style="margin-left: auto; padding: 10px 16px; background: #FFFFFF; color: #1C1B1A; border: 1px solid #D8D4CE; border-radius: 4px; font-size: 13px; font-weight: 600; font-family: 'IBM Plex Sans', sans-serif; cursor: pointer;" style-hover="border-color: #9E1B32; color: #9E1B32;">{{ copyLabel }}</button>
+      </div>
+
+      <!-- Obwody selection -->
+      <section style="background: #FFFFFF; border: 1px solid #E3E0DB; border-radius: 4px; margin-bottom: 20px;">
+        <div style="display: flex; align-items: baseline; gap: 12px; padding: 12px 20px; border-bottom: 1px solid #E3E0DB; background: #FBFAF8;">
+          <div style="font-size: 14px; font-weight: 700;">1. Wybór obwodów</div>
+          <div style="font-size: 12px; color: #6B6660;">obwody pogrupowane wg rzeczywistych okręgów</div>
+          <span onClick="{{ clearSel }}" style="margin-left: auto; font-size: 12px; color: #9E1B32; cursor: pointer; font-weight: 500;">wyczyść zaznaczenie</span>
+        </div>
+        <sc-if value="{{ hasPresets }}" hint-placeholder-val="{{ false }}">
+          <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap; padding: 12px 20px; border-bottom: 1px solid #EFEDE9;">
+            <span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Gotowe zestawy (nazwy zwyczajowe):</span>
+            <sc-for list="{{ presets }}" as="p" hint-placeholder-count="3">
+              <span style="{{ p.chipStyle }}" title="{{ p.tip }}" onClick="{{ p.pick }}">{{ p.mark }}{{ p.nazwa }}</span>
+            </sc-for>
+            <span style="font-size: 11px; color: #9B958D;">z pliku konfiguracyjnego data/&lt;TERYT&gt;.config.json</span>
+          </div>
+        </sc-if>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0 24px; padding: 8px 20px 16px;">
+          <sc-for list="{{ okregGroups }}" as="grp" hint-placeholder-count="4">
+            <div style="padding-top: 8px;">
+              <label style="display: flex; align-items: center; gap: 8px; padding: 8px 6px; border-bottom: 2px solid #1C1B1A; cursor: pointer;">
+                <input type="checkbox" checked="{{ grp.allChecked }}" onChange="{{ grp.toggleAll }}">
+                <span style="font-size: 13px; font-weight: 700;">Okręg nr {{ grp.nr }}</span>
+                <span style="font-size: 12px; color: #6B6660; margin-left: auto; font-family: 'IBM Plex Mono', monospace;">{{ grp.count }}</span>
+              </label>
+              <sc-for list="{{ grp.obwody }}" as="o" hint-placeholder-count="5">
+                <label style="{{ o.rowStyle }}" style-hover="background: #FBF6F4;">
+                  <input type="checkbox" checked="{{ o.checked }}" onChange="{{ o.toggle }}">
+                  <span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; width: 44px;">nr {{ o.nr }}</span>
+                  <span style="font-size: 12px; color: #6B6660; margin-left: auto; font-family: 'IBM Plex Mono', monospace;">{{ o.wyborcy }} wyb. · {{ o.glosy }} gł.</span>
+                </label>
+              </sc-for>
+            </div>
+          </sc-for>
+        </div>
+      </section>
+
+      <!-- Empty state -->
+      <sc-if value="{{ noneSelected }}" hint-placeholder-val="{{ false }}">
+        <section style="background: #FFFFFF; border: 1px dashed #C9C4BC; border-radius: 4px; padding: 48px 24px; text-align: center;">
+          <div style="font-size: 15px; font-weight: 600; color: #444038;">Nie zaznaczono żadnego obwodu</div>
+          <div style="font-size: 13px; color: #6B6660; margin-top: 6px;">Zaznacz obwody powyżej — liczba mandatów, podział głosów i wynik przeliczenia pojawią się tutaj automatycznie.</div>
+        </section>
+      </sc-if>
+
+      <sc-if value="{{ hasSelection }}" hint-placeholder-val="{{ false }}">
+
+        <!-- Parameters: summary + mandaty + method -->
+        <section style="background: #FFFFFF; border: 1px solid #E3E0DB; border-radius: 4px; margin-bottom: 20px;">
+          <div style="display: flex; align-items: baseline; gap: 12px; padding: 12px 20px; border-bottom: 1px solid #E3E0DB; background: #FBFAF8;">
+            <div style="font-size: 14px; font-weight: 700;">2. Parametry przeliczenia</div>
+          </div>
+          <div style="display: flex; gap: 32px; flex-wrap: wrap; padding: 16px 20px; align-items: flex-start;">
+            <div style="display: flex; gap: 28px; flex-wrap: wrap;">
+              <sc-for list="{{ selStats }}" as="s" hint-placeholder-count="3">
+                <div>
+                  <div style="font-family: 'IBM Plex Mono', monospace; font-size: 20px; font-weight: 600;">{{ s.value }}</div>
+                  <div style="font-size: 12px; color: #6B6660;">{{ s.label }}</div>
+                </div>
+              </sc-for>
+            </div>
+            <div style="border-left: 1px solid #EFEDE9; padding-left: 28px;">
+              <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660; margin-bottom: 6px;">Mandaty do obsadzenia</div>
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <input type="number" min="1" max="60" value="{{ mandatyVal }}" onChange="{{ onMandaty }}" style="width: 72px; padding: 8px 10px; font-size: 18px; font-weight: 600; font-family: 'IBM Plex Mono', monospace; border: 1px solid #D8D4CE; border-radius: 4px; outline: none;" style-focus="border-color: #9E1B32;">
+                <sc-if value="{{ mandatyOverridden }}" hint-placeholder-val="{{ false }}">
+                  <span onClick="{{ resetMandaty }}" style="font-size: 12px; color: #9E1B32; cursor: pointer; font-weight: 500;">przywróć domyślne ({{ defaultMandaty }})</span>
+                </sc-if>
+              </div>
+              <div style="font-size: 12px; color: #6B6660; margin-top: 8px; font-family: 'IBM Plex Mono', monospace; line-height: 1.5;">{{ mandatyFormula }}</div>
+            </div>
+            <div style="border-left: 1px solid #EFEDE9; padding-left: 28px;">
+              <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660; margin-bottom: 6px;">Metoda podziału mandatów</div>
+              <div style="display: flex; border: 1px solid #D8D4CE; border-radius: 4px; overflow: hidden; width: fit-content;">
+                <button onClick="{{ setDh }}" style="{{ dhBtnStyle }}">
+                  <span style="display: block; font-size: 14px; font-weight: 700;">d'Hondt</span>
+                  <span style="display: block; font-size: 11px; opacity: 0.85;">metoda ustawowa</span>
+                </button>
+                <button onClick="{{ setSl }}" style="{{ slBtnStyle }}">
+                  <span style="display: block; font-size: 14px; font-weight: 700;">Sainte-Laguë</span>
+                  <span style="display: block; font-size: 11px; opacity: 0.85;">wariant hipotetyczny</span>
+                </button>
+              </div>
+              <label style="display: flex; align-items: center; gap: 8px; margin-top: 10px; font-size: 13px; cursor: pointer; color: #444038;">
+                <input type="checkbox" checked="{{ compare }}" onChange="{{ toggleCompare }}">
+                Porównaj obie metody obok siebie
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <!-- Results -->
+        <section style="{{ resultsPanelStyle }}" data-screen-label="Wyniki przeliczenia">
+          <div style="{{ resultsBannerStyle }}">
+            <div style="font-size: 15px; font-weight: 700; color: #FFFFFF;">3. Wynik: {{ resultsBannerTitle }}</div>
+            <div style="font-size: 12px; color: rgba(255,255,255,0.85);">{{ resultsBannerSub }}</div>
+          </div>
+
+          <!-- Single-method table -->
+          <sc-if value="{{ isSingle }}" hint-placeholder-val="{{ false }}">
+            <div style="padding: 16px 20px 4px; overflow-x: auto;">
+              <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                <thead>
+                  <tr style="border-bottom: 2px solid #1C1B1A;">
+                    <th style="text-align: left; padding: 4px 8px 8px 0; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Komitet</th>
+                    <th style="text-align: right; padding: 4px 8px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Głosy</th>
+                    <th style="text-align: right; padding: 4px 8px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">% ważnych</th>
+                    <th style="text-align: right; padding: 4px 8px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Mandaty</th>
+                    <th style="text-align: left; padding: 4px 8px 8px 20px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Brakujące głosy / przewaga</th>
+                    <th style="text-align: right; padding: 4px 0 8px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Głosy nadwyżkowe</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <sc-for list="{{ resultRows }}" as="r" hint-placeholder-count="6">
+                    <tr style="{{ r.rowStyle }}">
+                      <td style="padding: 8px 8px 8px 0;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                          <span style="{{ r.chipStyle }}"></span>
+                          <span style="font-weight: 600;">{{ r.komitet }}</span>
+                          <sc-if value="{{ r.closest }}" hint-placeholder-val="{{ false }}">
+                            <span style="font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; background: #9E1B32; color: #FFFFFF; padding: 2px 7px; border-radius: 10px;">najbliżej mandatu</span>
+                          </sc-if>
+                        </div>
+                      </td>
+                      <td style="text-align: right; padding: 8px; font-family: 'IBM Plex Mono', monospace;">{{ r.votes }}</td>
+                      <td style="text-align: right; padding: 8px; font-family: 'IBM Plex Mono', monospace; color: #6B6660;">{{ r.pct }}</td>
+                      <td style="text-align: right; padding: 8px; font-family: 'IBM Plex Mono', monospace;"><span style="font-weight: 700; font-size: 15px;">{{ r.seats }}</span><span style="{{ r.dotsStyle }}"> {{ r.dots }}</span></td>
+                      <td style="padding: 8px 8px 8px 20px;"><span style="{{ r.gapStyle }}">{{ r.gapText }}</span></td>
+                      <td style="text-align: right; padding: 8px 0 8px 8px; font-family: 'IBM Plex Mono', monospace; color: #6B6660;">{{ r.surplus }}</td>
+                    </tr>
+                  </sc-for>
+                </tbody>
+              </table>
+            </div>
+          </sc-if>
+
+          <!-- Compare table -->
+          <sc-if value="{{ isCompare }}" hint-placeholder-val="{{ false }}">
+            <div style="padding: 16px 20px 4px; overflow-x: auto;">
+              <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                <thead>
+                  <tr style="border-bottom: 2px solid #1C1B1A;">
+                    <th style="text-align: left; padding: 4px 8px 8px 0; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Komitet</th>
+                    <th style="text-align: right; padding: 4px 8px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Głosy</th>
+                    <th style="text-align: right; padding: 4px 8px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">% ważnych</th>
+                    <th style="text-align: right; padding: 4px 8px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #9E1B32; border-left: 1px solid #EFEDE9;">Mandaty · d'Hondt (ustawowa)</th>
+                    <th style="text-align: right; padding: 4px 8px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #1D5C87;">Mandaty · Sainte-Laguë (hipot.)</th>
+                    <th style="text-align: center; padding: 4px 0 8px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Różnica</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <sc-for list="{{ compareRows }}" as="r" hint-placeholder-count="6">
+                    <tr style="{{ r.rowStyle }}">
+                      <td style="padding: 8px 8px 8px 0;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                          <span style="{{ r.chipStyle }}"></span>
+                          <span style="font-weight: 600;">{{ r.komitet }}</span>
+                        </div>
+                      </td>
+                      <td style="text-align: right; padding: 8px; font-family: 'IBM Plex Mono', monospace;">{{ r.votes }}</td>
+                      <td style="text-align: right; padding: 8px; font-family: 'IBM Plex Mono', monospace; color: #6B6660;">{{ r.pct }}</td>
+                      <td style="text-align: right; padding: 8px; font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 15px; border-left: 1px solid #EFEDE9;">{{ r.sDh }}</td>
+                      <td style="text-align: right; padding: 8px; font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 15px;">{{ r.sSl }}</td>
+                      <td style="text-align: center; padding: 8px 0 8px 8px; font-family: 'IBM Plex Mono', monospace; font-weight: 600;"><span style="{{ r.diffStyle }}">{{ r.diff }}</span></td>
+                    </tr>
+                  </sc-for>
+                </tbody>
+              </table>
+              <sc-if value="{{ compareIdentical }}" hint-placeholder-val="{{ false }}">
+                <div style="margin: 12px 0 8px; padding: 10px 14px; background: #F4F3F0; border-radius: 4px; font-size: 13px; color: #444038;">Przy tym zaznaczeniu obie metody dają identyczny podział mandatów.</div>
+              </sc-if>
+            </div>
+          </sc-if>
+
+          <!-- Summaries -->
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; padding: 12px 20px 20px;">
+            <sc-for list="{{ summaryCards }}" as="c" hint-placeholder-count="3">
+              <div style="border: 1px solid #E3E0DB; border-radius: 4px; padding: 14px 16px; background: #FBFAF8;">
+                <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #6B6660;">{{ c.title }}</div>
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 19px; font-weight: 600; margin-top: 6px;">{{ c.value }}</div>
+                <div style="font-size: 12px; color: #6B6660; margin-top: 4px; line-height: 1.5;">{{ c.note }}</div>
+              </div>
+            </sc-for>
+          </div>
+          <div style="margin: 0 20px 20px; padding: 12px 16px; background: #1C1B1A; color: #F6F5F2; border-radius: 4px; font-size: 13px; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap;">
+            <span style="font-weight: 700;">Głosy bez wpływu na wynik:</span>
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 15px; font-weight: 600;">{{ noEffectValue }}</span>
+            <span style="color: #B5B0A8;">{{ noEffectNote }}</span>
+          </div>
+
+          <!-- Divisor table -->
+          <details style="border-top: 1px solid #EFEDE9;" open="{{ divOpen }}">
+            <summary style="padding: 12px 20px; font-size: 13px; font-weight: 600; color: #444038; cursor: pointer;">Tabela dzielników — jak przydzielono mandaty ({{ divMethodLabel }})</summary>
+            <div style="padding: 4px 20px 20px; overflow-x: auto;">
+              <table style="border-collapse: collapse; font-size: 12px;">
+                <thead>
+                  <tr style="border-bottom: 2px solid #1C1B1A;">
+                    <th style="text-align: left; padding: 4px 12px 6px 0; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Komitet</th>
+                    <th style="text-align: right; padding: 4px 10px 6px; font-weight: 600; font-size: 11px; color: #6B6660;">Głosy</th>
+                    <sc-for list="{{ divCols }}" as="dc" hint-placeholder-count="5">
+                      <th style="text-align: right; padding: 4px 10px 6px; font-weight: 600; font-family: 'IBM Plex Mono', monospace; color: #6B6660;">{{ dc.label }}</th>
+                    </sc-for>
+                  </tr>
+                </thead>
+                <tbody>
+                  <sc-for list="{{ divRows }}" as="dr" hint-placeholder-count="6">
+                    <tr style="border-bottom: 1px solid #EFEDE9;">
+                      <td style="padding: 5px 12px 5px 0; font-weight: 500; white-space: nowrap;">{{ dr.komitet }}</td>
+                      <td style="text-align: right; padding: 5px 10px; font-family: 'IBM Plex Mono', monospace;">{{ dr.votes }}</td>
+                      <sc-for list="{{ dr.cells }}" as="cell" hint-placeholder-count="5">
+                        <td style="{{ cell.style }}">{{ cell.text }}</td>
+                      </sc-for>
+                    </tr>
+                  </sc-for>
+                </tbody>
+              </table>
+              <div style="font-size: 12px; color: #6B6660; margin-top: 10px; line-height: 1.6;">{{ divLegend }}</div>
+            </div>
+          </details>
+        </section>
+
+        <!-- Comparison vs real -->
+        <section style="background: #FFFFFF; border: 1px solid #E3E0DB; border-radius: 4px; margin-top: 20px;">
+          <div style="display: flex; align-items: baseline; gap: 12px; padding: 12px 20px; border-bottom: 1px solid #E3E0DB; background: #FBFAF8; flex-wrap: wrap;">
+            <div style="font-size: 14px; font-weight: 700;">4. Porównanie z wynikiem rzeczywistym</div>
+            <div style="font-size: 12px; color: #6B6660;">{{ realCaption }}</div>
+          </div>
+          <div style="padding: 16px 20px; overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+              <thead>
+                <tr style="border-bottom: 2px solid #1C1B1A;">
+                  <th style="text-align: left; padding: 4px 8px 8px 0; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Komitet</th>
+                  <th style="text-align: right; padding: 4px 8px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Mandaty realne (d'Hondt)</th>
+                  <th style="text-align: right; padding: 4px 8px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Okręg wirtualny ({{ activeMethodShort }})</th>
+                  <th style="text-align: center; padding: 4px 0 8px 8px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6660;">Różnica</th>
+                </tr>
+              </thead>
+              <tbody>
+                <sc-for list="{{ realRows }}" as="r" hint-placeholder-count="6">
+                  <tr style="border-bottom: 1px solid #EFEDE9;">
+                    <td style="padding: 7px 8px 7px 0;">
+                      <div style="display: flex; align-items: center; gap: 8px;">
+                        <span style="{{ r.chipStyle }}"></span>
+                        <span style="font-weight: 500;">{{ r.komitet }}</span>
+                      </div>
+                    </td>
+                    <td style="text-align: right; padding: 7px 8px; font-family: 'IBM Plex Mono', monospace; font-weight: 600;">{{ r.real }}</td>
+                    <td style="text-align: right; padding: 7px 8px; font-family: 'IBM Plex Mono', monospace; font-weight: 600;">{{ r.virt }}</td>
+                    <td style="text-align: center; padding: 7px 0 7px 8px; font-family: 'IBM Plex Mono', monospace; font-weight: 600;"><span style="{{ r.diffStyle }}">{{ r.diff }}</span></td>
+                  </tr>
+                </sc-for>
+              </tbody>
+            </table>
+            <div style="font-size: 12px; color: #6B6660; margin-top: 10px; line-height: 1.6;">Kolumna „realne" sumuje mandaty zdobyte przez komitety we wszystkich okręgach, z których pochodzą zaznaczone obwody. Porównanie ma charakter poglądowy — liczba mandatów okręgu wirtualnego może różnić się od sumy mandatów tych okręgów.</div>
+          </div>
+        </section>
+
+      </sc-if>
+    </main>
+  </sc-if>
+
+  <footer style="border-top: 1px solid #E3E0DB; background: #FFFFFF;">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 16px 24px; font-size: 12px; color: #9B958D; display: flex; gap: 16px; flex-wrap: wrap;">
+      <span>Dane: Państwowa Komisja Wyborcza — wybory do rad gmin, 7 kwietnia 2024</span>
+      <span style="margin-left: auto;">Narzędzie poglądowe. Nie stanowi oficjalnej interpretacji wyników.</span>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;metodaDomyslna&quot;: {&quot;editor&quot;: &quot;enum&quot;, &quot;options&quot;: [&quot;dh&quot;, &quot;sl&quot;], &quot;default&quot;: &quot;dh&quot;, &quot;tsType&quot;: &quot;'dh' | 'sl'&quot;, &quot;section&quot;: &quot;Zachowanie&quot;}, &quot;porownanieDomyslnie&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: false, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Zachowanie&quot;}, &quot;pokazDzielnikiDomyslnie&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: false, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Zachowanie&quot;}}">
+class Component extends DCLogic {
+  state = {
+    view: 'picker', search: '', teryt: null, data: null,
+    sel: {}, mandatyOverride: null, method: 'dh', compare: false, copied: false
+  };
+
+  INDEX = [{ teryt: '020101', name: 'm. Bolesławiec', detail: 'pow. bolesławiecki, woj. dolnośląskie' }];
+
+  componentDidMount() {
+    const h = new URLSearchParams((location.hash || '').replace(/^#/, ''));
+    const g = h.get('g');
+    const patch = {};
+    if (h.get('met') === 'sl') patch.method = 'sl';
+    else if ((this.props.metodaDomyslna ?? 'dh') === 'sl') patch.method = 'sl';
+    if (h.get('cmp') === '1' || (this.props.porownanieDomyslnie ?? false)) patch.compare = true;
+    if (h.get('m')) patch.mandatyOverride = parseInt(h.get('m'), 10) || null;
+    if (h.get('o')) { const sel = {}; h.get('o').split('.').forEach(n => { if (n) sel[n] = true; }); patch.sel = sel; }
+    if (h.get('v')) patch.view = h.get('v');
+    this.setState(patch);
+    if (g) this.loadGmina(g, h.get('v') || 'gmina');
+  }
+
+  loadGmina(teryt, view) {
+    fetch('data/' + teryt + '.json').then(r => r.json()).then(j => {
+      this.setState({ teryt, data: j[teryt], view: view || 'gmina' }, () => this.syncHash());
+    }).catch(() => this.setState({ view: 'picker' }));
+    fetch('data/' + teryt + '.config.json').then(r => r.ok ? r.json() : null).then(cfg => {
+      this.setState({ config: cfg });
+    }).catch(() => this.setState({ config: null }));
+  }
+
+  syncHash() {
+    const s = this.state;
+    const p = new URLSearchParams();
+    if (s.teryt) p.set('g', s.teryt);
+    p.set('v', s.view);
+    const o = Object.keys(s.sel).filter(k => s.sel[k]);
+    if (o.length) p.set('o', o.join('.'));
+    if (s.mandatyOverride) p.set('m', String(s.mandatyOverride));
+    if (s.method === 'sl') p.set('met', 'sl');
+    if (s.compare) p.set('cmp', '1');
+    try { history.replaceState(null, '', '#' + p.toString()); } catch (e) {}
+  }
+
+  set(patch) { this.setState(patch, () => this.syncHash()); }
+
+  // ---------- helpers ----------
+  fmt(n) { return Math.round(n).toLocaleString('pl-PL'); }
+  fmtPct(x) { return x.toLocaleString('pl-PL', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + '%'; }
+  plGlos(n) { // polish plural of "głos"
+    const a = Math.abs(n) % 100, b = Math.abs(n) % 10;
+    if (n === 1) return 'głos';
+    if (b >= 2 && b <= 4 && (a < 12 || a > 14)) return 'głosy';
+    return 'głosów';
+  }
+  color(lista) {
+    const hues = [250, 45, 160, 310, 200, 25, 100, 340, 70, 130];
+    const h = hues[(parseInt(lista, 10) - 1) % hues.length];
+    return 'oklch(0.55 0.09 ' + h + ')';
+  }
+  chip(lista) {
+    return 'display:inline-block;width:10px;height:10px;border-radius:2px;flex:none;background:' + this.color(lista);
+  }
+  divisor(k, method) { return method === 'dh' ? k + 1 : 2 * k + 1; }
+
+  // votesMap: {lista: votes}. Returns allocation detail.
+  allocate(votesMap, seats, method) {
+    const listy = Object.keys(votesMap).filter(l => votesMap[l] > 0);
+    const quots = [];
+    for (const l of listy) for (let k = 0; k < seats; k++) {
+      const d = this.divisor(k, method);
+      quots.push({ l, d, q: votesMap[l] / d });
+    }
+    quots.sort((a, b) => b.q - a.q || votesMap[b.l] - votesMap[a.l] || (+a.l) - (+b.l));
+    const winners = quots.slice(0, seats);
+    const seatsBy = {}; listy.forEach(l => seatsBy[l] = 0);
+    winners.forEach(w => seatsBy[w.l]++);
+    const losing = quots.slice(seats);
+    return { seatsBy, winners, last: winners[winners.length - 1] || null, losing, quots, listy };
+  }
+
+  // votes per lista summed over a set of obwód objects
+  votesOfObwody(obwodyArr) {
+    const v = {};
+    for (const ob of obwodyArr) {
+      for (const lista of Object.keys(ob.kandydaci || {})) {
+        let s = 0;
+        const kand = ob.kandydaci[lista];
+        for (const pos of Object.keys(kand)) s += kand[pos].glosy || 0;
+        v[lista] = (v[lista] || 0) + s;
+      }
+    }
+    return v;
+  }
+
+  obwodGlosy(ob) {
+    let s = 0;
+    for (const lista of Object.keys(ob.kandydaci || {}))
+      for (const pos of Object.keys(ob.kandydaci[lista])) s += ob.kandydaci[lista][pos].glosy || 0;
+    return s;
+  }
+
+  renderVals() {
+    const s = this.state;
+    const d = s.data;
+
+    // ---------- picker ----------
+    const q = (s.search || '').toLowerCase();
+    const gminaIndex = this.INDEX
+      .filter(g => !q || (g.name + ' ' + g.detail).toLowerCase().includes(q))
+      .map(g => ({ ...g, pick: () => this.loadGmina(g.teryt) }));
+
+    const base = {
+      isPicker: s.view === 'picker' || !d,
+      isGmina: s.view === 'gmina' && !!d,
+      isBuilder: s.view === 'builder' && !!d,
+      hasGmina: !!d && s.view !== 'picker',
+      search: s.search,
+      onSearch: (e) => this.setState({ search: e.target.value }),
+      noSearchResults: gminaIndex.length === 0,
+      gminaIndex,
+      goHome: () => this.set({ view: 'picker' }),
+      goGmina: () => this.set({ view: 'gmina' }),
+      goBuilder: () => this.set({ view: 'builder' }),
+      gminaName: d ? d.gmina : '',
+      copied: s.copied
+    };
+    if (!d) return base;
+
+    // ---------- gmina-wide derived ----------
+    const okNrs = Object.keys(d.okregi).sort((a, b) => (+a) - (+b));
+    const komitetName = {};
+    for (const nr of okNrs) {
+      const kand = d.okregi[nr].kandydaci || {};
+      for (const lista of Object.keys(kand)) if (kand[lista].komitet) komitetName[lista] = kand[lista].komitet;
+    }
+    const allListy = Object.keys(komitetName).sort((a, b) => (+a) - (+b));
+    let wyborcyGmina = 0, mandatyGmina = 0, obwodCount = 0;
+    const obwodByNr = {}; // nr -> {okreg, wyborcy, glosy, votes:{lista}}
+    for (const nr of okNrs) {
+      const ok = d.okregi[nr];
+      wyborcyGmina += ok.wyborcy; mandatyGmina += ok.mandaty;
+      for (const onr of Object.keys(ok.obwody || {})) {
+        const ob = ok.obwody[onr];
+        obwodByNr[onr] = { nr: onr, okreg: nr, wyborcy: ob.wyborcy, glosy: this.obwodGlosy(ob), raw: ob };
+        obwodCount++;
+      }
+    }
+
+    base.gminaSubtitle = d.organ + ' · ' + d.powiat + ', woj. ' + d.wojewodztwo + ' · siedziba: ' + d.siedziba;
+    base.gminaStats = [
+      { value: String(okNrs.length), label: 'okręgi wyborcze' },
+      { value: String(mandatyGmina), label: 'mandaty w radzie' },
+      { value: this.fmt(wyborcyGmina), label: 'wyborcy uprawnieni' },
+      { value: String(obwodCount), label: 'obwody głosowania' }
+    ];
+
+    // ---------- overview cards ----------
+    const realSeatsByOkreg = {}; // nr -> {lista: seats}
+    base.okregCards = okNrs.map(nr => {
+      const ok = d.okregi[nr];
+      const obs = Object.keys(ok.obwody || {}).sort((a, b) => (+a) - (+b)).map(o => obwodByNr[o]);
+      const votes = this.votesOfObwody(obs.map(o => o.raw));
+      const total = Object.values(votes).reduce((a, b) => a + b, 0);
+      const alloc = this.allocate(votes, ok.mandaty, 'dh');
+      realSeatsByOkreg[nr] = alloc.seatsBy;
+      const rows = Object.keys(votes).sort((a, b) => votes[b] - votes[a]).map(l => ({
+        komitet: komitetName[l] || ('Lista nr ' + l),
+        chipStyle: this.chip(l),
+        votes: this.fmt(votes[l]),
+        pct: total ? this.fmtPct(100 * votes[l] / total) : '—',
+        seats: String(alloc.seatsBy[l] || 0)
+      }));
+      return {
+        nr,
+        meta: ok.mandaty + ' mandatów · ' + ok.listy + ' list · ' + this.fmt(ok.wyborcy) + ' wyborców · ' + this.fmt(total) + ' głosów ważnych',
+        granice: ok.granice || '—',
+        rows,
+        obwody: obs.map(o => ({
+          nr: o.nr, wyborcy: this.fmt(o.wyborcy), glosy: this.fmt(o.glosy),
+          pct: o.wyborcy ? this.fmtPct(100 * o.glosy / o.wyborcy) : '—'
+        }))
+      };
+    });
+
+    // ---------- builder: selection ----------
+    const selNrs = Object.keys(s.sel).filter(k => s.sel[k] && obwodByNr[k]).sort((a, b) => (+a) - (+b));
+    const selSet = new Set(selNrs);
+    base.okregGroups = okNrs.map(nr => {
+      const ok = d.okregi[nr];
+      const obs = Object.keys(ok.obwody || {}).sort((a, b) => (+a) - (+b));
+      const allChecked = obs.length > 0 && obs.every(o => selSet.has(o));
+      return {
+        nr, count: obs.length + ' obw.',
+        allChecked,
+        toggleAll: () => {
+          const sel = { ...this.state.sel };
+          obs.forEach(o => { sel[o] = !allChecked; });
+          this.set({ sel });
+        },
+        obwody: obs.map(o => {
+          const ob = obwodByNr[o];
+          const checked = selSet.has(o);
+          return {
+            nr: o, checked,
+            wyborcy: this.fmt(ob.wyborcy), glosy: this.fmt(ob.glosy),
+            rowStyle: 'display:flex;align-items:center;gap:8px;padding:7px 6px;border-bottom:1px solid #EFEDE9;cursor:pointer;' + (checked ? 'background:#FBF1F0;' : ''),
+            toggle: () => {
+              const sel = { ...this.state.sel };
+              sel[o] = !sel[o];
+              this.set({ sel });
+            }
+          };
+        })
+      };
+    });
+    // presets from optional per-TERYT config file (local customary names)
+    const presety = (s.config && Array.isArray(s.config.presety)) ? s.config.presety : [];
+    base.hasPresets = presety.length > 0;
+    base.presets = presety.map(p => {
+      const obw = (p.obwody || []).map(String).filter(n => obwodByNr[n]);
+      const isActive = obw.length > 0 && obw.every(n => selSet.has(n));
+      return {
+        nazwa: p.nazwa,
+        mark: isActive ? '✓ ' : '+ ',
+        tip: (p.opis ? p.opis + ' · ' : '') + 'obwody: ' + obw.join(', ') +
+          (isActive ? ' · kliknij, aby usunąć z zaznaczenia' : ' · kliknij, aby dodać do zaznaczenia'),
+        chipStyle: 'display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:14px;font-size:12px;font-weight:600;cursor:pointer;border:1px solid ' +
+          (isActive ? '#9E1B32;background:#9E1B32;color:#FFFFFF;' : '#D8D4CE;background:#FFFFFF;color:#444038;'),
+        pick: () => {
+          const sel = { ...this.state.sel };
+          obw.forEach(n => { sel[n] = !isActive; });
+          this.set({ sel, mandatyOverride: null });
+        }
+      };
+    });
+
+    base.clearSel = () => this.set({ sel: {}, mandatyOverride: null });
+    base.noneSelected = selNrs.length === 0;
+    base.hasSelection = selNrs.length > 0;
+    base.copyLabel = s.copied ? 'Skopiowano ✓' : 'Kopiuj link do tego okręgu';
+    base.copyLink = () => {
+      this.syncHash();
+      const write = navigator.clipboard ? navigator.clipboard.writeText(location.href) : Promise.reject();
+      write.then(() => {
+        this.setState({ copied: true });
+        setTimeout(() => this.setState({ copied: false }), 2000);
+      }).catch(() => {});
+    };
+    if (!base.hasSelection) return base;
+
+    // ---------- builder: computation ----------
+    const selObs = selNrs.map(n => obwodByNr[n]);
+    const selWyborcy = selObs.reduce((a, o) => a + o.wyborcy, 0);
+    const selVotesMap = this.votesOfObwody(selObs.map(o => o.raw));
+    const selVotes = Object.values(selVotesMap).reduce((a, b) => a + b, 0);
+    const rawDefault = mandatyGmina * selWyborcy / wyborcyGmina;
+    const defaultMandaty = Math.max(1, Math.round(rawDefault));
+    const mandaty = Math.max(1, Math.min(60, s.mandatyOverride || defaultMandaty));
+
+    base.selStats = [
+      { value: String(selNrs.length), label: 'zaznaczone obwody' },
+      { value: this.fmt(selWyborcy), label: 'wyborcy uprawnieni' },
+      { value: this.fmt(selVotes), label: 'głosy ważne' }
+    ];
+    base.mandatyVal = String(mandaty);
+    base.defaultMandaty = String(defaultMandaty);
+    base.mandatyOverridden = !!s.mandatyOverride && s.mandatyOverride !== defaultMandaty;
+    base.onMandaty = (e) => {
+      const v = parseInt(e.target.value, 10);
+      this.set({ mandatyOverride: (v && v >= 1) ? v : null });
+    };
+    base.resetMandaty = () => this.set({ mandatyOverride: null });
+    base.mandatyFormula = 'domyślnie: ' + mandatyGmina + ' mandatów × (' + this.fmt(selWyborcy) + ' ∕ ' + this.fmt(wyborcyGmina) + ' wyborców) = ' + rawDefault.toLocaleString('pl-PL', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' ≈ ' + defaultMandaty;
+
+    // method controls
+    const method = s.method;
+    const btn = (active, color) =>
+      'padding:10px 18px;border:none;cursor:pointer;text-align:left;font-family:IBM Plex Sans,sans-serif;' +
+      (active ? 'background:' + color + ';color:#FFFFFF;' : 'background:#FFFFFF;color:#6B6660;');
+    base.dhBtnStyle = btn(method === 'dh', '#9E1B32');
+    base.slBtnStyle = btn(method === 'sl', '#1D5C87');
+    base.setDh = () => this.set({ method: 'dh' });
+    base.setSl = () => this.set({ method: 'sl' });
+    base.compare = s.compare;
+    base.toggleCompare = () => this.set({ compare: !s.compare });
+
+    // allocations
+    const allocDh = this.allocate(selVotesMap, mandaty, 'dh');
+    const allocSl = this.allocate(selVotesMap, mandaty, 'sl');
+    const alloc = method === 'dh' ? allocDh : allocSl;
+    const methodColor = method === 'dh' ? '#9E1B32' : '#1D5C87';
+    const methodName = method === 'dh' ? "d'Hondta" : 'Sainte-Laguë';
+    base.activeMethodShort = method === 'dh' ? "d'Hondt" : 'Sainte-Laguë';
+
+    base.isCompare = s.compare;
+    base.isSingle = !s.compare;
+    base.resultsPanelStyle = 'background:#FFFFFF;border:1px solid #E3E0DB;border-left:5px solid ' + (s.compare ? '#1C1B1A' : methodColor) + ';border-radius:4px;overflow:hidden;';
+    base.resultsBannerStyle = 'padding:14px 20px;background:' + (s.compare ? '#1C1B1A' : methodColor) + ';display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;';
+    base.resultsBannerTitle = s.compare
+      ? 'porównanie metod — d\u2019Hondt i Sainte-Laguë'
+      : 'metoda ' + methodName + (method === 'dh' ? ' (ustawowa)' : ' (wariant hipotetyczny)');
+    base.resultsBannerSub = mandaty + ' mandatów · ' + this.fmt(selVotes) + ' głosów ważnych · bez progu wyborczego';
+
+    // gaps & surpluses for a given allocation
+    const analyze = (al, meth) => {
+      const out = {}; // lista -> {missing, marginOver, surplus}
+      const last = al.last;
+      if (!last) return out;
+      // best losing quotient overall and per-excluding-list
+      for (const l of al.listy) {
+        const v = selVotesMap[l], sc = al.seatsBy[l] || 0;
+        const rec = {};
+        if (!last || last.l === l && false) {}
+        const holdsLast = last.l === l && al.winners.filter(w => w.l === l).length === sc;
+        // missing votes to take the last seat (for committees not holding it)
+        if (last.l !== l) {
+          const dNext = this.divisor(sc, meth);
+          const need = Math.floor(last.q * dNext) + 1 - v;
+          rec.missing = Math.max(1, need);
+        } else {
+          // margin over best losing quotient
+          const bl = al.losing.find(x => true);
+          if (bl) {
+            const margin = v - (Math.floor(bl.q * last.d) + 1);
+            rec.margin = Math.max(0, margin);
+            rec.marginOver = komitetName[bl.l] || ('Lista nr ' + bl.l);
+          }
+        }
+        // surplus (for seat winners): votes it could lose keeping all seats
+        if (sc > 0) {
+          const blOther = al.losing.find(x => x.l !== l);
+          if (blOther) {
+            const dLast = this.divisor(sc - 1, meth);
+            const surplus = v - (Math.floor(blOther.q * dLast) + 1);
+            rec.surplus = Math.max(0, surplus);
+          } else rec.surplus = 0;
+        }
+        out[l] = rec;
+      }
+      return out;
+    };
+    const infoDh = analyze(allocDh, 'dh');
+    const infoSl = analyze(allocSl, 'sl');
+    const info = method === 'dh' ? infoDh : infoSl;
+
+    const sortedListy = Object.keys(selVotesMap).sort((a, b) => selVotesMap[b] - selVotesMap[a]);
+
+    // smallest missing across panel
+    let minMissing = Infinity, minMissingL = null;
+    for (const l of sortedListy) {
+      const m = info[l] && info[l].missing;
+      if (m != null && m < minMissing) { minMissing = m; minMissingL = l; }
+    }
+
+    base.resultRows = sortedListy.map(l => {
+      const v = selVotesMap[l], sc = alloc.seatsBy[l] || 0;
+      const rec = info[l] || {};
+      let gapText = '', gapStyle = 'font-size:13px;color:#6B6660;';
+      if (rec.margin != null) {
+        gapText = 'przewaga ' + this.fmt(rec.margin) + ' ' + this.plGlos(rec.margin) + ' nad: ' + rec.marginOver;
+        gapStyle = 'font-size:13px;color:#2F6B4F;font-weight:500;';
+      } else if (rec.missing != null) {
+        gapText = 'brakło ' + this.fmt(rec.missing) + ' ' + this.plGlos(rec.missing) + ' do ostatniego mandatu';
+        gapStyle = 'font-size:13px;color:' + (l === minMissingL ? '#9E1B32;font-weight:600' : '#6B6660') + ';';
+      }
+      const closest = l === minMissingL && minMissing !== Infinity;
+      return {
+        komitet: komitetName[l] || ('Lista nr ' + l),
+        chipStyle: this.chip(l),
+        votes: this.fmt(v),
+        pct: selVotes ? this.fmtPct(100 * v / selVotes) : '—',
+        seats: String(sc),
+        dots: sc > 0 ? '●'.repeat(Math.min(sc, 12)) : '',
+        dotsStyle: 'color:' + this.color(l) + ';font-size:10px;letter-spacing:2px;',
+        gapText, gapStyle, closest,
+        surplus: rec.surplus != null ? this.fmt(rec.surplus) : '—',
+        rowStyle: 'border-bottom:1px solid #EFEDE9;' + (closest ? 'background:#FBF1F0;' : (sc === 0 ? 'color:#6B6660;' : ''))
+      };
+    });
+
+    // compare rows
+    let anyDiff = false;
+    base.compareRows = sortedListy.map(l => {
+      const a = allocDh.seatsBy[l] || 0, b = allocSl.seatsBy[l] || 0;
+      const differs = a !== b; if (differs) anyDiff = true;
+      const delta = b - a;
+      return {
+        komitet: komitetName[l] || ('Lista nr ' + l),
+        chipStyle: this.chip(l),
+        votes: this.fmt(selVotesMap[l]),
+        pct: selVotes ? this.fmtPct(100 * selVotesMap[l] / selVotes) : '—',
+        sDh: String(a), sSl: String(b),
+        diff: differs ? (delta > 0 ? '+' + delta + ' S-L' : '+' + (-delta) + " d'H") : '=',
+        diffStyle: differs
+          ? 'background:#F6E7B8;color:#6B4E00;padding:2px 8px;border-radius:10px;font-size:12px;'
+          : 'color:#B5B0A8;',
+        rowStyle: 'border-bottom:1px solid #EFEDE9;' + (differs ? 'background:#FDF8EA;' : '')
+      };
+    });
+    base.compareIdentical = !anyDiff;
+
+    // summaries (wasted / surplus / no-effect) for active method (or both in compare)
+    const wastedOf = (al) => {
+      const listy = sortedListy.filter(l => (al.seatsBy[l] || 0) === 0);
+      const sum = listy.reduce((a, l) => a + selVotesMap[l], 0);
+      return { sum, listy };
+    };
+    const surplusOf = (inf) => sortedListy.reduce((a, l) => a + ((inf[l] && inf[l].surplus) || 0), 0);
+
+    const mkCards = (al, inf, label) => {
+      const w = wastedOf(al);
+      const sp = surplusOf(inf);
+      const wastedNames = w.listy.map(l => (komitetName[l] || l) + ' (' + this.fmt(selVotesMap[l]) + ')').join(', ');
+      return [
+        {
+          title: 'Głosy zmarnowane' + label,
+          value: this.fmt(w.sum) + ' (' + (selVotes ? this.fmtPct(100 * w.sum / selVotes) : '—') + ')',
+          note: w.listy.length ? 'oddane na komitety bez mandatu: ' + wastedNames : 'każdy komitet z głosami zdobył mandat'
+        },
+        {
+          title: 'Głosy nadwyżkowe' + label,
+          value: this.fmt(sp) + ' (' + (selVotes ? this.fmtPct(100 * sp / selVotes) : '—') + ')',
+          note: 'głosy, które komitety z mandatami mogłyby stracić bez utraty żadnego mandatu'
+        }
+      ];
+    };
+
+    if (!s.compare) {
+      base.summaryCards = mkCards(alloc, info, '');
+      const w = wastedOf(alloc).sum, sp = surplusOf(info);
+      base.noEffectValue = this.fmt(w + sp) + ' z ' + this.fmt(selVotes);
+      base.noEffectNote = '(' + (selVotes ? this.fmtPct(100 * (w + sp) / selVotes) : '—') + ' głosów ważnych) — zmarnowane + nadwyżkowe, metoda ' + methodName;
+    } else {
+      const cardsA = mkCards(allocDh, infoDh, " — d'Hondt");
+      const cardsB = mkCards(allocSl, infoSl, ' — Sainte-Laguë');
+      base.summaryCards = [cardsA[0], cardsB[0], cardsA[1], cardsB[1]];
+      const wA = wastedOf(allocDh).sum + surplusOf(infoDh);
+      const wB = wastedOf(allocSl).sum + surplusOf(infoSl);
+      base.noEffectValue = this.fmt(wA) + " (d'H) · " + this.fmt(wB) + ' (S-L)';
+      base.noEffectNote = 'głosy bez wpływu (zmarnowane + nadwyżkowe): ' + (selVotes ? this.fmtPct(100 * wA / selVotes) : '—') + " wg d'Hondta, " + (selVotes ? this.fmtPct(100 * wB / selVotes) : '—') + ' wg Sainte-Laguë';
+    }
+
+    // divisor table (active method; in compare mode show active toggle's method)
+    const divAlloc = alloc;
+    const winSet = new Set(divAlloc.winners.map(w => w.l + '/' + w.d));
+    const lastKey = divAlloc.last ? divAlloc.last.l + '/' + divAlloc.last.d : '';
+    base.divMethodLabel = (s.compare ? 'metoda z przełącznika: ' : '') + 'metoda ' + methodName + ', dzielniki ' + (method === 'dh' ? '1, 2, 3, 4…' : '1, 3, 5, 7…');
+    base.divCols = Array.from({ length: mandaty }, (_, k) => ({ label: '÷' + this.divisor(k, method) }));
+    base.divRows = sortedListy.map(l => ({
+      komitet: komitetName[l] || ('Lista nr ' + l),
+      votes: this.fmt(selVotesMap[l]),
+      cells: Array.from({ length: mandaty }, (_, k) => {
+        const dv = this.divisor(k, method);
+        const key = l + '/' + dv;
+        const qv = selVotesMap[l] / dv;
+        const isWin = winSet.has(key), isLast = key === lastKey;
+        let st = 'text-align:right;padding:5px 10px;font-family:IBM Plex Mono,monospace;';
+        if (isLast) st += 'background:' + methodColor + ';color:#FFFFFF;font-weight:600;border-radius:3px;';
+        else if (isWin) st += 'background:#EFE9E4;font-weight:600;';
+        else st += 'color:#B5B0A8;';
+        return { text: qv.toLocaleString('pl-PL', { minimumFractionDigits: 1, maximumFractionDigits: 1 }), style: st };
+      })
+    }));
+    base.divLegend = 'Pogrubione komórki to ' + mandaty + ' najwyższych ilorazów — każdy oznacza mandat. Wyróżniona komórka to ostatni (najniższy) zwycięski iloraz: o ten mandat toczy się gra w kolumnie „brakujące głosy / przewaga".';
+    base.divOpen = !!(this.props.pokazDzielnikiDomyslnie ?? false);
+
+    // comparison vs real
+    const touched = Array.from(new Set(selObs.map(o => o.okreg))).sort((a, b) => (+a) - (+b));
+    const realSum = {};
+    for (const nr of touched) {
+      const sb = realSeatsByOkreg[nr] || {};
+      for (const l of Object.keys(sb)) realSum[l] = (realSum[l] || 0) + sb[l];
+    }
+    base.realCaption = 'mandaty realnie zdobyte w okręgach nr ' + touched.join(', ') + ' (zawsze d\u2019Hondt — tak liczono naprawdę) vs okręg wirtualny';
+    const realListy = Array.from(new Set([...sortedListy, ...Object.keys(realSum)]))
+      .sort((a, b) => (selVotesMap[b] || 0) - (selVotesMap[a] || 0));
+    base.realRows = realListy.map(l => {
+      const r = realSum[l] || 0, v = alloc.seatsBy[l] || 0, delta = v - r;
+      return {
+        komitet: komitetName[l] || ('Lista nr ' + l),
+        chipStyle: this.chip(l),
+        real: String(r), virt: String(v),
+        diff: delta === 0 ? '=' : (delta > 0 ? '+' + delta : String(delta)),
+        diffStyle: delta === 0 ? 'color:#B5B0A8;' :
+          (delta > 0 ? 'color:#2F6B4F;font-weight:700;' : 'color:#9E1B32;font-weight:700;')
+      };
+    });
+
+    return base;
+  }
+}
+</script>
+</body>
+</html>
