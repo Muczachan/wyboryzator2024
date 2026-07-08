@@ -6,6 +6,8 @@ const sp = (s: string) => s.replace(/[\s  ]/g, ' ');
 describe('fmt', () => {
   it('groups thousands and rounds', () => {
     expect(sp(fmt(1234567))).toBe('1 234 567');
+    expect(sp(fmt(12345))).toBe('12 345');
+    expect(sp(fmt(123456))).toBe('123 456');
     expect(sp(fmt(999))).toBe('999');
     expect(sp(fmt(1254.6))).toBe('1255');
   });
