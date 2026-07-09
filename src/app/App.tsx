@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'preact/hooks';
 import { deriveGmina, GminaModel } from '../engine/derive';
 import { AppState, parseHash, toHash } from '../state/url';
 import { PickerView } from './PickerView';
+import { GminaView } from './GminaView';
 
 export interface IndexEntry { teryt: string; name: string; wojewodztwo: string }
 export interface Preset { nazwa: string; opis?: string; obwody: string[] }
@@ -121,15 +122,7 @@ export function App() {
       )}
       {view === 'loading' && <main class="wide"><p class="loading">Wczytywanie…</p></main>}
       {view === 'gmina' && model && (
-        <main class="wide">
-          <div class="view-head">
-            <div>
-              <h1>{model.nazwa}</h1>
-              <div class="view-sub">{model.organ} · {model.powiat}, woj. {model.wojewodztwo} · siedziba: {model.siedziba}</div>
-            </div>
-            <button class="btn-primary" onClick={() => patch({ view: 'builder' })}>Zbuduj okręg wirtualny →</button>
-          </div>
-        </main>
+        <GminaView model={model} onBuilder={() => patch({ view: 'builder' })} />
       )}
       {view === 'builder' && model && (
         <main class="wide">
