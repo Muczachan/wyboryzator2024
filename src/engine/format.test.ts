@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { fmt, fmtDec, fmtPct, plGlos } from './format';
+import { fmt, fmtDec, fmtPct, plGlos, plMandat } from './format';
 
 const sp = (s: string) => s.replace(/[\s  ]/g, ' ');
 
@@ -39,5 +39,18 @@ describe('plGlos', () => {
     expect(plGlos(22)).toBe('głosy');
     expect(plGlos(112)).toBe('głosów');
     expect(plGlos(122)).toBe('głosy');
+  });
+});
+
+describe('plMandat', () => {
+  it('handles Polish plural forms', () => {
+    expect(plMandat(1)).toBe('mandat');
+    expect(plMandat(2)).toBe('mandaty');
+    expect(plMandat(4)).toBe('mandaty');
+    expect(plMandat(5)).toBe('mandatów');
+    expect(plMandat(12)).toBe('mandatów');
+    expect(plMandat(14)).toBe('mandatów');
+    expect(plMandat(22)).toBe('mandaty');
+    expect(plMandat(112)).toBe('mandatów');
   });
 });

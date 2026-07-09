@@ -6,10 +6,13 @@ export const fmtPct = (x: number): string =>
 export const fmtDec = (x: number, digits: number): string =>
   x.toLocaleString('pl-PL', { minimumFractionDigits: digits, maximumFractionDigits: digits });
 
-export function plGlos(n: number): string {
+const pl = (one: string, few: string, many: string) => (n: number): string => {
   const a = Math.abs(n) % 100;
   const b = Math.abs(n) % 10;
-  if (n === 1) return 'głos';
-  if (b >= 2 && b <= 4 && (a < 12 || a > 14)) return 'głosy';
-  return 'głosów';
-}
+  if (n === 1) return one;
+  if (b >= 2 && b <= 4 && (a < 12 || a > 14)) return few;
+  return many;
+};
+
+export const plGlos = pl('głos', 'głosy', 'głosów');
+export const plMandat = pl('mandat', 'mandaty', 'mandatów');
