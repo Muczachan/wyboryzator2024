@@ -1,6 +1,7 @@
 import { Allocation, Method, Quotient, VotesMap, divisor } from './allocate';
 
 export interface ListaAnalytics {
+  firstSeatAt: number;
   missing?: number;
   margin?: number;
   marginOver?: string;
@@ -30,6 +31,28 @@ export function minVotesToBeat(target: Quotient, d: number, lista: string): numb
   return strict;
 }
 
+// Minimum okręg size at which `lista` wins its first seat: the rank of its
+// full vote total (first quotient, divisor 1) among all quotients, under the
+// allocation ordering. Closed form per rival: divisors with a strictly higher
+// quotient satisfy w > v·d, i.e. d ≤ ⌊(w−1)/v⌋; an exact multiple ties and
+// the rival wins by cmp's total-votes/lista-number rules.
+function firstSeatAt(votes: VotesMap, lista: string, method: Method): number {
+  const v = votes[lista];
+  let rank = 1;
+  for (const m of Object.keys(votes)) {
+    const w = votes[m];
+    if (m === lista || w <= 0) continue;
+    const dmax = Math.floor((w - 1) / v);
+    rank += method === 'dh' ? dmax : Math.floor((dmax + 1) / 2);
+    if (w % v === 0) {
+      const d = w / v;
+      const inSeq = method === 'dh' || d % 2 === 1;
+      if (inSeq && (w > v || Number(m) < Number(lista))) rank++;
+    }
+  }
+  return rank;
+}
+
 export function analyze(votes: VotesMap, alloc: Allocation, method: Method): Analytics {
   const { last, losing, seatsBy } = alloc;
   const listy = [...alloc.listy].sort((a, b) => votes[b] - votes[a]);
@@ -41,7 +64,7 @@ export function analyze(votes: VotesMap, alloc: Allocation, method: Method): Ana
   for (const l of listy) {
     const v = votes[l];
     const sc = seatsBy[l] ?? 0;
-    const rec: ListaAnalytics = {};
+    const rec: ListaAnalytics = { firstSeatAt: firstSeatAt(votes, l, method) };
     if (last) {
       const bestOther = losing.find(q => q.lista !== l);
       if (last.lista !== l) {

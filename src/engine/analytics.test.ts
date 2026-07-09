@@ -94,6 +94,68 @@ describe('analyze — property checks (re-run the engine)', () => {
   }
 });
 
+describe('firstSeatAt — Bolesławiec okręg 1 (hand-derived quotient ranks)', () => {
+  it("d'Hondt", () => {
+    const { info } = run('dh');
+    expect(info.perLista['5'].firstSeatAt).toBe(1);   // vote leader
+    expect(info.perLista['16'].firstSeatAt).toBe(2);
+    expect(info.perLista['1'].firstSeatAt).toBe(3);
+    expect(info.perLista['14'].firstSeatAt).toBe(4);
+    expect(info.perLista['15'].firstSeatAt).toBe(9);  // seatless: > 5 mandaty
+    expect(info.perLista['3'].firstSeatAt).toBe(17);
+  });
+
+  it('Sainte-Laguë: sparser divisor sequence reaches small committees sooner', () => {
+    const { info } = run('sl');
+    expect(info.perLista['5'].firstSeatAt).toBe(1);
+    expect(info.perLista['15'].firstSeatAt).toBe(6);  // 9 under d'Hondt
+    expect(info.perLista['3'].firstSeatAt).toBe(11);  // 17 under d'Hondt
+  });
+});
+
+describe('firstSeatAt — tie-breaks mirror the allocator', () => {
+  const v = { '1': 100, '2': 50, '3': 50 };
+
+  it("d'Hondt: exact multiple ties, more-votes then lower-lista wins", () => {
+    const info = analyze(v, allocate(v, 4, 'dh'), 'dh');
+    // 100/2 ties 50/1 and wins (more total votes); L2 beats L3 at equal votes.
+    expect(info.perLista['1'].firstSeatAt).toBe(1);
+    expect(info.perLista['2'].firstSeatAt).toBe(3);
+    expect(info.perLista['3'].firstSeatAt).toBe(4);
+  });
+
+  it('Sainte-Laguë: even multiple is not in the divisor sequence, no tie', () => {
+    const info = analyze(v, allocate(v, 4, 'sl'), 'sl');
+    // Divisor 2 does not exist in 1,3,5,… so 100 has no quotient tying 50.
+    expect(info.perLista['2'].firstSeatAt).toBe(2);
+    expect(info.perLista['3'].firstSeatAt).toBe(3);
+  });
+});
+
+describe('firstSeatAt — property checks (re-run the engine)', () => {
+  const fixtures: Array<Record<string, number>> = [
+    votes,
+    { '1': 90, '2': 59, '3': 19 },
+    { '1': 1000, '2': 999, '3': 998, '4': 3 },
+    { '1': 50, '2': 50, '3': 49 },
+  ];
+
+  for (const method of ['dh', 'sl'] as const) {
+    for (const v of fixtures) {
+      const info = analyze(v, allocate(v, 5, method), method);
+      for (const l of Object.keys(v)) {
+        it(`${method} ${JSON.stringify(v)} lista ${l}: first seat appears exactly at firstSeatAt`, () => {
+          const r = info.perLista[l].firstSeatAt;
+          expect(allocate(v, r, method).seatsBy[l]).toBeGreaterThanOrEqual(1);
+          if (r > 1) {
+            expect(allocate(v, r - 1, method).seatsBy[l]).toBe(0);
+          }
+        });
+      }
+    }
+  }
+});
+
 describe('analyze — edge cases', () => {
   it('single committee: no missing/margin, surplus = votes − 1', () => {
     const alloc = allocate({ '1': 42 }, 3, 'dh');
@@ -101,6 +163,7 @@ describe('analyze — edge cases', () => {
     expect(info.perLista['1'].missing).toBeUndefined();
     expect(info.perLista['1'].margin).toBeUndefined();
     expect(info.perLista['1'].surplus).toBe(41);
+    expect(info.perLista['1'].firstSeatAt).toBe(1);
     expect(info.minMissingLista).toBeNull();
     expect(info.wastedSum).toBe(0);
   });
