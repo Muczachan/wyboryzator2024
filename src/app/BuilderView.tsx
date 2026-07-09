@@ -7,6 +7,7 @@ import type { GminaConfig } from './App';
 import { ObwodySelector } from './ObwodySelector';
 import { ParamsPanel } from './ParamsPanel';
 import { ResultsPanel } from './ResultsPanel';
+import { RealComparison } from './RealComparison';
 
 interface Props {
   model: GminaModel;
@@ -89,6 +90,10 @@ export function BuilderView({ model, config, state, patch }: Props) {
             model={model} votes={votes} selVotes={selVotes} mandaty={mandaty}
             method={state.method} compare={state.compare}
             allocDh={allocDh} allocSl={allocSl} infoDh={infoDh} infoSl={infoSl}
+          />
+          <RealComparison
+            model={model} sel={state.sel} votes={votes}
+            alloc={state.method === 'dh' ? allocDh : allocSl} method={state.method}
           />
         </>
       )}
