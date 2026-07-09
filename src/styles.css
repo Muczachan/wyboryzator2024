@@ -82,6 +82,7 @@ h1 { font-size: 26px; font-weight: 700; margin: 0; letter-spacing: -0.01em; }
 .tbl th { padding: 4px 8px 6px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--dim); text-align: right; }
 .tbl th.l { text-align: left; padding-left: 0; }
 .tbl th.c { text-align: center; }
+.tbl th.th-hint { cursor: help; text-decoration: underline dotted; text-underline-offset: 3px; }
 .tbl td { padding: 6px 8px; }
 .tbl td:first-child { padding-left: 0; }
 .tbl tbody tr { border-bottom: 1px solid var(--line-soft); }

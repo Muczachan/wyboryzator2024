@@ -1,7 +1,7 @@
 import { Allocation, Method, VotesMap } from '../engine/allocate';
 import { Analytics } from '../engine/analytics';
 import { GminaModel, nameOf } from '../engine/derive';
-import { fmt, fmtPct, plGlos } from '../engine/format';
+import { fmt, fmtPct, plGlos, plMandat } from '../engine/format';
 import { DivisorTable } from './DivisorTable';
 import { KomitetChip, listaColor } from './KomitetChip';
 
@@ -19,6 +19,11 @@ interface Props {
 }
 
 const genitive = (m: Method) => (m === 'dh' ? "d'Hondta" : 'Sainte-Laguë');
+
+const FIRST_SEAT_HINT =
+  'Najmniejsza liczba mandatów w okręgu, przy której komitet — przy niezmienionych głosach ' +
+  'i tej samej metodzie — zdobyłby swój pierwszy mandat. Wartość 1 oznacza mandat nawet ' +
+  'w okręgu jednomandatowym; im wyższa liczba, tym dalej komitetowi do jakiegokolwiek mandatu.';
 
 export function ResultsPanel(props: Props) {
   const { model, votes, selVotes, mandaty, method, compare } = props;
@@ -67,6 +72,7 @@ function SingleTable({ model, votes, selVotes, alloc, info, sorted }: {
             <th>Głosy</th>
             <th>% ważnych</th>
             <th>Mandaty</th>
+            <th class="th-hint" title={FIRST_SEAT_HINT}>1. mandat od</th>
             <th class="gap-col">Brakujące głosy / przewaga</th>
             <th>Głosy nadwyżkowe</th>
           </tr>
@@ -75,7 +81,7 @@ function SingleTable({ model, votes, selVotes, alloc, info, sorted }: {
           {sorted.map(l => {
             const v = votes[l];
             const sc = alloc.seatsBy[l] ?? 0;
-            const rec = info.perLista[l] ?? {};
+            const rec = info.perLista[l];
             const closest = l === info.minMissingLista;
             return (
               <tr key={l} class={closest ? 'closest' : sc === 0 ? 'seatless' : ''}>
@@ -92,6 +98,7 @@ function SingleTable({ model, votes, selVotes, alloc, info, sorted }: {
                   <span class="seats">{sc}</span>{' '}
                   <span class="dots" style={{ color: listaColor(l) }}>{'●'.repeat(Math.min(sc, 12))}</span>
                 </td>
+                <td class="r mono">{fmt(rec.firstSeatAt)} <span class="dim">{plMandat(rec.firstSeatAt)}</span></td>
                 <td class="gap-col">
                   {rec.margin != null && rec.marginOver != null && (
                     <span class="gap-margin">przewaga {fmt(rec.margin)} {plGlos(rec.margin)} nad: {nameOf(model, rec.marginOver)}</span>
