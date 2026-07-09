@@ -41,7 +41,7 @@ export function ResultsPanel(props: Props) {
       <div class="results-banner">
         <div class="banner-t">
           3. Wynik: {compare
-            ? `porównanie metod — d'Hondt i Sainte-Laguë`
+            ? 'porównanie metod — d’Hondt i Sainte-Laguë'
             : `metoda ${genitive(method)} ${method === 'dh' ? '(ustawowa)' : '(wariant hipotetyczny)'}`}
         </div>
         <div class="banner-s">{mandaty} mandatów · {fmt(selVotes)} głosów ważnych · bez progu wyborczego</div>
