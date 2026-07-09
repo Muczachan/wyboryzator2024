@@ -1,8 +1,6 @@
 {
   "name": "wyboryzator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "vitest run --passWithNoTests",
     "dev": "vite",
@@ -11,9 +9,6 @@
     "prebuild": "node scripts/build-index.mjs",
     "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "module",
   "dependencies": {
     "preact": "^10.29.5"

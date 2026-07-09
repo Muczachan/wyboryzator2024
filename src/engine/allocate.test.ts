@@ -30,7 +30,7 @@ describe("allocate - textbook example where methods differ", () => {
   });
 });
 
-describe("allocate - real data: Boleslawiec (020101) okregzat 1, 5 mandatow, d'Hondt", () => {
+describe("allocate - real data: Bolesławiec (020101) okręg 1, 5 mandatów, d'Hondt", () => {
   // Committee vote sums computed from public/data/020101.json okregzat 1.
   // Hand-derived quotient table:
   //   L5:  997, 498.5, 332.33...   L16: 783, 391.5   L1: 621, 310.5

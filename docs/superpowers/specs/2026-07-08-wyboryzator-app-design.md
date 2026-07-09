@@ -38,7 +38,7 @@ PKW_2024_wirtualne_okręgi/  design reference only; excluded from build
 `results/` is moved (not copied) to `public/data/` — the data's only consumer
 is this app, and duplicating 132 MB in git serves nobody. Vite serves
 `public/` in dev and copies it into `dist/` at build. No single file exceeds
-GitHub's 100 MB limit (largest ≈ 313 KB).
+GitHub's 100 MB limit (largest is Kraków at ≈ 7.2 MB; several are 2–4 MB — the plain "Wczytywanie…" indicator was judged sufficient even for these, since Pages serves them gzipped at roughly 1 MB).
 
 ## URL scheme
 
