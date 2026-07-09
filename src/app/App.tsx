@@ -42,6 +42,7 @@ export function App() {
     if (!teryt) { setBundle(null); return; }
     const hit = cache.current.get(teryt);
     if (hit) { setBundle(hit); return; }
+    let cancelled = false;
     setLoading(true);
     setBundle(null);
     Promise.all([
@@ -51,13 +52,17 @@ export function App() {
       .then(([raw, config]) => {
         const b: GminaBundle = { model: deriveGmina(teryt, raw[teryt]), config };
         cache.current.set(teryt, b);
-        setBundle(b);
+        if (!cancelled) setBundle(b);
       })
       .catch(() => {
+        if (cancelled) return;
         setLoadError('Nie udało się wczytać danych gminy.');
         setState(s => ({ ...s, view: 'picker', teryt: null, sel: [] }));
       })
-      .finally(() => setLoading(false));
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+    return () => { cancelled = true; };
   }, [state.teryt]);
 
   // Drop selected obwód numbers that don't exist in the loaded gmina (stale links).
