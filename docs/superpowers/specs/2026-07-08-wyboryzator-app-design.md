@@ -102,7 +102,6 @@ App                      state atom, hash sync, fetching, view routing
 │  │  ├─ SummaryCards    zmarnowane / nadwyżkowe cards (×2 in compare mode)
 │  │  ├─ NoEffectBar     black "głosy bez wpływu na wynik" strip
 │  │  └─ DivisorTable    <details>, quotient grid, winner + last-seat highlight
-│  └─ RealComparison     virtual seats vs aggregated real seats of touched okręgi
 └─ Footer                PKW attribution + disclaimer
 ```
 
@@ -169,8 +168,7 @@ methods (summary cards ×2, no-effect bar shows both).
 Parses a gmina JSON once into a typed model: `obwodByNr` (nr → okręg,
 wyborcy, per-lista vote sums), gmina-wide `komitetName` map (lista →
 komitet), totals (wyborcy, mandaty, obwód count), and per-okręg real d'Hondt
-allocations (used by GminaView and RealComparison — the real-world baseline
-is always d'Hondt).
+allocations (used by GminaView — the real-world baseline is always d'Hondt).
 
 Mandaty default: `max(1, round(gminaMandaty × selWyborcy / gminaWyborcy))`,
 clamped 1–60, with the formula rendered as in the mockup.

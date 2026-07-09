@@ -11,7 +11,7 @@ Static Preact SPA; all state lives in the URL hash, so most flows are drivable v
 
 ```bash
 pnpm build                        # prebuild generates public/data/index.json, tsc + vite
-pnpm exec vite preview --port 4173 &   # serves at http://localhost:4173/wyboryzator/
+pnpm exec vite preview --port 4173 &   # serves at http://localhost:4173/ (base is './', path-agnostic)
 ```
 
 ## Drive (headless Chrome via playwright-core)
@@ -41,7 +41,6 @@ Gmina stats: 4 okręgi / 21 mandatów / 28 861 wyborców / 24 obwody.
 - FORUM 783 → 1, brakło 215, nadwyżka 450; PiS 621 → 1, brakło 376, nadwyżka 229
 - IMPULS 580 → 1, brakło 418, nadwyżka 188; ZIEMI 303 → 0, brakło 196 (badge "najbliżej mandatu"); TD 168 → 0, brakło 331
 - zmarnowane 471 (13,6%), nadwyżkowe 1081 (31,3%), bez wpływu 1552 z 3452 (45,0%)
-- Real-comparison: all rows `=` (virtual == real okręg)
 - Divisor table: last seat = 498,5 (KO ÷2)
 
 Methods diverge at `…&o=1.2.3.4.5&m=6&cmp=1`: FORUM +1 d'H, ZIEMI +1 S-L

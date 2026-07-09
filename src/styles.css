@@ -14,8 +14,6 @@ button { font-family: var(--sans); }
 .mono { font-family: var(--mono); }
 .b { font-weight: 600; }
 .dim { color: var(--dim); }
-.pos { color: var(--green); }
-.neg { color: var(--crimson); }
 input[type='checkbox'] { accent-color: var(--crimson); width: 15px; height: 15px; flex: none; }
 
 /* ===== layout ===== */
@@ -79,7 +77,6 @@ h1 { font-size: 26px; font-weight: 700; margin: 0; letter-spacing: -0.01em; }
 
 /* ===== tables ===== */
 .tbl-wrap { overflow-x: auto; }
-.tbl-wrap.pad { padding: 16px 20px; }
 .tbl { width: 100%; border-collapse: collapse; font-size: 13px; }
 .tbl thead tr { border-bottom: 2px solid var(--ink); }
 .tbl th { padding: 4px 8px 6px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--dim); text-align: right; }
