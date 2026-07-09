@@ -6,6 +6,7 @@ import { AppState } from '../state/url';
 import type { GminaConfig } from './App';
 import { ObwodySelector } from './ObwodySelector';
 import { ParamsPanel } from './ParamsPanel';
+import { ResultsPanel } from './ResultsPanel';
 
 interface Props {
   model: GminaModel;
@@ -78,11 +79,18 @@ export function BuilderView({ model, config, state, patch }: Props) {
           <div class="empty-s">Zaznacz obwody powyżej — liczba mandatów, podział głosów i wynik przeliczenia pojawią się tutaj automatycznie.</div>
         </section>
       ) : (
-        <ParamsPanel
-          model={model} state={state} patch={patch}
-          selCount={state.sel.length} selWyborcy={selWyborcy} selVotes={selVotes}
-          defMandaty={defMandaty} mandaty={mandaty}
-        />
+        <>
+          <ParamsPanel
+            model={model} state={state} patch={patch}
+            selCount={state.sel.length} selWyborcy={selWyborcy} selVotes={selVotes}
+            defMandaty={defMandaty} mandaty={mandaty}
+          />
+          <ResultsPanel
+            model={model} votes={votes} selVotes={selVotes} mandaty={mandaty}
+            method={state.method} compare={state.compare}
+            allocDh={allocDh} allocSl={allocSl} infoDh={infoDh} infoSl={infoSl}
+          />
+        </>
       )}
     </main>
   );
