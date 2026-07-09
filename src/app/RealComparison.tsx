@@ -25,7 +25,7 @@ export function RealComparison({ model, sel, votes, alloc, method }: Props) {
       <div class="sec-head">
         <div class="sec-title">4. Porównanie z wynikiem rzeczywistym</div>
         <div class="sec-sub">
-          mandaty realnie zdobyte w okręgach nr {touched.join(', ')} (zawsze d'Hondt — tak liczono naprawdę) vs okręg wirtualny
+          mandaty realnie zdobyte w okręgach nr {touched.join(', ')} (zawsze d’Hondt — tak liczono naprawdę) vs okręg wirtualny
         </div>
       </div>
       <div class="tbl-wrap pad">
