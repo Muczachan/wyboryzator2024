@@ -3,6 +3,7 @@ import { deriveGmina, GminaModel } from '../engine/derive';
 import { AppState, parseHash, toHash } from '../state/url';
 import { PickerView } from './PickerView';
 import { GminaView } from './GminaView';
+import { BuilderView } from './BuilderView';
 
 export interface IndexEntry { teryt: string; name: string; wojewodztwo: string }
 export interface Preset { nazwa: string; opis?: string; obwody: string[] }
@@ -125,9 +126,7 @@ export function App() {
         <GminaView model={model} onBuilder={() => patch({ view: 'builder' })} />
       )}
       {view === 'builder' && model && (
-        <main class="wide">
-          <h1>Okręg wirtualny — {model.nazwa}</h1>
-        </main>
+        <BuilderView model={model} config={bundle!.config} state={state} patch={patch} />
       )}
 
       <footer class="ftr">
