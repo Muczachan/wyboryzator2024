@@ -98,7 +98,7 @@ function SingleTable({ model, votes, selVotes, alloc, info, sorted }: {
                   )}
                   {rec.missing != null && (
                     <span class={closest ? 'gap-missing hot' : 'gap-missing'}>
-                      brakło {fmt(rec.missing)} {plGlos(rec.missing)} do ostatniego mandatu
+                      brakło {fmt(rec.missing)} {plGlos(rec.missing)} do {sc > 0 ? 'kolejnego' : 'pierwszego'} mandatu
                     </span>
                   )}
                   {rec.margin == null && rec.missing == null && <span class="dim">—</span>}
