@@ -14,12 +14,19 @@ for (const ok of Object.values(gmina.okregi) as { obwody: Record<string, unknown
 }
 const stale301 = Array.from({ length: 301 }, (_, i) => String(i + 1));
 
+const obwodForm = (n: number): string => {
+  if (n === 1) return 'obwód';
+  if (n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 100 <= 14)) return 'obwody';
+  return 'obwodów';
+};
+
 describe('026401.config.json — Wrocław borough presets', () => {
   it('has exactly the two groups, in order', () => {
     expect(cfg.grupy.map(g => g.nazwa)).toEqual(['Dzielnice', 'Osiedla']);
   });
 
   it('dzielnica presets have the exact official counts', () => {
+    expect(cfg.grupy[0].presety).toHaveLength(5);
     const dz = Object.fromEntries(
       cfg.grupy[0].presety.map(p => [p.nazwa, p.obwody.length]));
     expect(dz).toEqual({
@@ -47,7 +54,7 @@ describe('026401.config.json — Wrocław borough presets', () => {
         expect(p.obwody.length).toBeGreaterThan(0);
         const sorted = [...p.obwody].sort((a, b) => Number(a) - Number(b));
         expect(p.obwody).toEqual(sorted);
-        expect(p.opis).toMatch(new RegExp(`^${p.obwody.length} obw(ód|ody|odów)$`));
+        expect(p.opis).toBe(`${p.obwody.length} ${obwodForm(p.obwody.length)}`);
       }
   });
 });
