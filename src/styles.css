@@ -110,6 +110,11 @@ h1 { font-size: 26px; font-weight: 700; margin: 0; letter-spacing: -0.01em; }
 .presets-lbl { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--dim); }
 .preset { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 14px; font-size: 12px; font-weight: 600; cursor: pointer; border: 1px solid var(--border-input); background: var(--card); color: var(--dark); }
 .preset.on { border-color: var(--crimson); background: var(--crimson); color: #fff; }
+.preset-group { border-bottom: 1px solid var(--line-soft); }
+.preset-group summary { display: flex; align-items: center; gap: 8px; padding: 10px 20px; cursor: pointer; }
+.preset-group .presets { border-bottom: none; padding-top: 0; }
+.preset-count { font-size: 12px; color: var(--dim); }
+.preset-active { font-size: 12px; font-weight: 600; color: var(--crimson); }
 .obwody-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0 24px; padding: 8px 20px 16px; }
 .obwody-head { display: flex; align-items: center; gap: 8px; padding: 8px 6px; border-bottom: 2px solid var(--ink); cursor: pointer; margin-top: 8px; }
 .obwody-okreg { font-size: 13px; font-weight: 700; }

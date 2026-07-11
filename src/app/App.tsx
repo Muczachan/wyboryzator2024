@@ -7,7 +7,8 @@ import { BuilderView } from './BuilderView';
 
 export interface IndexEntry { teryt: string; name: string; wojewodztwo: string }
 export interface Preset { nazwa: string; opis?: string; obwody: string[] }
-export interface GminaConfig { presety?: Preset[] }
+export interface PresetGrupa { nazwa: string; opis?: string; presety: Preset[] }
+export interface GminaConfig { grupy?: PresetGrupa[] }
 interface GminaBundle { model: GminaModel; config: GminaConfig | null }
 
 const dataUrl = (file: string) => `${import.meta.env.BASE_URL}data/${file}`;
