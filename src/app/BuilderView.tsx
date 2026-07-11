@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'preact/hooks';
 import { allocate } from '../engine/allocate';
 import { analyze } from '../engine/analytics';
-import { GminaModel, clampMandaty, defaultMandaty, sumVotes, votesOfSelection } from '../engine/derive';
+import { GminaModel, clampMandaty, defaultMandaty, overProg, sumVotes, votesOfSelection } from '../engine/derive';
 import { AppState } from '../state/url';
 import type { GminaConfig } from './App';
 import { ObwodySelector } from './ObwodySelector';
@@ -26,10 +26,21 @@ export function BuilderView({ model, config, state, patch }: Props) {
   const defMandaty = defaultMandaty(model, selWyborcy);
   const mandaty = clampMandaty(state.mandatyOverride ?? defMandaty);
 
-  const allocDh = useMemo(() => allocate(votes, mandaty, 'dh'), [votes, mandaty]);
-  const allocSl = useMemo(() => allocate(votes, mandaty, 'sl'), [votes, mandaty]);
-  const infoDh = useMemo(() => analyze(votes, allocDh, 'dh'), [votes, allocDh]);
-  const infoSl = useMemo(() => analyze(votes, allocSl, 'sl'), [votes, allocSl]);
+  const qualified = useMemo(
+    () => new Set(Object.keys(model.votesGmina).filter(l => overProg(model, l))),
+    [model],
+  );
+  const votesForAlloc = useMemo(
+    () => (state.prog
+      ? Object.fromEntries(Object.entries(votes).filter(([l]) => qualified.has(l)))
+      : votes),
+    [votes, state.prog, qualified],
+  );
+
+  const allocDh = useMemo(() => allocate(votesForAlloc, mandaty, 'dh'), [votesForAlloc, mandaty]);
+  const allocSl = useMemo(() => allocate(votesForAlloc, mandaty, 'sl'), [votesForAlloc, mandaty]);
+  const infoDh = useMemo(() => analyze(votesForAlloc, allocDh, 'dh'), [votesForAlloc, allocDh]);
+  const infoSl = useMemo(() => analyze(votesForAlloc, allocSl, 'sl'), [votesForAlloc, allocSl]);
 
   const setSel = (s: Set<string>) => patch({ sel: [...s].sort(numAsc) });
   const onToggle = (nr: string) => {
@@ -88,6 +99,7 @@ export function BuilderView({ model, config, state, patch }: Props) {
           <ResultsPanel
             model={model} votes={votes} selVotes={selVotes} mandaty={mandaty}
             method={state.method} compare={state.compare}
+            prog={state.prog}
             allocDh={allocDh} allocSl={allocSl} infoDh={infoDh} infoSl={infoSl}
           />
         </>

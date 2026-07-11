@@ -66,6 +66,16 @@ export function ParamsPanel({ model, state, patch, selCount, selWyborcy, selVote
             Porównaj obie metody obok siebie
           </label>
         </div>
+        <div class="params-block">
+          <div class="col-label">Próg wyborczy</div>
+          <label class="compare-toggle">
+            <input type="checkbox" checked={state.prog} onChange={() => patch({ prog: !state.prog })} />
+            Próg 5% w skali gminy (ustawowy)
+          </label>
+          <div class="formula">
+            wyłączenie progu to wariant hipotetyczny — w wyborach komitety poniżej 5% nie uczestniczą w podziale mandatów
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -1,6 +1,6 @@
 import { Allocation, Method, VotesMap } from '../engine/allocate';
 import { Analytics } from '../engine/analytics';
-import { GminaModel, nameOf } from '../engine/derive';
+import { GminaModel, nameOf, overProg } from '../engine/derive';
 import { fmt, fmtPct, plGlos, plMandat } from '../engine/format';
 import { DivisorTable } from './DivisorTable';
 import { KomitetChip, listaColor } from './KomitetChip';
@@ -12,6 +12,7 @@ interface Props {
   mandaty: number;
   method: Method;
   compare: boolean;
+  prog: boolean;
   allocDh: Allocation;
   allocSl: Allocation;
   infoDh: Analytics;
@@ -26,10 +27,11 @@ const FIRST_SEAT_HINT =
   'w okręgu jednomandatowym; im wyższa liczba, tym dalej komitetowi do jakiegokolwiek mandatu.';
 
 export function ResultsPanel(props: Props) {
-  const { model, votes, selVotes, mandaty, method, compare } = props;
+  const { model, votes, selVotes, mandaty, method, compare, prog } = props;
   const alloc = method === 'dh' ? props.allocDh : props.allocSl;
   const info = method === 'dh' ? props.infoDh : props.infoSl;
-  const sorted = [...alloc.listy].sort((a, b) => votes[b] - votes[a]);
+  const sorted = Object.keys(votes).filter(l => votes[l] > 0).sort((a, b) => votes[b] - votes[a]);
+  const belowProg = new Set(prog ? sorted.filter(l => !overProg(model, l)) : []);
   const cls = compare ? 'results cmp' : `results ${method}`;
 
   if (selVotes === 0) {
@@ -37,6 +39,17 @@ export function ResultsPanel(props: Props) {
       <section class={cls}>
         <div class="results-banner"><div class="banner-t">3. Wynik</div></div>
         <div class="no-votes">Brak głosów ważnych w zaznaczonych obwodach — nie ma czego przeliczać.</div>
+      </section>
+    );
+  }
+  if (sorted.length > 0 && belowProg.size === sorted.length) {
+    return (
+      <section class={cls}>
+        <div class="results-banner"><div class="banner-t">3. Wynik</div></div>
+        <div class="no-votes">
+          Żaden komitet z głosami w zaznaczonych obwodach nie przekracza progu 5% w skali gminy —
+          przy włączonym progu nie ma czego przeliczać.
+        </div>
       </section>
     );
   }
@@ -49,19 +62,26 @@ export function ResultsPanel(props: Props) {
             ? 'porównanie metod — d’Hondt i Sainte-Laguë'
             : `metoda ${genitive(method)} ${method === 'dh' ? '(ustawowa)' : '(wariant hipotetyczny)'}`}
         </div>
-        <div class="banner-s">{mandaty} mandatów · {fmt(selVotes)} głosów ważnych · bez progu wyborczego</div>
+        <div class="banner-s">
+          {mandaty} mandatów · {fmt(selVotes)} głosów ważnych ·{' '}
+          {prog ? 'próg 5% w skali gminy (ustawowy)' : 'bez progu wyborczego (wariant hipotetyczny)'}
+        </div>
       </div>
       {compare
         ? <CompareTable model={model} votes={votes} selVotes={selVotes} allocDh={props.allocDh} allocSl={props.allocSl} sorted={sorted} />
-        : <SingleTable model={model} votes={votes} selVotes={selVotes} alloc={alloc} info={info} sorted={sorted} />}
+        : <SingleTable model={model} votes={votes} selVotes={selVotes} alloc={alloc} info={info} sorted={sorted} belowProg={belowProg} />}
       <Summaries {...props} activeInfo={info} />
-      <DivisorTable model={model} votes={votes} alloc={alloc} mandaty={mandaty} method={method} compare={compare} sorted={sorted} />
+      <DivisorTable
+        model={model} votes={votes} alloc={alloc} mandaty={mandaty} method={method} compare={compare}
+        sorted={sorted.filter(l => !belowProg.has(l))} anyExcluded={belowProg.size > 0}
+      />
     </section>
   );
 }
 
-function SingleTable({ model, votes, selVotes, alloc, info, sorted }: {
-  model: GminaModel; votes: VotesMap; selVotes: number; alloc: Allocation; info: Analytics; sorted: string[];
+function SingleTable({ model, votes, selVotes, alloc, info, sorted, belowProg }: {
+  model: GminaModel; votes: VotesMap; selVotes: number; alloc: Allocation; info: Analytics;
+  sorted: string[]; belowProg: Set<string>;
 }) {
   return (
     <div class="tbl-wrap">
@@ -80,6 +100,28 @@ function SingleTable({ model, votes, selVotes, alloc, info, sorted }: {
         <tbody>
           {sorted.map(l => {
             const v = votes[l];
+            if (belowProg.has(l)) {
+              return (
+                <tr key={l} class="seatless">
+                  <td>
+                    <span class="kom">
+                      <KomitetChip lista={l} />
+                      <span class="kom-name b">{nameOf(model, l)}</span>
+                    </span>
+                  </td>
+                  <td class="r mono">{fmt(v)}</td>
+                  <td class="r mono dim">{fmtPct((100 * v) / selVotes)}</td>
+                  <td class="r mono"><span class="seats dim">0</span></td>
+                  <td class="r mono dim">—</td>
+                  <td class="gap-col">
+                    <span class="dim">
+                      poniżej progu — {fmtPct((100 * (model.votesGmina[l] ?? 0)) / model.glosyGmina)} głosów w gminie
+                    </span>
+                  </td>
+                  <td class="r mono dim">—</td>
+                </tr>
+              );
+            }
             const sc = alloc.seatsBy[l] ?? 0;
             const rec = info.perLista[l];
             const closest = l === info.minMissingLista;
@@ -158,14 +200,18 @@ function CompareTable({ model, votes, selVotes, allocDh, allocSl, sorted }: {
   );
 }
 
-function Summaries({ model, votes, selVotes, method, compare, infoDh, infoSl, activeInfo }: Props & { activeInfo: Analytics }) {
+function Summaries({ model, votes, selVotes, method, compare, prog, infoDh, infoSl, activeInfo }: Props & { activeInfo: Analytics }) {
+  const belowProg = prog ? Object.keys(votes).filter(l => votes[l] > 0 && !overProg(model, l)) : [];
+  const belowSum = belowProg.reduce((a, l) => a + votes[l], 0);
   const cards = (info: Analytics, suffix: string) => {
-    const names = info.wastedListy.map(l => `${nameOf(model, l)} (${fmt(votes[l])})`).join(', ');
+    const wastedListy = [...info.wastedListy, ...belowProg].sort((a, b) => votes[b] - votes[a]);
+    const wastedSum = info.wastedSum + belowSum;
+    const names = wastedListy.map(l => `${nameOf(model, l)} (${fmt(votes[l])})`).join(', ');
     return [
       {
         title: `Głosy zmarnowane${suffix}`,
-        value: `${fmt(info.wastedSum)} (${fmtPct((100 * info.wastedSum) / selVotes)})`,
-        note: info.wastedListy.length ? `oddane na komitety bez mandatu: ${names}` : 'każdy komitet z głosami zdobył mandat',
+        value: `${fmt(wastedSum)} (${fmtPct((100 * wastedSum) / selVotes)})`,
+        note: wastedListy.length ? `oddane na komitety bez mandatu: ${names}` : 'każdy komitet z głosami zdobył mandat',
       },
       {
         title: `Głosy nadwyżkowe${suffix}`,
@@ -174,7 +220,7 @@ function Summaries({ model, votes, selVotes, method, compare, infoDh, infoSl, ac
       },
     ];
   };
-  const noEffect = (i: Analytics) => i.wastedSum + i.surplusSum;
+  const noEffect = (i: Analytics) => i.wastedSum + belowSum + i.surplusSum;
   const list = compare
     ? (() => {
         const a = cards(infoDh, " — d'Hondt");

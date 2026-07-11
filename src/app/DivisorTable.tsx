@@ -10,9 +10,10 @@ interface Props {
   method: Method;
   compare: boolean;
   sorted: string[];
+  anyExcluded?: boolean;
 }
 
-export function DivisorTable({ model, votes, alloc, mandaty, method, compare, sorted }: Props) {
+export function DivisorTable({ model, votes, alloc, mandaty, method, compare, sorted, anyExcluded }: Props) {
   const winKeys = new Set(alloc.winners.map(w => `${w.lista}/${w.divisor}`));
   const lastKey = alloc.last ? `${alloc.last.lista}/${alloc.last.divisor}` : '';
   const divisors = Array.from({ length: mandaty }, (_, k) => divisor(k, method));
@@ -50,6 +51,7 @@ export function DivisorTable({ model, votes, alloc, mandaty, method, compare, so
           ostatni (najniższy) zwycięski iloraz: o ten mandat toczy się gra w kolumnie „brakujące głosy / przewaga".
           Remisy ilorazów rozstrzyga wyższa łączna liczba głosów komitetu, następnie niższy numer listy
           (ustawowo: losowanie).
+          {anyExcluded && ' Komitety poniżej progu nie uczestniczą w podziale mandatów i nie są ujęte w tej tabeli.'}
         </div>
       </div>
     </details>
