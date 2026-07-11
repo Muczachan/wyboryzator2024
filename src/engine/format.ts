@@ -16,3 +16,5 @@ const pl = (one: string, few: string, many: string) => (n: number): string => {
 
 export const plGlos = pl('głos', 'głosy', 'głosów');
 export const plMandat = pl('mandat', 'mandaty', 'mandatów');
+export const plZestaw = pl('zestaw', 'zestawy', 'zestawów');
+export const plAktywny = pl('aktywny', 'aktywne', 'aktywnych');

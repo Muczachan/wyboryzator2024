@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { fmt, fmtDec, fmtPct, plGlos, plMandat } from './format';
+import { fmt, fmtDec, fmtPct, plGlos, plMandat, plAktywny, plZestaw } from './format';
 
 const sp = (s: string) => s.replace(/[\s  ]/g, ' ');
 
@@ -52,5 +52,20 @@ describe('plMandat', () => {
     expect(plMandat(14)).toBe('mandatów');
     expect(plMandat(22)).toBe('mandaty');
     expect(plMandat(112)).toBe('mandatów');
+  });
+});
+
+describe('plZestaw / plAktywny', () => {
+  it('handles Polish plural forms', () => {
+    expect(plZestaw(1)).toBe('zestaw');
+    expect(plZestaw(2)).toBe('zestawy');
+    expect(plZestaw(5)).toBe('zestawów');
+    expect(plZestaw(12)).toBe('zestawów');
+    expect(plZestaw(22)).toBe('zestawy');
+    expect(plAktywny(1)).toBe('aktywny');
+    expect(plAktywny(2)).toBe('aktywne');
+    expect(plAktywny(5)).toBe('aktywnych');
+    expect(plAktywny(12)).toBe('aktywnych');
+    expect(plAktywny(22)).toBe('aktywne');
   });
 });
