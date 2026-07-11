@@ -9,6 +9,7 @@ export interface AppState {
   mandatyOverride: number | null;
   method: Method;
   compare: boolean;
+  prog: boolean;
 }
 
 const numAsc = (a: string, b: string) => Number(a) - Number(b);
@@ -28,6 +29,7 @@ export function parseHash(hash: string): AppState {
     mandatyOverride: Number.isInteger(m) ? Math.min(60, Math.max(1, m)) : null,
     method: p.get('met') === 'sl' ? 'sl' : 'dh',
     compare: p.get('cmp') === '1',
+    prog: p.get('prog') !== '0',
   };
 }
 
@@ -41,5 +43,6 @@ export function toHash(s: AppState): string {
   if (s.mandatyOverride != null) p.set('m', String(s.mandatyOverride));
   if (s.method === 'sl') p.set('met', 'sl');
   if (s.compare) p.set('cmp', '1');
+  if (!s.prog) p.set('prog', '0');
   return p.toString();
 }

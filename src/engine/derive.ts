@@ -50,6 +50,8 @@ export interface GminaModel {
   obwodNrs: string[];
   wyborcyGmina: number;
   mandatyGmina: number;
+  votesGmina: VotesMap;
+  glosyGmina: number;
 }
 
 const numAsc = (a: string, b: string) => Number(a) - Number(b);
@@ -65,6 +67,7 @@ export function deriveGmina(teryt: string, raw: RawGmina): GminaModel {
   const okregi: Record<string, OkregModel> = {};
   let wyborcyGmina = 0;
   let mandatyGmina = 0;
+  const votesGmina: VotesMap = {};
 
   for (const nr of okregNrs) {
     const ok = raw.okregi[nr];
@@ -103,7 +106,10 @@ export function deriveGmina(teryt: string, raw: RawGmina): GminaModel {
       totalVotes: Object.values(votes).reduce((a, b) => a + b, 0),
       realSeats: allocate(votes, ok.mandaty, 'dh').seatsBy,
     };
+    addVotes(votesGmina, votes);
   }
+
+  const glosyGmina = Object.values(votesGmina).reduce((a, b) => a + b, 0);
 
   return {
     teryt,
@@ -119,11 +125,19 @@ export function deriveGmina(teryt: string, raw: RawGmina): GminaModel {
     obwodNrs: Object.keys(obwodByNr).sort(numAsc),
     wyborcyGmina,
     mandatyGmina,
+    votesGmina,
+    glosyGmina,
   };
 }
 
 export const nameOf = (m: GminaModel, lista: string): string =>
   m.komitetName[lista] ?? 'Lista nr ' + lista;
+
+// Statutory 5% threshold (art. 416 Kodeksu wyborczego): a committee takes
+// part in seat division iff it won at least 5% of valid votes gmina-wide.
+// Integer arithmetic: v/total ≥ 1/20 ⟺ 20·v ≥ total.
+export const overProg = (m: GminaModel, lista: string): boolean =>
+  20 * (m.votesGmina[lista] ?? 0) >= m.glosyGmina;
 
 export function votesOfSelection(model: GminaModel, sel: string[]): VotesMap {
   const v: VotesMap = {};

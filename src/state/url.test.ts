@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { AppState, parseHash, toHash } from './url';
 
 const st = (p: Partial<AppState> = {}): AppState => ({
-  view: 'picker', teryt: null, sel: [], mandatyOverride: null, method: 'dh', compare: false, ...p,
+  view: 'picker', teryt: null, sel: [], mandatyOverride: null, method: 'dh', compare: false, prog: true, ...p,
 });
 
 describe('round-trips', () => {
@@ -11,6 +11,7 @@ describe('round-trips', () => {
     st({ view: 'gmina', teryt: '020101' }),
     st({ view: 'builder', teryt: '020101', sel: ['1', '2', '14'], mandatyOverride: 5, method: 'sl', compare: true }),
     st({ view: 'builder', teryt: '020101', sel: ['3'] }),
+    st({ view: 'builder', teryt: '020101', sel: ['3'], prog: false }),
   ];
   for (const s of cases) {
     it(JSON.stringify(s), () => {
@@ -45,5 +46,19 @@ describe('parseHash sanitization', () => {
   it('empty hash → default state', () => {
     expect(parseHash('')).toEqual(st());
     expect(parseHash('#')).toEqual(st());
+  });
+});
+
+describe('prog param', () => {
+  it('absent → ON; prog=0 → OFF; anything else → ON', () => {
+    expect(parseHash('g=020101').prog).toBe(true);
+    expect(parseHash('g=020101&prog=0').prog).toBe(false);
+    expect(parseHash('g=020101&prog=1').prog).toBe(true);
+    expect(parseHash('g=020101&prog=xyz').prog).toBe(true);
+  });
+
+  it('emitted only when OFF', () => {
+    expect(toHash(st({ teryt: '020101', view: 'gmina' }))).not.toContain('prog');
+    expect(toHash(st({ teryt: '020101', view: 'gmina', prog: false }))).toContain('prog=0');
   });
 });

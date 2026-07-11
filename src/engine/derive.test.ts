@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import {
-  RawGmina, clampMandaty, defaultMandaty, deriveGmina, nameOf, sumVotes, votesOfSelection,
+  RawGmina, clampMandaty, defaultMandaty, deriveGmina, nameOf, overProg, sumVotes, votesOfSelection,
 } from './derive';
+import { allocate } from './allocate';
 
 const raw: RawGmina = {
   wojewodztwo: 'testowe', powiat: 'testowy', gmina: 'm. Test', organ: 'Rada Miasta Test', siedziba: 'Test',
@@ -80,5 +81,30 @@ describe('selection helpers', () => {
     expect(clampMandaty(0)).toBe(1);
     expect(clampMandaty(61)).toBe(60);
     expect(clampMandaty(21)).toBe(21);
+  });
+});
+
+describe('próg wyborczy (5% gmina-wide)', () => {
+  it('gmina-wide vote totals', () => {
+    // okręg 1: {1: 230, 2: 160}, okręg 2: {2: 90, 3: 60}
+    expect(m.votesGmina).toEqual({ '1': 230, '2': 250, '3': 60 });
+    expect(m.glosyGmina).toBe(540);
+  });
+
+  it('overProg: integer boundary — exactly 5% qualifies', () => {
+    const t = { votesGmina: { '1': 50, '2': 49, '3': 901 }, glosyGmina: 1000 } as unknown as
+      Parameters<typeof overProg>[0];
+    expect(overProg(t, '1')).toBe(true);   // 50/1000 = exactly 5%
+    expect(overProg(t, '2')).toBe(false);  // one vote short
+    expect(overProg(t, '3')).toBe(true);
+    expect(overProg(t, '9')).toBe(false);  // unknown lista
+  });
+
+  it('threshold pre-filter flips a seat (integration)', () => {
+    const votes = { '1': 60, '2': 25, '3': 18 };
+    // full: quotients 60, 30, 25, 20, 18 → L1 3, L2 1, L3 1
+    expect(allocate(votes, 5, 'dh').seatsBy).toEqual({ '1': 3, '2': 1, '3': 1 });
+    // L3 filtered out pre-allocation: 60, 30, 25, 20, 15 → L1 4, L2 1
+    expect(allocate({ '1': 60, '2': 25 }, 5, 'dh').seatsBy).toEqual({ '1': 4, '2': 1 });
   });
 });
